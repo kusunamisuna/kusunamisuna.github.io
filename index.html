@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Leaflet_Tutrial_401.html 2019/4/26   by T. Fujita</title>
+    <meta charset="utf-8" />
+    <link rel = "stylesheet" href = "https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <script src = "https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script>
+
+    function init() {
+    var Layer_401 = new Array();
+    var map_401 = L.map('map_401').setView([35.65809922, 139.74135747], 8);
+    mapLink = '<a href="https://openstreetmap.org">OpenStreetMap</a>';
+        L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; ' + mapLink,
+        maxZoom: 18
+            }).addTo(map_401);
+    Leaflet_Marker_401();
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://github.com/kusunamisuna/hospitalgeodata/blob/master/json/33-hospital-Okayama_info.json');
+    xhr.send();
+    xhr.onreadystatechange = function() {
+        if(xhr.readyState === 4 && xhr.status === 200) {
+            console.log(JSON.parse(xhr.responseText))
+        }
+    }
+
+    function Leaflet_Marker_401()       // マーカー設置
+    {
+        var Markers_shape = new Array();
+        var Markers_shape_pos = new Array();
+        var Markers_shape_nam = new Array();
+        var Markers_shape_lnk = new Array();
+        Markers_shape_pos[ 0 ] = [35.68109, 139.76717];
+        Markers_shape_nam[ 0 ] = "東京駅";
+        Markers_shape_lnk[ 0 ] = "<a href= 'https://www.jreast.co.jp/estation/stations/1039.html' target='_blank'>東京駅情報にリンク</a>";
+        Markers_shape[ 0 ] = L.marker([ Markers_shape_pos[ 0 ][ 0 ], Markers_shape_pos[ 0 ][ 1 ] ]);
+        Markers_shape[ 0 ].bindPopup(Markers_shape_nam[ 0 ] + "<br>" + Markers_shape_lnk[ 0 ]).openPopup();
+        Layer_401[ 0 ] = Markers_shape[ 0 ];
+        Layer_401[ 0 ].addTo(map_401);
+    }
+    }
+
+    </script>
+</head>
+<body onload="init()">
+    <div id="map_401" style="width: 100%; height: 400px; border: solid 1px"></div>
+</body>
+</html>
