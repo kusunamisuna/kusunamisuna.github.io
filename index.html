@@ -1,50 +1,200 @@
 <html>
+
 <head>
-    <title>Leaflet_Tutrial_401.html 2019/4/26   by T. Fujita</title>
+    <title>OpenHospitalMap</title>
     <meta charset="utf-8" />
-    <link rel = "stylesheet" href = "https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
-    <script src = "https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="//use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="Control.OSMGeocoder.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script>
+        var Layer = new Array();
+        var map_data;
+        var Basic_Map = new Array();
 
-    function init() {
-    var Layer_401 = new Array();
-    var map_401 = L.map('map_401').setView([35.65809922, 139.74135747], 8);
-    mapLink = '<a href="https://openstreetmap.org">OpenStreetMap</a>';
-        L.tileLayer(
-        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; ' + mapLink,
-        maxZoom: 18
-            }).addTo(map_401);
-    Leaflet_Marker_401();
+        function init() {
 
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET',  'https://kusunamisuna.github.io/json/14-hospital-Kanagawa_info.json');
-    xhr.send();
-    xhr.onreadystatechange = function() {
-        if(xhr.readyState === 4 && xhr.status === 200) {
-            console.log(JSON.parse(xhr.responseText))
+            // マップ切り替え
+            Basic_Map[ 0 ] = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                continuousWorld: false
+            });
+            Basic_Map[ 1 ] = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+                attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
+            });
+            Basic_Map[ 2 ] = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+                attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
+            });
+            Basic_Map[ 3 ] = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg', {
+                attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
+            });
+            Basic_Map[ 4 ] = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/blank/{z}/{x}/{y}.png', {
+                attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
+            });
+
+            var baseMap = {
+                "OpenStreetMap": Basic_Map[ 0 ],
+                "国土地理院 標準地図": Basic_Map[ 1 ],
+                "国土地理院 淡色地図": Basic_Map[ 2 ],
+                "国土地理院 写真": Basic_Map[ 3 ],
+                "国土地理院 白地図": Basic_Map[ 4 ],
+            };
+            map_data = L.map('map_data').setView([35.65809922, 139.74135747], 6);
+            map_data.addLayer( Basic_Map[ 0 ] );
+
+            L.control.layers(baseMap).addTo(map_data);
+
+            mapLink = '<a href="https://openstreetmap.org">OpenStreetMap</a>';
+            L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: 'Map data &copy; ' + mapLink,
+                maxZoom: 18
+            }).addTo(map_data);
+
+            // Control OSM Geocoder
+            var option = {
+            position: 'topright', // topright, topleft, bottomright, bottomleft
+            text: '検索',
+            placeholder: '検索条件を入力してください。'
+            }
+            var osmGeocoder = new L.Control.OSMGeocoder(option);
+            map_data.addControl(osmGeocoder);
+
+            jsonfile = '28-hospital-Hyogo_info.json';
+            PrefName = '兵庫県';
+            Leaflet_Marker_Settings(jsonfile, PrefName);
+
         }
-    }
 
-    function Leaflet_Marker_401()       // マーカー設置
-    {
-        var Markers_shape = new Array();
-        var Markers_shape_pos = new Array();
-        var Markers_shape_nam = new Array();
-        var Markers_shape_lnk = new Array();
-        Markers_shape_pos[ 0 ] = [35.68109, 139.76717];
-        Markers_shape_nam[ 0 ] = "東京駅";
-        Markers_shape_lnk[ 0 ] = "<a href= 'https://www.jreast.co.jp/estation/stations/1039.html' target='_blank'>東京駅情報にリンク</a>";
-        Markers_shape[ 0 ] = L.marker([ Markers_shape_pos[ 0 ][ 0 ], Markers_shape_pos[ 0 ][ 1 ] ]);
-        Markers_shape[ 0 ].bindPopup(Markers_shape_nam[ 0 ] + "<br>" + Markers_shape_lnk[ 0 ]).openPopup();
-        Layer_401[ 0 ] = Markers_shape[ 0 ];
-        Layer_401[ 0 ].addTo(map_401);
-    }
-    }
+        function Leaflet_Marker_Settings(jsonfile, PrefName)       // マーカー設置
+            {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', 'http://localhost:5500/json/' + jsonfile);
+                xhr.send();
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        data = JSON.parse(xhr.responseText);
+                        var Markers_shape = new Array();
+                        var Markers_shape_pos = new Array();
+                        var Markers_shape_nam = new Array();
+                        var Markers_shape_lnk = new Array();
+                        var Markers_shape_beds = new Array();
+                        var Markers_shape_type = new Array();
+                        for (var i in data) {
+                            Markers_shape_pos[i] = [data[i].lat, data[i].lon];
+                            Markers_shape_nam[i] = data[i].name;
+                            Markers_shape_beds[i] = "病床数："+ data[i].beds;
+                            Markers_shape_type[i] = data[i].type;
+                            Markers_shape_lnk[i] = "<a href= '" + data[i].url + "' target='_blank'>公式ページへ</a>";
+                            Markers_shape[i] = L.marker([Markers_shape_pos[i][0], Markers_shape_pos[i][1]]);
+                            Markers_shape[i].bindPopup(Markers_shape_type[i] + "<br>" + Markers_shape_nam[i] + "<br>" + Markers_shape_beds[i] + "<br>" + Markers_shape_lnk[i]).openPopup();
+                            Layer[i] = Markers_shape[i];
+                            Layer[i].addTo(map_data);
+                        }
+                    }
+                }
+                doc = document.getElementById('PrefCode');
+                doc.textContent = PrefName;
+
+                form = document.getElementsByClassName('leaflet-control-geocoder-form');
+                form[0].firstElementChild.value = PrefName;
+                form[0].submit;
+
+            }
+
+        function Leaflet_Marker_Remove() {     // マーカー全消去
+            var j = Layer.length - 1;
+            for(i = 0; i <= j; i++) {
+                if(Layer[i] != null) {
+                    map_data.removeLayer(Layer[i]);
+                }
+            }
+            Marker_count = 0;
+            Marker_LAT = new Array();
+            Marker_LON = new Array();
+            Marker_NAM = new Array();
+            Marker_LNK = new Array();
+            Marker_ICN = new Array();
+        }
+
+        function PrefChange(jsonfile,prefName){
+            Leaflet_Marker_Remove();
+            Leaflet_Marker_Settings(jsonfile, prefName);
+        }
+
 
     </script>
 </head>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <ul class="navbar-nav mr-auto">
+            <i class="text-white fas fa-hospital">病院マップ</i></div>
+            <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">データ表示県</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                    <a class="dropdown-item" href="#" onclick="PrefChange('1-hospital-Hokkaido_info.json', '北海道')">北海道</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('2-hospital-Aomori_info.json', '青森県')">青森県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('3-hospital-Iwate_info.json','岩手県')">岩手県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('4-hospital-Miyagi_info.json','宮城県')">宮城県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('5-hospital-Akita_info.json','秋田県')">秋田県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('6-hospital-Yamagata_info.json','山形県')">山形県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('7-hospital-Fukushima_info.json','福島県')">福島県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('8-hospital-Ibaraki_info.json','茨城県')">茨城県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('9-hospital-Tochigi_info.json','栃木県')">栃木県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('10-hospital-Gumma_info.json','群馬県')">群馬県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('11-hospital-Saitama_info.json','埼玉県')">埼玉県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('12-hospital-Chiba_info.json','千葉県')">千葉県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('13-hospital-Tokyo_info.json','東京都')">東京都</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('14-hospital-Kanagawa_info.json','神奈川県')">神奈川県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('15-hospital-Niigata_info.json','新潟県')">新潟県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('16-hospital-Toyama_info.json','富山県')">富山県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('17-hospital-Ishikawa_info.json','石川県')">石川県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('18-hospital-Fukui_info.json','福井県')">福井県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('19-hospital-Yamanashi_info.json','山梨県')">山梨県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('20-hospital-Nagano_info.json','長野県')">長野県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('21-hospital-Gifu_info.json','岐阜県')">岐阜県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('22-hospital-Shizuoka_info.json','静岡県')">静岡県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('23-hospital-Aichi_info.json','愛知県')">愛知県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('24-hospital-Mie_info.json','三重県')">三重県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('25-hospital-Shiga_info.json','滋賀県')">滋賀県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('26-hospital-Kyoto_info.json','京都府')">京都府</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('27-hospital-Osaka_info.json','大阪府')">大阪府</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('28-hospital-Hyogo_info.json','兵庫県')">兵庫県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('29-hospital-Nara_info.json','奈良県')">奈良県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('30-hospital-Wakayama_info.json','和歌山県')">和歌山県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('31-hospital-Tottori_info.json','鳥取県')">鳥取県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('32-hospital-Shimane_info.json','島根県')">島根県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('33-hospital-Okayama_info.json','岡山県')">岡山県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('34-hospital-Hiroshima_info.json','広島県')">広島県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('35-hospital-Yamaguchi_info.json','山口県')">山口県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('36-hospital-Tokushima_info.json','徳島県')">徳島県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('37-hospital-Kagawa_info.json','香川県')">香川県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('38-hospital-Ehime_info.json','愛媛県')">愛媛県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('39-hospital-Kochi_info.json','高知県')">高知県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('40-hospital-Fukuoka_info.json','福岡県')">福岡県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('41-hospital-Saga_info.json','佐賀県')">佐賀県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('42-hospital-Nagasaki_info.json','長崎県')">長崎県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('43-hospital-Kumamoto_info.json','熊本県')">熊本県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('44-hospital-Oita_info.json','大分県')">大分県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('45-hospital-Miyazaki_info.json','宮崎県')">宮崎県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('46-hospital-Kagoshima_info.json','鹿児島県')">鹿児島県</a>
+                    <a class="dropdown-item" href="#" onclick="PrefChange('47-hospital-Okinawa_info.json','沖縄県')">沖縄県</a>
+                </div>
+            </li>
+            <span class="navbar-text" id="PrefCode"></span>
+        </ul>
+    </div>
+</nav>
+
 <body onload="init()">
-    <div id="map_401" style="width: 100%; height: 400px; border: solid 1px"></div>
+    <div id="map_data" style="width: 100%; height: 600px; border: solid 1px"></div>
 </body>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </html>
