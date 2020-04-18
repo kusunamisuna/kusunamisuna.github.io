@@ -71,7 +71,7 @@
         function Leaflet_Marker_Settings(jsonfile, PrefName)       // マーカー設置
             {
                 var xhr = new XMLHttpRequest();
-                xhr.open('GET', 'https://kusunamisuna.github.io/json/' + jsonfile);
+                xhr.open('GET', 'https://localhost/json/' + jsonfile);
                 xhr.send();
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState === 4 && xhr.status === 200) {
