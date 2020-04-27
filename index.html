@@ -41,7 +41,7 @@
                 "国土地理院 写真": Basic_Map[ 3 ],
                 "国土地理院 白地図": Basic_Map[ 4 ],
             };
-            map_data = L.map('map_data').setView([35.65809922, 139.74135747], 6);
+            map_data = L.map('map_data').setView([35.65809922, 139.74135747], 4);
             map_data.addLayer( Basic_Map[ 0 ] );
 
             L.control.layers(baseMap).addTo(map_data);
