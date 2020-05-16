@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7d7c31eec0734dd9b4679bc431b67aea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7d7c31eec0734dd9b4679bc431b67aea" ></div>
+        
+</body>
+<script>    
+    
+            var map_7d7c31eec0734dd9b4679bc431b67aea = L.map(
+                "map_7d7c31eec0734dd9b4679bc431b67aea",
+                {
+                    center: [34.66132, 133.934414],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cf2239a39d7e469b873b64b1c0347781 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+            var marker_10df56e067c441c88e9a7bc94b9270d9 = L.marker(
+                [34.686987, 133.85603600000002],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_9c4af967f4e343298fcd6869a8585769 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a77124336fc64f5d9213b2df8db24c7f = $(`<div id="html_a77124336fc64f5d9213b2df8db24c7f" style="width: 100.0%; height: 100.0%;">城名：辛川城（からかわじょう）<br> 別名：西辛川城 <br>住所：岡山県岡山市北区西辛川 <br>築城者：虫明市内、戸川達安 <br>遺構：曲輪、土塁、堀切、堅堀</div>`)[0];
+            popup_9c4af967f4e343298fcd6869a8585769.setContent(html_a77124336fc64f5d9213b2df8db24c7f);
+        
+
+        marker_10df56e067c441c88e9a7bc94b9270d9.bindPopup(popup_9c4af967f4e343298fcd6869a8585769)
+        ;
+
+        
+    
+    
+            var marker_762949330f0a4ecbab1a7fef1c7881fd = L.marker(
+                [34.66326, 133.845223],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_b4e751538a864a67a20080cdf34ee98f = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_9ae387bf296f43b48aa9b305b7dc23c7 = $(`<div id="html_9ae387bf296f43b48aa9b305b7dc23c7" style="width: 100.0%; height: 100.0%;">城名：賀陽氏館（かやしやかた）<br> 別名：－ <br>住所：岡山県岡山市北区川入 <br>築城者：賀陽氏 <br>遺構：曲輪、土塁、横堀跡</div>`)[0];
+            popup_b4e751538a864a67a20080cdf34ee98f.setContent(html_9ae387bf296f43b48aa9b305b7dc23c7);
+        
+
+        marker_762949330f0a4ecbab1a7fef1c7881fd.bindPopup(popup_b4e751538a864a67a20080cdf34ee98f)
+        ;
+
+        
+    
+    
+            var marker_5e3222ac3ced4c5db7812211eeb4016c = L.marker(
+                [34.665188, 133.93606599999998],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_63cff3e4cf1149e3806cde6e79a8ef5e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_763e302f546f48cf9494d03fe30000d5 = $(`<div id="html_763e302f546f48cf9494d03fe30000d5" style="width: 100.0%; height: 100.0%;">城名：岡山城（おかやまじょう）<br> 別名：烏城、金烏城 <br>住所：岡山県岡山市北区丸の内 <br>築城者：上神氏？、宇喜多氏、小早川氏、池田氏 <br>遺構：曲輪、櫓、石垣、横堀（空堀）、虎口</div>`)[0];
+            popup_63cff3e4cf1149e3806cde6e79a8ef5e.setContent(html_763e302f546f48cf9494d03fe30000d5);
+        
+
+        marker_5e3222ac3ced4c5db7812211eeb4016c.bindPopup(popup_63cff3e4cf1149e3806cde6e79a8ef5e)
+        ;
+
+        
+    
+    
+            var marker_05065a45ae3747928f90d56a54499e46 = L.marker(
+                [34.630445, 134.03943600000002],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_15ea9d2fe52048d7953fda92ac551577 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_87b88a0e7a054f1fa743aba15c834336 = $(`<div id="html_87b88a0e7a054f1fa743aba15c834336" style="width: 100.0%; height: 100.0%;">城名：乙子城（おとごじょう）<br> 別名：音湖城 <br>住所：岡山県岡山市東区乙子 <br>築城者：宇喜多氏 <br>遺構：曲輪、列石</div>`)[0];
+            popup_15ea9d2fe52048d7953fda92ac551577.setContent(html_87b88a0e7a054f1fa743aba15c834336);
+        
+
+        marker_05065a45ae3747928f90d56a54499e46.bindPopup(popup_15ea9d2fe52048d7953fda92ac551577)
+        ;
+
+        
+    
+    
+            var marker_7743a26275fe47da99c999140b95252a = L.marker(
+                [34.706665, 134.036561],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_def5b8639a6f47df9f564eaa731e16dd = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_65709ae43c5f46d2bb9cf17a1f38bea1 = $(`<div id="html_65709ae43c5f46d2bb9cf17a1f38bea1" style="width: 100.0%; height: 100.0%;">城名：沼城<br> 別名：亀山城 <br>住所：岡山県岡山市東区沼 <br>築城者：中山氏、宇喜多氏、浮田氏 <br>遺構：曲輪、石垣、土塁、堀切</div>`)[0];
+            popup_def5b8639a6f47df9f564eaa731e16dd.setContent(html_65709ae43c5f46d2bb9cf17a1f38bea1);
+        
+
+        marker_7743a26275fe47da99c999140b95252a.bindPopup(popup_def5b8639a6f47df9f564eaa731e16dd)
+        ;
+
+        
+    
+    
+            var marker_5aa2c384cd8f41388443d19062a89e09 = L.marker(
+                [34.664629999999995, 133.960286],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_b9a99d6f337144528e33ba7a4922c31c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_2b8c9f3474e943bbbd8eb02b982d0226 = $(`<div id="html_2b8c9f3474e943bbbd8eb02b982d0226" style="width: 100.0%; height: 100.0%;">城名：明禅寺城（みょうぜんじじょう）<br> 別名：－ <br>住所：岡山県岡山市中区沢田 <br>築城者：宇喜多氏 <br>遺構：曲輪、石垣</div>`)[0];
+            popup_b9a99d6f337144528e33ba7a4922c31c.setContent(html_2b8c9f3474e943bbbd8eb02b982d0226);
+        
+
+        marker_5aa2c384cd8f41388443d19062a89e09.bindPopup(popup_b9a99d6f337144528e33ba7a4922c31c)
+        ;
+
+        
+    
+    
+            var marker_886bef0006e445c4a27fc8df8de03151 = L.marker(
+                [34.6713014, 133.8848897],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_7046df70dc814c9a8b3860381528dbc7 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_49012d811d5441238aecd15b7d63f324 = $(`<div id="html_49012d811d5441238aecd15b7d63f324" style="width: 100.0%; height: 100.0%;">城名：富山城（とみやまじょう）<br> 別名：万成城、大安寺城、矢坂城 <br>住所：岡山県岡山市北区矢坂本町 <br>築城者：松田氏、宇喜多氏、富山氏、小早川氏 <br>遺構：曲輪、石垣、土塁、堀切</div>`)[0];
+            popup_7046df70dc814c9a8b3860381528dbc7.setContent(html_49012d811d5441238aecd15b7d63f324);
+        
+
+        marker_886bef0006e445c4a27fc8df8de03151.bindPopup(popup_7046df70dc814c9a8b3860381528dbc7)
+        ;
+
+        
+    
+    
+            var marker_68d8987e04e94688a37db2909e4d0fb4 = L.marker(
+                [34.802645, 133.93125],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_2db98ff70a1a492d8911b34314b0051c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_2e6ea6e3e3954080b2007662bc29cb85 = $(`<div id="html_2e6ea6e3e3954080b2007662bc29cb85" style="width: 100.0%; height: 100.0%;">城名：金川城（かながわじょう）<br> 別名：玉松城、臥龍山城 <br>住所：岡山県岡山市北区御津金川 <br>築城者：松田氏、宇喜多氏、小早川氏、池田氏 <br>遺構：曲輪、石垣、堀切、井戸</div>`)[0];
+            popup_2db98ff70a1a492d8911b34314b0051c.setContent(html_2e6ea6e3e3954080b2007662bc29cb85);
+        
+
+        marker_68d8987e04e94688a37db2909e4d0fb4.bindPopup(popup_2db98ff70a1a492d8911b34314b0051c)
+        ;
+
+        
+    
+    
+            var marker_7fd2d3212fd940cc83186be71e846396 = L.marker(
+                [34.775214, 133.895803],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_9a41f1d85df042de90e7f63e0d89738f = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3eef415aab264777975d0dccdb856196 = $(`<div id="html_3eef415aab264777975d0dccdb856196" style="width: 100.0%; height: 100.0%;">城名：徳倉城（とくらじょう）<br> 別名：徳蔵城、土倉城 <br>住所：岡山県岡山市北区御津河内 <br>築城者：宇垣氏、遠藤氏（宇喜多氏家臣） <br>遺構：曲輪、石垣、堀切、井戸跡</div>`)[0];
+            popup_9a41f1d85df042de90e7f63e0d89738f.setContent(html_3eef415aab264777975d0dccdb856196);
+        
+
+        marker_7fd2d3212fd940cc83186be71e846396.bindPopup(popup_9a41f1d85df042de90e7f63e0d89738f)
+        ;
+
+        
+    
+    
+            var marker_6ce6abc4b729458ca4858260e3f95888 = L.marker(
+                [34.643205, 133.849255],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_ad2d909c463f412e945eb08512398c03 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_51ac72bf34fb4fc6bb809a96ad3c4905 = $(`<div id="html_51ac72bf34fb4fc6bb809a96ad3c4905" style="width: 100.0%; height: 100.0%;">城名：庭瀬城（にわせじょう）<br> 別名：芝場城、（庭瀬陣屋） <br>住所：岡山県岡山市北区庭瀬 <br>築城者：三村氏、井上氏、戸川氏、板倉氏 <br>遺構：曲輪、石垣、横堀</div>`)[0];
+            popup_ad2d909c463f412e945eb08512398c03.setContent(html_51ac72bf34fb4fc6bb809a96ad3c4905);
+        
+
+        marker_6ce6abc4b729458ca4858260e3f95888.bindPopup(popup_ad2d909c463f412e945eb08512398c03)
+        ;
+
+        
+    
+    
+            var marker_81e688c80bd34ad1a88241708bef4bc2 = L.marker(
+                [34.642993, 133.84716],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_494043e2f1fb4d82a28f68e299bd7602 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_05958ed639164075b196c8c8716d965b = $(`<div id="html_05958ed639164075b196c8c8716d965b" style="width: 100.0%; height: 100.0%;">城名：撫川城（なつかわじょう）<br> 別名：沼城、芝場城、撫川陣屋 <br>住所：岡山県岡山市北区撫川 <br>築城者：井上氏、戸川氏 <br>遺構：曲輪、石垣、横堀、知行所総門</div>`)[0];
+            popup_494043e2f1fb4d82a28f68e299bd7602.setContent(html_05958ed639164075b196c8c8716d965b);
+        
+
+        marker_81e688c80bd34ad1a88241708bef4bc2.bindPopup(popup_494043e2f1fb4d82a28f68e299bd7602)
+        ;
+
+        
+    
+    
+            var marker_c96a63aa9d9849f7918a826884f5d121 = L.marker(
+                [34.697806, 133.7610916],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_db700b23fcb14083b5fd0ed4868629b5 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_4076494a3f2b4d1c8adeb8ec87c3db5d = $(`<div id="html_4076494a3f2b4d1c8adeb8ec87c3db5d" style="width: 100.0%; height: 100.0%;">城名：備中高松城（びっちゅうたかまつじょう）<br> 別名：－ <br>住所：岡山県岡山市北区高松 <br>築城者：石川氏、清水氏、花房氏 <br>遺構：曲輪、堀</div>`)[0];
+            popup_db700b23fcb14083b5fd0ed4868629b5.setContent(html_4076494a3f2b4d1c8adeb8ec87c3db5d);
+        
+
+        marker_c96a63aa9d9849f7918a826884f5d121.bindPopup(popup_db700b23fcb14083b5fd0ed4868629b5)
+        ;
+
+        
+    
+    
+            var marker_2553f8e1c78b4bfebc8b38f2f0ff68da = L.marker(
+                [34.719514000000004, 133.805403],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_774da0519fde4ff6aa5f77f98063714a = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_734b9f6bed5243469c53810b5a79b075 = $(`<div id="html_734b9f6bed5243469c53810b5a79b075" style="width: 100.0%; height: 100.0%;">城名：冠山城（かんむりやまじょう）<br> 別名：－ <br>住所：岡山県岡山市北区下足守 <br>築城者：林重真 <br>遺構：曲輪</div>`)[0];
+            popup_774da0519fde4ff6aa5f77f98063714a.setContent(html_734b9f6bed5243469c53810b5a79b075);
+        
+
+        marker_2553f8e1c78b4bfebc8b38f2f0ff68da.bindPopup(popup_774da0519fde4ff6aa5f77f98063714a)
+        ;
+
+        
+    
+    
+            var marker_46d130b836254050b69322b6f742355b = L.marker(
+                [34.721578, 134.023154],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_19a0975674404f04abb9b9d19ef46117 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_f14c55e113b34e688fb46967d4509eb6 = $(`<div id="html_f14c55e113b34e688fb46967d4509eb6" style="width: 100.0%; height: 100.0%;">城名：大廻小廻山城（おおめぐりこめぐりさんじょう）<br> 別名：－ <br>住所：岡山県岡山市東区草ケ部1815 <br>築城者：不明 <br>遺構：列石、土塁、水門</div>`)[0];
+            popup_19a0975674404f04abb9b9d19ef46117.setContent(html_f14c55e113b34e688fb46967d4509eb6);
+        
+
+        marker_46d130b836254050b69322b6f742355b.bindPopup(popup_19a0975674404f04abb9b9d19ef46117)
+        ;
+
+        
+    
+    
+            var marker_58729b3f69eb4aa5b0a01003b4f6cff6 = L.marker(
+                [35.1980407, 134.1021462],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_15a395f78579475e8e4c7e741d14ab28 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3ca5f563ce114829bbd4198f943f4b11 = $(`<div id="html_3ca5f563ce114829bbd4198f943f4b11" style="width: 100.0%; height: 100.0%;">城名：高山城（たかやまじょう）<br> 別名：－ <br>住所：岡山県岡山市南区飽浦 <br>築城者：飽浦氏 <br>遺構：曲輪、土塁、切岸</div>`)[0];
+            popup_15a395f78579475e8e4c7e741d14ab28.setContent(html_3ca5f563ce114829bbd4198f943f4b11);
+        
+
+        marker_58729b3f69eb4aa5b0a01003b4f6cff6.bindPopup(popup_15a395f78579475e8e4c7e741d14ab28)
+        ;
+
+        
+    
+    
+            var marker_27735491945747c8be0299d391ae1a52 = L.marker(
+                [34.807404, 134.270732],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_2bffa2a47db24b4ba76bbbc8d0188c77 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_bf4cc6aae4234d2886cd42de92d60996 = $(`<div id="html_bf4cc6aae4234d2886cd42de92d60996" style="width: 100.0%; height: 100.0%;">城名：三石城（みついしじょう）<br> 別名：－ <br>住所：岡山県備前市三石 <br>築城者：伊東氏、浦上氏 <br>遺構：曲輪、石垣、土塁、堀切、井戸</div>`)[0];
+            popup_2bffa2a47db24b4ba76bbbc8d0188c77.setContent(html_bf4cc6aae4234d2886cd42de92d60996);
+        
+
+        marker_27735491945747c8be0299d391ae1a52.bindPopup(popup_2bffa2a47db24b4ba76bbbc8d0188c77)
+        ;
+
+        
+    
+    
+            var marker_3f67e96dd8db42d7bcf846370fdab386 = L.marker(
+                [34.740175, 134.191798],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_851f080449284402890040ff5e824a0a = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_4b61ebd89f9c4e3e83d6b8abbc6ed668 = $(`<div id="html_4b61ebd89f9c4e3e83d6b8abbc6ed668" style="width: 100.0%; height: 100.0%;">城名：富田松山城（とだまつやまじょう）<br> 別名：－ <br>住所：岡山県備前市東片上 <br>築城者：浦上氏 <br>遺構：曲輪、石垣、土塁、堀切</div>`)[0];
+            popup_851f080449284402890040ff5e824a0a.setContent(html_4b61ebd89f9c4e3e83d6b8abbc6ed668);
+        
+
+        marker_3f67e96dd8db42d7bcf846370fdab386.bindPopup(popup_851f080449284402890040ff5e824a0a)
+        ;
+
+        
+    
+    
+            var marker_8372afa8407743ad8490e3c04571680e = L.marker(
+                [34.9211906, 134.2605033],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_a389eb0d5c7f46209faf4953b7a36de8 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_f119c3c035814f1397fabda5c9040b40 = $(`<div id="html_f119c3c035814f1397fabda5c9040b40" style="width: 100.0%; height: 100.0%;">城名：飯盛山城（いいもりやまじょう）<br> 別名：－ <br>住所：岡山県備前市吉永町多麻 <br>築城者：宍粟氏 <br>遺構：曲輪</div>`)[0];
+            popup_a389eb0d5c7f46209faf4953b7a36de8.setContent(html_f119c3c035814f1397fabda5c9040b40);
+        
+
+        marker_8372afa8407743ad8490e3c04571680e.bindPopup(popup_a389eb0d5c7f46209faf4953b7a36de8)
+        ;
+
+        
+    
+    
+            var marker_d20548ea2cd549389a770e7634c31018 = L.marker(
+                [34.566284, 133.75063799999998],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_226a34096e0f46c7a1ab9defc84a4045 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_9d52f91fbb824c26963582724f563896 = $(`<div id="html_9d52f91fbb824c26963582724f563896" style="width: 100.0%; height: 100.0%;">城名：黒山城（くろやまじょう）<br> 別名：－ <br>住所：岡山県倉敷市浦田 <br>築城者：内田氏、塩津氏 <br>遺構：曲輪、土塁、横堀（空堀）、竪堀、切岸</div>`)[0];
+            popup_226a34096e0f46c7a1ab9defc84a4045.setContent(html_9d52f91fbb824c26963582724f563896);
+        
+
+        marker_d20548ea2cd549389a770e7634c31018.bindPopup(popup_226a34096e0f46c7a1ab9defc84a4045)
+        ;
+
+        
+    
+    
+            var marker_79caad53af524d2e8c4e9ae4098d5654 = L.marker(
+                [34.7215764, 133.9966383],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_e6a01c28bb0941bdb32e00db7b2388ae = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_607bf6dc59a2473888ddfbc9add190e3 = $(`<div id="html_607bf6dc59a2473888ddfbc9add190e3" style="width: 100.0%; height: 100.0%;">城名：砥石城（といしじょう）<br> 別名：砥石山城、砥石ケ城 <br>住所：岡山県瀬戸内市邑久町豊原 <br>築城者：浦上氏、宇喜多氏 <br>遺構：曲輪、石垣、土塁、横堀</div>`)[0];
+            popup_e6a01c28bb0941bdb32e00db7b2388ae.setContent(html_607bf6dc59a2473888ddfbc9add190e3);
+        
+
+        marker_79caad53af524d2e8c4e9ae4098d5654.bindPopup(popup_e6a01c28bb0941bdb32e00db7b2388ae)
+        ;
+
+        
+    
+    
+            var marker_ac317fd27dd94378b96eedc07bd9d32f = L.marker(
+                [34.7081864, 134.08905929999997],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_08c806405a3b4e03a0935bc6eb1bbd90 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_368652761e02403f97f53cc883c1db4e = $(`<div id="html_368652761e02403f97f53cc883c1db4e" style="width: 100.0%; height: 100.0%;">城名：福岡城（ふくおかじょう）<br> 別名：－ <br>住所：岡山県瀬戸内市長船町福岡 <br>築城者：頓宮四郎左衛門、赤松氏、小鴨大和守、浦上氏 <br>遺構：曲輪</div>`)[0];
+            popup_08c806405a3b4e03a0935bc6eb1bbd90.setContent(html_368652761e02403f97f53cc883c1db4e);
+        
+
+        marker_ac317fd27dd94378b96eedc07bd9d32f.bindPopup(popup_08c806405a3b4e03a0935bc6eb1bbd90)
+        ;
+
+        
+    
+    
+            var marker_80791028419645e8876662c11020ce1c = L.marker(
+                [34.849088, 134.12424270000002],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_cf623ff49b9744628e67d831fa3f5d33 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_51ade00693b445899c109825e70f30d9 = $(`<div id="html_51ade00693b445899c109825e70f30d9" style="width: 100.0%; height: 100.0%;">城名：天神山城（てんじんやまじょう）<br> 別名：（太鼓丸城） <br>住所：岡山県和気郡和気町田土 <br>築城者：浦上氏 <br>遺構：曲輪、石垣、土塁、横堀（空堀）、井戸、侍屋敷跡</div>`)[0];
+            popup_cf623ff49b9744628e67d831fa3f5d33.setContent(html_51ade00693b445899c109825e70f30d9);
+        
+
+        marker_80791028419645e8876662c11020ce1c.bindPopup(popup_cf623ff49b9744628e67d831fa3f5d33)
+        ;
+
+        
+    
+    
+            var marker_1840b14ac4b641e6b0f113de9937cb67 = L.marker(
+                [34.924167, 134.092369],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_ccc9bd03f5e24330b860b051a3bfb629 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_c82a56d6da87454b88e951f445375dc9 = $(`<div id="html_c82a56d6da87454b88e951f445375dc9" style="width: 100.0%; height: 100.0%;">城名：周匝茶臼山城（すさいちゃうすやまじょう）<br> 別名：茶臼山城、（大仙山城） <br>住所：岡山県赤磐市周匝15-6（吉井城山公園） <br>築城者：笹部氏、毛利氏 <br>遺構：曲輪、土塁、横堀（空堀）、井戸、竪堀</div>`)[0];
+            popup_ccc9bd03f5e24330b860b051a3bfb629.setContent(html_c82a56d6da87454b88e951f445375dc9);
+        
+
+        marker_1840b14ac4b641e6b0f113de9937cb67.bindPopup(popup_ccc9bd03f5e24330b860b051a3bfb629)
+        ;
+
+        
+    
+    
+            var marker_49075b89ca6a46b187c10d2d9d485e09 = L.marker(
+                [34.774149, 134.09010700000002],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_7c314e0a8d744c568bbf6cc2673d2931 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_4f8a1a66a4f143138b753950eb8f30f9 = $(`<div id="html_4f8a1a66a4f143138b753950eb8f30f9" style="width: 100.0%; height: 100.0%;">城名：保木城（ほぎじょう）<br> 別名：備前保木城、熊野保木城 <br>住所：岡山県岡山市東区瀬戸町万富 <br>築城者：明石氏 <br>遺構：曲輪、土塁、堀切、礎石、井戸</div>`)[0];
+            popup_7c314e0a8d744c568bbf6cc2673d2931.setContent(html_4f8a1a66a4f143138b753950eb8f30f9);
+        
+
+        marker_49075b89ca6a46b187c10d2d9d485e09.bindPopup(popup_7c314e0a8d744c568bbf6cc2673d2931)
+        ;
+
+        
+    
+    
+            var marker_ab4b34df3ff14228a568bc4a97d02f0c = L.marker(
+                [34.564719000000004, 133.812712],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_b0d49eaf6e9244139c2227ed7f794ebc = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_95fa6840fb0d43aab393532473a4ceef = $(`<div id="html_95fa6840fb0d43aab393532473a4ceef" style="width: 100.0%; height: 100.0%;">城名：天城陣屋（あまぎじんや）<br> 別名：お茶屋 <br>住所：岡山県倉敷市藤戸町天城1908 <br>築城者：池田氏 <br>遺構：移築門（静光寺）</div>`)[0];
+            popup_b0d49eaf6e9244139c2227ed7f794ebc.setContent(html_95fa6840fb0d43aab393532473a4ceef);
+        
+
+        marker_ab4b34df3ff14228a568bc4a97d02f0c.bindPopup(popup_b0d49eaf6e9244139c2227ed7f794ebc)
+        ;
+
+        
+    
+    
+            var marker_9696b4e6146c4f2e93834f94635ef949 = L.marker(
+                [34.809069, 133.622481],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_5084d3c00f5a4435b0eb6b6c6e174f86 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_4d750c2900424e248bf9f5bcd79f2303 = $(`<div id="html_4d750c2900424e248bf9f5bcd79f2303" style="width: 100.0%; height: 100.0%;">城名：備中松山城（びっちゅうまつやまじょう）<br> 別名：高梁城 <br>住所：岡山県高梁市内山下1 <br>築城者：秋庭氏、上野氏、庄氏、三村氏、小堀氏、池田氏、水谷氏、安藤氏、石川氏、板倉氏 <br>遺構：曲輪、天守、櫓、石垣、土塁、塀</div>`)[0];
+            popup_5084d3c00f5a4435b0eb6b6c6e174f86.setContent(html_4d750c2900424e248bf9f5bcd79f2303);
+        
+
+        marker_9696b4e6146c4f2e93834f94635ef949.bindPopup(popup_5084d3c00f5a4435b0eb6b6c6e174f86)
+        ;
+
+        
+    
+    
+            var marker_3f68affd654c4224b19f5d9b5ab89a89 = L.marker(
+                [34.67655, 133.7883163],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_3062a796847441759f2d3ca9a593889e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_5508f68c0d924ab29e169ba0efa7eb93 = $(`<div id="html_5508f68c0d924ab29e169ba0efa7eb93" style="width: 100.0%; height: 100.0%;">城名：鬼ノ城（きのじょう）<br> 別名：－ <br>住所：岡山県総社市奥坂鬼城山 <br>築城者：不明 <br>遺構：列石、土塁、水門</div>`)[0];
+            popup_3062a796847441759f2d3ca9a593889e.setContent(html_5508f68c0d924ab29e169ba0efa7eb93);
+        
+
+        marker_3f68affd654c4224b19f5d9b5ab89a89.bindPopup(popup_3062a796847441759f2d3ca9a593889e)
+        ;
+
+        
+    
+    
+            var marker_8870d81733eb40e3812d64ba9727c431 = L.marker(
+                [34.6689961, 133.7651864],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_5f01735da0c1413192df76e1646c138c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_652f37461bd145a1a639a8b9ea31f212 = $(`<div id="html_652f37461bd145a1a639a8b9ea31f212" style="width: 100.0%; height: 100.0%;">城名：亀山城（かめやまじょう）<br> 別名：－ <br>住所：岡山県総社市三須 <br>築城者：佐野氏 <br>遺構：曲輪、腰曲輪、土塁、堀切</div>`)[0];
+            popup_5f01735da0c1413192df76e1646c138c.setContent(html_652f37461bd145a1a639a8b9ea31f212);
+        
+
+        marker_8870d81733eb40e3812d64ba9727c431.bindPopup(popup_5f01735da0c1413192df76e1646c138c)
+        ;
+
+        
+    
+    
+            var marker_b60da88d53de430385be9fc6b8072263 = L.marker(
+                [34.688231, 133.665638],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_9d660cfe13ee494f97740c2309f59b98 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_8f2d87e044a94bef93f971785da1660b = $(`<div id="html_8f2d87e044a94bef93f971785da1660b" style="width: 100.0%; height: 100.0%;">城名：鬼身城（きのみじょう）<br> 別名：鬼ノ身城 <br>住所：岡山県総社市山田 <br>築城者：今川氏、上田氏、宍戸氏 <br>遺構：曲輪、石垣、土塁</div>`)[0];
+            popup_9d660cfe13ee494f97740c2309f59b98.setContent(html_8f2d87e044a94bef93f971785da1660b);
+        
+
+        marker_b60da88d53de430385be9fc6b8072263.bindPopup(popup_9d660cfe13ee494f97740c2309f59b98)
+        ;
+
+        
+    
+    
+            var marker_faa8b34b9d9643a7a86a9680d068c2f8 = L.marker(
+                [34.61, 133.637339],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_2258c8e668d84c82aba1c3e9f383a180 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_7b8284e61a9048b5a36ea56c5e9b3178 = $(`<div id="html_7b8284e61a9048b5a36ea56c5e9b3178" style="width: 100.0%; height: 100.0%;">城名：猿掛城（さるかけじょう）<br> 別名：－ <br>住所：岡山県倉敷市真備町／小田郡矢掛町 <br>築城者：庄氏、三村氏、穂井田（毛利）氏 <br>遺構：曲輪、石垣、土塁、堀切、井戸</div>`)[0];
+            popup_2258c8e668d84c82aba1c3e9f383a180.setContent(html_7b8284e61a9048b5a36ea56c5e9b3178);
+        
+
+        marker_faa8b34b9d9643a7a86a9680d068c2f8.bindPopup(popup_2258c8e668d84c82aba1c3e9f383a180)
+        ;
+
+        
+    
+    
+            var marker_c1fde975cac44334ae3db9638f4c2144 = L.marker(
+                [34.604517, 133.82738500000002],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_bc0db0b13813437a9944f78a76fd4fe5 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_7c02d3f2cfd440db92f92dbf1da15d66 = $(`<div id="html_7c02d3f2cfd440db92f92dbf1da15d66" style="width: 100.0%; height: 100.0%;">城名：早島陣屋（はやしまじんや）<br> 別名：戸川家陣屋 <br>住所：岡山県都窪郡早島町早島 <br>築城者：戸川氏 <br>遺構：石橋、堀</div>`)[0];
+            popup_bc0db0b13813437a9944f78a76fd4fe5.setContent(html_7c02d3f2cfd440db92f92dbf1da15d66);
+        
+
+        marker_c1fde975cac44334ae3db9638f4c2144.bindPopup(popup_bc0db0b13813437a9944f78a76fd4fe5)
+        ;
+
+        
+    
+    
+            var marker_17c05e3f07a5439291e565c8814e7e74 = L.marker(
+                [34.56199, 133.811576],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_03b1ef135e1c4cecbec514da474939ad = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_5ed9604f5805427da4f268ec8c083260 = $(`<div id="html_5ed9604f5805427da4f268ec8c083260" style="width: 100.0%; height: 100.0%;">城名：福山城（ふくやまじょう）<br> 別名：備中福山城 <br>住所：岡山県総社市清音三因 <br>築城者：荘氏、大井田氏 <br>遺構：曲輪、石垣、横堀（空堀）、井戸跡</div>`)[0];
+            popup_03b1ef135e1c4cecbec514da474939ad.setContent(html_5ed9604f5805427da4f268ec8c083260);
+        
+
+        marker_17c05e3f07a5439291e565c8814e7e74.bindPopup(popup_03b1ef135e1c4cecbec514da474939ad)
+        ;
+
+        
+    
+    
+            var marker_61c3ffd66fe248a9b59c7ea7a400b031 = L.marker(
+                [34.913675, 133.67478400000002],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_a12708adf1a0458794bc143c647454a4 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_42bb3667a35c42619c115c971cccabfb = $(`<div id="html_42bb3667a35c42619c115c971cccabfb" style="width: 100.0%; height: 100.0%;">城名：有漢常山城（うかんつねやまじょう）<br> 別名：常山城 <br>住所：岡山県高梁市有漢町有漢字土居 <br>築城者：秋庭氏、新山氏（三村氏家臣）、肥田氏 <br>遺構：曲輪、土塁、堀切、横堀（空堀）</div>`)[0];
+            popup_a12708adf1a0458794bc143c647454a4.setContent(html_42bb3667a35c42619c115c971cccabfb);
+        
+
+        marker_61c3ffd66fe248a9b59c7ea7a400b031.bindPopup(popup_a12708adf1a0458794bc143c647454a4)
+        ;
+
+        
+    
+    
+            var marker_96d566eeb8d9447eb70f6d9a2e4d56bf = L.marker(
+                [34.775867, 133.53571399999998],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_3a1f8409043e43f1b664d6af1d87979f = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_e964ef2364c9448597f08413041a4622 = $(`<div id="html_e964ef2364c9448597f08413041a4622" style="width: 100.0%; height: 100.0%;">城名：鶴首城（かくしゅじょう）<br> 別名：成羽城、（成羽陣屋） <br>住所：岡山県高梁市成羽町下原 <br>築城者：河村氏、三村氏、岡氏、山崎氏（陣屋） <br>遺構：曲輪、堀切、石垣（陣屋）</div>`)[0];
+            popup_3a1f8409043e43f1b664d6af1d87979f.setContent(html_e964ef2364c9448597f08413041a4622);
+        
+
+        marker_96d566eeb8d9447eb70f6d9a2e4d56bf.bindPopup(popup_3a1f8409043e43f1b664d6af1d87979f)
+        ;
+
+        
+    
+    
+            var marker_712199c2abe74920a99fd20a3f1e701b = L.marker(
+                [34.605638, 133.520078],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_09321de4ae4942d580ddf32d10511b19 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_690c9862bd2a43e880d5066a9358e66a = $(`<div id="html_690c9862bd2a43e880d5066a9358e66a" style="width: 100.0%; height: 100.0%;">城名：高越山城（たかこしやまじょう）<br> 別名：高越城 <br>住所：岡山県井原市神代町 <br>築城者：宇都宮氏、伊勢氏 <br>遺構：曲輪、堀切</div>`)[0];
+            popup_09321de4ae4942d580ddf32d10511b19.setContent(html_690c9862bd2a43e880d5066a9358e66a);
+        
+
+        marker_712199c2abe74920a99fd20a3f1e701b.bindPopup(popup_09321de4ae4942d580ddf32d10511b19)
+        ;
+
+        
+    
+    
+            var marker_179f13c29d9a4fb4befd203c83c892cb = L.marker(
+                [34.543917, 133.584844],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_21265df8994746e38bbecf42f4fcc6c2 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_27374a76795f4fdf9978c1cf46820c5c = $(`<div id="html_27374a76795f4fdf9978c1cf46820c5c" style="width: 100.0%; height: 100.0%;">城名：鴨山城（かもやまじょう）<br> 別名：鴨方城、加茂山城、清滝山城、石井山城 <br>住所：岡山県浅口市鴨方町鴨方 <br>築城者：細川氏 <br>遺構：曲輪、石垣、土塁、堀切、櫓台</div>`)[0];
+            popup_21265df8994746e38bbecf42f4fcc6c2.setContent(html_27374a76795f4fdf9978c1cf46820c5c);
+        
+
+        marker_179f13c29d9a4fb4befd203c83c892cb.bindPopup(popup_21265df8994746e38bbecf42f4fcc6c2)
+        ;
+
+        
+    
+    
+            var marker_75fac911be1c42118b43dd588bc88efb = L.marker(
+                [34.470896999999994, 133.57181200000002],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_007d98a4384b4295a83b4ddaaf223db3 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_2a52ee5990004aa1b965ee168d72f682 = $(`<div id="html_2a52ee5990004aa1b965ee168d72f682" style="width: 100.0%; height: 100.0%;">城名：青佐山城（あおさやま（おおさやま）じょう）<br> 別名：－ <br>住所：岡山県笠岡市大島中／浅口市寄島町 <br>築城者：細川氏 <br>遺構：曲輪、土塁、井戸</div>`)[0];
+            popup_007d98a4384b4295a83b4ddaaf223db3.setContent(html_2a52ee5990004aa1b965ee168d72f682);
+        
+
+        marker_75fac911be1c42118b43dd588bc88efb.bindPopup(popup_007d98a4384b4295a83b4ddaaf223db3)
+        ;
+
+        
+    
+    
+            var marker_1a0e502cbfbc4bbb80e18aadd9c8d05e = L.marker(
+                [35.062763000000004, 134.004868],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_2348c4f1d5404b1b8a66625118368e1a = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_f731fadff30c43ba9b5ca4fa0af60a0d = $(`<div id="html_f731fadff30c43ba9b5ca4fa0af60a0d" style="width: 100.0%; height: 100.0%;">城名：津山城（つやまじょう）<br> 別名：鶴山城 <br>住所：岡山県津山市山下 <br>築城者：山名氏、森氏、松平氏 <br>遺構：曲輪、石垣、堀</div>`)[0];
+            popup_2348c4f1d5404b1b8a66625118368e1a.setContent(html_f731fadff30c43ba9b5ca4fa0af60a0d);
+        
+
+        marker_1a0e502cbfbc4bbb80e18aadd9c8d05e.bindPopup(popup_2348c4f1d5404b1b8a66625118368e1a)
+        ;
+
+        
+    
+    
+            var marker_ebcd8b7d13c14cdf9743f75148a4a1d9 = L.marker(
+                [35.128091, 134.063008],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_bbeb696610bb418d997be9bd4341e71a = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_8fa6ae20aafb41ee8fa8c2113ef33ae4 = $(`<div id="html_8fa6ae20aafb41ee8fa8c2113ef33ae4" style="width: 100.0%; height: 100.0%;">城名：医王山城（いおうやまじょう）<br> 別名：祝山城、岩尾山城 <br>住所：岡山県津山市吉見1609他 <br>築城者：山名氏、三好氏、湯原氏、宇喜多氏 <br>遺構：曲輪、石垣、土塁、堀切、畝状竪堀、虎口、枡形虎口</div>`)[0];
+            popup_bbeb696610bb418d997be9bd4341e71a.setContent(html_8fa6ae20aafb41ee8fa8c2113ef33ae4);
+        
+
+        marker_ebcd8b7d13c14cdf9743f75148a4a1d9.bindPopup(popup_bbeb696610bb418d997be9bd4341e71a)
+        ;
+
+        
+    
+    
+            var marker_9179bb0e43ef4dda8c177524ce682074 = L.marker(
+                [35.084711, 133.984591],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_97699404a3cc4ba490c6d3b07fd7b7a0 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_5f9eb613931b4b1bb9e9ce360e043ff0 = $(`<div id="html_5f9eb613931b4b1bb9e9ce360e043ff0" style="width: 100.0%; height: 100.0%;">城名：神楽尾城（かぐらおじょう）<br> 別名：－ <br>住所：岡山県津山市小原、総社、上田邑、一宮他 <br>築城者：宇都宮氏、山名氏、尼子氏、大蔵氏、千場氏 <br>遺構：曲輪、腰曲輪、帯曲輪、土塁、堀切、竪掘、畝状竪堀、虎口、土橋、馬場、武者溜り</div>`)[0];
+            popup_97699404a3cc4ba490c6d3b07fd7b7a0.setContent(html_5f9eb613931b4b1bb9e9ce360e043ff0);
+        
+
+        marker_9179bb0e43ef4dda8c177524ce682074.bindPopup(popup_97699404a3cc4ba490c6d3b07fd7b7a0)
+        ;
+
+        
+    
+    
+            var marker_c694e440cca84de5ac1058ac6740af69 = L.marker(
+                [35.062281, 133.942388],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_514e81ce19a344f1b47e58c171fb6da8 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_67fa7b0aeaca4511b215d106e61e35cf = $(`<div id="html_67fa7b0aeaca4511b215d106e61e35cf" style="width: 100.0%; height: 100.0%;">城名：院庄館（いんのしょうやかた）<br> 別名：－ <br>住所：岡山県津山市院庄（作楽神社） <br>築城者：後醍醐天皇 <br>遺構：曲輪、土塁、横堀、井戸</div>`)[0];
+            popup_514e81ce19a344f1b47e58c171fb6da8.setContent(html_67fa7b0aeaca4511b215d106e61e35cf);
+        
+
+        marker_c694e440cca84de5ac1058ac6740af69.bindPopup(popup_514e81ce19a344f1b47e58c171fb6da8)
+        ;
+
+        
+    
+    
+            var marker_c41beb863a7e46418317f17cfb9a6441 = L.marker(
+                [35.076306, 133.83446999999998],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_c3bf1ae0170e46538c93facc9fd5a096 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_d319902e9f944bce8ae5e005aa9448e0 = $(`<div id="html_d319902e9f944bce8ae5e005aa9448e0" style="width: 100.0%; height: 100.0%;">城名：岩屋城（いわやじょう）<br> 別名：－ <br>住所：岡山県津山市中北上 <br>築城者：山名氏、赤松氏、浦上氏、尼子氏、毛利氏、宇喜多氏 <br>遺構：曲輪、土塁、虎口、横堀（空堀）、畝状竪堀</div>`)[0];
+            popup_c3bf1ae0170e46538c93facc9fd5a096.setContent(html_d319902e9f944bce8ae5e005aa9448e0);
+        
+
+        marker_c41beb863a7e46418317f17cfb9a6441.bindPopup(popup_c3bf1ae0170e46538c93facc9fd5a096)
+        ;
+
+        
+    
+    
+            var marker_26a4f73a45c24191817fc46c7cab20d7 = L.marker(
+                [34.69523, 133.513729],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_69e95a34067f4bd0b1654bd4dd7d02f2 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b9c62a6c86cb4c9b9bb23d656e294051 = $(`<div id="html_b9c62a6c86cb4c9b9bb23d656e294051" style="width: 100.0%; height: 100.0%;">城名：小笹丸城（おざさまるじょう）<br> 別名：－ <br>住所：岡山県井原市美星町黒忠 <br>築城者：竹野井氏 <br>遺構：曲輪、土塁、竪堀、堀切、虎口、井戸</div>`)[0];
+            popup_69e95a34067f4bd0b1654bd4dd7d02f2.setContent(html_b9c62a6c86cb4c9b9bb23d656e294051);
+        
+
+        marker_26a4f73a45c24191817fc46c7cab20d7.bindPopup(popup_69e95a34067f4bd0b1654bd4dd7d02f2)
+        ;
+
+        
+    
+    
+            var marker_980e2ef80007418dbac0ebc9f2a45581 = L.marker(
+                [34.938419, 133.616764],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_8036429a765440d39198978a6020bd81 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_7471536f56904121993ba21a29ea4077 = $(`<div id="html_7471536f56904121993ba21a29ea4077" style="width: 100.0%; height: 100.0%;">城名：佐井田城（さいたじょう）<br> 別名：才田城、斎田城、齋田城 <br>住所：岡山県真庭市下中津井 <br>築城者：植木氏 <br>遺構：曲輪、堀切、切岸、井戸</div>`)[0];
+            popup_8036429a765440d39198978a6020bd81.setContent(html_7471536f56904121993ba21a29ea4077);
+        
+
+        marker_980e2ef80007418dbac0ebc9f2a45581.bindPopup(popup_8036429a765440d39198978a6020bd81)
+        ;
+
+        
+    
+    
+            var marker_a013a1f43c794dbdaadb1e8434a219c2 = L.marker(
+                [34.916574, 133.90823],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_be4cccde0c24421d8f4ee9fbc3af1183 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b5789d0fea02446ea3846a112366ec28 = $(`<div id="html_b5789d0fea02446ea3846a112366ec28" style="width: 100.0%; height: 100.0%;">城名：竜王山城（りゅうおうざんじょう）<br> 別名：龍王山城 <br>住所：岡山県久米郡久米南町下籾 <br>築城者：岸氏秀 <br>遺構：曲輪、土塁、堀切</div>`)[0];
+            popup_be4cccde0c24421d8f4ee9fbc3af1183.setContent(html_b5789d0fea02446ea3846a112366ec28);
+        
+
+        marker_a013a1f43c794dbdaadb1e8434a219c2.bindPopup(popup_be4cccde0c24421d8f4ee9fbc3af1183)
+        ;
+
+        
+    
+    
+            var marker_1ca675f0f9aa4484b86da57933772bf6 = L.marker(
+                [35.0897196, 133.6909493],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_55a58ad050d044319cb5c83c2af7d06e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_4f48cfd39bfa4079a57692b876c7d4a5 = $(`<div id="html_4f48cfd39bfa4079a57692b876c7d4a5" style="width: 100.0%; height: 100.0%;">城名：高田城（たかだじょう）<br> 別名：勝山城、大総山城、大都夫良山城、夥山城 <br>住所：岡山県真庭市勝山 <br>築城者：前三浦氏、後三浦氏 <br>遺構：曲輪、石垣、土塁、堀切</div>`)[0];
+            popup_55a58ad050d044319cb5c83c2af7d06e.setContent(html_4f48cfd39bfa4079a57692b876c7d4a5);
+        
+
+        marker_1ca675f0f9aa4484b86da57933772bf6.bindPopup(popup_55a58ad050d044319cb5c83c2af7d06e)
+        ;
+
+        
+    
+    
+            var marker_1a7df2805f7445259fc4915f716a3bdd = L.marker(
+                [35.030015999999996, 133.43133899999998],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_de11d5e39d9c430e9336f95d1c0b0c5e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_8bfdbe9b00ee46c58a44db2d2837775e = $(`<div id="html_8bfdbe9b00ee46c58a44db2d2837775e" style="width: 100.0%; height: 100.0%;">城名：楪城（ゆずりはじょう）<br> 別名：杠城 <br>住所：岡山県新見市上市 <br>築城者：新見氏、三村氏、今田経高（毛利氏家臣）、天野勝元（毛利氏家臣） <br>遺構：曲輪、土塁、堀切</div>`)[0];
+            popup_de11d5e39d9c430e9336f95d1c0b0c5e.setContent(html_8bfdbe9b00ee46c58a44db2d2837775e);
+        
+
+        marker_1a7df2805f7445259fc4915f716a3bdd.bindPopup(popup_de11d5e39d9c430e9336f95d1c0b0c5e)
+        ;
+
+        
+    
+    
+            var marker_73264cbc20f44a36bc741364dd207f80 = L.marker(
+                [35.109242, 134.322406],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_bf8d4190f59049a0945a89889ba60732 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3a32af213e5f4fa0a39c738309826f93 = $(`<div id="html_3a32af213e5f4fa0a39c738309826f93" style="width: 100.0%; height: 100.0%;">城名：竹山城（たけやまじょう）<br> 別名：－ <br>住所：岡山県美作市下町 <br>築城者：新免氏 <br>遺構：曲輪、土塁、堀切</div>`)[0];
+            popup_bf8d4190f59049a0945a89889ba60732.setContent(html_3a32af213e5f4fa0a39c738309826f93);
+        
+
+        marker_73264cbc20f44a36bc741364dd207f80.bindPopup(popup_bf8d4190f59049a0945a89889ba60732)
+        ;
+
+        
+    
+    
+            var marker_49457bff67c6469ba646fd2acaa9ad03 = L.marker(
+                [34.996039, 134.262159],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_ac0155bd4a1a4e59a3f3b8990bd850b8 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_4476b470ebd24ff8b2d275851a6e7bfe = $(`<div id="html_4476b470ebd24ff8b2d275851a6e7bfe" style="width: 100.0%; height: 100.0%;">城名：福城（ふくじょう）<br> 別名：福ノ城 <br>住所：岡山県美作市土居 <br>築城者：江見帯刀 <br>遺構：曲輪、堀切、竪掘、切岸</div>`)[0];
+            popup_ac0155bd4a1a4e59a3f3b8990bd850b8.setContent(html_4476b470ebd24ff8b2d275851a6e7bfe);
+        
+
+        marker_49457bff67c6469ba646fd2acaa9ad03.bindPopup(popup_ac0155bd4a1a4e59a3f3b8990bd850b8)
+        ;
+
+        
+    
+    
+            var marker_3d6d2b5329c44f35b60eedcf8ec82760 = L.marker(
+                [35.100691, 134.16751200000002],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_65a22076b4844b55b8f03191242a03b6 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_12a69909e21c42809f669c73ee6e6430 = $(`<div id="html_12a69909e21c42809f669c73ee6e6430" style="width: 100.0%; height: 100.0%;">城名：有元城（ありもとじょう）<br> 別名：中島城、西坪城 <br>住所：岡山県勝田郡奈義町中島東 <br>築城者：中島氏、有元氏 <br>遺構：曲輪、土塁、横堀（空堀）</div>`)[0];
+            popup_65a22076b4844b55b8f03191242a03b6.setContent(html_12a69909e21c42809f669c73ee6e6430);
+        
+
+        marker_3d6d2b5329c44f35b60eedcf8ec82760.bindPopup(popup_65a22076b4844b55b8f03191242a03b6)
+        ;
+
+        
+    
+    
+            var marker_79d44999e2854c91ab6603d2b4e6cf49 = L.marker(
+                [34.525024, 133.88675],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_6ac5d1d5badc46d083b2cb5cc3011c9d = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a8a673118479458ab283db5ab5c904c8 = $(`<div id="html_a8a673118479458ab283db5ab5c904c8" style="width: 100.0%; height: 100.0%;">城名：常山城（つねやまじょう）<br> 別名：－ <br>住所：岡山県玉野市宇藤木／岡山市南区 <br>築城者：上野氏、戸川秀安、伊岐真利 <br>遺構：曲輪、石塁、横堀（空堀）、井戸</div>`)[0];
+            popup_6ac5d1d5badc46d083b2cb5cc3011c9d.setContent(html_a8a673118479458ab283db5ab5c904c8);
+        
+
+        marker_79d44999e2854c91ab6603d2b4e6cf49.bindPopup(popup_6ac5d1d5badc46d083b2cb5cc3011c9d)
+        ;
+
+        
+    
+    
+            var marker_2968e19601114710bf3884fd8c69026c = L.marker(
+                [34.44014, 133.795968],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_6a3e5f1cfa58418197660e8282453c14 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3892527efba1494c82fe6894c6f2f62b = $(`<div id="html_3892527efba1494c82fe6894c6f2f62b" style="width: 100.0%; height: 100.0%;">城名：下津井城（しもついじょう）<br> 別名：－ <br>住所：岡山県倉敷市下津井吹上2 <br>築城者：宇喜多氏、池田氏 <br>遺構：曲輪、石垣、天守台、土塁、伝移築門（正福寺）、井戸</div>`)[0];
+            popup_6a3e5f1cfa58418197660e8282453c14.setContent(html_3892527efba1494c82fe6894c6f2f62b);
+        
+
+        marker_2968e19601114710bf3884fd8c69026c.bindPopup(popup_6a3e5f1cfa58418197660e8282453c14)
+        ;
+
+        
+    
+    
+            var marker_7cd71236516746c1b2fa7dc476594788 = L.marker(
+                [35.179553999999996, 133.891197],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_d4e71d633a3c44279b4386e88c3aa8fd = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_db8fcdcbcb454e4e871ce5c833f0dddb = $(`<div id="html_db8fcdcbcb454e4e871ce5c833f0dddb" style="width: 100.0%; height: 100.0%;">城名：西屋城（にしやじょう）<br> 別名：－ <br>住所：岡山県苫田郡鏡野町西屋 <br>築城者：苔口利長・難波信正・岡崎藤左衛門（宇喜多氏家臣）、毛利氏 <br>遺構：曲輪、堀切</div>`)[0];
+            popup_d4e71d633a3c44279b4386e88c3aa8fd.setContent(html_db8fcdcbcb454e4e871ce5c833f0dddb);
+        
+
+        marker_7cd71236516746c1b2fa7dc476594788.bindPopup(popup_d4e71d633a3c44279b4386e88c3aa8fd)
+        ;
+
+        
+    
+    
+            var marker_49e22622cc334329bb9006c71df89ad7 = L.marker(
+                [35.197813000000004, 134.104095],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_c50d4bf196b34811b9f50136d00c46e8 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_28a11dfc5a6a40c286aa00ba0a627c9f = $(`<div id="html_28a11dfc5a6a40c286aa00ba0a627c9f" style="width: 100.0%; height: 100.0%;">城名：矢筈城（やはずじょう）<br> 別名：高山城 <br>住所：岡山県津山市加茂町山下、知和 <br>築城者：草苅氏 <br>遺構：曲輪、石垣、礎石、土塁、堀切、狼煙場跡</div>`)[0];
+            popup_c50d4bf196b34811b9f50136d00c46e8.setContent(html_28a11dfc5a6a40c286aa00ba0a627c9f);
+        
+
+        marker_49e22622cc334329bb9006c71df89ad7.bindPopup(popup_c50d4bf196b34811b9f50136d00c46e8)
+        ;
+
+        
+    
+    
+            var marker_65bf7787717743e7bd0307ee0b0a905a = L.marker(
+                [35.109242, 133.897107],
+                {"parseHtml": true}
+            ).addTo(map_7d7c31eec0734dd9b4679bc431b67aea);
+        
+    
+        var popup_77aa10ac60754faf863c2620fa916a99 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a1134409003c46a2bdfc9a9a2bbd0fec = $(`<div id="html_a1134409003c46a2bdfc9a9a2bbd0fec" style="width: 100.0%; height: 100.0%;">城名：葛下城（くずかじょう）<br> 別名：－ <br>住所：岡山県苫田郡鏡野町山城 <br>築城者：大河原氏、中村頼宗 <br>遺構：曲輪、石垣、土塁、横堀（空堀）、竪堀</div>`)[0];
+            popup_77aa10ac60754faf863c2620fa916a99.setContent(html_a1134409003c46a2bdfc9a9a2bbd0fec);
+        
+
+        marker_65bf7787717743e7bd0307ee0b0a905a.bindPopup(popup_77aa10ac60754faf863c2620fa916a99)
+        ;
+
+        
+    
+</script>
