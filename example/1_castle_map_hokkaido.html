@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_94258a322f884fc3b296ee4a8fb249ec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_94258a322f884fc3b296ee4a8fb249ec" ></div>
+        
+</body>
+<script>    
+    
+            var map_94258a322f884fc3b296ee4a8fb249ec = L.map(
+                "map_94258a322f884fc3b296ee4a8fb249ec",
+                {
+                    center: [43.064359, 141.347449],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61f05b485e7d4c6a87c7e926307d565d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+            var marker_c920d8347f414ad1b52272359e9a632f = L.marker(
+                [41.796918, 140.756986],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_c49a5da411a347e1a85d429e2f493a2d = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_c589bf23b1b94d65a7754c8c22ff2574 = $(`<div id="html_c589bf23b1b94d65a7754c8c22ff2574" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/1" target="_blank">五稜郭</a><br> 振り仮名：ごりょうかく <br>別名：柳野城 <br>住所：北海道函館市五稜郭町本通1 <br>築城者：旧幕府軍（蝦夷共和国） <br>遺構：曲輪、石垣、土塁、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/1" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329081" width=150/></a></div>`)[0];
+            popup_c49a5da411a347e1a85d429e2f493a2d.setContent(html_c589bf23b1b94d65a7754c8c22ff2574);
+        
+
+        marker_c920d8347f414ad1b52272359e9a632f.bindPopup(popup_c49a5da411a347e1a85d429e2f493a2d)
+        ;
+
+        
+    
+    
+            var marker_3526f821594e4dc8b45942ad391565e0 = L.marker(
+                [41.825742, 140.77062800000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_afbadf3a01f64385ae6459abb7f6e4bf = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_0d2001699f1d4c3aa2248ea5762f9414 = $(`<div id="html_0d2001699f1d4c3aa2248ea5762f9414" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/2" target="_blank">四稜郭</a><br> 振り仮名：しりょうかく <br>別名：－ <br>住所：北海道函館市陣川町 <br>築城者：旧幕府軍（蝦夷共和国） <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/2" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/309311" width=150/></a></div>`)[0];
+            popup_afbadf3a01f64385ae6459abb7f6e4bf.setContent(html_0d2001699f1d4c3aa2248ea5762f9414);
+        
+
+        marker_3526f821594e4dc8b45942ad391565e0.bindPopup(popup_afbadf3a01f64385ae6459abb7f6e4bf)
+        ;
+
+        
+    
+    
+            var marker_dafff932a2d44b11aba6881dc684c0b4 = L.marker(
+                [41.765665999999996, 140.822137],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_528bd700b8514abc9df48963dcc2f656 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_589d1ab55f5f4399a00ef823a2cff8f4 = $(`<div id="html_589d1ab55f5f4399a00ef823a2cff8f4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3" target="_blank">志苔館</a><br> 振り仮名：しのりだて <br>別名：－ <br>住所：北海道函館市志海苔町、赤坂町 <br>築城者：小林氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325147" width=150/></a></div>`)[0];
+            popup_528bd700b8514abc9df48963dcc2f656.setContent(html_589d1ab55f5f4399a00ef823a2cff8f4);
+        
+
+        marker_dafff932a2d44b11aba6881dc684c0b4.bindPopup(popup_528bd700b8514abc9df48963dcc2f656)
+        ;
+
+        
+    
+    
+            var marker_be8a321c28cf4c32961b4486831398d4 = L.marker(
+                [41.774254, 140.704102],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_2179548306534525a15097ab57d2e921 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_71004a45c1ee4e23aa03c2d7c6942820 = $(`<div id="html_71004a45c1ee4e23aa03c2d7c6942820" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/4" target="_blank">弁天台場</a><br> 振り仮名：べんてんだいば <br>別名：弁天岬台場、弁天砲台 <br>住所：北海道函館市弁天町20 <br>築城者：旧幕府軍（蝦夷共和国） <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/4" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/309332" width=150/></a></div>`)[0];
+            popup_2179548306534525a15097ab57d2e921.setContent(html_71004a45c1ee4e23aa03c2d7c6942820);
+        
+
+        marker_be8a321c28cf4c32961b4486831398d4.bindPopup(popup_2179548306534525a15097ab57d2e921)
+        ;
+
+        
+    
+    
+            var marker_64008864459342569d27e73fc70a9033 = L.marker(
+                [41.429873, 140.108454],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_e6320a9c84f7455fb6f2efa4208cca65 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_203f2ff93819471dbca1b07117087afe = $(`<div id="html_203f2ff93819471dbca1b07117087afe" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/5" target="_blank">松前城</a><br> 振り仮名：まつまえじょう <br>別名：福山城、（福山館） <br>住所：北海道松前郡松前町字松城144 <br>築城者：松前（蠣崎）氏 <br>遺構：曲輪、本丸御門、御殿玄関、石垣、土塁、横堀 <br><a href="https://cmeg.jp//w/castles/5" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327520" width=150/></a></div>`)[0];
+            popup_e6320a9c84f7455fb6f2efa4208cca65.setContent(html_203f2ff93819471dbca1b07117087afe);
+        
+
+        marker_64008864459342569d27e73fc70a9033.bindPopup(popup_e6320a9c84f7455fb6f2efa4208cca65)
+        ;
+
+        
+    
+    
+            var marker_95e20baf0b814a32a2d8f2c1eee1d724 = L.marker(
+                [41.434783, 140.109507],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_753900ddc8b34ebe9a64e7c0e9dae35b = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_167618ef1e974b42a970ac2df56dba23 = $(`<div id="html_167618ef1e974b42a970ac2df56dba23" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6" target="_blank">大館</a><br> 振り仮名：おおだて <br>別名：松前大館、徳山館 <br>住所：北海道松前郡松前町神明 <br>築城者：安東氏、下国氏、相原氏、蠣崎（松前）氏 <br>遺構：曲輪、土塁、横堀（空堀）、井戸 <br><a href="https://cmeg.jp//w/castles/6" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/291394" width=150/></a></div>`)[0];
+            popup_753900ddc8b34ebe9a64e7c0e9dae35b.setContent(html_167618ef1e974b42a970ac2df56dba23);
+        
+
+        marker_95e20baf0b814a32a2d8f2c1eee1d724.bindPopup(popup_753900ddc8b34ebe9a64e7c0e9dae35b)
+        ;
+
+        
+    
+    
+            var marker_5cb4102b7b5a4434ae7b664ddb129521 = L.marker(
+                [42.983309999999996, 144.395775],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_575514a2e60e4838903cc1ee7e4dc374 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_48780e1123484474bbd23c7e11debcf1 = $(`<div id="html_48780e1123484474bbd23c7e11debcf1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/7" target="_blank">釧路川流域チャシ</a><br> 振り仮名：くしろがわりゅういきちゃし <br>別名：釧路川流域チャシ跡群［モシリヤチャシ、ハルトルチャランケチャシ他、11ヵ所のチャシ跡の総称］ <br>住所：北海道釧路市城山1他（地図はモシリヤチャシを示す） <br>築城者：トミカラアヤノ［モシリヤチャシ］、不明［ハルトルチャランケチャシ］ <br>遺構：曲輪、土塁［モシリヤチャシ・ハルトルチャランケチャシ］、横堀（空堀）［モシリヤチャシ］ <br><a href="https://cmeg.jp//w/castles/7" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/279068" width=150/></a></div>`)[0];
+            popup_575514a2e60e4838903cc1ee7e4dc374.setContent(html_48780e1123484474bbd23c7e11debcf1);
+        
+
+        marker_5cb4102b7b5a4434ae7b664ddb129521.bindPopup(popup_575514a2e60e4838903cc1ee7e4dc374)
+        ;
+
+        
+    
+    
+            var marker_52c5b07d9a094d75b4cfae3d0182647b = L.marker(
+                [41.944592, 140.544779],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_4a54ff00254940198c4a15a3e55a3502 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_7172c277031b413dbd2b7eb576ca840f = $(`<div id="html_7172c277031b413dbd2b7eb576ca840f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/8" target="_blank">二股口台場山</a><br> 振り仮名：ふたまたぐちだいばやま <br>別名：－ <br>住所：北海道北斗市村山 <br>築城者：旧幕府軍（蝦夷共和国） <br>遺構：塹壕跡 <br><a href="https://cmeg.jp//w/castles/8" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/274871" width=150/></a></div>`)[0];
+            popup_4a54ff00254940198c4a15a3e55a3502.setContent(html_7172c277031b413dbd2b7eb576ca840f);
+        
+
+        marker_52c5b07d9a094d75b4cfae3d0182647b.bindPopup(popup_4a54ff00254940198c4a15a3e55a3502)
+        ;
+
+        
+    
+    
+            var marker_de28bca91e544e34aa5c445e3bf11506 = L.marker(
+                [41.560208, 140.43176100000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_dd00406d21bf425fbcdbe6496273840e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_9daeb78627fe41ccae0e98f46d92ea17 = $(`<div id="html_9daeb78627fe41ccae0e98f46d92ea17" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9" target="_blank">脇本館</a><br> 振り仮名：わきもとだて <br>別名：－ <br>住所：北海道上磯郡知内町涌元（推定地） <br>築城者：佐藤氏、南條氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/9" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/275062" width=150/></a></div>`)[0];
+            popup_dd00406d21bf425fbcdbe6496273840e.setContent(html_9daeb78627fe41ccae0e98f46d92ea17);
+        
+
+        marker_de28bca91e544e34aa5c445e3bf11506.bindPopup(popup_dd00406d21bf425fbcdbe6496273840e)
+        ;
+
+        
+    
+    
+            var marker_2ee92115e3d14e08ad786aaed4464b16 = L.marker(
+                [41.800976, 140.099978],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_1c7c1634e3484f55ae2ceb159a84f97e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_778dd5bec9a04a1fa64806b5bb6ee0f4 = $(`<div id="html_778dd5bec9a04a1fa64806b5bb6ee0f4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/10" target="_blank">上之国館</a><br> 振り仮名：かみのくにだて <br>別名：上之国館［勝山館・花沢館・洲崎館］ <br>住所：北海道檜山郡上ノ国町字勝山他（地図は勝山館を示す） <br>築城者：蠣崎信広［勝山館］、安東氏［花沢館］、蠣崎氏［洲崎館］ <br>遺構：曲輪、土塁、横堀（空堀）［すべて］ <br><a href="https://cmeg.jp//w/castles/10" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/295427" width=150/></a></div>`)[0];
+            popup_1c7c1634e3484f55ae2ceb159a84f97e.setContent(html_778dd5bec9a04a1fa64806b5bb6ee0f4);
+        
+
+        marker_2ee92115e3d14e08ad786aaed4464b16.bindPopup(popup_1c7c1634e3484f55ae2ceb159a84f97e)
+        ;
+
+        
+    
+    
+            var marker_04897d4206bf4521957c938caa3bbf96 = L.marker(
+                [43.157672, 141.114575],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_b14baffe01034e3587565265451a64d2 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_d727fa7c5e5f42dda2a78fdb83ad5a61 = $(`<div id="html_d727fa7c5e5f42dda2a78fdb83ad5a61" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/11" target="_blank">張碓チャシ</a><br> 振り仮名：はりうすちゃし <br>別名：－ <br>住所：北海道小樽市張碓町 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/11" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/291945" width=150/></a></div>`)[0];
+            popup_b14baffe01034e3587565265451a64d2.setContent(html_d727fa7c5e5f42dda2a78fdb83ad5a61);
+        
+
+        marker_04897d4206bf4521957c938caa3bbf96.bindPopup(popup_b14baffe01034e3587565265451a64d2)
+        ;
+
+        
+    
+    
+            var marker_19535e1800ba4970a88d8c3269f50161 = L.marker(
+                [41.879422999999996, 140.34330400000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_4d1778dd8474488daa7f37a06cc10b48 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_11f898e07d8d4fe5ac173cf0eba89aa2 = $(`<div id="html_11f898e07d8d4fe5ac173cf0eba89aa2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/12" target="_blank">館城</a><br> 振り仮名：たてじょう <br>別名：新城 <br>住所：北海道檜山郡厚沢部町城丘 <br>築城者：松前氏 <br>遺構：曲輪、土塁、横堀（空堀）、井戸跡、建物跡 <br><a href="https://cmeg.jp//w/castles/12" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/293026" width=150/></a></div>`)[0];
+            popup_4d1778dd8474488daa7f37a06cc10b48.setContent(html_11f898e07d8d4fe5ac173cf0eba89aa2);
+        
+
+        marker_19535e1800ba4970a88d8c3269f50161.bindPopup(popup_4d1778dd8474488daa7f37a06cc10b48)
+        ;
+
+        
+    
+    
+            var marker_02efc75b79ae499aae700d9e681de32d = L.marker(
+                [41.854341, 140.619381],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_9ae4725b80dd4e16b5ec90e805b4aafa = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3e4d31ed80d149d4b128bdc0f34591bf = $(`<div id="html_3e4d31ed80d149d4b128bdc0f34591bf" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/13" target="_blank">戸切地陣屋</a><br> 振り仮名：へきりちじんや <br>別名：松前藩戸切地陣屋 <br>住所：北海道北斗市野崎66-10 <br>築城者：松前藩 <br>遺構：曲輪、土塁、横堀（空堀）、砲台 <br><a href="https://cmeg.jp//w/castles/13" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329207" width=150/></a></div>`)[0];
+            popup_9ae4725b80dd4e16b5ec90e805b4aafa.setContent(html_3e4d31ed80d149d4b128bdc0f34591bf);
+        
+
+        marker_02efc75b79ae499aae700d9e681de32d.bindPopup(popup_9ae4725b80dd4e16b5ec90e805b4aafa)
+        ;
+
+        
+    
+    
+            var marker_088be8818f16450a843b69d313b2d494 = L.marker(
+                [42.564252, 141.343453],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_577d691d784c4f6c886f80652b0d2413 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_75dfe16df49845878cbed7f8f8e262e5 = $(`<div id="html_75dfe16df49845878cbed7f8f8e262e5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/14" target="_blank">白老陣屋</a><br> 振り仮名：しらおいじんや <br>別名：白老仙台藩陣屋、仙台藩シラオイ元陣屋 <br>住所：北海道白老郡白老町陣屋町 <br>築城者：仙台藩 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/14" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/304413" width=150/></a></div>`)[0];
+            popup_577d691d784c4f6c886f80652b0d2413.setContent(html_75dfe16df49845878cbed7f8f8e262e5);
+        
+
+        marker_088be8818f16450a843b69d313b2d494.bindPopup(popup_577d691d784c4f6c886f80652b0d2413)
+        ;
+
+        
+    
+    
+            var marker_c3a493053bf644648934740749e585bc = L.marker(
+                [42.369318, 140.948662],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_06e05ff1d0a04be59e9876a518b86238 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_0e18731bf7504182af67f76c87c2ba54 = $(`<div id="html_0e18731bf7504182af67f76c87c2ba54" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/19" target="_blank">モロラン陣屋</a><br> 振り仮名：もろらんじんや <br>別名：南部藩モロラン陣屋、南部藩出張陣屋 <br>住所：北海道室蘭市陣屋町2-5 <br>築城者：南部藩 <br>遺構：曲輪、土塁、横堀（空堀）、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/19" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/324874" width=150/></a></div>`)[0];
+            popup_06e05ff1d0a04be59e9876a518b86238.setContent(html_0e18731bf7504182af67f76c87c2ba54);
+        
+
+        marker_c3a493053bf644648934740749e585bc.bindPopup(popup_06e05ff1d0a04be59e9876a518b86238)
+        ;
+
+        
+    
+    
+            var marker_891fe1c447cc43c69b67204521421881 = L.marker(
+                [43.119023999999996, 141.51844599999998],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_1a5f9b0c91a746429eae43a0fc97d489 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_351115b4cf4d4143a658a4360793b745 = $(`<div id="html_351115b4cf4d4143a658a4360793b745" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/20" target="_blank">江別チャシ</a><br> 振り仮名：えべつちゃし <br>別名：－ <br>住所：北海道江別市元江別861 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/20" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/191118" width=150/></a></div>`)[0];
+            popup_1a5f9b0c91a746429eae43a0fc97d489.setContent(html_351115b4cf4d4143a658a4360793b745);
+        
+
+        marker_891fe1c447cc43c69b67204521421881.bindPopup(popup_1a5f9b0c91a746429eae43a0fc97d489)
+        ;
+
+        
+    
+    
+            var marker_10dcdb66926d49f7824b082c348f4273 = L.marker(
+                [43.589096000000005, 141.39187900000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_bb00bd11af28404792d03418adcc1ac8 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_066ceb2c3acd4276ba5d4d42f3121904 = $(`<div id="html_066ceb2c3acd4276ba5d4d42f3121904" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/23" target="_blank">ハママシケ陣屋</a><br> 振り仮名：はまましけじんや <br>別名：庄内藩ハママシケ陣屋、荘内藩ハママシケ陣屋、浜益毛陣屋 <br>住所：北海道石狩市浜益区川下 <br>築城者：庄内藩 <br>遺構：土塁、横堀（空堀）、建物跡 <br><a href="https://cmeg.jp//w/castles/23" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/269580" width=150/></a></div>`)[0];
+            popup_bb00bd11af28404792d03418adcc1ac8.setContent(html_066ceb2c3acd4276ba5d4d42f3121904);
+        
+
+        marker_10dcdb66926d49f7824b082c348f4273.bindPopup(popup_bb00bd11af28404792d03418adcc1ac8)
+        ;
+
+        
+    
+    
+            var marker_2303d09cdbd74a37a2d2e39762f2a50c = L.marker(
+                [43.785382, 142.30785],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_3db69f02351f4b778d35839304ee55eb = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_46e6d5114b4b480bb40b726a2b374ea8 = $(`<div id="html_46e6d5114b4b480bb40b726a2b374ea8" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/24" target="_blank">立岩山チャシ</a><br> 振り仮名：たていわやまちゃし <br>別名：－ <br>住所：北海道旭川市神居町忠和224 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/24" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/274103" width=150/></a></div>`)[0];
+            popup_3db69f02351f4b778d35839304ee55eb.setContent(html_46e6d5114b4b480bb40b726a2b374ea8);
+        
+
+        marker_2303d09cdbd74a37a2d2e39762f2a50c.bindPopup(popup_3db69f02351f4b778d35839304ee55eb)
+        ;
+
+        
+    
+    
+            var marker_1ebfedcf40b84831ac144ae4f7e5262f = L.marker(
+                [43.729346, 142.183558],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_0a66e77eb5aa447c8e0263ae90e06e18 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_5b727411e9f14232b7235abda97a6197 = $(`<div id="html_5b727411e9f14232b7235abda97a6197" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/27" target="_blank">神居古潭チャシ</a><br> 振り仮名：かむいこたんちゃし <br>別名：－ <br>住所：北海道旭川市神居町神居古潭 <br>築城者：不明 <br>遺構：土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/27" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/275158" width=150/></a></div>`)[0];
+            popup_0a66e77eb5aa447c8e0263ae90e06e18.setContent(html_5b727411e9f14232b7235abda97a6197);
+        
+
+        marker_1ebfedcf40b84831ac144ae4f7e5262f.bindPopup(popup_0a66e77eb5aa447c8e0263ae90e06e18)
+        ;
+
+        
+    
+    
+            var marker_416e3e92a6404029b4febcd666b55bc0 = L.marker(
+                [44.017905999999996, 144.269738],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_dd0b1af32846487aad7c91a5a1aabff5 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_392109498c4e4b7e9ee1b5042e8c3e26 = $(`<div id="html_392109498c4e4b7e9ee1b5042e8c3e26" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/28" target="_blank">桂ヶ岡砦</a><br> 振り仮名：かつらがおかちゃし <br>別名：桂ヶ岡チャシ、桂ケ岡砦、チャランケチャシ <br>住所：北海道網走市南9条東2 <br>築城者：不明 <br>遺構：土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/28" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/280946" width=150/></a></div>`)[0];
+            popup_dd0b1af32846487aad7c91a5a1aabff5.setContent(html_392109498c4e4b7e9ee1b5042e8c3e26);
+        
+
+        marker_416e3e92a6404029b4febcd666b55bc0.bindPopup(popup_dd0b1af32846487aad7c91a5a1aabff5)
+        ;
+
+        
+    
+    
+            var marker_2fc3ed4e0f3e4f038cf3fc9f82c67ec0 = L.marker(
+                [42.819671, 141.619628],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_47edf47d1a704f2bad8608190c2a7368 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3ee17e631cfb46c2b1a8258e4b5f5ad7 = $(`<div id="html_3ee17e631cfb46c2b1a8258e4b5f5ad7" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/32" target="_blank">アッテウシのチャシ</a><br> 振り仮名：あってうしのちゃし <br>別名：－ <br>住所：北海道千歳市桂木（陸上自衛隊北千歳駐屯地内） <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/32" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/227954" width=150/></a></div>`)[0];
+            popup_47edf47d1a704f2bad8608190c2a7368.setContent(html_3ee17e631cfb46c2b1a8258e4b5f5ad7);
+        
+
+        marker_2fc3ed4e0f3e4f038cf3fc9f82c67ec0.bindPopup(popup_47edf47d1a704f2bad8608190c2a7368)
+        ;
+
+        
+    
+    
+            var marker_540c3f10bd0147588c5cc7ce8f2fb7fa = L.marker(
+                [42.953233000000004, 143.109163],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_922ce0b07c5047fd87f83baecf238f09 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a580dd8fd7a5488cbc14fb02ea507e2d = $(`<div id="html_a580dd8fd7a5488cbc14fb02ea507e2d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/36" target="_blank">シュプサラチャシ</a><br> 振り仮名：しゅぷさらちゃし <br>別名：－ <br>住所：北海道河西郡芽室町西士狩北6線32 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/36" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/288002" width=150/></a></div>`)[0];
+            popup_922ce0b07c5047fd87f83baecf238f09.setContent(html_a580dd8fd7a5488cbc14fb02ea507e2d);
+        
+
+        marker_540c3f10bd0147588c5cc7ce8f2fb7fa.bindPopup(popup_922ce0b07c5047fd87f83baecf238f09)
+        ;
+
+        
+    
+    
+            var marker_bf6e4edb76d24084bd12921a689126b9 = L.marker(
+                [43.388642, 145.78245800000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_f68c655f3f634230a186971a5687b372 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_e3640fa0ae404f73bff2fec8f375d2ff = $(`<div id="html_e3640fa0ae404f73bff2fec8f375d2ff" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/37" target="_blank">根室半島チャシ</a><br> 振り仮名：ねむろはんとうちゃし <br>別名：根室半島チャシ跡群［24ヵ所のチャシ跡の総称］ <br>住所：北海道根室市根室半島一帯（地図はヲンネモトチャシを示す） <br>築城者：不明 <br>遺構：横堀（空堀）［すべて］ <br><a href="https://cmeg.jp//w/castles/37" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/299516" width=150/></a></div>`)[0];
+            popup_f68c655f3f634230a186971a5687b372.setContent(html_e3640fa0ae404f73bff2fec8f375d2ff);
+        
+
+        marker_bf6e4edb76d24084bd12921a689126b9.bindPopup(popup_f68c655f3f634230a186971a5687b372)
+        ;
+
+        
+    
+    
+            var marker_a4af4e16755342feb00d9be7b969ce7e = L.marker(
+                [44.13062, 143.200412],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_e40c9afd14d24be9a4b6e61505c47c1c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_8ba5697d56374ae6bfed606c173b5e8d = $(`<div id="html_8ba5697d56374ae6bfed606c173b5e8d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/39" target="_blank">中立牛チャシ</a><br> 振り仮名：なかたつうしちゃし <br>別名：－ <br>住所：北海道紋別市上渚滑町中立牛350 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/39" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/280872" width=150/></a></div>`)[0];
+            popup_e40c9afd14d24be9a4b6e61505c47c1c.setContent(html_8ba5697d56374ae6bfed606c173b5e8d);
+        
+
+        marker_a4af4e16755342feb00d9be7b969ce7e.bindPopup(popup_e40c9afd14d24be9a4b6e61505c47c1c)
+        ;
+
+        
+    
+    
+            var marker_48f617061d004adba59ded7a88452f4d = L.marker(
+                [41.716378999999996, 141.005348],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_a2df9d9263344056b26b6ef12d5b7586 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_c9ef45ef8c6249fdbefadd446fabd50a = $(`<div id="html_c9ef45ef8c6249fdbefadd446fabd50a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/43" target="_blank">戸井館</a><br> 振り仮名：といたて <br>別名：－ <br>住所：北海道函館市館町3-1 <br>築城者：岡部氏？ <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/43" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/248179" width=150/></a></div>`)[0];
+            popup_a2df9d9263344056b26b6ef12d5b7586.setContent(html_c9ef45ef8c6249fdbefadd446fabd50a);
+        
+
+        marker_48f617061d004adba59ded7a88452f4d.bindPopup(popup_a2df9d9263344056b26b6ef12d5b7586)
+        ;
+
+        
+    
+    
+            var marker_5707671326054b1487152c0ac45ed21e = L.marker(
+                [42.502547, 142.037244],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_7b8fe5eb38604ec0a841dd11fc609068 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_532babb8caa940489f398d8eb19c6fd3 = $(`<div id="html_532babb8caa940489f398d8eb19c6fd3" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/44" target="_blank">トニカチャシ</a><br> 振り仮名：とにかちゃし <br>別名：－ <br>住所：北海道沙流郡日高町富川東5 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/44" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/296517" width=150/></a></div>`)[0];
+            popup_7b8fe5eb38604ec0a841dd11fc609068.setContent(html_532babb8caa940489f398d8eb19c6fd3);
+        
+
+        marker_5707671326054b1487152c0ac45ed21e.bindPopup(popup_7b8fe5eb38604ec0a841dd11fc609068)
+        ;
+
+        
+    
+    
+            var marker_cf7ab13e82124f969ee2759d9292b3bc = L.marker(
+                [43.166439000000004, 141.044836],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_e2bec898e93c4b4a8c797270fcc54573 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_1dc84d6a6a714e3285b4920fd9db8930 = $(`<div id="html_1dc84d6a6a714e3285b4920fd9db8930" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/45" target="_blank">桜チャシ</a><br> 振り仮名：さくらちゃし <br>別名：－ <br>住所：北海道小樽市望洋台1-3-168 <br>築城者：不明 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/45" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/274462" width=150/></a></div>`)[0];
+            popup_e2bec898e93c4b4a8c797270fcc54573.setContent(html_1dc84d6a6a714e3285b4920fd9db8930);
+        
+
+        marker_cf7ab13e82124f969ee2759d9292b3bc.bindPopup(popup_e2bec898e93c4b4a8c797270fcc54573)
+        ;
+
+        
+    
+    
+            var marker_d15206e79a854b02b5f43b11917b0ddb = L.marker(
+                [43.685067, 145.106023],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_2f14a70208074c66930123bfff2241aa = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_1af48420437445f88ce260988fedf407 = $(`<div id="html_1af48420437445f88ce260988fedf407" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/46" target="_blank">カリカリウスチャシ</a><br> 振り仮名：かりかりうすちゃし <br>別名：伊茶仁第一チャシ <br>住所：北海道標津郡標津町字伊茶仁57-7 <br>築城者：不明 <br>遺構：土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/46" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/281125" width=150/></a></div>`)[0];
+            popup_2f14a70208074c66930123bfff2241aa.setContent(html_1af48420437445f88ce260988fedf407);
+        
+
+        marker_d15206e79a854b02b5f43b11917b0ddb.bindPopup(popup_2f14a70208074c66930123bfff2241aa)
+        ;
+
+        
+    
+    
+            var marker_c79ed5610a8b4504b77b23f9f115f675 = L.marker(
+                [42.812327, 141.59569399999998],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_47238f110ddc4682b041573db010f106 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_7c51ac3a20104eda974f181df86bec37 = $(`<div id="html_7c51ac3a20104eda974f181df86bec37" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/47" target="_blank">ペサのチャシ</a><br> 振り仮名：ぺさのちゃし <br>別名：－ <br>住所：北海道千歳市蘭越37-2（国有林） <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/47" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/227956" width=150/></a></div>`)[0];
+            popup_47238f110ddc4682b041573db010f106.setContent(html_7c51ac3a20104eda974f181df86bec37);
+        
+
+        marker_c79ed5610a8b4504b77b23f9f115f675.bindPopup(popup_47238f110ddc4682b041573db010f106)
+        ;
+
+        
+    
+    
+            var marker_42b807d92cd348bda39cc8497008fcbb = L.marker(
+                [43.070753, 144.880887],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_13e27d676ba147cb8b2994faba1b27f2 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_c92b77e137244d1bb8084fc5774a4272 = $(`<div id="html_c92b77e137244d1bb8084fc5774a4272" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/48" target="_blank">神岩チャシ</a><br> 振り仮名：かむいいわちゃし <br>別名：神岩砦、神岩第1チャシ <br>住所：北海道厚岸郡厚岸町別寒辺牛字神岩他 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/48" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/279610" width=150/></a></div>`)[0];
+            popup_13e27d676ba147cb8b2994faba1b27f2.setContent(html_c92b77e137244d1bb8084fc5774a4272);
+        
+
+        marker_42b807d92cd348bda39cc8497008fcbb.bindPopup(popup_13e27d676ba147cb8b2994faba1b27f2)
+        ;
+
+        
+    
+    
+            var marker_fd702b8510424cc9a4ce90dcc6ff3300 = L.marker(
+                [42.825390999999996, 143.84295500000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_4d98a6b724a14fe6b892d2e22b066432 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_00d6ba4f884a4b978f9c082db8cebcbb = $(`<div id="html_00d6ba4f884a4b978f9c082db8cebcbb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/59" target="_blank">オタフンベチャシ</a><br> 振り仮名：おたふんべちゃし <br>別名：－ <br>住所：北海道十勝郡浦幌町字直別1-2 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/59" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/278438" width=150/></a></div>`)[0];
+            popup_4d98a6b724a14fe6b892d2e22b066432.setContent(html_00d6ba4f884a4b978f9c082db8cebcbb);
+        
+
+        marker_fd702b8510424cc9a4ce90dcc6ff3300.bindPopup(popup_4d98a6b724a14fe6b892d2e22b066432)
+        ;
+
+        
+    
+    
+            var marker_663eefb686334416b3134a9141d268b9 = L.marker(
+                [43.221077, 140.920164],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_53b284e693044911bb81ad739c6f3a3d = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_e24d0ab3588342b8b84fe63f1dd95cbc = $(`<div id="html_e24d0ab3588342b8b84fe63f1dd95cbc" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/60" target="_blank">ポンモイチャシ</a><br> 振り仮名：ぽんもいちゃし <br>別名：－ <br>住所：北海道小樽市塩谷1-269 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/60" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/308817" width=150/></a></div>`)[0];
+            popup_53b284e693044911bb81ad739c6f3a3d.setContent(html_e24d0ab3588342b8b84fe63f1dd95cbc);
+        
+
+        marker_663eefb686334416b3134a9141d268b9.bindPopup(popup_53b284e693044911bb81ad739c6f3a3d)
+        ;
+
+        
+    
+    
+            var marker_55d8738bbd234b8ebb8af64663081967 = L.marker(
+                [42.330674, 142.374559],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_a06f4e18422b4bb08776429afe9dc32c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_51d6363dc26040688fafb90894b6aac2 = $(`<div id="html_51d6363dc26040688fafb90894b6aac2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/61" target="_blank">シベチャリ川流域チャシ</a><br> 振り仮名：しべちゃりがわりゅういきちゃし <br>別名：シベチャリ川流域チャシ跡群及びアッペツチャシ跡［シベチャリチャシ・ホイナシリチャシ・メナチャシ・オチリシチャシ・ルイオピラチャシ・アッペツチャシ］ <br>住所：北海道日高郡新ひだか町静内真歌他（地図はシベチャリチャシを示す） <br>築城者：シャクシャイン［シベチャリチャシ］ <br>遺構：曲輪、空堀［シベチャリチャシ］ <br><a href="https://cmeg.jp//w/castles/61" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/296383" width=150/></a></div>`)[0];
+            popup_a06f4e18422b4bb08776429afe9dc32c.setContent(html_51d6363dc26040688fafb90894b6aac2);
+        
+
+        marker_55d8738bbd234b8ebb8af64663081967.bindPopup(popup_a06f4e18422b4bb08776429afe9dc32c)
+        ;
+
+        
+    
+    
+            var marker_852b50c945b54df19332e3acb2e2835e = L.marker(
+                [42.423312, 139.852073],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_e836178a4f804f47b8734ceb2725986e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_ad0c9df679194ae386f140c4771a221e = $(`<div id="html_ad0c9df679194ae386f140c4771a221e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/62" target="_blank">瀬田内チャシ</a><br> 振り仮名：せたなちゃし <br>別名：－ <br>住所：北海道久遠郡せたな町瀬棚区南川2 <br>築城者：多那嶮？ <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/62" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/296783" width=150/></a></div>`)[0];
+            popup_e836178a4f804f47b8734ceb2725986e.setContent(html_ad0c9df679194ae386f140c4771a221e);
+        
+
+        marker_852b50c945b54df19332e3acb2e2835e.bindPopup(popup_e836178a4f804f47b8734ceb2725986e)
+        ;
+
+        
+    
+    
+            var marker_ab93a2d88b694a4baaa9eddc8070ad9c = L.marker(
+                [42.123992, 140.677827],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_2a0743c6d3664e28810858eaa351ff45 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b810bdae004e4a5e890ded7f2c6c4bcb = $(`<div id="html_b810bdae004e4a5e890ded7f2c6c4bcb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/63" target="_blank">砂原陣屋</a><br> 振り仮名：さわらじんや <br>別名：東蝦夷地南部藩砂原陣屋 <br>住所：北海道茅部郡森町砂原3 <br>築城者：南部藩 <br>遺構：土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/63" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/274469" width=150/></a></div>`)[0];
+            popup_2a0743c6d3664e28810858eaa351ff45.setContent(html_b810bdae004e4a5e890ded7f2c6c4bcb);
+        
+
+        marker_ab93a2d88b694a4baaa9eddc8070ad9c.bindPopup(popup_2a0743c6d3664e28810858eaa351ff45)
+        ;
+
+        
+    
+    
+            var marker_7471fb8603d4441483787d3aab001525 = L.marker(
+                [42.579344, 140.620002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_2558df49ef3449c58c0349b6c27b38ca = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_361f5b58be914e30969c298b69608d46 = $(`<div id="html_361f5b58be914e30969c298b69608d46" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/69" target="_blank">カムイチャシ</a><br> 振り仮名：かむいちゃし <br>別名：－ <br>住所：北海道虻田郡豊浦町大岸（カムイチャシ史跡公園） <br>築城者：不明 <br>遺構：曲輪、堀切 <br><a href="https://cmeg.jp//w/castles/69" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/292896" width=150/></a></div>`)[0];
+            popup_2558df49ef3449c58c0349b6c27b38ca.setContent(html_361f5b58be914e30969c298b69608d46);
+        
+
+        marker_7471fb8603d4441483787d3aab001525.bindPopup(popup_2558df49ef3449c58c0349b6c27b38ca)
+        ;
+
+        
+    
+    
+            var marker_46a4c9e52ce741dc9ceb35c3abfa1eb6 = L.marker(
+                [43.476065999999996, 142.269734],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_4a27e79bf5ce44bc98c1776f571eb39b = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_7beadf9595f54f7b8d2875ea6646b0af = $(`<div id="html_7beadf9595f54f7b8d2875ea6646b0af" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/70" target="_blank">野花南オチノンベチャシ</a><br> 振り仮名：のかなんおちのんべちゃし <br>別名：－ <br>住所：北海道芦別市野花南町1282-5地先河川敷 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/70" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/228248" width=150/></a></div>`)[0];
+            popup_4a27e79bf5ce44bc98c1776f571eb39b.setContent(html_7beadf9595f54f7b8d2875ea6646b0af);
+        
+
+        marker_46a4c9e52ce741dc9ceb35c3abfa1eb6.bindPopup(popup_4a27e79bf5ce44bc98c1776f571eb39b)
+        ;
+
+        
+    
+    
+            var marker_b1ed17c179764d64b2390f47ae3e3ebd = L.marker(
+                [42.928822, 141.550667],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_7e8718274ae64242b4e01f1a167959ab = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_e80ba9b013be4aa6837ee60f349dd278 = $(`<div id="html_e80ba9b013be4aa6837ee60f349dd278" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/74" target="_blank">島松川左岸チャシ</a><br> 振り仮名：しままつがわさがんちゃし <br>別名：－ <br>住所：北海道北広島市島松44-1 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/74" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/227942" width=150/></a></div>`)[0];
+            popup_7e8718274ae64242b4e01f1a167959ab.setContent(html_e80ba9b013be4aa6837ee60f349dd278);
+        
+
+        marker_b1ed17c179764d64b2390f47ae3e3ebd.bindPopup(popup_7e8718274ae64242b4e01f1a167959ab)
+        ;
+
+        
+    
+    
+            var marker_e1bedac984f74ab49cb627b69275487e = L.marker(
+                [42.976918, 141.54396599999998],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_7c7f18500735448f9a5cdb73911deaad = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_798f6d79d8e34852b25a570c37a333e7 = $(`<div id="html_798f6d79d8e34852b25a570c37a333e7" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/75" target="_blank">中の沢チャシ</a><br> 振り仮名：なかのさわちゃし <br>別名：－ <br>住所：北海道北広島市中の沢248 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/75" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/227935" width=150/></a></div>`)[0];
+            popup_7c7f18500735448f9a5cdb73911deaad.setContent(html_798f6d79d8e34852b25a570c37a333e7);
+        
+
+        marker_e1bedac984f74ab49cb627b69275487e.bindPopup(popup_7c7f18500735448f9a5cdb73911deaad)
+        ;
+
+        
+    
+    
+            var marker_c2d131f40bb94ee99026919d63c0d281 = L.marker(
+                [42.881834000000005, 141.552967],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_e5dce137e9274ca99a614e9a4a0f0986 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_69293e5abc5c48638f243c97d6d410f5 = $(`<div id="html_69293e5abc5c48638f243c97d6d410f5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/77" target="_blank">茂漁チャシ</a><br> 振り仮名：もいざりちゃし <br>別名：－ <br>住所：北海道恵庭市柏木町434-1他 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/77" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/227945" width=150/></a></div>`)[0];
+            popup_e5dce137e9274ca99a614e9a4a0f0986.setContent(html_69293e5abc5c48638f243c97d6d410f5);
+        
+
+        marker_c2d131f40bb94ee99026919d63c0d281.bindPopup(popup_e5dce137e9274ca99a614e9a4a0f0986)
+        ;
+
+        
+    
+    
+            var marker_9eabdf9d60df4f2c959f2b52d190efa6 = L.marker(
+                [42.249862, 142.565701],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_5f202c97c91448a3a41b3c334f6b442e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_c493515bf13849d597c330a29d02d1c9 = $(`<div id="html_c493515bf13849d597c330a29d02d1c9" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/78" target="_blank">ショップチャシ</a><br> 振り仮名：しょっぷちゃし <br>別名：－ <br>住所：北海道日高郡新ひだか町三石旭町139 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/78" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/294440" width=150/></a></div>`)[0];
+            popup_5f202c97c91448a3a41b3c334f6b442e.setContent(html_c493515bf13849d597c330a29d02d1c9);
+        
+
+        marker_9eabdf9d60df4f2c959f2b52d190efa6.bindPopup(popup_5f202c97c91448a3a41b3c334f6b442e)
+        ;
+
+        
+    
+    
+            var marker_1fcc267e71264bddb1381c5ef616c153 = L.marker(
+                [43.041317, 140.508532],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_8e2a2a0e03c846b4a17e508f958a245b = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_9df7802b1a384db89640cffd8efb3881 = $(`<div id="html_9df7802b1a384db89640cffd8efb3881" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/79" target="_blank">茶津チャシ</a><br> 振り仮名：ちゃつちゃし <br>別名：－ <br>住所：北海道古宇郡泊村大字堀株村字ヘロカルウス山ノ上132 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/79" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/185915" width=150/></a></div>`)[0];
+            popup_8e2a2a0e03c846b4a17e508f958a245b.setContent(html_9df7802b1a384db89640cffd8efb3881);
+        
+
+        marker_1fcc267e71264bddb1381c5ef616c153.bindPopup(popup_8e2a2a0e03c846b4a17e508f958a245b)
+        ;
+
+        
+    
+    
+            var marker_30ee116027b14ac5953d9d6bee0b696e = L.marker(
+                [42.474142, 140.858224],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_7ffbd74cb74c4be5bc55b8462e3f494e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_5588b139e3c149928522553f34fd607c = $(`<div id="html_5588b139e3c149928522553f34fd607c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/82" target="_blank">館山チャシ</a><br> 振り仮名：たてやまちゃし <br>別名：－ <br>住所：北海道伊達市館山町7番地 <br>築城者：不明 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/82" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/296522" width=150/></a></div>`)[0];
+            popup_7ffbd74cb74c4be5bc55b8462e3f494e.setContent(html_5588b139e3c149928522553f34fd607c);
+        
+
+        marker_30ee116027b14ac5953d9d6bee0b696e.bindPopup(popup_7ffbd74cb74c4be5bc55b8462e3f494e)
+        ;
+
+        
+    
+    
+            var marker_2965a559762744e98922f29239d1e650 = L.marker(
+                [43.450817, 141.827354],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_c55a7f51da7a49248269023a1b8b331c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_f5b6dd3b0b154067bfdcc70f54d6c73a = $(`<div id="html_f5b6dd3b0b154067bfdcc70f54d6c73a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/86" target="_blank">鶴沼チャシ</a><br> 振り仮名：つるぬまちゃし <br>別名：－ <br>住所：北海道樺戸郡浦臼町字黄臼内 <br>築城者：ハウカセ？ <br>遺構：土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/86" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/274123" width=150/></a></div>`)[0];
+            popup_c55a7f51da7a49248269023a1b8b331c.setContent(html_f5b6dd3b0b154067bfdcc70f54d6c73a);
+        
+
+        marker_2965a559762744e98922f29239d1e650.bindPopup(popup_c55a7f51da7a49248269023a1b8b331c)
+        ;
+
+        
+    
+    
+            var marker_8ce55ee2443140e6853274e8c35aad44 = L.marker(
+                [42.520994, 140.373423],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_6d3e66cfa1974f1eb6dda4ce5660d667 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_1a2a8a36c42247b5835634f01d7794ae = $(`<div id="html_1a2a8a36c42247b5835634f01d7794ae" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/87" target="_blank">ヲシャマンベ陣屋</a><br> 振り仮名：おしゃまんべじんや <br>別名：南部藩ヲシャマンベ陣屋、ヲシャマンベ分屯所 <br>住所：北海道山越郡長万部町陣屋町 <br>築城者：南部藩 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/87" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/280344" width=150/></a></div>`)[0];
+            popup_6d3e66cfa1974f1eb6dda4ce5660d667.setContent(html_1a2a8a36c42247b5835634f01d7794ae);
+        
+
+        marker_8ce55ee2443140e6853274e8c35aad44.bindPopup(popup_6d3e66cfa1974f1eb6dda4ce5660d667)
+        ;
+
+        
+    
+    
+            var marker_a2e4f6dc8fc7468a82eee24493850c56 = L.marker(
+                [41.770109999999995, 140.605169],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_0ade362cc24748a89a43829d0ba8cea2 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_5643e4a698564bc29f3793ff2f73bd63 = $(`<div id="html_5643e4a698564bc29f3793ff2f73bd63" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/91" target="_blank">茂別館</a><br> 振り仮名：もべつだて <br>別名：－ <br>住所：北海道北斗市矢不来129他 <br>築城者：安東氏、茂別氏 <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/91" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/274976" width=150/></a></div>`)[0];
+            popup_0ade362cc24748a89a43829d0ba8cea2.setContent(html_5643e4a698564bc29f3793ff2f73bd63);
+        
+
+        marker_a2e4f6dc8fc7468a82eee24493850c56.bindPopup(popup_0ade362cc24748a89a43829d0ba8cea2)
+        ;
+
+        
+    
+    
+            var marker_6b5a0bf91d00475eb4414f09b7ff040a = L.marker(
+                [43.464008, 143.735504],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_2fd083aa8d23451c9a4fb1e4581c585a = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_ae676d8bc00a4b55a6e682b4fa744d1b = $(`<div id="html_ae676d8bc00a4b55a6e682b4fa744d1b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/93" target="_blank">ユクエピラチャシ</a><br> 振り仮名：ゆくえぴらちゃし <br>別名：カネランチャシ？ <br>住所：北海道足寄郡陸別町トマム2-2他 <br>築城者：カネラン？ <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/93" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/279535" width=150/></a></div>`)[0];
+            popup_2fd083aa8d23451c9a4fb1e4581c585a.setContent(html_ae676d8bc00a4b55a6e682b4fa744d1b);
+        
+
+        marker_6b5a0bf91d00475eb4414f09b7ff040a.bindPopup(popup_2fd083aa8d23451c9a4fb1e4581c585a)
+        ;
+
+        
+    
+    
+            var marker_a25c8ce59c154907a9545d91661b3a5a = L.marker(
+                [43.069496, 141.283859],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_fd044c8af5eb460399b1bc47eefa038e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a79b29ef616c445d974ca046a6e40065 = $(`<div id="html_a79b29ef616c445d974ca046a6e40065" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/94" target="_blank">発寒チャシ</a><br> 振り仮名：はっさむちゃし <br>別名：－ <br>住所：北海道札幌市西区山の手7条8 <br>築城者：不明 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/94" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/287017" width=150/></a></div>`)[0];
+            popup_fd044c8af5eb460399b1bc47eefa038e.setContent(html_a79b29ef616c445d974ca046a6e40065);
+        
+
+        marker_a25c8ce59c154907a9545d91661b3a5a.bindPopup(popup_fd044c8af5eb460399b1bc47eefa038e)
+        ;
+
+        
+    
+    
+            var marker_4db2f1adcedf4e88b245b5515bed0f6e = L.marker(
+                [43.020807, 141.364575],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_00e56a2456e5466181dfb0fe9d478427 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_886784d8f7a44ad8ad8f9707d38d153e = $(`<div id="html_886784d8f7a44ad8ad8f9707d38d153e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/95" target="_blank">天神山チャシ</a><br> 振り仮名：てんじんやまちゃし <br>別名：－ <br>住所：北海道札幌市豊平区平岸1-18-1 <br>築城者：不明 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/95" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/228115" width=150/></a></div>`)[0];
+            popup_00e56a2456e5466181dfb0fe9d478427.setContent(html_886784d8f7a44ad8ad8f9707d38d153e);
+        
+
+        marker_4db2f1adcedf4e88b245b5515bed0f6e.bindPopup(popup_00e56a2456e5466181dfb0fe9d478427)
+        ;
+
+        
+    
+    
+            var marker_c4f07e01f46148ba802f518c44532130 = L.marker(
+                [43.120698, 141.526485],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_b434f059113d40408bc0c6d576aebc5b = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_9fba24150b084602b4d7a86794bb8630 = $(`<div id="html_9fba24150b084602b4d7a86794bb8630" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/96" target="_blank">江別第2チャシ</a><br> 振り仮名：えべつだいにちゃし <br>別名：－ <br>住所：北海道江別市対雁124 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/96" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/324872" width=150/></a></div>`)[0];
+            popup_b434f059113d40408bc0c6d576aebc5b.setContent(html_9fba24150b084602b4d7a86794bb8630);
+        
+
+        marker_c4f07e01f46148ba802f518c44532130.bindPopup(popup_b434f059113d40408bc0c6d576aebc5b)
+        ;
+
+        
+    
+    
+            var marker_a5d2b7f57b2e41fba5b83f4c7c0b1a2a = L.marker(
+                [44.735215000000004, 142.043585],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_145efadb39d4447a8a2ebe79dea57d5c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_78c8fbba2bd5477c814128b40c4f1260 = $(`<div id="html_78c8fbba2bd5477c814128b40c4f1260" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/99" target="_blank">オフイチャシ</a><br> 振り仮名：おふいちゃし <br>別名：－ <br>住所：北海道中川郡中川町安川 <br>築城者：不明 <br>遺構：土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/99" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/280606" width=150/></a></div>`)[0];
+            popup_145efadb39d4447a8a2ebe79dea57d5c.setContent(html_78c8fbba2bd5477c814128b40c4f1260);
+        
+
+        marker_a5d2b7f57b2e41fba5b83f4c7c0b1a2a.bindPopup(popup_145efadb39d4447a8a2ebe79dea57d5c)
+        ;
+
+        
+    
+    
+            var marker_58607bea40ad46f980b926ed0726c3ab = L.marker(
+                [43.828998999999996, 141.473591],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_880ac32199fd495289a374489afa7fa3 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3363bab90b684a169b230ac3f978c56c = $(`<div id="html_3363bab90b684a169b230ac3f978c56c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/100" target="_blank">大別苅カムイトチャシ</a><br> 振り仮名：おおべつかりかむいとちゃし <br>別名：－ <br>住所：北海道増毛郡増毛町別苅1408-2 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/100" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/203766" width=150/></a></div>`)[0];
+            popup_880ac32199fd495289a374489afa7fa3.setContent(html_3363bab90b684a169b230ac3f978c56c);
+        
+
+        marker_58607bea40ad46f980b926ed0726c3ab.bindPopup(popup_880ac32199fd495289a374489afa7fa3)
+        ;
+
+        
+    
+    
+            var marker_3ac991e2f0b642c7a62121d5aff03c45 = L.marker(
+                [43.416829, 144.81493899999998],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_2b36399dd5884e508a119ffe0a73be8f = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a3840bad5efb496b9c42f3a60440633b = $(`<div id="html_a3840bad5efb496b9c42f3a60440633b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/103" target="_blank">西春別1チャシ</a><br> 振り仮名：にししゅんべついちちゃし <br>別名：－ <br>住所：北海道野付郡別海町西春別130-5 <br>築城者：不明 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/103" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/221837" width=150/></a></div>`)[0];
+            popup_2b36399dd5884e508a119ffe0a73be8f.setContent(html_a3840bad5efb496b9c42f3a60440633b);
+        
+
+        marker_3ac991e2f0b642c7a62121d5aff03c45.bindPopup(popup_2b36399dd5884e508a119ffe0a73be8f)
+        ;
+
+        
+    
+    
+            var marker_c754761794044617bd256d033dbd5dda = L.marker(
+                [42.913722, 141.963471],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_c98c5364e6854446a1cdf75922b22e84 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_15d960ae485c46c7900e292cfa2218dd = $(`<div id="html_15d960ae485c46c7900e292cfa2218dd" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/104" target="_blank">滝の上チャシ</a><br> 振り仮名：たきのうえちゃし <br>別名：－ <br>住所：北海道夕張市滝ノ上 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/104" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/228266" width=150/></a></div>`)[0];
+            popup_c98c5364e6854446a1cdf75922b22e84.setContent(html_15d960ae485c46c7900e292cfa2218dd);
+        
+
+        marker_c754761794044617bd256d033dbd5dda.bindPopup(popup_c98c5364e6854446a1cdf75922b22e84)
+        ;
+
+        
+    
+    
+            var marker_9024f8fc1edf46bebf0d88cb0d0cf634 = L.marker(
+                [43.84391, 142.45760900000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_21429bae38e045b4bbf34aa1ce4861fd = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_14067884308c41e8bebe38e7947efae4 = $(`<div id="html_14067884308c41e8bebe38e7947efae4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/105" target="_blank">突哨山チャシ</a><br> 振り仮名：とっしょうざんちゃし <br>別名：－ <br>住所：北海道旭川市東山1431-1 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/105" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/228223" width=150/></a></div>`)[0];
+            popup_21429bae38e045b4bbf34aa1ce4861fd.setContent(html_14067884308c41e8bebe38e7947efae4);
+        
+
+        marker_9024f8fc1edf46bebf0d88cb0d0cf634.bindPopup(popup_21429bae38e045b4bbf34aa1ce4861fd)
+        ;
+
+        
+    
+    
+            var marker_3bcecf0583e3438aa4dc0e50f4fd5349 = L.marker(
+                [44.068187, 145.243897],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_edf09172bb1c45faaa0af712954924d2 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_7b2ff071ff304e438bbfd712da1b84ea = $(`<div id="html_7b2ff071ff304e438bbfd712da1b84ea" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/106" target="_blank">サシルイ岬チャシ</a><br> 振り仮名：さしるいみさきちゃし <br>別名：－ <br>住所：北海道目梨郡羅臼町字海岸町11 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/106" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/281109" width=150/></a></div>`)[0];
+            popup_edf09172bb1c45faaa0af712954924d2.setContent(html_7b2ff071ff304e438bbfd712da1b84ea);
+        
+
+        marker_3bcecf0583e3438aa4dc0e50f4fd5349.bindPopup(popup_edf09172bb1c45faaa0af712954924d2)
+        ;
+
+        
+    
+    
+            var marker_d81b1278bba54b0d98467dd3d4383638 = L.marker(
+                [44.320886, 142.55158799999998],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_a65f183544c446689e11d6624d9b17e1 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_4039c2bb38414850b5919162d2f1975b = $(`<div id="html_4039c2bb38414850b5919162d2f1975b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/107" target="_blank">上名寄チャシ</a><br> 振り仮名：かみなよろちゃし <br>別名：－ <br>住所：北海道上川郡下川町上名寄11 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/107" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/280600" width=150/></a></div>`)[0];
+            popup_a65f183544c446689e11d6624d9b17e1.setContent(html_4039c2bb38414850b5919162d2f1975b);
+        
+
+        marker_d81b1278bba54b0d98467dd3d4383638.bindPopup(popup_a65f183544c446689e11d6624d9b17e1)
+        ;
+
+        
+    
+    
+            var marker_71361faa51454a2ea4171c08f73bfb87 = L.marker(
+                [45.194654, 141.57347099999998],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_4cf755805e924f1f938f17b9a991732e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a3549c1e587c4c7f85e24bb030b0dc13 = $(`<div id="html_a3549c1e587c4c7f85e24bb030b0dc13" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/108" target="_blank">オネトマナイ川左岸チャシ</a><br> 振り仮名：おねとまないがわさがんちゃし <br>別名：－ <br>住所：北海道稚内市大字抜海村字オネトマナイ234-5 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/108" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/287288" width=150/></a></div>`)[0];
+            popup_4cf755805e924f1f938f17b9a991732e.setContent(html_a3549c1e587c4c7f85e24bb030b0dc13);
+        
+
+        marker_71361faa51454a2ea4171c08f73bfb87.bindPopup(popup_4cf755805e924f1f938f17b9a991732e)
+        ;
+
+        
+    
+    
+            var marker_116c8ed75c0a427792ee1dcc43d13a95 = L.marker(
+                [45.045437, 142.50330300000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_b395e982d8ab463c9d8327852411f45f = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_6a66b530d5d049d4896f6452cf184c9e = $(`<div id="html_6a66b530d5d049d4896f6452cf184c9e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/110" target="_blank">ヤムワッカチャシ</a><br> 振り仮名：やむわっかちゃし <br>別名：－ <br>住所：北海道枝幸郡枝幸町目梨泊 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/110" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/280631" width=150/></a></div>`)[0];
+            popup_b395e982d8ab463c9d8327852411f45f.setContent(html_6a66b530d5d049d4896f6452cf184c9e);
+        
+
+        marker_116c8ed75c0a427792ee1dcc43d13a95.bindPopup(popup_b395e982d8ab463c9d8327852411f45f)
+        ;
+
+        
+    
+    
+            var marker_ed2bffb9aea34c029df17d42c68f4dea = L.marker(
+                [43.144186, 142.845465],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_29df55a1ebbe4c5eb5b687c61f7775a6 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_12f9d16087d7411ca7b8d0a2d4a9dc66 = $(`<div id="html_12f9d16087d7411ca7b8d0a2d4a9dc66" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/114" target="_blank">新内チャシ</a><br> 振り仮名：にいないちゃし <br>別名：－ <br>住所：北海道上川郡新得町新内 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/114" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/221821" width=150/></a></div>`)[0];
+            popup_29df55a1ebbe4c5eb5b687c61f7775a6.setContent(html_12f9d16087d7411ca7b8d0a2d4a9dc66);
+        
+
+        marker_ed2bffb9aea34c029df17d42c68f4dea.bindPopup(popup_29df55a1ebbe4c5eb5b687c61f7775a6)
+        ;
+
+        
+    
+    
+            var marker_73da452a16944ff484ef74863fa2218b = L.marker(
+                [43.080197, 141.747574],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_e1103618ffc942b9a40bda48c8fb2cf5 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_e8ed767916ca4806abb2bbf8cce9e0e8 = $(`<div id="html_e8ed767916ca4806abb2bbf8cce9e0e8" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/115" target="_blank">クッタリチャシ</a><br> 振り仮名：くったりちゃし <br>別名：－ <br>住所：北海道岩見沢市栗沢町栗丘101-1 <br>築城者：不明 <br>遺構：不明 <br><a href="https://cmeg.jp//w/castles/115" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328959" width=150/></a></div>`)[0];
+            popup_e1103618ffc942b9a40bda48c8fb2cf5.setContent(html_e8ed767916ca4806abb2bbf8cce9e0e8);
+        
+
+        marker_73da452a16944ff484ef74863fa2218b.bindPopup(popup_e1103618ffc942b9a40bda48c8fb2cf5)
+        ;
+
+        
+    
+    
+            var marker_9b9e78ada3b644ef98dca41ac35c395e = L.marker(
+                [42.727218, 142.347258],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_3c02b66530404ef487af77b936b924c8 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_0d21ace6a8e44298a863b137799dd485 = $(`<div id="html_0d21ace6a8e44298a863b137799dd485" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/117" target="_blank">オタリオマップチャシ</a><br> 振り仮名：おたりおまっぷちゃし <br>別名：－ <br>住所：北海道沙流郡平取町字岩知志 <br>築城者：不明 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/117" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/221671" width=150/></a></div>`)[0];
+            popup_3c02b66530404ef487af77b936b924c8.setContent(html_0d21ace6a8e44298a863b137799dd485);
+        
+
+        marker_9b9e78ada3b644ef98dca41ac35c395e.bindPopup(popup_3c02b66530404ef487af77b936b924c8)
+        ;
+
+        
+    
+    
+            var marker_f2d8bdb39afc4d41bd46c545e67238cc = L.marker(
+                [42.287277, 143.30878700000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_95ea2a01fb1640429576d9d873581c22 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_0e2e28b1e3904f7aa87bc8a093ec8cf0 = $(`<div id="html_0e2e28b1e3904f7aa87bc8a093ec8cf0" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/118" target="_blank">トカチ陣屋</a><br> 振り仮名：とかちじんや <br>別名：仙台藩トカチ陣屋 <br>住所：北海道広尾郡広尾町西4条 <br>築城者：仙台藩 <br>遺構：土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/118" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/169504" width=150/></a></div>`)[0];
+            popup_95ea2a01fb1640429576d9d873581c22.setContent(html_0e2e28b1e3904f7aa87bc8a093ec8cf0);
+        
+
+        marker_f2d8bdb39afc4d41bd46c545e67238cc.bindPopup(popup_95ea2a01fb1640429576d9d873581c22)
+        ;
+
+        
+    
+    
+            var marker_95dbc561055d442fb8471fc1601c9b50 = L.marker(
+                [43.915127000000005, 144.66917800000002],
+                {"parseHtml": true}
+            ).addTo(map_94258a322f884fc3b296ee4a8fb249ec);
+        
+    
+        var popup_01bc405ca02642ca928a4e3bf7df1bf1 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b0d7a94d94b0442f8fbc1e8f5d080859 = $(`<div id="html_b0d7a94d94b0442f8fbc1e8f5d080859" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/119" target="_blank">シャリ陣屋</a><br> 振り仮名：しゃりじんや <br>別名：津軽藩シャリ陣屋 <br>住所：北海道斜里郡斜里町52番地24 <br>築城者：津軽藩 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/119" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/280960" width=150/></a></div>`)[0];
+            popup_01bc405ca02642ca928a4e3bf7df1bf1.setContent(html_b0d7a94d94b0442f8fbc1e8f5d080859);
+        
+
+        marker_95dbc561055d442fb8471fc1601c9b50.bindPopup(popup_01bc405ca02642ca928a4e3bf7df1bf1)
+        ;
+
+        
+    
+</script>
