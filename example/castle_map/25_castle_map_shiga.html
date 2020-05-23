@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1d83891e10fb407ca3bcf915829c821a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1d83891e10fb407ca3bcf915829c821a" ></div>
+        
+</body>
+<script>    
+    
+            var map_1d83891e10fb407ca3bcf915829c821a = L.map(
+                "map_1d83891e10fb407ca3bcf915829c821a",
+                {
+                    center: [35.004532, 135.868588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2427e995a95648538f6905794896f7b9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+            var marker_8b1145884cf64028b6e1d01bfec351ad = L.marker(
+                [35.070463000000004, 135.840934],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_774466cbebde41d69b354b8d29c29c1c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_207d44e34e3d4a2c8e381d432719639e = $(`<div id="html_207d44e34e3d4a2c8e381d432719639e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6154" target="_blank">延暦寺</a><br> 振り仮名：えんりゃくじ <br>別名：比叡山、叡山 <br>住所：滋賀県大津市坂本本町4220 <br>築城者：延暦寺山門衆 <br>遺構：根本中堂、文殊楼、大講堂、戒壇院他 <br><a href="https://cmeg.jp//w/castles/6154" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329817" width=150/></a></div>`)[0];
+            popup_774466cbebde41d69b354b8d29c29c1c.setContent(html_207d44e34e3d4a2c8e381d432719639e);
+        
+
+        marker_8b1145884cf64028b6e1d01bfec351ad.bindPopup(popup_774466cbebde41d69b354b8d29c29c1c)
+        ;
+
+        
+    
+    
+            var marker_c7bc2505498c4811952c57a1bf2f9663 = L.marker(
+                [34.926023, 135.923082],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_e4700686b9fa4b1aad5807dc8ecc0728 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_266075b7046f4f6ba0b12c3213864431 = $(`<div id="html_266075b7046f4f6ba0b12c3213864431" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6155" target="_blank">関津城</a><br> 振り仮名：せきのつじょう <br>別名：－ <br>住所：滋賀県大津市田上関津町 <br>築城者：宇野氏 <br>遺構：曲輪、土塁、竪堀、堀切 <br><a href="https://cmeg.jp//w/castles/6155" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/277562" width=150/></a></div>`)[0];
+            popup_e4700686b9fa4b1aad5807dc8ecc0728.setContent(html_266075b7046f4f6ba0b12c3213864431);
+        
+
+        marker_c7bc2505498c4811952c57a1bf2f9663.bindPopup(popup_e4700686b9fa4b1aad5807dc8ecc0728)
+        ;
+
+        
+    
+    
+            var marker_3db633edd3124db6b79a5faf716e5c1a = L.marker(
+                [35.012057, 135.86428899999999],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_293174655d4c405da84dc4c90a76785c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b97146374bf04083a7eceb5aba4f3ad8 = $(`<div id="html_b97146374bf04083a7eceb5aba4f3ad8" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6156" target="_blank">大津城</a><br> 振り仮名：おおつじょう <br>別名：雲浜城 <br>住所：滋賀県大津市浜大津 <br>築城者：浅野氏、増田氏、新庄氏、京極氏 <br>遺構：石垣 <br><a href="https://cmeg.jp//w/castles/6156" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330156" width=150/></a></div>`)[0];
+            popup_293174655d4c405da84dc4c90a76785c.setContent(html_b97146374bf04083a7eceb5aba4f3ad8);
+        
+
+        marker_3db633edd3124db6b79a5faf716e5c1a.bindPopup(popup_293174655d4c405da84dc4c90a76785c)
+        ;
+
+        
+    
+    
+            var marker_597bc80081164f3da91d66511609d758 = L.marker(
+                [35.060009, 135.87928300000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_0ad85e4467fd45a38a54019c51e9f222 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_f048eec1f09b48fab52afa325b86bbb8 = $(`<div id="html_f048eec1f09b48fab52afa325b86bbb8" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6157" target="_blank">坂本城</a><br> 振り仮名：さかもとじょう <br>別名：－ <br>住所：滋賀県大津市下阪本3 <br>築城者：明智氏、丹羽氏、杉原氏、浅野氏 <br>遺構：（発掘調査：石垣、井戸、暗渠、建物礎石） <br><a href="https://cmeg.jp//w/castles/6157" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329972" width=150/></a></div>`)[0];
+            popup_0ad85e4467fd45a38a54019c51e9f222.setContent(html_f048eec1f09b48fab52afa325b86bbb8);
+        
+
+        marker_597bc80081164f3da91d66511609d758.bindPopup(popup_0ad85e4467fd45a38a54019c51e9f222)
+        ;
+
+        
+    
+    
+            var marker_a7fecd02300f41f4825ae929e3f135ef = L.marker(
+                [35.112792999999996, 135.90709099999998],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_8049be0246234d2aaf30e5b4995ca729 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_9d30861b10394a5fb0f5e6a36bac187d = $(`<div id="html_9d30861b10394a5fb0f5e6a36bac187d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6158" target="_blank">衣川城</a><br> 振り仮名：きぬがわじょう <br>別名：－ <br>住所：滋賀県大津市衣川2 <br>築城者：山内氏 <br>遺構：（発掘調査：溝跡、建物跡） <br><a href="https://cmeg.jp//w/castles/6158" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328505" width=150/></a></div>`)[0];
+            popup_8049be0246234d2aaf30e5b4995ca729.setContent(html_9d30861b10394a5fb0f5e6a36bac187d);
+        
+
+        marker_a7fecd02300f41f4825ae929e3f135ef.bindPopup(popup_8049be0246234d2aaf30e5b4995ca729)
+        ;
+
+        
+    
+    
+            var marker_05f943f9428e4708896733ce44648604 = L.marker(
+                [34.970774, 135.90681],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_fcb188b197924640ba192b58094ccd7a = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_392a728bef3441828ad72c1eb8cf55aa = $(`<div id="html_392a728bef3441828ad72c1eb8cf55aa" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6159" target="_blank">瀬田城</a><br> 振り仮名：せたじょう <br>別名：－ <br>住所：滋賀県大津市瀬田2-13（地図は石碑の場所を示す） <br>築城者：山岡氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/6159" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/313868" width=150/></a></div>`)[0];
+            popup_fcb188b197924640ba192b58094ccd7a.setContent(html_392a728bef3441828ad72c1eb8cf55aa);
+        
+
+        marker_05f943f9428e4708896733ce44648604.bindPopup(popup_fcb188b197924640ba192b58094ccd7a)
+        ;
+
+        
+    
+    
+            var marker_d7c7ec5ee18b47d88cc1171b463e7852 = L.marker(
+                [34.995799, 135.89519199999998],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_6303370bb9a74ef78fdbd7691452b24f = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a49997c5eedd4042a9409da5f7160942 = $(`<div id="html_a49997c5eedd4042a9409da5f7160942" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6160" target="_blank">膳所城</a><br> 振り仮名：ぜぜじょう <br>別名：石鹿城、望湖城 <br>住所：滋賀県大津市丸の内町 <br>築城者：戸田氏、本多氏 <br>遺構：石垣、移築櫓、移築門 <br><a href="https://cmeg.jp//w/castles/6160" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/324822" width=150/></a></div>`)[0];
+            popup_6303370bb9a74ef78fdbd7691452b24f.setContent(html_a49997c5eedd4042a9409da5f7160942);
+        
+
+        marker_d7c7ec5ee18b47d88cc1171b463e7852.bindPopup(popup_6303370bb9a74ef78fdbd7691452b24f)
+        ;
+
+        
+    
+    
+            var marker_e6b70faf2bf44a71a5f8e609932ef5c3 = L.marker(
+                [35.033688, 135.846363],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_500f40b052b44db3aa113f710fc59e97 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_f68ab31b0f0945868524303e981c8849 = $(`<div id="html_f68ab31b0f0945868524303e981c8849" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6161" target="_blank">宇佐山城</a><br> 振り仮名：うさやまじょう <br>別名：志賀城、志賀の城、志賀要害 <br>住所：滋賀県大津市錦織町487 <br>築城者：森氏、明智氏 <br>遺構：曲輪、石垣、櫓台 <br><a href="https://cmeg.jp//w/castles/6161" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/312736" width=150/></a></div>`)[0];
+            popup_500f40b052b44db3aa113f710fc59e97.setContent(html_f68ab31b0f0945868524303e981c8849);
+        
+
+        marker_e6b70faf2bf44a71a5f8e609932ef5c3.bindPopup(popup_500f40b052b44db3aa113f710fc59e97)
+        ;
+
+        
+    
+    
+            var marker_1f2fef30659c4ae4a9ba3834e3c3cbc5 = L.marker(
+                [35.055777, 135.851526],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_1bfc14746e834497b37cf99b2cb57949 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_6c2ef3d6df454df18f5ca1ee05323d73 = $(`<div id="html_6c2ef3d6df454df18f5ca1ee05323d73" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6162" target="_blank">壺笠山城</a><br> 振り仮名：つぼかさやまじょう <br>別名：壷笠山城 <br>住所：滋賀県大津市坂本本町 <br>築城者：浅井氏、朝倉氏 <br>遺構：曲輪、石垣、虎口 <br><a href="https://cmeg.jp//w/castles/6162" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329213" width=150/></a></div>`)[0];
+            popup_1bfc14746e834497b37cf99b2cb57949.setContent(html_6c2ef3d6df454df18f5ca1ee05323d73);
+        
+
+        marker_1f2fef30659c4ae4a9ba3834e3c3cbc5.bindPopup(popup_1bfc14746e834497b37cf99b2cb57949)
+        ;
+
+        
+    
+    
+            var marker_78c686b9d26a4b29bde59cde69a5840f = L.marker(
+                [35.024287, 135.93171],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_fd200f278c814d54ac2aefda82ae9542 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_65767a9d0cc8483993b291d4ef661e75 = $(`<div id="html_65767a9d0cc8483993b291d4ef661e75" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6163" target="_blank">山田城</a><br> 振り仮名：やまだじょう <br>別名：－ <br>住所：滋賀県草津市南山田町 <br>築城者：山田氏、織田信孝 <br>遺構：横堀（空堀） <br><a href="https://cmeg.jp//w/castles/6163" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/312300" width=150/></a></div>`)[0];
+            popup_fd200f278c814d54ac2aefda82ae9542.setContent(html_65767a9d0cc8483993b291d4ef661e75);
+        
+
+        marker_78c686b9d26a4b29bde59cde69a5840f.bindPopup(popup_fd200f278c814d54ac2aefda82ae9542)
+        ;
+
+        
+    
+    
+            var marker_76cf6b0ee84e46a4a583c1883da9aa76 = L.marker(
+                [35.282164, 135.88161499999998],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_35920598d6db4d869adffc2626bf71c8 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_1d74c42ba29840be9820824838f81307 = $(`<div id="html_1d74c42ba29840be9820824838f81307" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6165" target="_blank">細川城</a><br> 振り仮名：ほそかわじょう <br>別名：－ <br>住所：滋賀県大津市葛川細川町 <br>築城者：不明 <br>遺構：曲輪、石垣 <br><a href="https://cmeg.jp//w/castles/6165" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/320481" width=150/></a></div>`)[0];
+            popup_35920598d6db4d869adffc2626bf71c8.setContent(html_1d74c42ba29840be9820824838f81307);
+        
+
+        marker_76cf6b0ee84e46a4a583c1883da9aa76.bindPopup(popup_35920598d6db4d869adffc2626bf71c8)
+        ;
+
+        
+    
+    
+            var marker_76d55b997ce0415facad3f2ab9a204f0 = L.marker(
+                [35.022895, 136.025045],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_1ca875b443314209ad07ef84a7e7d1fb = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_ca52c67262584b87a6667b4501b39cb7 = $(`<div id="html_ca52c67262584b87a6667b4501b39cb7" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6168" target="_blank">多喜山城</a><br> 振り仮名：たきやまじょう <br>別名：日向山城 <br>住所：滋賀県栗東市六地蔵 <br>築城者：佐久間氏（織田氏家臣） <br>遺構：曲輪、土塁、枡形虎口、櫓跡 <br><a href="https://cmeg.jp//w/castles/6168" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326228" width=150/></a></div>`)[0];
+            popup_1ca875b443314209ad07ef84a7e7d1fb.setContent(html_ca52c67262584b87a6667b4501b39cb7);
+        
+
+        marker_76d55b997ce0415facad3f2ab9a204f0.bindPopup(popup_1ca875b443314209ad07ef84a7e7d1fb)
+        ;
+
+        
+    
+    
+            var marker_afc2dc98c1b1428f8095ea539c18cc6f = L.marker(
+                [35.276458, 136.25175],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_a7484ef168314e14843b29b31da9377f = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_959ad6d7472b48db9cbcb8f1dad1119f = $(`<div id="html_959ad6d7472b48db9cbcb8f1dad1119f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6169" target="_blank">彦根城</a><br> 振り仮名：ひこねじょう <br>別名：金亀城 <br>住所：滋賀県彦根市金亀町 <br>築城者：井伊氏 <br>遺構：曲輪、櫓、門、天守、石垣、土塁、横堀（水堀）、塀 <br><a href="https://cmeg.jp//w/castles/6169" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330103" width=150/></a></div>`)[0];
+            popup_a7484ef168314e14843b29b31da9377f.setContent(html_959ad6d7472b48db9cbcb8f1dad1119f);
+        
+
+        marker_afc2dc98c1b1428f8095ea539c18cc6f.bindPopup(popup_a7484ef168314e14843b29b31da9377f)
+        ;
+
+        
+    
+    
+            var marker_1d6d86e8b01548719be4c37ad0851553 = L.marker(
+                [35.279676, 136.269262],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_a87eeae74b1449fdaca8c435ac58ce17 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a2a406bb41a04d73be961645ac5883b6 = $(`<div id="html_a2a406bb41a04d73be961645ac5883b6" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6170" target="_blank">佐和山城</a><br> 振り仮名：さわやまじょう <br>別名：－ <br>住所：滋賀県彦根市古沢町 <br>築城者：佐保氏、小川氏、磯野氏、丹羽氏、石田氏、井伊氏 <br>遺構：曲輪、石垣、土塁、横堀 <br><a href="https://cmeg.jp//w/castles/6170" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329044" width=150/></a></div>`)[0];
+            popup_a87eeae74b1449fdaca8c435ac58ce17.setContent(html_a2a406bb41a04d73be961645ac5883b6);
+        
+
+        marker_1d6d86e8b01548719be4c37ad0851553.bindPopup(popup_a87eeae74b1449fdaca8c435ac58ce17)
+        ;
+
+        
+    
+    
+            var marker_d12591634b0642d98c78220eeaf96157 = L.marker(
+                [35.233507, 136.197568],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_3f4ab887d42c491b940559f9329a2e49 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_310eac0012c84937b68ebe7dac02cb6a = $(`<div id="html_310eac0012c84937b68ebe7dac02cb6a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6174" target="_blank">荒神山城</a><br> 振り仮名：こうじんやまじょう <br>別名：－ <br>住所：滋賀県彦根市清崎町 <br>築城者：日夏安芸守 <br>遺構：曲輪、石積、竪堀 <br><a href="https://cmeg.jp//w/castles/6174" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/324989" width=150/></a></div>`)[0];
+            popup_3f4ab887d42c491b940559f9329a2e49.setContent(html_310eac0012c84937b68ebe7dac02cb6a);
+        
+
+        marker_d12591634b0642d98c78220eeaf96157.bindPopup(popup_3f4ab887d42c491b940559f9329a2e49)
+        ;
+
+        
+    
+    
+            var marker_a6ba9f05389244538dcfc18afd72af3a = L.marker(
+                [35.377613000000004, 136.26116399999998],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_ba1a61daf8b94f169cd5a9e3d135cd7b = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3f525dd57b87460f9a4d74fe3fac9eee = $(`<div id="html_3f525dd57b87460f9a4d74fe3fac9eee" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6177" target="_blank">長浜城</a><br> 振り仮名：ながはまじょう <br>別名：今浜城 <br>住所：滋賀県長浜市公園町 <br>築城者：羽柴氏、柴田氏、山内氏（一豊系）、内藤氏（信成系） <br>遺構：曲輪、石垣、横堀、井戸 <br><a href="https://cmeg.jp//w/castles/6177" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330121" width=150/></a></div>`)[0];
+            popup_ba1a61daf8b94f169cd5a9e3d135cd7b.setContent(html_3f525dd57b87460f9a4d74fe3fac9eee);
+        
+
+        marker_a6ba9f05389244538dcfc18afd72af3a.bindPopup(popup_ba1a61daf8b94f169cd5a9e3d135cd7b)
+        ;
+
+        
+    
+    
+            var marker_3b64cd299b6f49968444b8b96eeeffc5 = L.marker(
+                [35.515355, 136.224321],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_ada2493c04de4ccb8701900f934c5269 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b97ee671eac8485e933cd5acf1582d7d = $(`<div id="html_b97ee671eac8485e933cd5acf1582d7d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6178" target="_blank">田上山城</a><br> 振り仮名：たがみやまじょう <br>別名：田上山砦、田神山城、木之本城 <br>住所：滋賀県長浜市木之本町木之本 <br>築城者：羽柴氏 <br>遺構：曲輪、土塁、虎口、馬出、横堀（空堀）、土橋 <br><a href="https://cmeg.jp//w/castles/6178" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325016" width=150/></a></div>`)[0];
+            popup_ada2493c04de4ccb8701900f934c5269.setContent(html_b97ee671eac8485e933cd5acf1582d7d);
+        
+
+        marker_3b64cd299b6f49968444b8b96eeeffc5.bindPopup(popup_ada2493c04de4ccb8701900f934c5269)
+        ;
+
+        
+    
+    
+            var marker_b7efc0101f20487494bb545f43d712cb = L.marker(
+                [35.392654, 136.33410700000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_9809eb061f6a49ac9d68656f4ad888a5 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_bfca6c6a0eeb4175aae8b29d17f43476 = $(`<div id="html_bfca6c6a0eeb4175aae8b29d17f43476" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6179" target="_blank">横山城</a><br> 振り仮名：よこやまじょう <br>別名：－ <br>住所：滋賀県長浜市堀部町 <br>築城者：浅井井演、三田村国定・野村直隆・大野木秀俊（浅井氏家臣）、木下秀吉（織田氏家臣） <br>遺構：曲輪、土塁、竪堀 <br><a href="https://cmeg.jp//w/castles/6179" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/303115" width=150/></a></div>`)[0];
+            popup_9809eb061f6a49ac9d68656f4ad888a5.setContent(html_bfca6c6a0eeb4175aae8b29d17f43476);
+        
+
+        marker_b7efc0101f20487494bb545f43d712cb.bindPopup(popup_9809eb061f6a49ac9d68656f4ad888a5)
+        ;
+
+        
+    
+    
+            var marker_2cebc87bfe8b4170bcda7e4aa359f1b5 = L.marker(
+                [35.506079, 136.192712],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_f1a620716c704afca5f3ce3e0c74891d = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_e9a0ade507e247eaaf2b8a1c6e75a2bb = $(`<div id="html_e9a0ade507e247eaaf2b8a1c6e75a2bb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6180" target="_blank">賤ヶ岳砦</a><br> 振り仮名：しずがたけとりで <br>別名：賤ヶ岳城 <br>住所：滋賀県長浜市川並、大音 <br>築城者：東野左馬助・西野壱岐守（浅井氏家臣）、桑山重晴・羽田正親・浅野長政（羽柴氏家臣） <br>遺構：曲輪、帯曲輪、腰曲輪、土塁、堀切、切岸、竪堀 <br><a href="https://cmeg.jp//w/castles/6180" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328088" width=150/></a></div>`)[0];
+            popup_f1a620716c704afca5f3ce3e0c74891d.setContent(html_e9a0ade507e247eaaf2b8a1c6e75a2bb);
+        
+
+        marker_2cebc87bfe8b4170bcda7e4aa359f1b5.bindPopup(popup_f1a620716c704afca5f3ce3e0c74891d)
+        ;
+
+        
+    
+    
+            var marker_9dbafa88af2b499498efd8c1cf2c2377 = L.marker(
+                [35.064817, 136.05682099999999],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_1f4fe43f63f34dc995e5d50daa8ed483 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_e5fad315c3f14b00a1ff405412da2d45 = $(`<div id="html_e5fad315c3f14b00a1ff405412da2d45" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6182" target="_blank">小堤城山城</a><br> 振り仮名：こづつみしろやまじょう <br>別名：小堤城 <br>住所：滋賀県野洲市辻町 <br>築城者：永原氏 <br>遺構：曲輪、石垣、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/6182" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325929" width=150/></a></div>`)[0];
+            popup_1f4fe43f63f34dc995e5d50daa8ed483.setContent(html_e5fad315c3f14b00a1ff405412da2d45);
+        
+
+        marker_9dbafa88af2b499498efd8c1cf2c2377.bindPopup(popup_1f4fe43f63f34dc995e5d50daa8ed483)
+        ;
+
+        
+    
+    
+            var marker_3b60fcfd12504a41aec23ce818e22694 = L.marker(
+                [35.091605, 136.035194],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_530c790180f74946bcdf6e3d8d36fd86 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b89cbd8a46b44a0ba2dfaa15446ed6c1 = $(`<div id="html_b89cbd8a46b44a0ba2dfaa15446ed6c1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6183" target="_blank">永原城</a><br> 振り仮名：ながはらじょう <br>別名：（永原御殿） <br>住所：滋賀県野洲市永原1093 <br>築城者：永原氏 <br>遺構：曲輪、土塁、櫓台、横堀、石垣 <br><a href="https://cmeg.jp//w/castles/6183" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326292" width=150/></a></div>`)[0];
+            popup_530c790180f74946bcdf6e3d8d36fd86.setContent(html_b89cbd8a46b44a0ba2dfaa15446ed6c1);
+        
+
+        marker_3b60fcfd12504a41aec23ce818e22694.bindPopup(popup_530c790180f74946bcdf6e3d8d36fd86)
+        ;
+
+        
+    
+    
+            var marker_6f9d305b65084d73a417ea093dba80a7 = L.marker(
+                [35.071191, 136.040493],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_88bbcbea1f81424ab251572e49caccb4 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_91dbebba28c3459b922a3e6e278fde0d = $(`<div id="html_91dbebba28c3459b922a3e6e278fde0d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6187" target="_blank">桜生城</a><br> 振り仮名：さくらばさまじょう <br>別名：－ <br>住所：滋賀県野洲市小篠原桜生 <br>築城者：沢氏 <br>遺構：曲輪、土塁、横堀（水堀）、横堀（空堀）、石垣 <br><a href="https://cmeg.jp//w/castles/6187" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325784" width=150/></a></div>`)[0];
+            popup_88bbcbea1f81424ab251572e49caccb4.setContent(html_91dbebba28c3459b922a3e6e278fde0d);
+        
+
+        marker_6f9d305b65084d73a417ea093dba80a7.bindPopup(popup_88bbcbea1f81424ab251572e49caccb4)
+        ;
+
+        
+    
+    
+            var marker_f54f81ff82134e0f976a51a8a49b8d36 = L.marker(
+                [35.155881, 136.139313],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_7dff5d4738954e2abce687a77570f69a = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_ff92383232904f06b4b0eaabc6a10fd3 = $(`<div id="html_ff92383232904f06b4b0eaabc6a10fd3" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6190" target="_blank">安土城</a><br> 振り仮名：あづちじょう <br>別名：－ <br>住所：滋賀県近江八幡市安土町下豊浦 <br>築城者：織田氏、明智氏 <br>遺構：曲輪、石垣、天守台、横堀 <br><a href="https://cmeg.jp//w/castles/6190" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329738" width=150/></a></div>`)[0];
+            popup_7dff5d4738954e2abce687a77570f69a.setContent(html_ff92383232904f06b4b0eaabc6a10fd3);
+        
+
+        marker_f54f81ff82134e0f976a51a8a49b8d36.bindPopup(popup_7dff5d4738954e2abce687a77570f69a)
+        ;
+
+        
+    
+    
+            var marker_def5df8dafea48ce842ef9b3edb339ab = L.marker(
+                [35.14584, 136.15768899999998],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_06428af1f818486a82bc40820021d610 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_708ee838dd9340f1b501f4fee050ef50 = $(`<div id="html_708ee838dd9340f1b501f4fee050ef50" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6191" target="_blank">観音寺城</a><br> 振り仮名：かんのんじじょう <br>別名：佐々木城 <br>住所：滋賀県近江八幡市安土町 <br>築城者：六角氏 <br>遺構：曲輪、石垣、土塁、横堀、門跡 <br><a href="https://cmeg.jp//w/castles/6191" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330106" width=150/></a></div>`)[0];
+            popup_06428af1f818486a82bc40820021d610.setContent(html_708ee838dd9340f1b501f4fee050ef50);
+        
+
+        marker_def5df8dafea48ce842ef9b3edb339ab.bindPopup(popup_06428af1f818486a82bc40820021d610)
+        ;
+
+        
+    
+    
+            var marker_d216ebb0afbd45e7ba326efcfcd0d1c0 = L.marker(
+                [35.105783, 136.13200700000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_8d3fa74bdba04f49a7cdcdae54b1aec2 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_4809ab8d9f244dd680f1c44fafaadc42 = $(`<div id="html_4809ab8d9f244dd680f1c44fafaadc42" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6193" target="_blank">長光寺城</a><br> 振り仮名：ちょうこうじじょう <br>別名：瓶割山城 <br>住所：滋賀県近江八幡市長光寺町、長福寺町 <br>築城者：佐々木氏、柴田氏 <br>遺構：曲輪、石垣、土塁、堀切、井戸 <br><a href="https://cmeg.jp//w/castles/6193" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329559" width=150/></a></div>`)[0];
+            popup_8d3fa74bdba04f49a7cdcdae54b1aec2.setContent(html_4809ab8d9f244dd680f1c44fafaadc42);
+        
+
+        marker_d216ebb0afbd45e7ba326efcfcd0d1c0.bindPopup(popup_8d3fa74bdba04f49a7cdcdae54b1aec2)
+        ;
+
+        
+    
+    
+            var marker_2769c1016ec544c49bdda12b5a3013ec = L.marker(
+                [35.138586, 136.045355],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_b6736a96a8d74cd0bf2da89c5266d171 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_c668d209854d44b0a9d13b98b8297c6c = $(`<div id="html_c668d209854d44b0a9d13b98b8297c6c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6194" target="_blank">水茎岡山城</a><br> 振り仮名：すいけいおかやまじょう <br>別名：岡山城、水茎館、尾山城 <br>住所：滋賀県近江八幡市牧町 <br>築城者：九里氏 <br>遺構：曲輪、石垣、土塁、堅堀、切岸 <br><a href="https://cmeg.jp//w/castles/6194" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/320814" width=150/></a></div>`)[0];
+            popup_b6736a96a8d74cd0bf2da89c5266d171.setContent(html_c668d209854d44b0a9d13b98b8297c6c);
+        
+
+        marker_2769c1016ec544c49bdda12b5a3013ec.bindPopup(popup_b6736a96a8d74cd0bf2da89c5266d171)
+        ;
+
+        
+    
+    
+            var marker_cedd212bc80e43a4b626d1d615249ddd = L.marker(
+                [35.208870000000005, 136.068752],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_820704ce086d4c849bfcf774c8c07752 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_fd3cd65f50a24670814ec9e25a48b2eb = $(`<div id="html_fd3cd65f50a24670814ec9e25a48b2eb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6196" target="_blank">沖島坊谷城</a><br> 振り仮名：おきしまぼうやじょう <br>別名：－ <br>住所：滋賀県近江八幡市沖島町 <br>築城者：不明 <br>遺構：曲輪、石積、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/6196" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/322767" width=150/></a></div>`)[0];
+            popup_820704ce086d4c849bfcf774c8c07752.setContent(html_fd3cd65f50a24670814ec9e25a48b2eb);
+        
+
+        marker_cedd212bc80e43a4b626d1d615249ddd.bindPopup(popup_820704ce086d4c849bfcf774c8c07752)
+        ;
+
+        
+    
+    
+            var marker_4f4f710d6e7b457b834b2407a37328ef = L.marker(
+                [35.008373, 136.265006],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_d4fa8d3814d14c9e8f071e9b1287ae4f = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b03174faa6504daca9aaf5d31a8bb59a = $(`<div id="html_b03174faa6504daca9aaf5d31a8bb59a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6199" target="_blank">日野中野城</a><br> 振り仮名：ひのなかのじょう <br>別名：中野城、（仁正寺陣屋） <br>住所：滋賀県蒲生郡日野町西大路 <br>築城者：蒲生氏、田中氏、長束氏 <br>遺構：曲輪、石垣、横堀 <br><a href="https://cmeg.jp//w/castles/6199" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317653" width=150/></a></div>`)[0];
+            popup_d4fa8d3814d14c9e8f071e9b1287ae4f.setContent(html_b03174faa6504daca9aaf5d31a8bb59a);
+        
+
+        marker_4f4f710d6e7b457b834b2407a37328ef.bindPopup(popup_d4fa8d3814d14c9e8f071e9b1287ae4f)
+        ;
+
+        
+    
+    
+            var marker_a295038d76d24260b77ff3d6510e0009 = L.marker(
+                [35.149504, 136.086283],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_eeb80bbcb4164a8b9a3ca486a185beac = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_12cd951fa8164fbcb3db597ae5d074d6 = $(`<div id="html_12cd951fa8164fbcb3db597ae5d074d6" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6200" target="_blank">北之庄城</a><br> 振り仮名：きたのしょうじょう <br>別名：岩崎山城 <br>住所：滋賀県近江八幡市北之庄町、南津田町 <br>築城者：六角氏？ <br>遺構：曲輪、土塁、横堀（空堀）、堀切、土橋 <br><a href="https://cmeg.jp//w/castles/6200" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330155" width=150/></a></div>`)[0];
+            popup_eeb80bbcb4164a8b9a3ca486a185beac.setContent(html_12cd951fa8164fbcb3db597ae5d074d6);
+        
+
+        marker_a295038d76d24260b77ff3d6510e0009.bindPopup(popup_eeb80bbcb4164a8b9a3ca486a185beac)
+        ;
+
+        
+    
+    
+            var marker_e346739ad4f74318b6b0b37e3dde34dc = L.marker(
+                [35.082755, 136.07712800000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_6d811af18b5a4d219fb05e878336ac74 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_2d18859abf8f4fce9116d4d46bb05b7e = $(`<div id="html_2d18859abf8f4fce9116d4d46bb05b7e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6201" target="_blank">星ヶ崎城</a><br> 振り仮名：ほしがさきじょう <br>別名：星ケ崎城、鏡山城 <br>住所：滋賀県蒲生郡竜王町鏡 <br>築城者：鏡氏 <br>遺構：曲輪、石垣、竪堀 <br><a href="https://cmeg.jp//w/castles/6201" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326058" width=150/></a></div>`)[0];
+            popup_6d811af18b5a4d219fb05e878336ac74.setContent(html_2d18859abf8f4fce9116d4d46bb05b7e);
+        
+
+        marker_e346739ad4f74318b6b0b37e3dde34dc.bindPopup(popup_6d811af18b5a4d219fb05e878336ac74)
+        ;
+
+        
+    
+    
+            var marker_e5b7ce68839946ad9f43c87834458989 = L.marker(
+                [35.459744, 136.277747],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_098e3a98aeb04df5a52576887df6408d = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_1df06284287344edb992d657ec7f3ada = $(`<div id="html_1df06284287344edb992d657ec7f3ada" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6203" target="_blank">小谷城</a><br> 振り仮名：おだにじょう <br>別名：－ <br>住所：滋賀県長浜市湖北町他 <br>築城者：浅井氏、羽柴秀吉 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/6203" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330066" width=150/></a></div>`)[0];
+            popup_098e3a98aeb04df5a52576887df6408d.setContent(html_1df06284287344edb992d657ec7f3ada);
+        
+
+        marker_e5b7ce68839946ad9f43c87834458989.bindPopup(popup_098e3a98aeb04df5a52576887df6408d)
+        ;
+
+        
+    
+    
+            var marker_d6051991b60f452095662a3dc1843c4d = L.marker(
+                [35.417893, 136.308965],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_458ffca4a4e6460ba4d987bfcbd15f53 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_181714dc1eeb46ec816797ad161085c2 = $(`<div id="html_181714dc1eeb46ec816797ad161085c2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6204" target="_blank">三田村城</a><br> 振り仮名：みたむらじょう <br>別名：三田村氏館 <br>住所：滋賀県長浜市浅井町三田 <br>築城者：三田村氏 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/6204" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/295126" width=150/></a></div>`)[0];
+            popup_458ffca4a4e6460ba4d987bfcbd15f53.setContent(html_181714dc1eeb46ec816797ad161085c2);
+        
+
+        marker_d6051991b60f452095662a3dc1843c4d.bindPopup(popup_458ffca4a4e6460ba4d987bfcbd15f53)
+        ;
+
+        
+    
+    
+            var marker_f6511d655bbc4395be8946dcd7aabc71 = L.marker(
+                [35.366096, 136.284802],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_a9c5da3159a140048e9b448a93fe9d0b = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_75d7ebbf5ded4ab09c524cbff139130a = $(`<div id="html_75d7ebbf5ded4ab09c524cbff139130a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6205" target="_blank">下坂氏館</a><br> 振り仮名：しもさかしやかた <br>別名：下坂館 <br>住所：滋賀県長浜市下坂中町（私有地） <br>築城者：下坂氏 <br>遺構：曲輪、土塁、横堀（空堀）、腰曲輪 <br><a href="https://cmeg.jp//w/castles/6205" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/324732" width=150/></a></div>`)[0];
+            popup_a9c5da3159a140048e9b448a93fe9d0b.setContent(html_75d7ebbf5ded4ab09c524cbff139130a);
+        
+
+        marker_f6511d655bbc4395be8946dcd7aabc71.bindPopup(popup_a9c5da3159a140048e9b448a93fe9d0b)
+        ;
+
+        
+    
+    
+            var marker_892809fe6c9b491094ac334aef7cd23e = L.marker(
+                [35.444948, 136.26318799999999],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_7f2ee7d384c7404488a590038eba8cab = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_abd76e57ce814ae9b46d60131de55c78 = $(`<div id="html_abd76e57ce814ae9b46d60131de55c78" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6206" target="_blank">虎御前山城</a><br> 振り仮名：とらごぜやまじょう <br>別名：中野城、八相山砦、虎御前山砦 <br>住所：滋賀県長浜市虎姫町中野 <br>築城者：木下秀吉（織田氏家臣） <br>遺構：曲輪、土塁、竪堀、横堀（空堀）、虎口 <br><a href="https://cmeg.jp//w/castles/6206" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327129" width=150/></a></div>`)[0];
+            popup_7f2ee7d384c7404488a590038eba8cab.setContent(html_abd76e57ce814ae9b46d60131de55c78);
+        
+
+        marker_892809fe6c9b491094ac334aef7cd23e.bindPopup(popup_7f2ee7d384c7404488a590038eba8cab)
+        ;
+
+        
+    
+    
+            var marker_17d00e3e10f54c6680cd64b594c703db = L.marker(
+                [35.450255, 136.206372],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_308b004ca1da48cfbd3399d558d50e7c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b1ee577377044b2ca6b183ec6465c2b5 = $(`<div id="html_b1ee577377044b2ca6b183ec6465c2b5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6207" target="_blank">山本山城</a><br> 振り仮名：やまもとやまじょう <br>別名：山本城、阿閉山城、阿閉城、（朝日山陣屋） <br>住所：滋賀県長浜市高月町西阿閉他 <br>築城者：山本氏、阿閉氏、浅見氏 <br>遺構：曲輪、帯曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/6207" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326560" width=150/></a></div>`)[0];
+            popup_308b004ca1da48cfbd3399d558d50e7c.setContent(html_b1ee577377044b2ca6b183ec6465c2b5);
+        
+
+        marker_17d00e3e10f54c6680cd64b594c703db.bindPopup(popup_308b004ca1da48cfbd3399d558d50e7c)
+        ;
+
+        
+    
+    
+            var marker_879affb62ca44b3db35995c6d70ec714 = L.marker(
+                [35.523429, 136.165661],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_364cb75c89f04eca853574b1aa127d3c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_042578c2697c45cb90e2b0e38351fea9 = $(`<div id="html_042578c2697c45cb90e2b0e38351fea9" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6208" target="_blank">塩津城</a><br> 振り仮名：しおつじょう <br>別名：塩津城山城 <br>住所：滋賀県長浜市西浅井町塩津浜 <br>築城者：熊谷氏 <br>遺構：曲輪、土塁、堀切、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/6208" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/286288" width=150/></a></div>`)[0];
+            popup_364cb75c89f04eca853574b1aa127d3c.setContent(html_042578c2697c45cb90e2b0e38351fea9);
+        
+
+        marker_879affb62ca44b3db35995c6d70ec714.bindPopup(popup_364cb75c89f04eca853574b1aa127d3c)
+        ;
+
+        
+    
+    
+            var marker_5085dfcb8eb946bba32ee001df94a4cf = L.marker(
+                [35.458858, 136.306567],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_b7af2385e40f4572aeff86d673031163 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_df9a443eb8254d418b05ccf1fa7823c4 = $(`<div id="html_df9a443eb8254d418b05ccf1fa7823c4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6209" target="_blank">小室城</a><br> 振り仮名：こむろじょう <br>別名：小室陣屋 <br>住所：滋賀県長浜市小室 <br>築城者：小堀氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/6209" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326250" width=150/></a></div>`)[0];
+            popup_b7af2385e40f4572aeff86d673031163.setContent(html_df9a443eb8254d418b05ccf1fa7823c4);
+        
+
+        marker_5085dfcb8eb946bba32ee001df94a4cf.bindPopup(popup_b7af2385e40f4572aeff86d673031163)
+        ;
+
+        
+    
+    
+            var marker_84a2838daa184105a9dc156459602acb = L.marker(
+                [35.313094, 136.298613],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_b715ba23b9dd4e538787db20a8a4e000 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_49fcd81f58224203bb4fb88ef270597a = $(`<div id="html_49fcd81f58224203bb4fb88ef270597a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6213" target="_blank">太尾山城</a><br> 振り仮名：ふとおやまじょう <br>別名：－ <br>住所：滋賀県米原市米原 <br>築城者：米原氏、岩脇氏、中嶋宗左衛門尉 <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/6213" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/318180" width=150/></a></div>`)[0];
+            popup_b715ba23b9dd4e538787db20a8a4e000.setContent(html_49fcd81f58224203bb4fb88ef270597a);
+        
+
+        marker_84a2838daa184105a9dc156459602acb.bindPopup(popup_b715ba23b9dd4e538787db20a8a4e000)
+        ;
+
+        
+    
+    
+            var marker_99a6ad8f86874a4ba4f3aff980c8655a = L.marker(
+                [35.297027, 136.31538700000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_3dc9c181c1dc45418a203fc247181f50 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_58c38537187a41dc95719614e4820020 = $(`<div id="html_58c38537187a41dc95719614e4820020" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6214" target="_blank">鎌刃城</a><br> 振り仮名：かまはじょう <br>別名：－ <br>住所：滋賀県米原市番場 <br>築城者：土肥氏、堀氏 <br>遺構：曲輪、帯曲輪、石垣、土塁、堀切、切岸、虎口 <br><a href="https://cmeg.jp//w/castles/6214" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329970" width=150/></a></div>`)[0];
+            popup_3dc9c181c1dc45418a203fc247181f50.setContent(html_58c38537187a41dc95719614e4820020);
+        
+
+        marker_99a6ad8f86874a4ba4f3aff980c8655a.bindPopup(popup_3dc9c181c1dc45418a203fc247181f50)
+        ;
+
+        
+    
+    
+            var marker_52aab75193304c3a85db9afddf355da3 = L.marker(
+                [35.389538, 136.415537],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_3ead2a98bb474d49a4faf1a0f4657b06 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b10643a27a8b41298060d2fbc36b7a86 = $(`<div id="html_b10643a27a8b41298060d2fbc36b7a86" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6215" target="_blank">京極氏城館</a><br> 振り仮名：きょうごくしじょうかん <br>別名：京極氏城館［上平寺城・京極氏館］ <br>住所：滋賀県米原市弥高他（地図は京極氏館を示す） <br>築城者：京極氏［すべて］ <br>遺構：曲輪、竪堀、土塁、虎口［上平寺城］、庭園［京極氏館］ <br><a href="https://cmeg.jp//w/castles/6215" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330046" width=150/></a></div>`)[0];
+            popup_3ead2a98bb474d49a4faf1a0f4657b06.setContent(html_b10643a27a8b41298060d2fbc36b7a86);
+        
+
+        marker_52aab75193304c3a85db9afddf355da3.bindPopup(popup_3ead2a98bb474d49a4faf1a0f4657b06)
+        ;
+
+        
+    
+    
+            var marker_73c5dfb59d6b4ac38b10d7b92c1e06d1 = L.marker(
+                [35.352113, 136.413094],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_067342027b7a4f938c6d87fbd31eab04 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_92f7995c7f8347fcbd74d73b08d4aa2f = $(`<div id="html_92f7995c7f8347fcbd74d73b08d4aa2f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6219" target="_blank">長比城</a><br> 振り仮名：たけくらべじょう <br>別名：長比砦、野瀬小城、野瀬山城 <br>住所：滋賀県米原市柏原／岐阜県不破郡関ヶ原町今須 <br>築城者：浅井氏 <br>遺構：曲輪、土塁、竪堀、虎口 <br><a href="https://cmeg.jp//w/castles/6219" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/315939" width=150/></a></div>`)[0];
+            popup_067342027b7a4f938c6d87fbd31eab04.setContent(html_92f7995c7f8347fcbd74d73b08d4aa2f);
+        
+
+        marker_73c5dfb59d6b4ac38b10d7b92c1e06d1.bindPopup(popup_067342027b7a4f938c6d87fbd31eab04)
+        ;
+
+        
+    
+    
+            var marker_f70ec0982afb4250b2aaa7a5f9d1f008 = L.marker(
+                [35.319509000000004, 136.390671],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_da5d9bedc6ff465d9e04e0910ec49c56 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_5539899fb1c143a690faef6af6b91e1d = $(`<div id="html_5539899fb1c143a690faef6af6b91e1d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6221" target="_blank">八講師城</a><br> 振り仮名：はっこうしじょう <br>別名：八講師砦 <br>住所：滋賀県米原市梓河内 <br>築城者：沢田民部大輔、多賀高忠 <br>遺構：曲輪、石積、土塁、竪堀、虎口 <br><a href="https://cmeg.jp//w/castles/6221" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/315216" width=150/></a></div>`)[0];
+            popup_da5d9bedc6ff465d9e04e0910ec49c56.setContent(html_5539899fb1c143a690faef6af6b91e1d);
+        
+
+        marker_f70ec0982afb4250b2aaa7a5f9d1f008.bindPopup(popup_da5d9bedc6ff465d9e04e0910ec49c56)
+        ;
+
+        
+    
+    
+            var marker_e86b01b306ff4a23ab704cfe7dac614b = L.marker(
+                [35.219277000000005, 136.282975],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_daa22064c1da42ae9914570a5f115e31 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_03c788bc2c514fb4acaf24feea778ea1 = $(`<div id="html_03c788bc2c514fb4acaf24feea778ea1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6222" target="_blank">敏満寺城</a><br> 振り仮名：びんまんじじょう <br>別名：－ <br>住所：滋賀県犬上郡多賀町敏満寺（多賀SA） <br>築城者：久徳氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/6222" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/302241" width=150/></a></div>`)[0];
+            popup_daa22064c1da42ae9914570a5f115e31.setContent(html_03c788bc2c514fb4acaf24feea778ea1);
+        
+
+        marker_e86b01b306ff4a23ab704cfe7dac614b.bindPopup(popup_daa22064c1da42ae9914570a5f115e31)
+        ;
+
+        
+    
+    
+            var marker_5ec709dee92d43c59e5d63255fb3e1a7 = L.marker(
+                [35.190099, 136.287495],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_148372bb73624ad7be91ac79831e200b = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_669d03983e6f47d692fee15f34dbfc2b = $(`<div id="html_669d03983e6f47d692fee15f34dbfc2b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6224" target="_blank">勝楽寺城</a><br> 振り仮名：しょうらくじじょう <br>別名：勝楽寺山城、正楽寺城 <br>住所：滋賀県犬上郡甲良町正楽寺、多賀町 <br>築城者：高築豊後守、多賀豊後守 <br>遺構：曲輪、石垣、土塁、竪堀（畝状竪堀群） <br><a href="https://cmeg.jp//w/castles/6224" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/312591" width=150/></a></div>`)[0];
+            popup_148372bb73624ad7be91ac79831e200b.setContent(html_669d03983e6f47d692fee15f34dbfc2b);
+        
+
+        marker_5ec709dee92d43c59e5d63255fb3e1a7.bindPopup(popup_148372bb73624ad7be91ac79831e200b)
+        ;
+
+        
+    
+    
+            var marker_02ba1955c5b645a7b7a4485fa0bfdaef = L.marker(
+                [35.186483, 136.235748],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_dde05b2d386c4aec8c19f207dbf64a9e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_0306e673cc094a21901ad441515ebe8b = $(`<div id="html_0306e673cc094a21901ad441515ebe8b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6227" target="_blank">目加田城</a><br> 振り仮名：めかだじょう <br>別名：－ <br>住所：滋賀県愛知郡愛荘町目加田（目賀田城跡公園） <br>築城者：目賀田氏 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/6227" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/305856" width=150/></a></div>`)[0];
+            popup_dde05b2d386c4aec8c19f207dbf64a9e.setContent(html_0306e673cc094a21901ad441515ebe8b);
+        
+
+        marker_02ba1955c5b645a7b7a4485fa0bfdaef.bindPopup(popup_dde05b2d386c4aec8c19f207dbf64a9e)
+        ;
+
+        
+    
+    
+            var marker_a02c70d7df824c6581ccb7c0980880a3 = L.marker(
+                [35.133086, 136.181616],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_771eb951de124ae7b6397db46096a4a3 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_8074d6d42bbc4382856c9d6fadb1894a = $(`<div id="html_8074d6d42bbc4382856c9d6fadb1894a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6231" target="_blank">箕作城</a><br> 振り仮名：みつくりじょう <br>別名：清水山城、箕作山城 <br>住所：滋賀県東近江市五個荘山本町 <br>築城者：佐々木高信、高島越中氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/6231" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/314360" width=150/></a></div>`)[0];
+            popup_771eb951de124ae7b6397db46096a4a3.setContent(html_8074d6d42bbc4382856c9d6fadb1894a);
+        
+
+        marker_a02c70d7df824c6581ccb7c0980880a3.bindPopup(popup_771eb951de124ae7b6397db46096a4a3)
+        ;
+
+        
+    
+    
+            var marker_54f44fcce0ed4c6ca31a58c5e939d4b1 = L.marker(
+                [35.174963, 136.19103],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_2533a62b40b149b4854b232736fcd9b4 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_02f24e0b64754236b736446a0cd65775 = $(`<div id="html_02f24e0b64754236b736446a0cd65775" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6232" target="_blank">和田山城</a><br> 振り仮名：わだやまじょう <br>別名：－ <br>住所：滋賀県東近江市五個荘和田町 <br>築城者：和田氏、田中治部大輔（六角氏家臣） <br>遺構：曲輪、土塁、横堀（空堀）、竪堀、土橋 <br><a href="https://cmeg.jp//w/castles/6232" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/314583" width=150/></a></div>`)[0];
+            popup_2533a62b40b149b4854b232736fcd9b4.setContent(html_02f24e0b64754236b736446a0cd65775);
+        
+
+        marker_54f44fcce0ed4c6ca31a58c5e939d4b1.bindPopup(popup_2533a62b40b149b4854b232736fcd9b4)
+        ;
+
+        
+    
+    
+            var marker_19072e0fac394b408ff017b983b882fc = L.marker(
+                [35.057159000000006, 135.978815],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_e3776a9fae0a449a966021a51722f795 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_83a0e23406c14aa8a086499e03f330a4 = $(`<div id="html_83a0e23406c14aa8a086499e03f330a4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6234" target="_blank">金ケ森城</a><br> 振り仮名：かねがもりじょう <br>別名：金が森城、金森城、金森御坊 <br>住所：滋賀県守山市金森町 <br>築城者：川那辺氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/6234" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/320952" width=150/></a></div>`)[0];
+            popup_e3776a9fae0a449a966021a51722f795.setContent(html_83a0e23406c14aa8a086499e03f330a4);
+        
+
+        marker_19072e0fac394b408ff017b983b882fc.bindPopup(popup_e3776a9fae0a449a966021a51722f795)
+        ;
+
+        
+    
+    
+            var marker_ec55cb90364a47909b8fd7232279de14 = L.marker(
+                [35.102908, 135.951754],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_a21e3d66394942839f26a004e5ab590d = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_c2f3494ebd32472eb4e174087211384a = $(`<div id="html_c2f3494ebd32472eb4e174087211384a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6235" target="_blank">木浜城</a><br> 振り仮名：このはまじょう <br>別名：－ <br>住所：滋賀県守山市木浜町 <br>築城者：進藤氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/6235" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/321744" width=150/></a></div>`)[0];
+            popup_a21e3d66394942839f26a004e5ab590d.setContent(html_c2f3494ebd32472eb4e174087211384a);
+        
+
+        marker_ec55cb90364a47909b8fd7232279de14.bindPopup(popup_a21e3d66394942839f26a004e5ab590d)
+        ;
+
+        
+    
+    
+            var marker_278357cea79e4da4bf709c8effed5cf0 = L.marker(
+                [35.144078, 136.082553],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_580def2601024a5faa3b06417e429bed = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_7a14b8f33acb456ea8c5ba69e2d17ff0 = $(`<div id="html_7a14b8f33acb456ea8c5ba69e2d17ff0" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6238" target="_blank">近江八幡城</a><br> 振り仮名：おうみはちまんじょう <br>別名：八幡山城、八幡城 <br>住所：滋賀県近江八幡市宮内町 <br>築城者：羽柴氏、京極氏 <br>遺構：曲輪、石垣、横堀（空堀）、犬走り <br><a href="https://cmeg.jp//w/castles/6238" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330136" width=150/></a></div>`)[0];
+            popup_580def2601024a5faa3b06417e429bed.setContent(html_7a14b8f33acb456ea8c5ba69e2d17ff0);
+        
+
+        marker_278357cea79e4da4bf709c8effed5cf0.bindPopup(popup_580def2601024a5faa3b06417e429bed)
+        ;
+
+        
+    
+    
+            var marker_e5995301665a4ad79043f9320fd5b430 = L.marker(
+                [35.045419, 136.252146],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_da0ad5857e1f4839bbf4b8f9c9ac94ab = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_126c7ae6d5be43ba8ceae898c832cf64 = $(`<div id="html_126c7ae6d5be43ba8ceae898c832cf64" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6239" target="_blank">佐久良城</a><br> 振り仮名：さくらじょう <br>別名：下の城山 <br>住所：滋賀県蒲生郡日野町佐久良 <br>築城者：小倉氏 <br>遺構：曲輪、土塁、堀切、横堀（空堀）、竪堀、土橋、虎口 <br><a href="https://cmeg.jp//w/castles/6239" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326257" width=150/></a></div>`)[0];
+            popup_da0ad5857e1f4839bbf4b8f9c9ac94ab.setContent(html_126c7ae6d5be43ba8ceae898c832cf64);
+        
+
+        marker_e5995301665a4ad79043f9320fd5b430.bindPopup(popup_da0ad5857e1f4839bbf4b8f9c9ac94ab)
+        ;
+
+        
+    
+    
+            var marker_2b471410b23447299aa386608ddd5d97 = L.marker(
+                [34.940374, 136.28866100000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_f28362399dc94585b1438bc5ffd3cc0c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_5fe0ebd2b5364ef68aa4beaa6e427e0d = $(`<div id="html_5fe0ebd2b5364ef68aa4beaa6e427e0d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6240" target="_blank">土山城</a><br> 振り仮名：つちやまじょう <br>別名：土山氏砦 <br>住所：滋賀県甲賀市土山町北土山 <br>築城者：土山氏 <br>遺構：曲輪、土塁、堀切、横堀（空堀）、土橋、馬出し <br><a href="https://cmeg.jp//w/castles/6240" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326135" width=150/></a></div>`)[0];
+            popup_f28362399dc94585b1438bc5ffd3cc0c.setContent(html_5fe0ebd2b5364ef68aa4beaa6e427e0d);
+        
+
+        marker_2b471410b23447299aa386608ddd5d97.bindPopup(popup_f28362399dc94585b1438bc5ffd3cc0c)
+        ;
+
+        
+    
+    
+            var marker_7496d4b7a8cb44db9ebd986c3ae86375 = L.marker(
+                [35.174549, 136.175025],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_0008e2bd203c4aa7902bceb9bf5f371e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_834cd2acaf2d4379a906f1e190649bca = $(`<div id="html_834cd2acaf2d4379a906f1e190649bca" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6248" target="_blank">佐生日吉城</a><br> 振り仮名：さそうひよしじょう <br>別名：佐生城、佐野山城 <br>住所：滋賀県東近江市五個荘日吉町、佐野町 <br>築城者：後藤氏 <br>遺構：曲輪、石垣、土塁 <br><a href="https://cmeg.jp//w/castles/6248" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/305855" width=150/></a></div>`)[0];
+            popup_0008e2bd203c4aa7902bceb9bf5f371e.setContent(html_834cd2acaf2d4379a906f1e190649bca);
+        
+
+        marker_7496d4b7a8cb44db9ebd986c3ae86375.bindPopup(popup_0008e2bd203c4aa7902bceb9bf5f371e)
+        ;
+
+        
+    
+    
+            var marker_b78503adff514279b09ba14172dd6bd9 = L.marker(
+                [35.082024, 136.307378],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_bbe4b2bb39a441829e31efe1db183a65 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b19e1c51b9054bfbb4f08181f6a0c4cb = $(`<div id="html_b19e1c51b9054bfbb4f08181f6a0c4cb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6251" target="_blank">高野城</a><br> 振り仮名：たかのじょう <br>別名：高野館、お鍋館？ <br>住所：滋賀県東近江市永源寺高野町 <br>築城者：織田信吉？ <br>遺構：（発掘調査：石垣） <br><a href="https://cmeg.jp//w/castles/6251" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326679" width=150/></a></div>`)[0];
+            popup_bbe4b2bb39a441829e31efe1db183a65.setContent(html_b19e1c51b9054bfbb4f08181f6a0c4cb);
+        
+
+        marker_b78503adff514279b09ba14172dd6bd9.bindPopup(popup_bbe4b2bb39a441829e31efe1db183a65)
+        ;
+
+        
+    
+    
+            var marker_40d1e6d694944c83a6f73b8ef076b8c2 = L.marker(
+                [35.108965999999995, 136.242242],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_a214a97461f84d5c93d249d1f4023cb3 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_d25e7caf4d044d43ab42c8d0e2e37fd1 = $(`<div id="html_d25e7caf4d044d43ab42c8d0e2e37fd1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6255" target="_blank">鯰江城</a><br> 振り仮名：なまずえじょう <br>別名：－ <br>住所：滋賀県東近江市鯰江町 <br>築城者：鯰江氏 <br>遺構：石垣、土塁 <br><a href="https://cmeg.jp//w/castles/6255" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/307315" width=150/></a></div>`)[0];
+            popup_a214a97461f84d5c93d249d1f4023cb3.setContent(html_d25e7caf4d044d43ab42c8d0e2e37fd1);
+        
+
+        marker_40d1e6d694944c83a6f73b8ef076b8c2.bindPopup(popup_a214a97461f84d5c93d249d1f4023cb3)
+        ;
+
+        
+    
+    
+            var marker_e466429961464f7c96f01dac5529fcf0 = L.marker(
+                [35.051834, 136.193494],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_17c3a67dac704f7e85a600b4c9d00a81 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_709e0e07b8ec48a1896af36ad140520a = $(`<div id="html_709e0e07b8ec48a1896af36ad140520a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6260" target="_blank">大塚城</a><br> 振り仮名：おおつかじょう <br>別名：－ <br>住所：滋賀県東近江市大塚町 <br>築城者：大塚氏 <br>遺構：曲輪、土塁、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/6260" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/314006" width=150/></a></div>`)[0];
+            popup_17c3a67dac704f7e85a600b4c9d00a81.setContent(html_709e0e07b8ec48a1896af36ad140520a);
+        
+
+        marker_e466429961464f7c96f01dac5529fcf0.bindPopup(popup_17c3a67dac704f7e85a600b4c9d00a81)
+        ;
+
+        
+    
+    
+            var marker_f8f71eb437fc423c886262b447d786da = L.marker(
+                [35.059646, 135.955006],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_a087d8c7afb94984a525ca824d74fe11 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_d80d8d4873924365a1c54fb7f7525818 = $(`<div id="html_d80d8d4873924365a1c54fb7f7525818" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6264" target="_blank">芦浦観音寺館</a><br> 振り仮名：あしうらかんのんじやかた <br>別名：芦浦城、芦浦観音寺 <br>住所：滋賀県草津市芦浦町445 <br>築城者：詮舜他 <br>遺構：石塁、土塁、横堀 <br><a href="https://cmeg.jp//w/castles/6264" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/321979" width=150/></a></div>`)[0];
+            popup_a087d8c7afb94984a525ca824d74fe11.setContent(html_d80d8d4873924365a1c54fb7f7525818);
+        
+
+        marker_f8f71eb437fc423c886262b447d786da.bindPopup(popup_a087d8c7afb94984a525ca824d74fe11)
+        ;
+
+        
+    
+    
+            var marker_9075b29e53de43839b5aa7aac9a3ed71 = L.marker(
+                [35.00192, 135.977458],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_63a56ac33a5d49d18d713454449024a7 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_cd44e8f0a10c4e3cace0e9f6c244fccb = $(`<div id="html_cd44e8f0a10c4e3cace0e9f6c244fccb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6265" target="_blank">青地城</a><br> 振り仮名：あおちじょう <br>別名：部田城 <br>住所：滋賀県草津市青地町 <br>築城者：青地氏 <br>遺構：曲輪、土塁、横堀（空堀）、館跡 <br><a href="https://cmeg.jp//w/castles/6265" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/319944" width=150/></a></div>`)[0];
+            popup_63a56ac33a5d49d18d713454449024a7.setContent(html_cd44e8f0a10c4e3cace0e9f6c244fccb);
+        
+
+        marker_9075b29e53de43839b5aa7aac9a3ed71.bindPopup(popup_63a56ac33a5d49d18d713454449024a7)
+        ;
+
+        
+    
+    
+            var marker_1f0ae0b72df8486ab8672997b41e2605 = L.marker(
+                [35.292438, 136.01288799999998],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_3eedc15528e74f8da94975b7e2293e1e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3a870f2448d1486092c6d92fc338498b = $(`<div id="html_3a870f2448d1486092c6d92fc338498b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6267" target="_blank">大溝城</a><br> 振り仮名：おおみぞじょう <br>別名：高島城、（大溝陣屋） <br>住所：滋賀県高島市勝野 <br>築城者：織田（津田）氏、丹羽氏、加藤氏、京極氏、分部氏（陣屋） <br>遺構：曲輪、石垣 <br><a href="https://cmeg.jp//w/castles/6267" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326602" width=150/></a></div>`)[0];
+            popup_3eedc15528e74f8da94975b7e2293e1e.setContent(html_3a870f2448d1486092c6d92fc338498b);
+        
+
+        marker_1f0ae0b72df8486ab8672997b41e2605.bindPopup(popup_3eedc15528e74f8da94975b7e2293e1e)
+        ;
+
+        
+    
+    
+            var marker_28dd1f5b30ff4fa0acf97513e2a7f6b6 = L.marker(
+                [35.286849, 136.002974],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_f3caf598224f49d199e2fb003fd31880 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_04f5f7c4859144179b3823b63e8e71b8 = $(`<div id="html_04f5f7c4859144179b3823b63e8e71b8" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6270" target="_blank">打下城</a><br> 振り仮名：うちおろしじょう <br>別名：大溝古城 <br>住所：滋賀県高島市勝野 <br>築城者：林員清、織田信澄 <br>遺構：曲輪、土塁、横堀（空堀）、堀切、石垣、土塁 <br><a href="https://cmeg.jp//w/castles/6270" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/319313" width=150/></a></div>`)[0];
+            popup_f3caf598224f49d199e2fb003fd31880.setContent(html_04f5f7c4859144179b3823b63e8e71b8);
+        
+
+        marker_28dd1f5b30ff4fa0acf97513e2a7f6b6.bindPopup(popup_f3caf598224f49d199e2fb003fd31880)
+        ;
+
+        
+    
+    
+            var marker_34c3fc41284549d48a97e97c15fb144e = L.marker(
+                [35.35666, 135.920681],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_61fe1206b5724684b466c2d159c109f4 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_b4bc2a0090ff47038be25043fcbffa49 = $(`<div id="html_b4bc2a0090ff47038be25043fcbffa49" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6274" target="_blank">朽木城</a><br> 振り仮名：くつきじょう <br>別名：朽木陣屋、朽木氏館 <br>住所：滋賀県高島市朽木野尻 <br>築城者：佐々木氏、朽木氏 <br>遺構：曲輪、石垣、土塁、横堀（水堀）、井戸 <br><a href="https://cmeg.jp//w/castles/6274" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/321101" width=150/></a></div>`)[0];
+            popup_61fe1206b5724684b466c2d159c109f4.setContent(html_b4bc2a0090ff47038be25043fcbffa49);
+        
+
+        marker_34c3fc41284549d48a97e97c15fb144e.bindPopup(popup_61fe1206b5724684b466c2d159c109f4)
+        ;
+
+        
+    
+    
+            var marker_6a2ad840b3ca43f4a095020ed65e388b = L.marker(
+                [35.326363, 136.06750300000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_241d658d150e4db9b60206361ec47994 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_715a42d4347e408e8e7cc7b97ab8db49 = $(`<div id="html_715a42d4347e408e8e7cc7b97ab8db49" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6279" target="_blank">船木城</a><br> 振り仮名：ふなきじょう <br>別名：舟木城 <br>住所：滋賀県高島市安曇川町北船木字輪之内（願船寺） <br>築城者：佐々木氏 <br>遺構：曲輪、横堀跡 <br><a href="https://cmeg.jp//w/castles/6279" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326369" width=150/></a></div>`)[0];
+            popup_241d658d150e4db9b60206361ec47994.setContent(html_715a42d4347e408e8e7cc7b97ab8db49);
+        
+
+        marker_6a2ad840b3ca43f4a095020ed65e388b.bindPopup(popup_241d658d150e4db9b60206361ec47994)
+        ;
+
+        
+    
+    
+            var marker_66f8fb3f16b141d585660d019eac72c6 = L.marker(
+                [35.465303000000006, 136.07491000000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_8d34aa80c0014910a202567c00224165 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_1761053cb98e47cca3795305fbdbb735 = $(`<div id="html_1761053cb98e47cca3795305fbdbb735" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6280" target="_blank">海津城</a><br> 振り仮名：かいづじょう <br>別名：海津西内城 <br>住所：滋賀県高島市マキノ町海津 <br>築城者：海津氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/6280" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/286028" width=150/></a></div>`)[0];
+            popup_8d34aa80c0014910a202567c00224165.setContent(html_1761053cb98e47cca3795305fbdbb735);
+        
+
+        marker_66f8fb3f16b141d585660d019eac72c6.bindPopup(popup_8d34aa80c0014910a202567c00224165)
+        ;
+
+        
+    
+    
+            var marker_ee846aedb53b431c9db4c562ec9e69c9 = L.marker(
+                [35.436344, 135.99838300000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_31cf6a5db5fa415a881f14a98ac6d1e4 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_8370502dea094ef098068fc17c30b55c = $(`<div id="html_8370502dea094ef098068fc17c30b55c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6282" target="_blank">伊井城</a><br> 振り仮名：いいじょう <br>別名：日置前城、酒波城、伊井館 <br>住所：滋賀県高島市今津町日置前字伊井 <br>築城者：山中氏 <br>遺構：曲輪、竪堀、堀切、土橋 <br><a href="https://cmeg.jp//w/castles/6282" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325803" width=150/></a></div>`)[0];
+            popup_31cf6a5db5fa415a881f14a98ac6d1e4.setContent(html_8370502dea094ef098068fc17c30b55c);
+        
+
+        marker_ee846aedb53b431c9db4c562ec9e69c9.bindPopup(popup_31cf6a5db5fa415a881f14a98ac6d1e4)
+        ;
+
+        
+    
+    
+            var marker_7577fbab4aff44a6b5c7d0412a85bac0 = L.marker(
+                [35.361641999999996, 136.018666],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_98ac2815e4604b05b473791d8a2266cd = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_8ba9be7da2744c63ac126329a3070178 = $(`<div id="html_8ba9be7da2744c63ac126329a3070178" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6285" target="_blank">清水山城</a><br> 振り仮名：しみずやまじょう <br>別名：日高山城 <br>住所：滋賀県高島市新旭町安井川 <br>築城者：高島氏、佐々木氏 <br>遺構：曲輪、土塁、横堀 <br><a href="https://cmeg.jp//w/castles/6285" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326525" width=150/></a></div>`)[0];
+            popup_98ac2815e4604b05b473791d8a2266cd.setContent(html_8ba9be7da2744c63ac126329a3070178);
+        
+
+        marker_7577fbab4aff44a6b5c7d0412a85bac0.bindPopup(popup_98ac2815e4604b05b473791d8a2266cd)
+        ;
+
+        
+    
+    
+            var marker_d712de8ecd954e21b1931a71bb623028 = L.marker(
+                [34.917518, 136.161977],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_84a9d2c2ca5b48b3abd5510522ab2b33 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a693836454ce466b9716df6d7fd6ea13 = $(`<div id="html_a693836454ce466b9716df6d7fd6ea13" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6286" target="_blank">甲賀郡中惣城館</a><br> 振り仮名：こうかぐんちゅうそうじょうかん <br>別名：甲賀郡中惣城館［寺前城・村雨城・新宮城・新宮支城・竹中城］ <br>住所：滋賀県甲賀市甲南町新治他（地図は新宮城を示す） <br>築城者：不明［寺前城・村雨城・竹中城］、服部氏［新宮城・新宮支城］ <br>遺構：曲輪、土塁、横堀（空堀）、虎口［すべて］、堀切［寺前城・村雨城・新宮城・新宮支城］ <br><a href="https://cmeg.jp//w/castles/6286" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/311744" width=150/></a></div>`)[0];
+            popup_84a9d2c2ca5b48b3abd5510522ab2b33.setContent(html_a693836454ce466b9716df6d7fd6ea13);
+        
+
+        marker_d712de8ecd954e21b1931a71bb623028.bindPopup(popup_84a9d2c2ca5b48b3abd5510522ab2b33)
+        ;
+
+        
+    
+    
+            var marker_753b2ce953a94702a7ea435106e13032 = L.marker(
+                [35.086918, 136.148507],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_e96999364cfc47e8a45ca18e2cee5629 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_4c7e75ad41544e3d83e582cbbb27c53e = $(`<div id="html_4c7e75ad41544e3d83e582cbbb27c53e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6288" target="_blank">後藤館</a><br> 振り仮名：ごとうやかた <br>別名：後藤氏館 <br>住所：滋賀県東近江市中羽田町 <br>築城者：後藤氏 <br>遺構：曲輪、石垣、土塁、横堀（空堀）、門、掘立柱建物跡 <br><a href="https://cmeg.jp//w/castles/6288" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/322718" width=150/></a></div>`)[0];
+            popup_e96999364cfc47e8a45ca18e2cee5629.setContent(html_4c7e75ad41544e3d83e582cbbb27c53e);
+        
+
+        marker_753b2ce953a94702a7ea435106e13032.bindPopup(popup_e96999364cfc47e8a45ca18e2cee5629)
+        ;
+
+        
+    
+    
+            var marker_7917dc7e0b9e49a68795192de3cbb941 = L.marker(
+                [34.939739, 136.21647099999998],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_fd562ae59c1e42b4a8c34e5c86b334a6 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_f7efca0d869d4677a24e710dab2a9eba = $(`<div id="html_f7efca0d869d4677a24e710dab2a9eba" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6289" target="_blank">佐治城</a><br> 振り仮名：さじじょう <br>別名：－ <br>住所：滋賀県甲賀市甲賀町小佐治字城殿 <br>築城者：佐治氏 <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/6289" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/305933" width=150/></a></div>`)[0];
+            popup_fd562ae59c1e42b4a8c34e5c86b334a6.setContent(html_f7efca0d869d4677a24e710dab2a9eba);
+        
+
+        marker_7917dc7e0b9e49a68795192de3cbb941.bindPopup(popup_fd562ae59c1e42b4a8c34e5c86b334a6)
+        ;
+
+        
+    
+    
+            var marker_4d1fbee3ee5d493eabcbd3e47dd3ad9c = L.marker(
+                [34.878237, 136.225436],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_99126a2d268a4a01866b42a850fd276e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_3305e36ef1da494a8000e68843fe0775 = $(`<div id="html_3305e36ef1da494a8000e68843fe0775" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6293" target="_blank">和田城</a><br> 振り仮名：わだじょう <br>別名：－ <br>住所：滋賀県甲賀市甲賀町和田 <br>築城者：和田氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/6293" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328931" width=150/></a></div>`)[0];
+            popup_99126a2d268a4a01866b42a850fd276e.setContent(html_3305e36ef1da494a8000e68843fe0775);
+        
+
+        marker_4d1fbee3ee5d493eabcbd3e47dd3ad9c.bindPopup(popup_99126a2d268a4a01866b42a850fd276e)
+        ;
+
+        
+    
+    
+            var marker_56bd327347754d48998ae0217ebae8ac = L.marker(
+                [34.91915, 136.14885800000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_e2da8a4b3a8f49e8953d22601f66b25c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a6388f7d19e1466cb8a8a04752bcecc6 = $(`<div id="html_a6388f7d19e1466cb8a8a04752bcecc6" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6295" target="_blank">望月城</a><br> 振り仮名：もちづきじょう <br>別名：－ <br>住所：滋賀県甲賀市甲南町杉谷字占門（私有地） <br>築城者：望月氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/6295" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/310083" width=150/></a></div>`)[0];
+            popup_e2da8a4b3a8f49e8953d22601f66b25c.setContent(html_a6388f7d19e1466cb8a8a04752bcecc6);
+        
+
+        marker_56bd327347754d48998ae0217ebae8ac.bindPopup(popup_e2da8a4b3a8f49e8953d22601f66b25c)
+        ;
+
+        
+    
+    
+            var marker_a7d3443cada04bb4a4078ab4f45314f2 = L.marker(
+                [34.98097, 136.092579],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_70f6d577fcb2480f9c65b67d00c8da01 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_720fc577a50b4c9ea1b8b991b3b04bba = $(`<div id="html_720fc577a50b4c9ea1b8b991b3b04bba" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6298" target="_blank">三雲城</a><br> 振り仮名：みくもじょう <br>別名：吉永城 <br>住所：滋賀県湖南市吉永字城山 <br>築城者：三雲氏 <br>遺構：曲輪、石垣、土塁、堀切、井戸、枡形虎口 <br><a href="https://cmeg.jp//w/castles/6298" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329158" width=150/></a></div>`)[0];
+            popup_70f6d577fcb2480f9c65b67d00c8da01.setContent(html_720fc577a50b4c9ea1b8b991b3b04bba);
+        
+
+        marker_a7d3443cada04bb4a4078ab4f45314f2.bindPopup(popup_70f6d577fcb2480f9c65b67d00c8da01)
+        ;
+
+        
+    
+    
+            var marker_a37a013d410f4389b2461da2b35d8ebe = L.marker(
+                [35.126832, 136.291447],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_f8ef98c05f4c4c8d8d30b06ff56aef00 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_16315195a547483786e41dfe4ba92112 = $(`<div id="html_16315195a547483786e41dfe4ba92112" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6299" target="_blank">百済寺</a><br> 振り仮名：ひゃくさいじ <br>別名：百済寺城 <br>住所：滋賀県東近江市百済寺町他 <br>築城者：堀秀政 <br>遺構：石垣、土塁、横堀（空堀）、竪堀、本堂、赤門、仁王門 <br><a href="https://cmeg.jp//w/castles/6299" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/319686" width=150/></a></div>`)[0];
+            popup_f8ef98c05f4c4c8d8d30b06ff56aef00.setContent(html_16315195a547483786e41dfe4ba92112);
+        
+
+        marker_a37a013d410f4389b2461da2b35d8ebe.bindPopup(popup_f8ef98c05f4c4c8d8d30b06ff56aef00)
+        ;
+
+        
+    
+    
+            var marker_f3efb7a550c1447182471bccad282ee0 = L.marker(
+                [34.951643, 136.339981],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_d321960de3ca400eb22a8c66c7958a80 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_781a0e8553da40a59a81596ce962b240 = $(`<div id="html_781a0e8553da40a59a81596ce962b240" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6300" target="_blank">黒川氏城</a><br> 振り仮名：くろかわしじょう <br>別名：－ <br>住所：滋賀県甲賀市土山町鮎河 <br>築城者：黒川氏 <br>遺構：曲輪、土塁、堀切、横堀（空堀）、堅堀、石垣 <br><a href="https://cmeg.jp//w/castles/6300" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/324116" width=150/></a></div>`)[0];
+            popup_d321960de3ca400eb22a8c66c7958a80.setContent(html_781a0e8553da40a59a81596ce962b240);
+        
+
+        marker_f3efb7a550c1447182471bccad282ee0.bindPopup(popup_d321960de3ca400eb22a8c66c7958a80)
+        ;
+
+        
+    
+    
+            var marker_6017104a3dd04471ae00b309a94346eb = L.marker(
+                [34.97045, 136.164444],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_179fb82d519c46e09b3bedb3a83ea5c7 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_a0ade9bc2fa0475f992b88c4344364dd = $(`<div id="html_a0ade9bc2fa0475f992b88c4344364dd" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6302" target="_blank">水口城</a><br> 振り仮名：みなくちじょう <br>別名：碧水城 <br>住所：滋賀県甲賀市水口町水口 <br>築城者：加藤氏 <br>遺構：曲輪、石垣、横堀 <br><a href="https://cmeg.jp//w/castles/6302" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328557" width=150/></a></div>`)[0];
+            popup_179fb82d519c46e09b3bedb3a83ea5c7.setContent(html_a0ade9bc2fa0475f992b88c4344364dd);
+        
+
+        marker_6017104a3dd04471ae00b309a94346eb.bindPopup(popup_179fb82d519c46e09b3bedb3a83ea5c7)
+        ;
+
+        
+    
+    
+            var marker_9b3888bf58cb48c1b4ecd05de31b5992 = L.marker(
+                [34.970403000000005, 136.180779],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_ba263e4646a34b00b58d9b9d390447cf = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_785426d6113241ad9671e95debe7dd2d = $(`<div id="html_785426d6113241ad9671e95debe7dd2d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6303" target="_blank">水口岡山城</a><br> 振り仮名：みなくちおかやまじょう <br>別名：水口古城 <br>住所：滋賀県甲賀市水口町京町 <br>築城者：中村氏、長束氏 <br>遺構：曲輪、石垣、土塁、堀切、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/6303" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325924" width=150/></a></div>`)[0];
+            popup_ba263e4646a34b00b58d9b9d390447cf.setContent(html_785426d6113241ad9671e95debe7dd2d);
+        
+
+        marker_9b3888bf58cb48c1b4ecd05de31b5992.bindPopup(popup_ba263e4646a34b00b58d9b9d390447cf)
+        ;
+
+        
+    
+    
+            var marker_2becf85ca4db47e4a344cb421d08a5bb = L.marker(
+                [35.555541999999996, 136.20925400000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_ef46b877ea564e3aa712e305e06c527b = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_189ad07c60424f6d8728d98a19e9e63a = $(`<div id="html_189ad07c60424f6d8728d98a19e9e63a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6307" target="_blank">東野山城</a><br> 振り仮名：とうのやまじょう <br>別名：東野山砦、実山砦、左禰山砦、左祢山砦 <br>住所：滋賀県長浜市余呉町大字東野字大谷 <br>築城者：東野氏、堀秀政 <br>遺構：曲輪、土塁、横堀（空堀）、虎口 <br><a href="https://cmeg.jp//w/castles/6307" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/286849" width=150/></a></div>`)[0];
+            popup_ef46b877ea564e3aa712e305e06c527b.setContent(html_189ad07c60424f6d8728d98a19e9e63a);
+        
+
+        marker_2becf85ca4db47e4a344cb421d08a5bb.bindPopup(popup_ef46b877ea564e3aa712e305e06c527b)
+        ;
+
+        
+    
+    
+            var marker_ca6c2649b2e0496a8c3df99ec91e8f2e = L.marker(
+                [34.843740999999994, 136.037122],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_1f9d5a737ee547f2ace6ca8acd529fc8 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_7ea3c7810c9f432d92cdfcd3d1ebd4f5 = $(`<div id="html_7ea3c7810c9f432d92cdfcd3d1ebd4f5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6308" target="_blank">小川城</a><br> 振り仮名：おがわじょう <br>別名：信楽小川城、小川鶴見城 <br>住所：滋賀県甲賀市信楽町小川 <br>築城者：小川（鶴見）氏、多羅尾氏 <br>遺構：曲輪、石垣、土塁、堀切、虎口 <br><a href="https://cmeg.jp//w/castles/6308" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/321813" width=150/></a></div>`)[0];
+            popup_1f9d5a737ee547f2ace6ca8acd529fc8.setContent(html_7ea3c7810c9f432d92cdfcd3d1ebd4f5);
+        
+
+        marker_ca6c2649b2e0496a8c3df99ec91e8f2e.bindPopup(popup_1f9d5a737ee547f2ace6ca8acd529fc8)
+        ;
+
+        
+    
+    
+            var marker_4b13210ac1404b1ca221556d415a97ac = L.marker(
+                [35.221082, 135.94773700000002],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_89b506f0b8234f4d8c6ef24d0bbf653e = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_f13f96a13e6b4fce971ffde4f1550c76 = $(`<div id="html_f13f96a13e6b4fce971ffde4f1550c76" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6309" target="_blank">北比良城</a><br> 振り仮名：きたひらじょう <br>別名：－ <br>住所：滋賀県大津市北比良（福田寺） <br>築城者：田中定光 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/6309" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/322739" width=150/></a></div>`)[0];
+            popup_89b506f0b8234f4d8c6ef24d0bbf653e.setContent(html_f13f96a13e6b4fce971ffde4f1550c76);
+        
+
+        marker_4b13210ac1404b1ca221556d415a97ac.bindPopup(popup_89b506f0b8234f4d8c6ef24d0bbf653e)
+        ;
+
+        
+    
+    
+            var marker_1377d495d48f4645a965789d7f37356b = L.marker(
+                [35.465245, 136.019797],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_22dbbc5c3b1445c59af996c118c0a7d5 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_469bc2f7c631494da3cb9dbb1aef8b45 = $(`<div id="html_469bc2f7c631494da3cb9dbb1aef8b45" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6310" target="_blank">田屋城</a><br> 振り仮名：たやじょう <br>別名：－ <br>住所：滋賀県高島市マキノ町森西 <br>築城者：田屋吉頼 <br>遺構：曲輪、土塁、堀切、竪堀、虎口 <br><a href="https://cmeg.jp//w/castles/6310" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/322681" width=150/></a></div>`)[0];
+            popup_22dbbc5c3b1445c59af996c118c0a7d5.setContent(html_469bc2f7c631494da3cb9dbb1aef8b45);
+        
+
+        marker_1377d495d48f4645a965789d7f37356b.bindPopup(popup_22dbbc5c3b1445c59af996c118c0a7d5)
+        ;
+
+        
+    
+    
+            var marker_ebe9867ef30a4fbda92debdc60021157 = L.marker(
+                [35.212606, 136.346376],
+                {"parseHtml": true}
+            ).addTo(map_1d83891e10fb407ca3bcf915829c821a);
+        
+    
+        var popup_99175e75e04b49768182c4f9d7669f25 = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_fd2892bf14a341c884f762cf2ad9f03f = $(`<div id="html_fd2892bf14a341c884f762cf2ad9f03f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/6311" target="_blank">高室山城</a><br> 振り仮名：たかむろやまじょう <br>別名：腰越の城 <br>住所：滋賀県犬上郡多賀町高室山 <br>築城者：明智氏？ <br>遺構：曲輪、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/6311" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/320223" width=150/></a></div>`)[0];
+            popup_99175e75e04b49768182c4f9d7669f25.setContent(html_fd2892bf14a341c884f762cf2ad9f03f);
+        
+
+        marker_ebe9867ef30a4fbda92debdc60021157.bindPopup(popup_99175e75e04b49768182c4f9d7669f25)
+        ;
+
+        
+    
+</script>
