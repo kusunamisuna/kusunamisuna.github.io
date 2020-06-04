@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d197b238d9f34314982d5050e9a7c97d {
+                #map_a9b35ba1fb824f4da872ee9f107682ec {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_d197b238d9f34314982d5050e9a7c97d" ></div>
+            <div class="folium-map" id="map_a9b35ba1fb824f4da872ee9f107682ec" ></div>
         
 </body>
 <script>    
     
-            var map_d197b238d9f34314982d5050e9a7c97d = L.map(
-                "map_d197b238d9f34314982d5050e9a7c97d",
+            var map_a9b35ba1fb824f4da872ee9f107682ec = L.map(
+                "map_a9b35ba1fb824f4da872ee9f107682ec",
                 {
                     center: [36.651282, 138.180972],
                     crs: L.CRS.EPSG3857,
@@ -55,1546 +55,1996 @@
 
         
     
-            var tile_layer_1ade9d7a5a5d48a59db740428f221cfe = L.tileLayer(
+            var tile_layer_511587bfa745410b9d30c20d705b93b5 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-            var marker_2d82592638434a9eb8397b6aed54b1fa = L.marker(
+            var marker_cca83ab9648e4b1c80df3abfff4dc2c3 = L.marker(
                 [36.238625, 137.968862],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_146ae59a8c9a47c8ae3a365feb8eac54 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_7ae3dcd6a98441ed8c4910ee8cbf81e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cca83ab9648e4b1c80df3abfff4dc2c3.setIcon(icon_7ae3dcd6a98441ed8c4910ee8cbf81e8);
+        
+    
+        var popup_1daba8c98a5844c2935f36b7bb27031e = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_877b82a9b69444d595b78981e3f7ff6f = $(`<div id="html_877b82a9b69444d595b78981e3f7ff6f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3294" target="_blank">松本城</a><br> 振り仮名：まつもとじょう <br>旧国名：信濃国 <br>分類・構造：梯郭式＋輪郭式平城 <br>別名：深志城 <br>住所：長野県松本市丸の内4-1 <br>築城年：永正元年（1504） <br>築城者：小笠原長棟 <br>遺構：曲輪、天守、石垣、土塁、横堀（水堀）、土蔵 <br><a href="https://cmeg.jp//w/castles/3294" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331966" width=150/></a></div>`)[0];
-            popup_146ae59a8c9a47c8ae3a365feb8eac54.setContent(html_877b82a9b69444d595b78981e3f7ff6f);
+            var html_53488caa132444859c758d8f659dff77 = $(`<div id="html_53488caa132444859c758d8f659dff77" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3294" target="_blank">松本城</a><br> 振り仮名：まつもとじょう <br>旧国名：信濃国 <br>分類・構造：梯郭式＋輪郭式平城 <br>別名：深志城 <br>住所：長野県松本市丸の内4-1 <br>築城年：永正元年（1504） <br>築城者：小笠原長棟 <br>遺構：曲輪、天守、石垣、土塁、横堀（水堀）、土蔵 <br><a href="https://cmeg.jp//w/castles/3294" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331966" width=150/></a></div>`)[0];
+            popup_1daba8c98a5844c2935f36b7bb27031e.setContent(html_53488caa132444859c758d8f659dff77);
         
 
-        marker_2d82592638434a9eb8397b6aed54b1fa.bindPopup(popup_146ae59a8c9a47c8ae3a365feb8eac54)
+        marker_cca83ab9648e4b1c80df3abfff4dc2c3.bindPopup(popup_1daba8c98a5844c2935f36b7bb27031e)
         ;
 
         
     
     
-            var marker_94658aed5af141bdaec6b53fe3a821ae = L.marker(
+            var marker_72f578f2673147cd95181fbfad383653 = L.marker(
                 [36.224779, 138.009669],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_97ead6985a25473fa0dfec104ecf6cff = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_00b64d6ba0f246ed9a263e3c69bfd663 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_72f578f2673147cd95181fbfad383653.setIcon(icon_00b64d6ba0f246ed9a263e3c69bfd663);
+        
+    
+        var popup_e9e2bacc0c57459f96234221d849ce1d = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_1bea8922f0a04c5590ea95697b92115e = $(`<div id="html_1bea8922f0a04c5590ea95697b92115e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3295" target="_blank">林城</a><br> 振り仮名：はやしじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：林城［林大城（おおじょう、金華山城）・林小城（こじょう、福山城）］ <br>住所：長野県松本市里山辺、入山辺 <br>築城年：長禄3年（1459）［林大城］、長禄年間（1457〜1460）［林小城］ <br>築城者：小笠原氏［すべて］ <br>遺構：曲輪、石垣、土塁、堀切、切岸、井戸［すべて］、竪堀［林小城］ <br><a href="https://cmeg.jp//w/castles/3295" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331270" width=150/></a></div>`)[0];
-            popup_97ead6985a25473fa0dfec104ecf6cff.setContent(html_1bea8922f0a04c5590ea95697b92115e);
+            var html_2b93a09099044d00bbb7c959560ae697 = $(`<div id="html_2b93a09099044d00bbb7c959560ae697" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3295" target="_blank">林城</a><br> 振り仮名：はやしじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：林城［林大城（おおじょう、金華山城）・林小城（こじょう、福山城）］ <br>住所：長野県松本市里山辺、入山辺 <br>築城年：長禄3年（1459）［林大城］、長禄年間（1457〜1460）［林小城］ <br>築城者：小笠原氏［すべて］ <br>遺構：曲輪、石垣、土塁、堀切、切岸、井戸［すべて］、竪堀［林小城］ <br><a href="https://cmeg.jp//w/castles/3295" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331270" width=150/></a></div>`)[0];
+            popup_e9e2bacc0c57459f96234221d849ce1d.setContent(html_2b93a09099044d00bbb7c959560ae697);
         
 
-        marker_94658aed5af141bdaec6b53fe3a821ae.bindPopup(popup_97ead6985a25473fa0dfec104ecf6cff)
+        marker_72f578f2673147cd95181fbfad383653.bindPopup(popup_e9e2bacc0c57459f96234221d849ce1d)
         ;
 
         
     
     
-            var marker_fdf81451e6f04224b135431822b5a03f = L.marker(
+            var marker_bfc93922e8bd45f0822bb50044c051ec = L.marker(
                 [36.236794, 138.026675],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_0ef4c97624a44166a4894cded26585f1 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_0bac5ffe3ce44ee6b69b654aac8ecdcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bfc93922e8bd45f0822bb50044c051ec.setIcon(icon_0bac5ffe3ce44ee6b69b654aac8ecdcd);
+        
+    
+        var popup_5f0f35034e1b44918416308b12498c26 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_cbaddcbde3eb4a02a09411edc037d613 = $(`<div id="html_cbaddcbde3eb4a02a09411edc037d613" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3297" target="_blank">桐原城</a><br> 振り仮名：きりはらじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県松本市入山辺桐原 <br>築城年：寛正元年（1460） <br>築城者：桐原真智 <br>遺構：曲輪、石積、土塁、堀切、虎口 <br><a href="https://cmeg.jp//w/castles/3297" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332155" width=150/></a></div>`)[0];
-            popup_0ef4c97624a44166a4894cded26585f1.setContent(html_cbaddcbde3eb4a02a09411edc037d613);
+            var html_5e84562e6ef84ff29d7907d4c0867116 = $(`<div id="html_5e84562e6ef84ff29d7907d4c0867116" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3297" target="_blank">桐原城</a><br> 振り仮名：きりはらじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県松本市入山辺桐原 <br>築城年：寛正元年（1460） <br>築城者：桐原真智 <br>遺構：曲輪、石積、土塁、堀切、虎口 <br><a href="https://cmeg.jp//w/castles/3297" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332155" width=150/></a></div>`)[0];
+            popup_5f0f35034e1b44918416308b12498c26.setContent(html_5e84562e6ef84ff29d7907d4c0867116);
         
 
-        marker_fdf81451e6f04224b135431822b5a03f.bindPopup(popup_0ef4c97624a44166a4894cded26585f1)
+        marker_bfc93922e8bd45f0822bb50044c051ec.bindPopup(popup_5f0f35034e1b44918416308b12498c26)
         ;
 
         
     
     
-            var marker_b6f8bce781304f93a770dffd4109154f = L.marker(
+            var marker_80238c53f373455c83d53b6b52c34891 = L.marker(
                 [36.188590000000005, 138.01613799999998],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_968b4f776cb84b83a3184406122a0432 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_a17722feb2504d47b9af9c3ca7b43b3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_80238c53f373455c83d53b6b52c34891.setIcon(icon_a17722feb2504d47b9af9c3ca7b43b3e);
+        
+    
+        var popup_d253d5d2eb0746c2bf0597889a018878 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_3f077f149ec84a2389992f1611dd3b9f = $(`<div id="html_3f077f149ec84a2389992f1611dd3b9f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3298" target="_blank">埴原城</a><br> 振り仮名：はいばらじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県松本市中山 <br>築城年：鎌倉時代？ <br>築城者：村井（埴原）氏？ <br>遺構：曲輪、石積、土塁、堀切、竪堀、井戸跡 <br><a href="https://cmeg.jp//w/castles/3298" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331676" width=150/></a></div>`)[0];
-            popup_968b4f776cb84b83a3184406122a0432.setContent(html_3f077f149ec84a2389992f1611dd3b9f);
+            var html_a196e77a6c6d4c479e64d7247de993dc = $(`<div id="html_a196e77a6c6d4c479e64d7247de993dc" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3298" target="_blank">埴原城</a><br> 振り仮名：はいばらじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県松本市中山 <br>築城年：鎌倉時代？ <br>築城者：村井（埴原）氏？ <br>遺構：曲輪、石積、土塁、堀切、竪堀、井戸跡 <br><a href="https://cmeg.jp//w/castles/3298" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331676" width=150/></a></div>`)[0];
+            popup_d253d5d2eb0746c2bf0597889a018878.setContent(html_a196e77a6c6d4c479e64d7247de993dc);
         
 
-        marker_b6f8bce781304f93a770dffd4109154f.bindPopup(popup_968b4f776cb84b83a3184406122a0432)
+        marker_80238c53f373455c83d53b6b52c34891.bindPopup(popup_d253d5d2eb0746c2bf0597889a018878)
         ;
 
         
     
     
-            var marker_f764a49c7815489194856ed6c4fb4f2b = L.marker(
+            var marker_4b309686821d4dd58d024428214db40f = L.marker(
                 [36.2234, 138.053972],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_e879d1cea97c4d21aa3af097f9e2eca0 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_14840a976ba0425b97ab08884beca883 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4b309686821d4dd58d024428214db40f.setIcon(icon_14840a976ba0425b97ab08884beca883);
+        
+    
+        var popup_676f18e8f0ba42fc9520a918d86c1255 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_12baadaa101a413e929b7ec9d63e0823 = $(`<div id="html_12baadaa101a413e929b7ec9d63e0823" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3299" target="_blank">山家城</a><br> 振り仮名：やまべじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：中入城 <br>住所：長野県松本市入山辺中入 <br>築城年：鎌倉時代後期 <br>築城者：山家氏 <br>遺構：曲輪、石積、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3299" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329373" width=150/></a></div>`)[0];
-            popup_e879d1cea97c4d21aa3af097f9e2eca0.setContent(html_12baadaa101a413e929b7ec9d63e0823);
+            var html_32c31783335541d487dc6aeed5205ed6 = $(`<div id="html_32c31783335541d487dc6aeed5205ed6" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3299" target="_blank">山家城</a><br> 振り仮名：やまべじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：中入城 <br>住所：長野県松本市入山辺中入 <br>築城年：鎌倉時代後期 <br>築城者：山家氏 <br>遺構：曲輪、石積、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3299" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329373" width=150/></a></div>`)[0];
+            popup_676f18e8f0ba42fc9520a918d86c1255.setContent(html_32c31783335541d487dc6aeed5205ed6);
         
 
-        marker_f764a49c7815489194856ed6c4fb4f2b.bindPopup(popup_e879d1cea97c4d21aa3af097f9e2eca0)
+        marker_4b309686821d4dd58d024428214db40f.bindPopup(popup_676f18e8f0ba42fc9520a918d86c1255)
         ;
 
         
     
     
-            var marker_c58737f394844cdfbe27e8881d14748a = L.marker(
+            var marker_c3e45ed7a67f4b87bd3210c8246e098b = L.marker(
                 [36.240978999999996, 137.816344],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_52d80334288f4548ac135891948f494c = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_b1889787e41e4a929c555d8abcc40f52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c3e45ed7a67f4b87bd3210c8246e098b.setIcon(icon_b1889787e41e4a929c555d8abcc40f52);
+        
+    
+        var popup_4a5963e26fea4477bc6311d0e3239532 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_2d29966e27bd491eb4b94bb6845d1d6a = $(`<div id="html_2d29966e27bd491eb4b94bb6845d1d6a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3304" target="_blank">中塔城</a><br> 振り仮名：なかとうじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県松本市梓川梓 <br>築城年：戦国時代？ <br>築城者：西牧氏 <br>遺構：曲輪、堀切 <br><a href="https://cmeg.jp//w/castles/3304" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317068" width=150/></a></div>`)[0];
-            popup_52d80334288f4548ac135891948f494c.setContent(html_2d29966e27bd491eb4b94bb6845d1d6a);
+            var html_618d7c944f43448d89dc91a692286153 = $(`<div id="html_618d7c944f43448d89dc91a692286153" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3304" target="_blank">中塔城</a><br> 振り仮名：なかとうじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県松本市梓川梓 <br>築城年：戦国時代？ <br>築城者：西牧氏 <br>遺構：曲輪、堀切 <br><a href="https://cmeg.jp//w/castles/3304" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317068" width=150/></a></div>`)[0];
+            popup_4a5963e26fea4477bc6311d0e3239532.setContent(html_618d7c944f43448d89dc91a692286153);
         
 
-        marker_c58737f394844cdfbe27e8881d14748a.bindPopup(popup_52d80334288f4548ac135891948f494c)
+        marker_c3e45ed7a67f4b87bd3210c8246e098b.bindPopup(popup_4a5963e26fea4477bc6311d0e3239532)
         ;
 
         
     
     
-            var marker_821416d16414498eba804c996d2b835a = L.marker(
+            var marker_f6b5b03a97b84ab99cb999b48ce81e1f = L.marker(
                 [36.222328999999995, 137.964512],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_9f1789b96d9a4657b5f70ef11662bfa3 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_4277278004fc4a34ad9bfc5771638be0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6b5b03a97b84ab99cb999b48ce81e1f.setIcon(icon_4277278004fc4a34ad9bfc5771638be0);
+        
+    
+        var popup_547cc4a883324d9a8acfc47c838e23ea = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_b9f912e0b4984f7690f9bc45eb98e5b4 = $(`<div id="html_b9f912e0b4984f7690f9bc45eb98e5b4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3307" target="_blank">井川城</a><br> 振り仮名：いがわじょう <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：井川館城、井川館 <br>住所：長野県松本市井川城1 <br>築城年：建武元年（1334） <br>築城者：小笠原貞宗 <br>遺構：櫓台？ <br><a href="https://cmeg.jp//w/castles/3307" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/308174" width=150/></a></div>`)[0];
-            popup_9f1789b96d9a4657b5f70ef11662bfa3.setContent(html_b9f912e0b4984f7690f9bc45eb98e5b4);
+            var html_3d8d316d98834bd59f3c86d9e22e3eb5 = $(`<div id="html_3d8d316d98834bd59f3c86d9e22e3eb5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3307" target="_blank">井川城</a><br> 振り仮名：いがわじょう <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：井川館城、井川館 <br>住所：長野県松本市井川城1 <br>築城年：建武元年（1334） <br>築城者：小笠原貞宗 <br>遺構：櫓台？ <br><a href="https://cmeg.jp//w/castles/3307" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/308174" width=150/></a></div>`)[0];
+            popup_547cc4a883324d9a8acfc47c838e23ea.setContent(html_3d8d316d98834bd59f3c86d9e22e3eb5);
         
 
-        marker_821416d16414498eba804c996d2b835a.bindPopup(popup_9f1789b96d9a4657b5f70ef11662bfa3)
+        marker_f6b5b03a97b84ab99cb999b48ce81e1f.bindPopup(popup_547cc4a883324d9a8acfc47c838e23ea)
         ;
 
         
     
     
-            var marker_e35cfb0f5b394f6b889f4ee0522f895d = L.marker(
+            var marker_8276f19d12b847f5b6d5bf6538e79a98 = L.marker(
                 [35.511782000000004, 137.832891],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_7bbb14fb041345d299680868ee304750 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_fd3f71faa69f422da15615357c046358 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8276f19d12b847f5b6d5bf6538e79a98.setIcon(icon_fd3f71faa69f422da15615357c046358);
+        
+    
+        var popup_772d38a6c794455fb71c2e6e04d016c9 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_5351046748f24f0086842e34e3ffa5ca = $(`<div id="html_5351046748f24f0086842e34e3ffa5ca" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3308" target="_blank">飯田城</a><br> 振り仮名：いいだじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：長姫城 <br>住所：長野県飯田市追手町 <br>築城年：13世紀前期 <br>築城者：坂西氏 <br>遺構：曲輪、土塁、横堀（空堀）、赤門、八間門（移築） <br><a href="https://cmeg.jp//w/castles/3308" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325911" width=150/></a></div>`)[0];
-            popup_7bbb14fb041345d299680868ee304750.setContent(html_5351046748f24f0086842e34e3ffa5ca);
+            var html_9390c694af724a75a47613c8b3ad263a = $(`<div id="html_9390c694af724a75a47613c8b3ad263a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3308" target="_blank">飯田城</a><br> 振り仮名：いいだじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：長姫城 <br>住所：長野県飯田市追手町 <br>築城年：13世紀前期 <br>築城者：坂西氏 <br>遺構：曲輪、土塁、横堀（空堀）、赤門、八間門（移築） <br><a href="https://cmeg.jp//w/castles/3308" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325911" width=150/></a></div>`)[0];
+            popup_772d38a6c794455fb71c2e6e04d016c9.setContent(html_9390c694af724a75a47613c8b3ad263a);
         
 
-        marker_e35cfb0f5b394f6b889f4ee0522f895d.bindPopup(popup_7bbb14fb041345d299680868ee304750)
+        marker_8276f19d12b847f5b6d5bf6538e79a98.bindPopup(popup_772d38a6c794455fb71c2e6e04d016c9)
         ;
 
         
     
     
-            var marker_a0d3973531d143e59e24d322950ba2f7 = L.marker(
+            var marker_586ad9761bc4475cbf210e21f32d7ccc = L.marker(
                 [35.486943, 137.82848],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_d2230dedeccb4b92bd67fe3107e7a421 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_10f59f193586498ca81076a3c7ac18c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_586ad9761bc4475cbf210e21f32d7ccc.setIcon(icon_10f59f193586498ca81076a3c7ac18c9);
+        
+    
+        var popup_297df15599364fc29185f91098a517c8 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_909b79a205214d26977647029584f8ce = $(`<div id="html_909b79a205214d26977647029584f8ce" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3315" target="_blank">松尾城</a><br> 振り仮名：まつおじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県飯田市松尾代田1114（松尾鈴岡公園） <br>築城年：室町時代？ <br>築城者：小笠原氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3315" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/319297" width=150/></a></div>`)[0];
-            popup_d2230dedeccb4b92bd67fe3107e7a421.setContent(html_909b79a205214d26977647029584f8ce);
+            var html_0c17e5db06154ec8a88d6bba5d04a276 = $(`<div id="html_0c17e5db06154ec8a88d6bba5d04a276" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3315" target="_blank">松尾城</a><br> 振り仮名：まつおじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県飯田市松尾代田1114（松尾鈴岡公園） <br>築城年：室町時代？ <br>築城者：小笠原氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3315" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/319297" width=150/></a></div>`)[0];
+            popup_297df15599364fc29185f91098a517c8.setContent(html_0c17e5db06154ec8a88d6bba5d04a276);
         
 
-        marker_a0d3973531d143e59e24d322950ba2f7.bindPopup(popup_d2230dedeccb4b92bd67fe3107e7a421)
+        marker_586ad9761bc4475cbf210e21f32d7ccc.bindPopup(popup_297df15599364fc29185f91098a517c8)
         ;
 
         
     
     
-            var marker_a40144c36b56443098570340ff959d4c = L.marker(
+            var marker_96bc29f4c5894d9489fbc5d6d9f60db1 = L.marker(
                 [35.483887, 137.82653200000001],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_de8afabd4bfc4f0e9502d5028c2cc019 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_7fac46baa0f845c39d70a71deffc308b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_96bc29f4c5894d9489fbc5d6d9f60db1.setIcon(icon_7fac46baa0f845c39d70a71deffc308b);
+        
+    
+        var popup_b05bb1ee82424662bc74e74eed8d28d8 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_df8be8e51c6a412f996eeba2a5da782b = $(`<div id="html_df8be8e51c6a412f996eeba2a5da782b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3316" target="_blank">鈴岡城</a><br> 振り仮名：すずおかじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県飯田市駄科1729（鈴岡城址公園） <br>築城年：室町時代？ <br>築城者：小笠原氏 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/3316" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328975" width=150/></a></div>`)[0];
-            popup_de8afabd4bfc4f0e9502d5028c2cc019.setContent(html_df8be8e51c6a412f996eeba2a5da782b);
+            var html_6fb0bace935a4a3f94681919e70e1789 = $(`<div id="html_6fb0bace935a4a3f94681919e70e1789" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3316" target="_blank">鈴岡城</a><br> 振り仮名：すずおかじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県飯田市駄科1729（鈴岡城址公園） <br>築城年：室町時代？ <br>築城者：小笠原氏 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/3316" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328975" width=150/></a></div>`)[0];
+            popup_b05bb1ee82424662bc74e74eed8d28d8.setContent(html_6fb0bace935a4a3f94681919e70e1789);
         
 
-        marker_a40144c36b56443098570340ff959d4c.bindPopup(popup_de8afabd4bfc4f0e9502d5028c2cc019)
+        marker_96bc29f4c5894d9489fbc5d6d9f60db1.bindPopup(popup_b05bb1ee82424662bc74e74eed8d28d8)
         ;
 
         
     
     
-            var marker_0561c5ee6d684d599adfc92ca53b47b3 = L.marker(
+            var marker_0a79c11149f247fe9b071bb1c8114e86 = L.marker(
                 [36.856013, 138.36601399999998],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_82134c5e30c841d3b9daca3ca19c2c82 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_f94e26d43dcf4287ba92389e7bb25984 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0a79c11149f247fe9b071bb1c8114e86.setIcon(icon_f94e26d43dcf4287ba92389e7bb25984);
+        
+    
+        var popup_ddac39324f2048e0b33f50647d3c87a2 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_6ec3ddd12d4342a7a67d5d3b14f8b882 = $(`<div id="html_6ec3ddd12d4342a7a67d5d3b14f8b882" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3318" target="_blank">飯山城</a><br> 振り仮名：いいやまじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県飯山市飯山（飯山城跡公園） <br>築城年：室町時代 <br>築城者：泉氏 <br>遺構：曲輪、石垣、土塁、横堀（水堀）、門、移築門 <br><a href="https://cmeg.jp//w/castles/3318" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332227" width=150/></a></div>`)[0];
-            popup_82134c5e30c841d3b9daca3ca19c2c82.setContent(html_6ec3ddd12d4342a7a67d5d3b14f8b882);
+            var html_896709ceef964b7f840889f0b3224124 = $(`<div id="html_896709ceef964b7f840889f0b3224124" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3318" target="_blank">飯山城</a><br> 振り仮名：いいやまじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県飯山市飯山（飯山城跡公園） <br>築城年：室町時代 <br>築城者：泉氏 <br>遺構：曲輪、石垣、土塁、横堀（水堀）、門、移築門 <br><a href="https://cmeg.jp//w/castles/3318" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332227" width=150/></a></div>`)[0];
+            popup_ddac39324f2048e0b33f50647d3c87a2.setContent(html_896709ceef964b7f840889f0b3224124);
         
 
-        marker_0561c5ee6d684d599adfc92ca53b47b3.bindPopup(popup_82134c5e30c841d3b9daca3ca19c2c82)
+        marker_0a79c11149f247fe9b071bb1c8114e86.bindPopup(popup_ddac39324f2048e0b33f50647d3c87a2)
         ;
 
         
     
     
-            var marker_55869458eb334dce84f4efcd55f683ed = L.marker(
+            var marker_3f14e017bb694b0fa2e0ef71a5cb50c1 = L.marker(
                 [35.576036, 137.917246],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_14b0b8f030bd449a8bd65d39de3aae0b = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_dc190d4ccf804135b829e28c1d6181b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3f14e017bb694b0fa2e0ef71a5cb50c1.setIcon(icon_dc190d4ccf804135b829e28c1d6181b9);
+        
+    
+        var popup_ebef522bc7474f77b7bfce127a709290 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_58c26d046327471bac21d233e832b778 = $(`<div id="html_58c26d046327471bac21d233e832b778" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3327" target="_blank">大島城</a><br> 振り仮名：おおしまじょう <br>旧国名：信濃国 <br>分類・構造：連郭式平山城 <br>別名：台城、伊那大島城 <br>住所：長野県下伊那郡松川町元大島古町 <br>築城年：不明 <br>築城者：大島氏 <br>遺構：曲輪、土塁、横堀（空堀・三日月堀）、馬出 <br><a href="https://cmeg.jp//w/castles/3327" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331544" width=150/></a></div>`)[0];
-            popup_14b0b8f030bd449a8bd65d39de3aae0b.setContent(html_58c26d046327471bac21d233e832b778);
+            var html_c109d324e6ca4d7fb2b97b90c0a2a820 = $(`<div id="html_c109d324e6ca4d7fb2b97b90c0a2a820" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3327" target="_blank">大島城</a><br> 振り仮名：おおしまじょう <br>旧国名：信濃国 <br>分類・構造：連郭式平山城 <br>別名：台城、伊那大島城 <br>住所：長野県下伊那郡松川町元大島古町 <br>築城年：不明 <br>築城者：大島氏 <br>遺構：曲輪、土塁、横堀（空堀・三日月堀）、馬出 <br><a href="https://cmeg.jp//w/castles/3327" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331544" width=150/></a></div>`)[0];
+            popup_ebef522bc7474f77b7bfce127a709290.setContent(html_c109d324e6ca4d7fb2b97b90c0a2a820);
         
 
-        marker_55869458eb334dce84f4efcd55f683ed.bindPopup(popup_14b0b8f030bd449a8bd65d39de3aae0b)
+        marker_3f14e017bb694b0fa2e0ef71a5cb50c1.bindPopup(popup_ebef522bc7474f77b7bfce127a709290)
         ;
 
         
     
     
-            var marker_8816a0503bba48d3995be679127b97bb = L.marker(
+            var marker_5555c79cdc5e4733b61ecc4e8d67bb09 = L.marker(
                 [35.614542, 137.915321],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_25a5cc91720f4b38b47200dcd8b51926 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_d4d5c062ef644a2ea0f94a64d6b81854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5555c79cdc5e4733b61ecc4e8d67bb09.setIcon(icon_d4d5c062ef644a2ea0f94a64d6b81854);
+        
+    
+        var popup_d077ad9abafc48a6b94708f80ade14dd = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_7ed4d2ac25634f8eaf471a71edd54f3d = $(`<div id="html_7ed4d2ac25634f8eaf471a71edd54f3d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3328" target="_blank">船山城</a><br> 振り仮名：ふなやまじょう <br>旧国名：信濃国 <br>分類・構造：連郭式平山城 <br>別名：－ <br>住所：長野県下伊那郡松川町上片桐／上伊那郡中川村他 <br>築城年：不明 <br>築城者：片切氏 <br>遺構：曲輪、堀切 <br><a href="https://cmeg.jp//w/castles/3328" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/321286" width=150/></a></div>`)[0];
-            popup_25a5cc91720f4b38b47200dcd8b51926.setContent(html_7ed4d2ac25634f8eaf471a71edd54f3d);
+            var html_cae655508c704677ab798f3aec0796a4 = $(`<div id="html_cae655508c704677ab798f3aec0796a4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3328" target="_blank">船山城</a><br> 振り仮名：ふなやまじょう <br>旧国名：信濃国 <br>分類・構造：連郭式平山城 <br>別名：－ <br>住所：長野県下伊那郡松川町上片桐／上伊那郡中川村他 <br>築城年：不明 <br>築城者：片切氏 <br>遺構：曲輪、堀切 <br><a href="https://cmeg.jp//w/castles/3328" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/321286" width=150/></a></div>`)[0];
+            popup_d077ad9abafc48a6b94708f80ade14dd.setContent(html_cae655508c704677ab798f3aec0796a4);
         
 
-        marker_8816a0503bba48d3995be679127b97bb.bindPopup(popup_25a5cc91720f4b38b47200dcd8b51926)
+        marker_5555c79cdc5e4733b61ecc4e8d67bb09.bindPopup(popup_d077ad9abafc48a6b94708f80ade14dd)
         ;
 
         
     
     
-            var marker_46f32f7a4c344da4ac426eec5423ad7d = L.marker(
+            var marker_332e994900e74cfe82e6c009ee330118 = L.marker(
                 [35.833222, 138.062121],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_8164d8a525b24d25b472aa8cfdb2e8e9 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_504137847de142fc98140dbffa4753f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_332e994900e74cfe82e6c009ee330118.setIcon(icon_504137847de142fc98140dbffa4753f4);
+        
+    
+        var popup_ed15810e59fe43f8bd3281e3b7f3a892 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_671e3c357dac428fa627203fec45dffe = $(`<div id="html_671e3c357dac428fa627203fec45dffe" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3333" target="_blank">高遠城</a><br> 振り仮名：たかとおじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：兜山城 <br>住所：長野県伊那市高遠町東高遠 <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、石垣、土塁、横堀（空堀）、門 <br><a href="https://cmeg.jp//w/castles/3333" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332128" width=150/></a></div>`)[0];
-            popup_8164d8a525b24d25b472aa8cfdb2e8e9.setContent(html_671e3c357dac428fa627203fec45dffe);
+            var html_3ca6f207c8094063b0f8d3bf42dd57ae = $(`<div id="html_3ca6f207c8094063b0f8d3bf42dd57ae" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3333" target="_blank">高遠城</a><br> 振り仮名：たかとおじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：兜山城 <br>住所：長野県伊那市高遠町東高遠 <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、石垣、土塁、横堀（空堀）、門 <br><a href="https://cmeg.jp//w/castles/3333" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332128" width=150/></a></div>`)[0];
+            popup_ed15810e59fe43f8bd3281e3b7f3a892.setContent(html_3ca6f207c8094063b0f8d3bf42dd57ae);
         
 
-        marker_46f32f7a4c344da4ac426eec5423ad7d.bindPopup(popup_8164d8a525b24d25b472aa8cfdb2e8e9)
+        marker_332e994900e74cfe82e6c009ee330118.bindPopup(popup_ed15810e59fe43f8bd3281e3b7f3a892)
         ;
 
         
     
     
-            var marker_b4c8b0210b97413b898aa6cebcd9e154 = L.marker(
+            var marker_8d5136b37248438b93fc0d0966472a6d = L.marker(
                 [35.895983, 138.00033200000001],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_2f390ee36fb94a2f902836b3ddb02ed2 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_34e13940efdc4535bcb44bb1b0fc1d91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8d5136b37248438b93fc0d0966472a6d.setIcon(icon_34e13940efdc4535bcb44bb1b0fc1d91);
+        
+    
+        var popup_37f9656c867245d6b832795ba1d3fa60 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_5bd8838bc39444e9aaaa6d094bb9909a = $(`<div id="html_5bd8838bc39444e9aaaa6d094bb9909a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3336" target="_blank">福与城</a><br> 振り仮名：ふくよじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：箕輪城、鎌倉城 <br>住所：長野県上伊那郡箕輪町福与 <br>築城年：不明 <br>築城者：藤沢氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3336" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323334" width=150/></a></div>`)[0];
-            popup_2f390ee36fb94a2f902836b3ddb02ed2.setContent(html_5bd8838bc39444e9aaaa6d094bb9909a);
+            var html_02ca20b1647d450592d7576e7342bcdb = $(`<div id="html_02ca20b1647d450592d7576e7342bcdb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3336" target="_blank">福与城</a><br> 振り仮名：ふくよじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：箕輪城、鎌倉城 <br>住所：長野県上伊那郡箕輪町福与 <br>築城年：不明 <br>築城者：藤沢氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3336" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323334" width=150/></a></div>`)[0];
+            popup_37f9656c867245d6b832795ba1d3fa60.setContent(html_02ca20b1647d450592d7576e7342bcdb);
         
 
-        marker_b4c8b0210b97413b898aa6cebcd9e154.bindPopup(popup_2f390ee36fb94a2f902836b3ddb02ed2)
+        marker_8d5136b37248438b93fc0d0966472a6d.bindPopup(popup_37f9656c867245d6b832795ba1d3fa60)
         ;
 
         
     
     
-            var marker_20a2c7de8a9d48e597e7d732f8c252e2 = L.marker(
+            var marker_ca28de64ec7148fe969970c3f50fc5a8 = L.marker(
                 [35.584796999999995, 137.59556],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_3d30c4ba4220429eaa536afdd79d96e6 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_d4ccf80cd557410db515d1c4b9f4e86b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ca28de64ec7148fe969970c3f50fc5a8.setIcon(icon_d4ccf80cd557410db515d1c4b9f4e86b);
+        
+    
+        var popup_4751b02829dc4ed28a24fcf7b939069e = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_fdc60220515440769645235cd0024f2a = $(`<div id="html_fdc60220515440769645235cd0024f2a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3344" target="_blank">妻籠城</a><br> 振り仮名：つまごじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県木曽郡南木曽町吾妻218-7 <br>築城年：室町時代中期 <br>築城者：木曽氏？ <br>遺構：曲輪、帯曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3344" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332261" width=150/></a></div>`)[0];
-            popup_3d30c4ba4220429eaa536afdd79d96e6.setContent(html_fdc60220515440769645235cd0024f2a);
+            var html_64f2ebfd77804c61a456b79b89683c54 = $(`<div id="html_64f2ebfd77804c61a456b79b89683c54" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3344" target="_blank">妻籠城</a><br> 振り仮名：つまごじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県木曽郡南木曽町吾妻218-7 <br>築城年：室町時代中期 <br>築城者：木曽氏？ <br>遺構：曲輪、帯曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3344" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332261" width=150/></a></div>`)[0];
+            popup_4751b02829dc4ed28a24fcf7b939069e.setContent(html_64f2ebfd77804c61a456b79b89683c54);
         
 
-        marker_20a2c7de8a9d48e597e7d732f8c252e2.bindPopup(popup_3d30c4ba4220429eaa536afdd79d96e6)
+        marker_ca28de64ec7148fe969970c3f50fc5a8.bindPopup(popup_4751b02829dc4ed28a24fcf7b939069e)
         ;
 
         
     
     
-            var marker_08f5efb2b05f4a4caa5454d3ab05c902 = L.marker(
+            var marker_2815796f1bc44e16bea53cbfc6e9a05b = L.marker(
                 [35.855249, 137.693954],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_1b0bbd27a2ee404195d475a08150abd6 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_55637bed4f3847eb872616895e5f54f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2815796f1bc44e16bea53cbfc6e9a05b.setIcon(icon_55637bed4f3847eb872616895e5f54f1);
+        
+    
+        var popup_564b049fbdda473ba45d65cae084b942 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_dd35a7a994fd41188306df67e7328a05 = $(`<div id="html_dd35a7a994fd41188306df67e7328a05" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3345" target="_blank">福島城</a><br> 振り仮名：ふくしまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：木曽福島城、向城 <br>住所：長野県木曽郡木曽町福島 <br>築城年：天文年間（1532〜1555） <br>築城者：木曽義康 <br>遺構：曲輪、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3345" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/300787" width=150/></a></div>`)[0];
-            popup_1b0bbd27a2ee404195d475a08150abd6.setContent(html_dd35a7a994fd41188306df67e7328a05);
+            var html_1c1e5d2ede2a4b3b9afef806069fcec9 = $(`<div id="html_1c1e5d2ede2a4b3b9afef806069fcec9" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3345" target="_blank">福島城</a><br> 振り仮名：ふくしまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：木曽福島城、向城 <br>住所：長野県木曽郡木曽町福島 <br>築城年：天文年間（1532〜1555） <br>築城者：木曽義康 <br>遺構：曲輪、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3345" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/300787" width=150/></a></div>`)[0];
+            popup_564b049fbdda473ba45d65cae084b942.setContent(html_1c1e5d2ede2a4b3b9afef806069fcec9);
         
 
-        marker_08f5efb2b05f4a4caa5454d3ab05c902.bindPopup(popup_1b0bbd27a2ee404195d475a08150abd6)
+        marker_2815796f1bc44e16bea53cbfc6e9a05b.bindPopup(popup_564b049fbdda473ba45d65cae084b942)
         ;
 
         
     
     
-            var marker_4933466918974eb3b565858440488019 = L.marker(
+            var marker_3f0fa0ce88f24feca61aedd9b2e9f5a6 = L.marker(
                 [35.321251000000004, 137.935552],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_125f325cfb3e4653baa77ee9a38d6f62 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_8b9e044588304b249e8d08c152bf246d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3f0fa0ce88f24feca61aedd9b2e9f5a6.setIcon(icon_8b9e044588304b249e8d08c152bf246d);
+        
+    
+        var popup_9910d7a7747b42beac57c6250b2eeeb7 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_4d0951d143224169971535d05da4cebc = $(`<div id="html_4d0951d143224169971535d05da4cebc" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3350" target="_blank">和田城</a><br> 振り仮名：わだじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県飯田市南信濃和田 <br>築城年：16世紀中期 <br>築城者：遠山景広 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/3350" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326643" width=150/></a></div>`)[0];
-            popup_125f325cfb3e4653baa77ee9a38d6f62.setContent(html_4d0951d143224169971535d05da4cebc);
+            var html_038928ffe9ca40689dae4e12f4291011 = $(`<div id="html_038928ffe9ca40689dae4e12f4291011" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3350" target="_blank">和田城</a><br> 振り仮名：わだじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県飯田市南信濃和田 <br>築城年：16世紀中期 <br>築城者：遠山景広 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/3350" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326643" width=150/></a></div>`)[0];
+            popup_9910d7a7747b42beac57c6250b2eeeb7.setContent(html_038928ffe9ca40689dae4e12f4291011);
         
 
-        marker_4933466918974eb3b565858440488019.bindPopup(popup_125f325cfb3e4653baa77ee9a38d6f62)
+        marker_3f0fa0ce88f24feca61aedd9b2e9f5a6.bindPopup(popup_9910d7a7747b42beac57c6250b2eeeb7)
         ;
 
         
     
     
-            var marker_5ade0ed8ee1848a899cdf38bc5b0b712 = L.marker(
+            var marker_365ab868175b4eb9a282a4e37f0fc645 = L.marker(
                 [35.927201000000004, 138.09616599999998],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_68762e08b49b40a79080096912a16a41 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_4e283d87ffec4d64b3b2e635c2c94c45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_365ab868175b4eb9a282a4e37f0fc645.setIcon(icon_4e283d87ffec4d64b3b2e635c2c94c45);
+        
+    
+        var popup_6393763725ab48818bcaed88456b3377 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_b5421c8e0d82418d80c6650a9b204b81 = $(`<div id="html_b5421c8e0d82418d80c6650a9b204b81" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3352" target="_blank">藤沢城</a><br> 振り仮名：ふじさわじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県伊那市高遠町藤沢御堂垣外 <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3352" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/271159" width=150/></a></div>`)[0];
-            popup_68762e08b49b40a79080096912a16a41.setContent(html_b5421c8e0d82418d80c6650a9b204b81);
+            var html_808f914fb8d348c7a0780d1d62164320 = $(`<div id="html_808f914fb8d348c7a0780d1d62164320" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3352" target="_blank">藤沢城</a><br> 振り仮名：ふじさわじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県伊那市高遠町藤沢御堂垣外 <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3352" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/271159" width=150/></a></div>`)[0];
+            popup_6393763725ab48818bcaed88456b3377.setContent(html_808f914fb8d348c7a0780d1d62164320);
         
 
-        marker_5ade0ed8ee1848a899cdf38bc5b0b712.bindPopup(popup_68762e08b49b40a79080096912a16a41)
+        marker_365ab868175b4eb9a282a4e37f0fc645.bindPopup(popup_6393763725ab48818bcaed88456b3377)
         ;
 
         
     
     
-            var marker_bdbf15553e95478097769c2008b4b26f = L.marker(
+            var marker_2b0bb45176964162ad361c3db03b5a8a = L.marker(
                 [35.805135, 137.961502],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_6645250e50cb42978cd34841bdbb8339 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_9ed0b72b08854ec4b69e84604defe027 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2b0bb45176964162ad361c3db03b5a8a.setIcon(icon_9ed0b72b08854ec4b69e84604defe027);
+        
+    
+        var popup_f646fbe2fbd1423dacd0c629c690319f = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_35c6e9c9f0d34deeb959e123336e70c2 = $(`<div id="html_35c6e9c9f0d34deeb959e123336e70c2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3354" target="_blank">殿島城</a><br> 振り仮名：とのしまじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県伊那市東春近（殿島城址公園） <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、帯曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3354" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327656" width=150/></a></div>`)[0];
-            popup_6645250e50cb42978cd34841bdbb8339.setContent(html_35c6e9c9f0d34deeb959e123336e70c2);
+            var html_749b37094ce74abfb30192dc9c4819df = $(`<div id="html_749b37094ce74abfb30192dc9c4819df" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3354" target="_blank">殿島城</a><br> 振り仮名：とのしまじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：－ <br>住所：長野県伊那市東春近（殿島城址公園） <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、帯曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3354" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327656" width=150/></a></div>`)[0];
+            popup_f646fbe2fbd1423dacd0c629c690319f.setContent(html_749b37094ce74abfb30192dc9c4819df);
         
 
-        marker_bdbf15553e95478097769c2008b4b26f.bindPopup(popup_6645250e50cb42978cd34841bdbb8339)
+        marker_2b0bb45176964162ad361c3db03b5a8a.bindPopup(popup_f646fbe2fbd1423dacd0c629c690319f)
         ;
 
         
     
     
-            var marker_331ec63ebb68498fb96930cb8397e413 = L.marker(
+            var marker_b41f5c28755e42e78eb167ca52113431 = L.marker(
                 [36.820816, 137.911109],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_a79b6b93b93e4c549011d662b5e4fc4c = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_569cda3bd78d4856a350da55f61f0448 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b41f5c28755e42e78eb167ca52113431.setIcon(icon_569cda3bd78d4856a350da55f61f0448);
+        
+    
+        var popup_42a21e47fb294004aa2fe9093bf7ce2e = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_1ac05fe88a824dd7a9d66d2cfb69c493 = $(`<div id="html_1ac05fe88a824dd7a9d66d2cfb69c493" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3358" target="_blank">平倉城</a><br> 振り仮名：ひらくらじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：平倉山城、小谷（おたり）城 <br>住所：長野県北安曇郡小谷村中土平倉山 <br>築城年：戦国時代 <br>築城者：飯森氏 <br>遺構：曲輪 <br><a href="https://cmeg.jp//w/castles/3358" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/177849" width=150/></a></div>`)[0];
-            popup_a79b6b93b93e4c549011d662b5e4fc4c.setContent(html_1ac05fe88a824dd7a9d66d2cfb69c493);
+            var html_09d08799b3474d8d86433f44d8a4f9c5 = $(`<div id="html_09d08799b3474d8d86433f44d8a4f9c5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3358" target="_blank">平倉城</a><br> 振り仮名：ひらくらじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：平倉山城、小谷（おたり）城 <br>住所：長野県北安曇郡小谷村中土平倉山 <br>築城年：戦国時代 <br>築城者：飯森氏 <br>遺構：曲輪 <br><a href="https://cmeg.jp//w/castles/3358" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/177849" width=150/></a></div>`)[0];
+            popup_42a21e47fb294004aa2fe9093bf7ce2e.setContent(html_09d08799b3474d8d86433f44d8a4f9c5);
         
 
-        marker_331ec63ebb68498fb96930cb8397e413.bindPopup(popup_a79b6b93b93e4c549011d662b5e4fc4c)
+        marker_b41f5c28755e42e78eb167ca52113431.bindPopup(popup_42a21e47fb294004aa2fe9093bf7ce2e)
         ;
 
         
     
     
-            var marker_74c5012cc3ec444b93868f6a5b4a84e1 = L.marker(
+            var marker_ee7d055c335e498c92a83a71fe5e35c6 = L.marker(
                 [36.356053, 137.828569],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_65c564b1aba4426485b3299a44ba7698 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_a61a886899354762bda5ca9f3ef11272 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ee7d055c335e498c92a83a71fe5e35c6.setIcon(icon_a61a886899354762bda5ca9f3ef11272);
+        
+    
+        var popup_95ce30f18e97487a8354d6aeb33b2cef = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_f2da553df73a4519995fd8ea6b49bb9c = $(`<div id="html_f2da553df73a4519995fd8ea6b49bb9c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3366" target="_blank">小岩嶽城</a><br> 振り仮名：こいわたけじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：小岩岳城 <br>住所：長野県安曇野市穂高有明3464-4 <br>築城年：戦国時代 <br>築城者：仁科氏 <br>遺構：曲輪、石積、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3366" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328063" width=150/></a></div>`)[0];
-            popup_65c564b1aba4426485b3299a44ba7698.setContent(html_f2da553df73a4519995fd8ea6b49bb9c);
+            var html_8e8301afda35483e9bacd054e5fe67ed = $(`<div id="html_8e8301afda35483e9bacd054e5fe67ed" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3366" target="_blank">小岩嶽城</a><br> 振り仮名：こいわたけじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：小岩岳城 <br>住所：長野県安曇野市穂高有明3464-4 <br>築城年：戦国時代 <br>築城者：仁科氏 <br>遺構：曲輪、石積、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3366" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328063" width=150/></a></div>`)[0];
+            popup_95ce30f18e97487a8354d6aeb33b2cef.setContent(html_8e8301afda35483e9bacd054e5fe67ed);
         
 
-        marker_74c5012cc3ec444b93868f6a5b4a84e1.bindPopup(popup_65c564b1aba4426485b3299a44ba7698)
+        marker_ee7d055c335e498c92a83a71fe5e35c6.bindPopup(popup_95ce30f18e97487a8354d6aeb33b2cef)
         ;
 
         
     
     
-            var marker_b7157c4b45f7411ba8af5b68a818d094 = L.marker(
+            var marker_57a9a07403964771a52a93559f20d0b1 = L.marker(
                 [36.468064, 138.044778],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_5bc3af2420724bceb06d2d025db36a3d = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_d26c3243278947e1a7293b11b3a36932 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_57a9a07403964771a52a93559f20d0b1.setIcon(icon_d26c3243278947e1a7293b11b3a36932);
+        
+    
+        var popup_6f83275ecda14975b9a62042dc83b826 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_24c9cd2c73e047e1ab9fe98eefb7f731 = $(`<div id="html_24c9cd2c73e047e1ab9fe98eefb7f731" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3371" target="_blank">麻績城</a><br> 振り仮名：おみじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県東筑摩郡麻績村麻次柳8009 <br>築城年：戦国時代 <br>築城者：服部氏 <br>遺構：曲輪、帯曲輪、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3371" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/315508" width=150/></a></div>`)[0];
-            popup_5bc3af2420724bceb06d2d025db36a3d.setContent(html_24c9cd2c73e047e1ab9fe98eefb7f731);
+            var html_f27b8085a1e3454da398618041ebf60d = $(`<div id="html_f27b8085a1e3454da398618041ebf60d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3371" target="_blank">麻績城</a><br> 振り仮名：おみじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県東筑摩郡麻績村麻次柳8009 <br>築城年：戦国時代 <br>築城者：服部氏 <br>遺構：曲輪、帯曲輪、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3371" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/315508" width=150/></a></div>`)[0];
+            popup_6f83275ecda14975b9a62042dc83b826.setContent(html_f27b8085a1e3454da398618041ebf60d);
         
 
-        marker_b7157c4b45f7411ba8af5b68a818d094.bindPopup(popup_5bc3af2420724bceb06d2d025db36a3d)
+        marker_57a9a07403964771a52a93559f20d0b1.bindPopup(popup_6f83275ecda14975b9a62042dc83b826)
         ;
 
         
     
     
-            var marker_e67bb2cafb084609b31907a176947ea2 = L.marker(
+            var marker_8763660ed0c744409178c0698ca33249 = L.marker(
                 [36.430818, 138.033871],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_fadc258f2dda46d98fa8d4a019e75683 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_3be3f18def0e4e37a84a206cfb7d0931 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8763660ed0c744409178c0698ca33249.setIcon(icon_3be3f18def0e4e37a84a206cfb7d0931);
+        
+    
+        var popup_8f760008211441a4944d245d148ea4da = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_cf00376211bd483785ba1851245cd292 = $(`<div id="html_cf00376211bd483785ba1851245cd292" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3374" target="_blank">青柳城</a><br> 振り仮名：あおやぎじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：青柳館 <br>住所：長野県東筑摩郡筑北村青柳字東山 <br>築城年：戦国時代 <br>築城者：青柳氏 <br>遺構：曲輪、土塁、横堀（空堀）、堀切、竪堀、石積 <br><a href="https://cmeg.jp//w/castles/3374" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327870" width=150/></a></div>`)[0];
-            popup_fadc258f2dda46d98fa8d4a019e75683.setContent(html_cf00376211bd483785ba1851245cd292);
+            var html_0eed64ae9c03423fa7e3ff67df36ec71 = $(`<div id="html_0eed64ae9c03423fa7e3ff67df36ec71" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3374" target="_blank">青柳城</a><br> 振り仮名：あおやぎじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：青柳館 <br>住所：長野県東筑摩郡筑北村青柳字東山 <br>築城年：戦国時代 <br>築城者：青柳氏 <br>遺構：曲輪、土塁、横堀（空堀）、堀切、竪堀、石積 <br><a href="https://cmeg.jp//w/castles/3374" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327870" width=150/></a></div>`)[0];
+            popup_8f760008211441a4944d245d148ea4da.setContent(html_0eed64ae9c03423fa7e3ff67df36ec71);
         
 
-        marker_e67bb2cafb084609b31907a176947ea2.bindPopup(popup_fadc258f2dda46d98fa8d4a019e75683)
+        marker_8763660ed0c744409178c0698ca33249.bindPopup(popup_8f760008211441a4944d245d148ea4da)
         ;
 
         
     
     
-            var marker_6fcd3257491f47158ce95a8660e1bd7f = L.marker(
+            var marker_30d663adf42149a3abcb1fa71f5a038a = L.marker(
                 [36.116712, 137.88132199999998],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_2c5ac8e457464177a4f0fdf72662409e = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_9910f6de12264464a86401af5b755926 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_30d663adf42149a3abcb1fa71f5a038a.setIcon(icon_9910f6de12264464a86401af5b755926);
+        
+    
+        var popup_106b9cbaf0494a8fab97428d7d3a1272 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_cbdbed4fa0e4462ea6b59f6ae7c84a65 = $(`<div id="html_cbdbed4fa0e4462ea6b59f6ae7c84a65" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3375" target="_blank">武居城</a><br> 振り仮名：たけいじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：洗馬城 <br>住所：長野県東筑摩郡朝日村西洗馬 <br>築城年：南北朝時代？ <br>築城者：三村氏 <br>遺構：曲輪、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3375" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/305510" width=150/></a></div>`)[0];
-            popup_2c5ac8e457464177a4f0fdf72662409e.setContent(html_cbdbed4fa0e4462ea6b59f6ae7c84a65);
+            var html_152098e8dc9a4b6684d13376e786fcb8 = $(`<div id="html_152098e8dc9a4b6684d13376e786fcb8" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3375" target="_blank">武居城</a><br> 振り仮名：たけいじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：洗馬城 <br>住所：長野県東筑摩郡朝日村西洗馬 <br>築城年：南北朝時代？ <br>築城者：三村氏 <br>遺構：曲輪、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3375" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/305510" width=150/></a></div>`)[0];
+            popup_106b9cbaf0494a8fab97428d7d3a1272.setContent(html_152098e8dc9a4b6684d13376e786fcb8);
         
 
-        marker_6fcd3257491f47158ce95a8660e1bd7f.bindPopup(popup_2c5ac8e457464177a4f0fdf72662409e)
+        marker_30d663adf42149a3abcb1fa71f5a038a.bindPopup(popup_106b9cbaf0494a8fab97428d7d3a1272)
         ;
 
         
     
     
-            var marker_f1a5622cd9b2415d9a198a591ae369da = L.marker(
+            var marker_ea6fa003bf444afab628a18c17fb61fe = L.marker(
                 [36.052757, 138.050952],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_9393e53f6e5b4882a5ac0245ce3808b4 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_78e329f12dad41b38c8e780ea458cfd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ea6fa003bf444afab628a18c17fb61fe.setIcon(icon_78e329f12dad41b38c8e780ea458cfd8);
+        
+    
+        var popup_480eb80e1c5743a98dbdc4a1e45f5045 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_7c0d2673039e42879aa18ed1bf3bcbf5 = $(`<div id="html_7c0d2673039e42879aa18ed1bf3bcbf5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3381" target="_blank">花岡城</a><br> 振り仮名：はなおかじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：尾尻城、湖尻城 <br>住所：長野県岡谷市湊（花岡公園） <br>築城年：鎌倉時代前期 <br>築城者：花岡氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3381" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/318392" width=150/></a></div>`)[0];
-            popup_9393e53f6e5b4882a5ac0245ce3808b4.setContent(html_7c0d2673039e42879aa18ed1bf3bcbf5);
+            var html_0717fc1aaa1c475584bf8c56d4ac43f4 = $(`<div id="html_0717fc1aaa1c475584bf8c56d4ac43f4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3381" target="_blank">花岡城</a><br> 振り仮名：はなおかじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：尾尻城、湖尻城 <br>住所：長野県岡谷市湊（花岡公園） <br>築城年：鎌倉時代前期 <br>築城者：花岡氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3381" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/318392" width=150/></a></div>`)[0];
+            popup_480eb80e1c5743a98dbdc4a1e45f5045.setContent(html_0717fc1aaa1c475584bf8c56d4ac43f4);
         
 
-        marker_f1a5622cd9b2415d9a198a591ae369da.bindPopup(popup_9393e53f6e5b4882a5ac0245ce3808b4)
+        marker_ea6fa003bf444afab628a18c17fb61fe.bindPopup(popup_480eb80e1c5743a98dbdc4a1e45f5045)
         ;
 
         
     
     
-            var marker_8b72b6ef1d1744a7aa2cde8eb7564bb1 = L.marker(
+            var marker_bb369228f4434a73a41e99cd6fc14485 = L.marker(
                 [36.039792999999996, 138.112019],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_885f3a2228d24f52b9c505bd3171a527 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_4392b495b66a4e8686f0f418414ebf13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb369228f4434a73a41e99cd6fc14485.setIcon(icon_4392b495b66a4e8686f0f418414ebf13);
+        
+    
+        var popup_3cccc53fa95444a0bda71dab86a13d4a = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_ee4d932c490e4c7cbfc746e2df0b9873 = $(`<div id="html_ee4d932c490e4c7cbfc746e2df0b9873" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3383" target="_blank">高島城</a><br> 振り仮名：たかしまじょう <br>旧国名：信濃国 <br>分類・構造：連郭式平城 <br>別名：諏訪の浮城、島崎城 <br>住所：長野県諏訪市高島1-20 <br>築城年：文禄元年（1592） <br>築城者：日根野高吉 <br>遺構：曲輪、石垣、横堀（水堀）、門 <br><a href="https://cmeg.jp//w/castles/3383" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330226" width=150/></a></div>`)[0];
-            popup_885f3a2228d24f52b9c505bd3171a527.setContent(html_ee4d932c490e4c7cbfc746e2df0b9873);
+            var html_1541d8a307974749bbda584ed7c34ba5 = $(`<div id="html_1541d8a307974749bbda584ed7c34ba5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3383" target="_blank">高島城</a><br> 振り仮名：たかしまじょう <br>旧国名：信濃国 <br>分類・構造：連郭式平城 <br>別名：諏訪の浮城、島崎城 <br>住所：長野県諏訪市高島1-20 <br>築城年：文禄元年（1592） <br>築城者：日根野高吉 <br>遺構：曲輪、石垣、横堀（水堀）、門 <br><a href="https://cmeg.jp//w/castles/3383" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330226" width=150/></a></div>`)[0];
+            popup_3cccc53fa95444a0bda71dab86a13d4a.setContent(html_1541d8a307974749bbda584ed7c34ba5);
         
 
-        marker_8b72b6ef1d1744a7aa2cde8eb7564bb1.bindPopup(popup_885f3a2228d24f52b9c505bd3171a527)
+        marker_bb369228f4434a73a41e99cd6fc14485.bindPopup(popup_3cccc53fa95444a0bda71dab86a13d4a)
         ;
 
         
     
     
-            var marker_00d161d9e60c4773851098eb58ac42ae = L.marker(
+            var marker_7a44ae82defa4acaa09aa60293777bcf = L.marker(
                 [36.204432000000004, 138.205791],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_ead188356f1a474cab297f02b32d6abd = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_11da63a00b9b41a0905410399ff51671 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7a44ae82defa4acaa09aa60293777bcf.setIcon(icon_11da63a00b9b41a0905410399ff51671);
+        
+    
+        var popup_1e5b2fd57f8e4fc998b9c98665f4b34f = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_072153149cbf4aeb96996b28d6222509 = $(`<div id="html_072153149cbf4aeb96996b28d6222509" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3384" target="_blank">和田城</a><br> 振り仮名：わだじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県小県郡長和町和田 <br>築城年：不明 <br>築城者：大井氏 <br>遺構：曲輪、石積、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3384" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/302030" width=150/></a></div>`)[0];
-            popup_ead188356f1a474cab297f02b32d6abd.setContent(html_072153149cbf4aeb96996b28d6222509);
+            var html_422f5caad4ea4db196a09cb375bbc80f = $(`<div id="html_422f5caad4ea4db196a09cb375bbc80f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3384" target="_blank">和田城</a><br> 振り仮名：わだじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県小県郡長和町和田 <br>築城年：不明 <br>築城者：大井氏 <br>遺構：曲輪、石積、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3384" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/302030" width=150/></a></div>`)[0];
+            popup_1e5b2fd57f8e4fc998b9c98665f4b34f.setContent(html_422f5caad4ea4db196a09cb375bbc80f);
         
 
-        marker_00d161d9e60c4773851098eb58ac42ae.bindPopup(popup_ead188356f1a474cab297f02b32d6abd)
+        marker_7a44ae82defa4acaa09aa60293777bcf.bindPopup(popup_1e5b2fd57f8e4fc998b9c98665f4b34f)
         ;
 
         
     
     
-            var marker_6b60653844c148888edd9d47d7781505 = L.marker(
+            var marker_54dae18604674accb07cd73a17e6d0d7 = L.marker(
                 [36.017041, 138.080659],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_79d683e226ee450cb6eb791a2eb735ce = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_baf896f8cd2f47a184f64e41d103554d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_54dae18604674accb07cd73a17e6d0d7.setIcon(icon_baf896f8cd2f47a184f64e41d103554d);
+        
+    
+        var popup_752d49ec883b40efbfca537f6dfac8a8 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_abf3bdc84d8a4c948a548df5e12fef1b = $(`<div id="html_abf3bdc84d8a4c948a548df5e12fef1b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3385" target="_blank">有賀城</a><br> 振り仮名：あるがじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：天狗山城 <br>住所：長野県諏訪市豊田有賀 <br>築城年：承久年間（1219〜1222） <br>築城者：有賀次郎 <br>遺構：曲輪、土塁、堀切、横堀（空堀）、竪堀 <br><a href="https://cmeg.jp//w/castles/3385" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331657" width=150/></a></div>`)[0];
-            popup_79d683e226ee450cb6eb791a2eb735ce.setContent(html_abf3bdc84d8a4c948a548df5e12fef1b);
+            var html_0e756b44af3d4ca2b6ecd9b205147ba7 = $(`<div id="html_0e756b44af3d4ca2b6ecd9b205147ba7" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3385" target="_blank">有賀城</a><br> 振り仮名：あるがじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：天狗山城 <br>住所：長野県諏訪市豊田有賀 <br>築城年：承久年間（1219〜1222） <br>築城者：有賀次郎 <br>遺構：曲輪、土塁、堀切、横堀（空堀）、竪堀 <br><a href="https://cmeg.jp//w/castles/3385" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331657" width=150/></a></div>`)[0];
+            popup_752d49ec883b40efbfca537f6dfac8a8.setContent(html_0e756b44af3d4ca2b6ecd9b205147ba7);
         
 
-        marker_6b60653844c148888edd9d47d7781505.bindPopup(popup_79d683e226ee450cb6eb791a2eb735ce)
+        marker_54dae18604674accb07cd73a17e6d0d7.bindPopup(popup_752d49ec883b40efbfca537f6dfac8a8)
         ;
 
         
     
     
-            var marker_9dfa8f7a33ed42088b73f388edeba206 = L.marker(
+            var marker_161edb360d5a4b348775d7f7bb525dc7 = L.marker(
                 [35.880891, 138.293731],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_b624c8552fea47ea94ca09e0b5fa0750 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_a01a95abe52b4d319b9f2fedbae6a972 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_161edb360d5a4b348775d7f7bb525dc7.setIcon(icon_a01a95abe52b4d319b9f2fedbae6a972);
+        
+    
+        var popup_a6f09ebf22b8435dbf33b284e9d34efc = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_0b6cb088ef2a45ea92496a6d24d844d3 = $(`<div id="html_0b6cb088ef2a45ea92496a6d24d844d3" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3395" target="_blank">先達城</a><br> 振り仮名：せんだつじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：小東城 <br>住所：長野県諏訪郡富士見町境先達（常昌寺） <br>築城年：享禄元年（1528） <br>築城者：武田信虎 <br>遺構：曲輪、土塁？ <br><a href="https://cmeg.jp//w/castles/3395" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/268838" width=150/></a></div>`)[0];
-            popup_b624c8552fea47ea94ca09e0b5fa0750.setContent(html_0b6cb088ef2a45ea92496a6d24d844d3);
+            var html_5517b69608c4404b9afb576e7f2235ac = $(`<div id="html_5517b69608c4404b9afb576e7f2235ac" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3395" target="_blank">先達城</a><br> 振り仮名：せんだつじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：小東城 <br>住所：長野県諏訪郡富士見町境先達（常昌寺） <br>築城年：享禄元年（1528） <br>築城者：武田信虎 <br>遺構：曲輪、土塁？ <br><a href="https://cmeg.jp//w/castles/3395" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/268838" width=150/></a></div>`)[0];
+            popup_a6f09ebf22b8435dbf33b284e9d34efc.setContent(html_5517b69608c4404b9afb576e7f2235ac);
         
 
-        marker_9dfa8f7a33ed42088b73f388edeba206.bindPopup(popup_b624c8552fea47ea94ca09e0b5fa0750)
+        marker_161edb360d5a4b348775d7f7bb525dc7.bindPopup(popup_a6f09ebf22b8435dbf33b284e9d34efc)
         ;
 
         
     
     
-            var marker_d406d3d9dd22496fa493024882a18cc7 = L.marker(
+            var marker_a308958ff747462292c450e8ea12ab68 = L.marker(
                 [36.009048, 138.148546],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_8a74e7e6608546268839ef3b6bbae047 = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_86afdbda351d4f2ca78e32a36a623ab7 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_74c97ba685e441f0beb32ba90b1a241d = $(`<div id="html_74c97ba685e441f0beb32ba90b1a241d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3397" target="_blank">諏訪氏城館</a><br> 振り仮名：すわしじょうかん <br>旧国名：信濃国 <br>分類・構造：城館遺跡群 <br>別名：諏訪氏城［上原城・桑原城（高鳥屋城、水晶城）］ <br>住所：長野県茅野市ちの上原他（地図は上原城を示す） <br>築城年：室町時代［上原城］、不明［桑原城］ <br>築城者：諏訪氏［すべて］ <br>遺構：曲輪、土塁、横堀（空堀）［すべて］、石垣［上原城］ <br><a href="https://cmeg.jp//w/castles/3397" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331315" width=150/></a></div>`)[0];
-            popup_8a74e7e6608546268839ef3b6bbae047.setContent(html_74c97ba685e441f0beb32ba90b1a241d);
+            var html_2fc4425c44d44289a4e7b9ca9462ef0c = $(`<div id="html_2fc4425c44d44289a4e7b9ca9462ef0c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3397" target="_blank">諏訪氏城館</a><br> 振り仮名：すわしじょうかん <br>旧国名：信濃国 <br>分類・構造：城館遺跡群 <br>別名：諏訪氏城［上原城・桑原城（高鳥屋城、水晶城）］ <br>住所：長野県茅野市ちの上原他（地図は上原城を示す） <br>築城年：室町時代［上原城］、不明［桑原城］ <br>築城者：諏訪氏［すべて］ <br>遺構：曲輪、土塁、横堀（空堀）［すべて］、石垣［上原城］ <br><a href="https://cmeg.jp//w/castles/3397" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331315" width=150/></a></div>`)[0];
+            popup_86afdbda351d4f2ca78e32a36a623ab7.setContent(html_2fc4425c44d44289a4e7b9ca9462ef0c);
         
 
-        marker_d406d3d9dd22496fa493024882a18cc7.bindPopup(popup_8a74e7e6608546268839ef3b6bbae047)
+        marker_a308958ff747462292c450e8ea12ab68.bindPopup(popup_86afdbda351d4f2ca78e32a36a623ab7)
         ;
 
         
     
     
-            var marker_5746900cd81147d6b8bfb795a6b1343c = L.marker(
+            var marker_1554d9da9db34e53ac9f9ce0749fede7 = L.marker(
                 [36.039239, 138.21231699999998],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_1d23c0a377624366b4e18e1c2363f810 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_bb6c04b3143a4a3ba519d471577f5f9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1554d9da9db34e53ac9f9ce0749fede7.setIcon(icon_bb6c04b3143a4a3ba519d471577f5f9d);
+        
+    
+        var popup_386296c208ed402b87dfff274aad1455 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_51babf69de9b4cf48898accb5d86fc65 = $(`<div id="html_51babf69de9b4cf48898accb5d86fc65" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3398" target="_blank">朝倉山城</a><br> 振り仮名：あさくらやまじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：塩沢城 <br>住所：長野県茅野市北山381-1他 <br>築城年：天文年間（1532〜1555）？ <br>築城者：塩沢安兵衛？ <br>遺構：曲輪、土塁、堀切、横堀（空堀）、竪堀 <br><a href="https://cmeg.jp//w/castles/3398" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331321" width=150/></a></div>`)[0];
-            popup_1d23c0a377624366b4e18e1c2363f810.setContent(html_51babf69de9b4cf48898accb5d86fc65);
+            var html_ef6e2d43791145ab91d152e514cd8412 = $(`<div id="html_ef6e2d43791145ab91d152e514cd8412" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3398" target="_blank">朝倉山城</a><br> 振り仮名：あさくらやまじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：塩沢城 <br>住所：長野県茅野市北山381-1他 <br>築城年：天文年間（1532〜1555）？ <br>築城者：塩沢安兵衛？ <br>遺構：曲輪、土塁、堀切、横堀（空堀）、竪堀 <br><a href="https://cmeg.jp//w/castles/3398" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331321" width=150/></a></div>`)[0];
+            popup_386296c208ed402b87dfff274aad1455.setContent(html_ef6e2d43791145ab91d152e514cd8412);
         
 
-        marker_5746900cd81147d6b8bfb795a6b1343c.bindPopup(popup_1d23c0a377624366b4e18e1c2363f810)
+        marker_1554d9da9db34e53ac9f9ce0749fede7.bindPopup(popup_386296c208ed402b87dfff274aad1455)
         ;
 
         
     
     
-            var marker_d1cbef6e22a94233ad6056377726cbda = L.marker(
+            var marker_8f064f26af7f4fcc9dc3ea962d50a7ae = L.marker(
                 [36.196034000000004, 138.501653],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_8a5fdc7ce9a54446b2ef5dcda21e4608 = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_ba7b33f435144205bc1b7ec49b828c0b = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_222d19553e144e3691b09d4b884dc85f = $(`<div id="html_222d19553e144e3691b09d4b884dc85f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3406" target="_blank">龍岡城</a><br> 振り仮名：たつおかじょう <br>旧国名：信濃国 <br>分類・構造：稜堡式 <br>別名：龍岡五稜郭、桔梗城、田口陣屋 <br>住所：長野県佐久市田口 <br>築城年：元治元年（1864） <br>築城者：松平乗謨 <br>遺構：曲輪、櫓、石垣、土塁、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/3406" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330561" width=150/></a></div>`)[0];
-            popup_8a5fdc7ce9a54446b2ef5dcda21e4608.setContent(html_222d19553e144e3691b09d4b884dc85f);
+            var html_3f1b7dcba3cf4082a4e1e95d924d9e3e = $(`<div id="html_3f1b7dcba3cf4082a4e1e95d924d9e3e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3406" target="_blank">龍岡城</a><br> 振り仮名：たつおかじょう <br>旧国名：信濃国 <br>分類・構造：稜堡式 <br>別名：龍岡五稜郭、桔梗城、田口陣屋 <br>住所：長野県佐久市田口 <br>築城年：元治元年（1864） <br>築城者：松平乗謨 <br>遺構：曲輪、櫓、石垣、土塁、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/3406" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330561" width=150/></a></div>`)[0];
+            popup_ba7b33f435144205bc1b7ec49b828c0b.setContent(html_3f1b7dcba3cf4082a4e1e95d924d9e3e);
         
 
-        marker_d1cbef6e22a94233ad6056377726cbda.bindPopup(popup_8a5fdc7ce9a54446b2ef5dcda21e4608)
+        marker_8f064f26af7f4fcc9dc3ea962d50a7ae.bindPopup(popup_ba7b33f435144205bc1b7ec49b828c0b)
         ;
 
         
     
     
-            var marker_ddd7400c69004015aaf58a2734ddbdec = L.marker(
+            var marker_8b7181e659ec4af598061b54be4dfb0a = L.marker(
                 [36.037032, 138.495503],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_3b117955548f40099fc041d79c6d62cd = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_84d2f7cd063f499593136ddbe938a0b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8b7181e659ec4af598061b54be4dfb0a.setIcon(icon_84d2f7cd063f499593136ddbe938a0b8);
+        
+    
+        var popup_4441858a1e0d4c158a9e2815f609bab5 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_9d4f362ec0e544aa9762e522f00963f3 = $(`<div id="html_9d4f362ec0e544aa9762e522f00963f3" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3412" target="_blank">海ノ口城</a><br> 振り仮名：うみのくちじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：鳥井城 <br>住所：長野県南佐久郡南牧村海ノ口大芝 <br>築城年：戦国時代 <br>築城者：平賀源心？ <br>遺構：曲輪、堀切 <br><a href="https://cmeg.jp//w/castles/3412" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/324409" width=150/></a></div>`)[0];
-            popup_3b117955548f40099fc041d79c6d62cd.setContent(html_9d4f362ec0e544aa9762e522f00963f3);
+            var html_b0d11009c62f42a7b95ff1ced97246a2 = $(`<div id="html_b0d11009c62f42a7b95ff1ced97246a2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3412" target="_blank">海ノ口城</a><br> 振り仮名：うみのくちじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：鳥井城 <br>住所：長野県南佐久郡南牧村海ノ口大芝 <br>築城年：戦国時代 <br>築城者：平賀源心？ <br>遺構：曲輪、堀切 <br><a href="https://cmeg.jp//w/castles/3412" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/324409" width=150/></a></div>`)[0];
+            popup_4441858a1e0d4c158a9e2815f609bab5.setContent(html_b0d11009c62f42a7b95ff1ced97246a2);
         
 
-        marker_ddd7400c69004015aaf58a2734ddbdec.bindPopup(popup_3b117955548f40099fc041d79c6d62cd)
+        marker_8b7181e659ec4af598061b54be4dfb0a.bindPopup(popup_4441858a1e0d4c158a9e2815f609bab5)
         ;
 
         
     
     
-            var marker_d5162bae65384482982865e37ec5375c = L.marker(
+            var marker_3344b4152b214e2889a5315dca9c4938 = L.marker(
                 [36.268665999999996, 138.364809],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_ea744f59898a42e1812e13f1112f0e73 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_be761f323e7f456daccf9048a1860e3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3344b4152b214e2889a5315dca9c4938.setIcon(icon_be761f323e7f456daccf9048a1860e3c);
+        
+    
+        var popup_bf7bf6bc3387456796662cc5eeb7f757 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_4ca14f3b9c174705a620817e8e937308 = $(`<div id="html_4ca14f3b9c174705a620817e8e937308" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3422" target="_blank">望月城</a><br> 振り仮名：もちづきじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：（天神城） <br>住所：長野県佐久市望月 <br>築城年：鎌倉時代 <br>築城者：望月氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3422" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/315713" width=150/></a></div>`)[0];
-            popup_ea744f59898a42e1812e13f1112f0e73.setContent(html_4ca14f3b9c174705a620817e8e937308);
+            var html_56db9f3d9fb64db59d915bb53bc56000 = $(`<div id="html_56db9f3d9fb64db59d915bb53bc56000" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3422" target="_blank">望月城</a><br> 振り仮名：もちづきじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：（天神城） <br>住所：長野県佐久市望月 <br>築城年：鎌倉時代 <br>築城者：望月氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3422" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/315713" width=150/></a></div>`)[0];
+            popup_bf7bf6bc3387456796662cc5eeb7f757.setContent(html_56db9f3d9fb64db59d915bb53bc56000);
         
 
-        marker_d5162bae65384482982865e37ec5375c.bindPopup(popup_ea744f59898a42e1812e13f1112f0e73)
+        marker_3344b4152b214e2889a5315dca9c4938.bindPopup(popup_bf7bf6bc3387456796662cc5eeb7f757)
         ;
 
         
     
     
-            var marker_b07ddd7f95ff4b1c8d50693acc216b82 = L.marker(
+            var marker_f721d3f786ac4384b93116f2eebcf0c2 = L.marker(
                 [36.253966, 138.429336],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_4f74c2e9612c4dcf88425b509bd11fb9 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_79a835f90a244ec082c7d31f36acc5eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f721d3f786ac4384b93116f2eebcf0c2.setIcon(icon_79a835f90a244ec082c7d31f36acc5eb);
+        
+    
+        var popup_3e320808ecfc4fa88c72a6fc66077583 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_b0540541faa3473aa4e9edc5c282046a = $(`<div id="html_b0540541faa3473aa4e9edc5c282046a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3431" target="_blank">岩尾城</a><br> 振り仮名：いわおじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：琵琶島城 <br>住所：長野県佐久市鳴瀬城跡572他 <br>築城年：文明年間（1469〜1487） <br>築城者：大井行俊 <br>遺構：曲輪、土塁、横堀（空堀）、石積 <br><a href="https://cmeg.jp//w/castles/3431" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317512" width=150/></a></div>`)[0];
-            popup_4f74c2e9612c4dcf88425b509bd11fb9.setContent(html_b0540541faa3473aa4e9edc5c282046a);
+            var html_6671fbe7d8514430b60c2dd2ce09df60 = $(`<div id="html_6671fbe7d8514430b60c2dd2ce09df60" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3431" target="_blank">岩尾城</a><br> 振り仮名：いわおじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：琵琶島城 <br>住所：長野県佐久市鳴瀬城跡572他 <br>築城年：文明年間（1469〜1487） <br>築城者：大井行俊 <br>遺構：曲輪、土塁、横堀（空堀）、石積 <br><a href="https://cmeg.jp//w/castles/3431" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317512" width=150/></a></div>`)[0];
+            popup_3e320808ecfc4fa88c72a6fc66077583.setContent(html_6671fbe7d8514430b60c2dd2ce09df60);
         
 
-        marker_b07ddd7f95ff4b1c8d50693acc216b82.bindPopup(popup_4f74c2e9612c4dcf88425b509bd11fb9)
+        marker_f721d3f786ac4384b93116f2eebcf0c2.bindPopup(popup_3e320808ecfc4fa88c72a6fc66077583)
         ;
 
         
     
     
-            var marker_97f7edcae3bd45109300cb21cd25e7dc = L.marker(
+            var marker_cc314a9f2fcb4de3b49db4640e642c85 = L.marker(
                 [36.2748, 138.482751],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_5e5c8d2fef7e4500b19e697bcd0e755b = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_6620557ceba14c059a45f84d23a277d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cc314a9f2fcb4de3b49db4640e642c85.setIcon(icon_6620557ceba14c059a45f84d23a277d3);
+        
+    
+        var popup_6084198d621f4d758a479a38480463af = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_9cd75fdd5fb34711a109e5e7a5e28f25 = $(`<div id="html_9cd75fdd5fb34711a109e5e7a5e28f25" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3433" target="_blank">大井城</a><br> 振り仮名：おおいじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：岩村田館、（王城、黒岩城、石並城） <br>住所：長野県佐久市岩村田字古城3444-1他（王城公園） <br>築城年：承久3年（1221）？ <br>築城者：大井朝光？ <br>遺構：曲輪、堀切 <br><a href="https://cmeg.jp//w/castles/3433" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/319657" width=150/></a></div>`)[0];
-            popup_5e5c8d2fef7e4500b19e697bcd0e755b.setContent(html_9cd75fdd5fb34711a109e5e7a5e28f25);
+            var html_685f179473c34311a93f5af6b1452b21 = $(`<div id="html_685f179473c34311a93f5af6b1452b21" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3433" target="_blank">大井城</a><br> 振り仮名：おおいじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：岩村田館、（王城、黒岩城、石並城） <br>住所：長野県佐久市岩村田字古城3444-1他（王城公園） <br>築城年：承久3年（1221）？ <br>築城者：大井朝光？ <br>遺構：曲輪、堀切 <br><a href="https://cmeg.jp//w/castles/3433" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/319657" width=150/></a></div>`)[0];
+            popup_6084198d621f4d758a479a38480463af.setContent(html_685f179473c34311a93f5af6b1452b21);
         
 
-        marker_97f7edcae3bd45109300cb21cd25e7dc.bindPopup(popup_5e5c8d2fef7e4500b19e697bcd0e755b)
+        marker_cc314a9f2fcb4de3b49db4640e642c85.bindPopup(popup_6084198d621f4d758a479a38480463af)
         ;
 
         
     
     
-            var marker_6bfd3e6f5dfd4452972aabf26be0fae7 = L.marker(
+            var marker_e382bb46c28343689c8a6be2fbfac24e = L.marker(
                 [36.253042, 138.530903],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_7707a05b29554a0092d5e85960bc5db7 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_f835ade9570441188ad0f19aa9fa52c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e382bb46c28343689c8a6be2fbfac24e.setIcon(icon_f835ade9570441188ad0f19aa9fa52c0);
+        
+    
+        var popup_1144f7198fce4b1e8e41c74bfbf694d4 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_29e13e14930f4a9bb29e0709b739901a = $(`<div id="html_29e13e14930f4a9bb29e0709b739901a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3434" target="_blank">志賀城</a><br> 振り仮名：しがじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県佐久市志賀 <br>築城年：戦国時代 <br>築城者：笠原氏 <br>遺構：曲輪、土塁、堀切、石積 <br><a href="https://cmeg.jp//w/castles/3434" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327651" width=150/></a></div>`)[0];
-            popup_7707a05b29554a0092d5e85960bc5db7.setContent(html_29e13e14930f4a9bb29e0709b739901a);
+            var html_6555b0024739476b8e1a265355f2aee0 = $(`<div id="html_6555b0024739476b8e1a265355f2aee0" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3434" target="_blank">志賀城</a><br> 振り仮名：しがじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県佐久市志賀 <br>築城年：戦国時代 <br>築城者：笠原氏 <br>遺構：曲輪、土塁、堀切、石積 <br><a href="https://cmeg.jp//w/castles/3434" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327651" width=150/></a></div>`)[0];
+            popup_1144f7198fce4b1e8e41c74bfbf694d4.setContent(html_6555b0024739476b8e1a265355f2aee0);
         
 
-        marker_6bfd3e6f5dfd4452972aabf26be0fae7.bindPopup(popup_7707a05b29554a0092d5e85960bc5db7)
+        marker_e382bb46c28343689c8a6be2fbfac24e.bindPopup(popup_1144f7198fce4b1e8e41c74bfbf694d4)
         ;
 
         
     
     
-            var marker_98a4042cbd17480f8682fcfb262df093 = L.marker(
+            var marker_ec0f387c4ed240f1a87216fc561d6ff0 = L.marker(
                 [36.225658, 138.469496],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_941bab0c88594fc7bf5bd11e67fefe32 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_11eb814708504ffca7d1819d8ac846bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec0f387c4ed240f1a87216fc561d6ff0.setIcon(icon_11eb814708504ffca7d1819d8ac846bd);
+        
+    
+        var popup_53f938e4c15544e4a8c7e5755b853ea7 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_a29ea19f002948a4b28ebfcd2c6fa701 = $(`<div id="html_a29ea19f002948a4b28ebfcd2c6fa701" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3435" target="_blank">伴野城</a><br> 振り仮名：とものじょう <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：野沢城、伴野館 <br>住所：長野県佐久市野沢居屋敷110-1他 <br>築城年：鎌倉時代 <br>築城者：伴野時長 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3435" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/318127" width=150/></a></div>`)[0];
-            popup_941bab0c88594fc7bf5bd11e67fefe32.setContent(html_a29ea19f002948a4b28ebfcd2c6fa701);
+            var html_25b6840f8c2e4d2cbb4a2acf7d58399a = $(`<div id="html_25b6840f8c2e4d2cbb4a2acf7d58399a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3435" target="_blank">伴野城</a><br> 振り仮名：とものじょう <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：野沢城、伴野館 <br>住所：長野県佐久市野沢居屋敷110-1他 <br>築城年：鎌倉時代 <br>築城者：伴野時長 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3435" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/318127" width=150/></a></div>`)[0];
+            popup_53f938e4c15544e4a8c7e5755b853ea7.setContent(html_25b6840f8c2e4d2cbb4a2acf7d58399a);
         
 
-        marker_98a4042cbd17480f8682fcfb262df093.bindPopup(popup_941bab0c88594fc7bf5bd11e67fefe32)
+        marker_ec0f387c4ed240f1a87216fc561d6ff0.bindPopup(popup_53f938e4c15544e4a8c7e5755b853ea7)
         ;
 
         
     
     
-            var marker_f9a1fd75a33144339ad4031b53436d4a = L.marker(
+            var marker_c5ecc1b8352e487c84a887178b9f3b89 = L.marker(
                 [36.225927, 138.508852],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_2483e1e6a31146188055abfdbeaa9a26 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_558b139dc8914deb854e7f7b49ed7210 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c5ecc1b8352e487c84a887178b9f3b89.setIcon(icon_558b139dc8914deb854e7f7b49ed7210);
+        
+    
+        var popup_9f5274e6ba6c499b9780ccd1b6158f76 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_72f6bbb1243a4826a2114389a4996405 = $(`<div id="html_72f6bbb1243a4826a2114389a4996405" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3438" target="_blank">平賀城</a><br> 振り仮名：ひらかじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：平賀氏城、龍岡城 <br>住所：長野県佐久市平賀 <br>築城年：元暦元年（1184） <br>築城者：平賀義信 <br>遺構：曲輪、石積、枡形 <br><a href="https://cmeg.jp//w/castles/3438" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327163" width=150/></a></div>`)[0];
-            popup_2483e1e6a31146188055abfdbeaa9a26.setContent(html_72f6bbb1243a4826a2114389a4996405);
+            var html_3d2f83a354504c7eab660d152fda9aa6 = $(`<div id="html_3d2f83a354504c7eab660d152fda9aa6" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3438" target="_blank">平賀城</a><br> 振り仮名：ひらかじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：平賀氏城、龍岡城 <br>住所：長野県佐久市平賀 <br>築城年：元暦元年（1184） <br>築城者：平賀義信 <br>遺構：曲輪、石積、枡形 <br><a href="https://cmeg.jp//w/castles/3438" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/327163" width=150/></a></div>`)[0];
+            popup_9f5274e6ba6c499b9780ccd1b6158f76.setContent(html_3d2f83a354504c7eab660d152fda9aa6);
         
 
-        marker_f9a1fd75a33144339ad4031b53436d4a.bindPopup(popup_2483e1e6a31146188055abfdbeaa9a26)
+        marker_c5ecc1b8352e487c84a887178b9f3b89.bindPopup(popup_9f5274e6ba6c499b9780ccd1b6158f76)
         ;
 
         
     
     
-            var marker_9c512516bd3842e09cee971450ee807d = L.marker(
+            var marker_b00767a742254fc4b8f7eea13bb4a677 = L.marker(
                 [36.259935999999996, 138.454666],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_b90ee7df3c604e72bffadbd4d934f7f5 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_450adb50501e4927be46fcf595213e00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b00767a742254fc4b8f7eea13bb4a677.setIcon(icon_450adb50501e4927be46fcf595213e00);
+        
+    
+        var popup_768226be04f741daad2a2d784fb89d05 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_5bc5ec27ae774bb08e8040a55015ed78 = $(`<div id="html_5bc5ec27ae774bb08e8040a55015ed78" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3441" target="_blank">根井氏館</a><br> 振り仮名：ねのいしやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：根々井館 <br>住所：長野県佐久市根々井亀田621-イ-1他 <br>築城年：平安時代後期 <br>築城者：根井氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/3441" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/260808" width=150/></a></div>`)[0];
-            popup_b90ee7df3c604e72bffadbd4d934f7f5.setContent(html_5bc5ec27ae774bb08e8040a55015ed78);
+            var html_df207568bb8d49539b1281d09071e356 = $(`<div id="html_df207568bb8d49539b1281d09071e356" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3441" target="_blank">根井氏館</a><br> 振り仮名：ねのいしやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：根々井館 <br>住所：長野県佐久市根々井亀田621-イ-1他 <br>築城年：平安時代後期 <br>築城者：根井氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/3441" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/260808" width=150/></a></div>`)[0];
+            popup_768226be04f741daad2a2d784fb89d05.setContent(html_df207568bb8d49539b1281d09071e356);
         
 
-        marker_9c512516bd3842e09cee971450ee807d.bindPopup(popup_b90ee7df3c604e72bffadbd4d934f7f5)
+        marker_b00767a742254fc4b8f7eea13bb4a677.bindPopup(popup_768226be04f741daad2a2d784fb89d05)
         ;
 
         
     
     
-            var marker_2b205406e9d0416a83167678ac36ec34 = L.marker(
+            var marker_4f45920e95074c82a75eaf8f9c4e2e61 = L.marker(
                 [36.546494, 137.83873],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_2a75b29cc1b647d39cfeee7f1a0ab1cc = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_0cbef3395ce9446fa261ea9b1d077aa2 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_36747c42fd7c487180f1d82658462d7a = $(`<div id="html_36747c42fd7c487180f1d82658462d7a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3445" target="_blank">仁科城</a><br> 振り仮名：にしなじょう <br>旧国名：信濃国 <br>分類・構造：水城 <br>別名：森城、山田城 <br>住所：長野県大町市森（仁科神社） <br>築城年：古代？ <br>築城者：仁科氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3445" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/274366" width=150/></a></div>`)[0];
-            popup_2a75b29cc1b647d39cfeee7f1a0ab1cc.setContent(html_36747c42fd7c487180f1d82658462d7a);
+            var html_c22992593a124921ad14fd081f782e5b = $(`<div id="html_c22992593a124921ad14fd081f782e5b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3445" target="_blank">仁科城</a><br> 振り仮名：にしなじょう <br>旧国名：信濃国 <br>分類・構造：水城 <br>別名：森城、山田城 <br>住所：長野県大町市森（仁科神社） <br>築城年：古代？ <br>築城者：仁科氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3445" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/274366" width=150/></a></div>`)[0];
+            popup_0cbef3395ce9446fa261ea9b1d077aa2.setContent(html_c22992593a124921ad14fd081f782e5b);
         
 
-        marker_2b205406e9d0416a83167678ac36ec34.bindPopup(popup_2a75b29cc1b647d39cfeee7f1a0ab1cc)
+        marker_4f45920e95074c82a75eaf8f9c4e2e61.bindPopup(popup_0cbef3395ce9446fa261ea9b1d077aa2)
         ;
 
         
     
     
-            var marker_0d015e28741b490f94e30fffa60de221 = L.marker(
+            var marker_5f11a8f35b774ff5ba461badb2b16a7d = L.marker(
                 [36.286918, 137.94784099999998],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_7f76bcae3b814b2f8ab05290650d929f = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_14f7621be9904efabe2baf9f73969ed1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5f11a8f35b774ff5ba461badb2b16a7d.setIcon(icon_14f7621be9904efabe2baf9f73969ed1);
+        
+    
+        var popup_0849c7a76b274688956e982fdf6c1068 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_4559007eb42b4d7c9d394289af716479 = $(`<div id="html_4559007eb42b4d7c9d394289af716479" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3447" target="_blank">平瀬城</a><br> 振り仮名：ひらせじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：平瀬城［本城・北支城・南支城］ <br>住所：長野県松本市島内下平瀬 <br>築城年：戦国時代 <br>築城者：平瀬氏 <br>遺構：曲輪、石積、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3447" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/319163" width=150/></a></div>`)[0];
-            popup_7f76bcae3b814b2f8ab05290650d929f.setContent(html_4559007eb42b4d7c9d394289af716479);
+            var html_50339845ca114ac49d39a719d1cc572f = $(`<div id="html_50339845ca114ac49d39a719d1cc572f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3447" target="_blank">平瀬城</a><br> 振り仮名：ひらせじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：平瀬城［本城・北支城・南支城］ <br>住所：長野県松本市島内下平瀬 <br>築城年：戦国時代 <br>築城者：平瀬氏 <br>遺構：曲輪、石積、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3447" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/319163" width=150/></a></div>`)[0];
+            popup_0849c7a76b274688956e982fdf6c1068.setContent(html_50339845ca114ac49d39a719d1cc572f);
         
 
-        marker_0d015e28741b490f94e30fffa60de221.bindPopup(popup_7f76bcae3b814b2f8ab05290650d929f)
+        marker_5f11a8f35b774ff5ba461badb2b16a7d.bindPopup(popup_0849c7a76b274688956e982fdf6c1068)
         ;
 
         
     
     
-            var marker_9ee8a4bd5d1f4d0f90c44c44c7d84e5e = L.marker(
+            var marker_99396c2368894693b302cea8bd4a648b = L.marker(
                 [36.441752, 138.322731],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_7b6b0decb3284e69b753c889be9eff40 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_0730c861cf1c40a980ee0f47035bada2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_99396c2368894693b302cea8bd4a648b.setIcon(icon_0730c861cf1c40a980ee0f47035bada2);
+        
+    
+        var popup_25f84398dbf64610b62a17f980584704 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_a3d43c52f6ea4725b10cecc9b7cd7b85 = $(`<div id="html_a3d43c52f6ea4725b10cecc9b7cd7b85" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3451" target="_blank">真田本城</a><br> 振り仮名：さなだほんじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：真田氏本城、真田山城、松尾新城、住連寺城、十林寺の城山 <br>住所：長野県上田市真田町長十林寺 <br>築城年：天文年間（1532〜1555） <br>築城者：真田幸綱 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/3451" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329909" width=150/></a></div>`)[0];
-            popup_7b6b0decb3284e69b753c889be9eff40.setContent(html_a3d43c52f6ea4725b10cecc9b7cd7b85);
+            var html_99439c2909e1446ab83f82adae54c5a1 = $(`<div id="html_99439c2909e1446ab83f82adae54c5a1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3451" target="_blank">真田本城</a><br> 振り仮名：さなだほんじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：真田氏本城、真田山城、松尾新城、住連寺城、十林寺の城山 <br>住所：長野県上田市真田町長十林寺 <br>築城年：天文年間（1532〜1555） <br>築城者：真田幸綱 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/3451" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329909" width=150/></a></div>`)[0];
+            popup_25f84398dbf64610b62a17f980584704.setContent(html_99439c2909e1446ab83f82adae54c5a1);
         
 
-        marker_9ee8a4bd5d1f4d0f90c44c44c7d84e5e.bindPopup(popup_7b6b0decb3284e69b753c889be9eff40)
+        marker_99396c2368894693b302cea8bd4a648b.bindPopup(popup_25f84398dbf64610b62a17f980584704)
         ;
 
         
     
     
-            var marker_c008af1a74a343d2a3b6b83775ea648b = L.marker(
+            var marker_60e3cccc22b241f5b511ef95f21cadcd = L.marker(
                 [36.431425, 138.316648],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_38c9d5aea8314944a941279548d77c42 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_f35aea2b845f4ab99a22a82403cef180 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_60e3cccc22b241f5b511ef95f21cadcd.setIcon(icon_f35aea2b845f4ab99a22a82403cef180);
+        
+    
+        var popup_c7e5150539ef4cd286757cff9a06e947 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_613f218fb91b4b7b82abb8690cb0a4e8 = $(`<div id="html_613f218fb91b4b7b82abb8690cb0a4e8" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3452" target="_blank">真田氏館</a><br> 振り仮名：さなだしやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：－ <br>住所：長野県上田市真田町本原御屋敷2962-1他 <br>築城年：永禄年間〜天正2年（1558〜1574） <br>築城者：真田幸綱 <br>遺構：曲輪、土塁、厩跡 <br><a href="https://cmeg.jp//w/castles/3452" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332036" width=150/></a></div>`)[0];
-            popup_38c9d5aea8314944a941279548d77c42.setContent(html_613f218fb91b4b7b82abb8690cb0a4e8);
+            var html_a5bb03bcc7ab46e68354e8e4311aa229 = $(`<div id="html_a5bb03bcc7ab46e68354e8e4311aa229" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3452" target="_blank">真田氏館</a><br> 振り仮名：さなだしやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：－ <br>住所：長野県上田市真田町本原御屋敷2962-1他 <br>築城年：永禄年間〜天正2年（1558〜1574） <br>築城者：真田幸綱 <br>遺構：曲輪、土塁、厩跡 <br><a href="https://cmeg.jp//w/castles/3452" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332036" width=150/></a></div>`)[0];
+            popup_c7e5150539ef4cd286757cff9a06e947.setContent(html_a5bb03bcc7ab46e68354e8e4311aa229);
         
 
-        marker_c008af1a74a343d2a3b6b83775ea648b.bindPopup(popup_38c9d5aea8314944a941279548d77c42)
+        marker_60e3cccc22b241f5b511ef95f21cadcd.bindPopup(popup_c7e5150539ef4cd286757cff9a06e947)
         ;
 
         
     
     
-            var marker_1012b8c237c049ad8897aa0c6b69ea7b = L.marker(
+            var marker_d17a03a028904a358fc86605ba3e1c82 = L.marker(
                 [36.447753999999996, 138.302615],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_ed360be60c8e454d83dfff4163087d79 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_a22667755c3b47a5b2e9ab0aabbb556d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d17a03a028904a358fc86605ba3e1c82.setIcon(icon_a22667755c3b47a5b2e9ab0aabbb556d);
+        
+    
+        var popup_c22ab0732c25474ea6858f375ff2bd45 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_9960d9af7bab43a6ad90aff24e8185f2 = $(`<div id="html_9960d9af7bab43a6ad90aff24e8185f2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3454" target="_blank">横尾城</a><br> 振り仮名：よこおじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：尾引城、尾引古城、三日月城、城山 <br>住所：長野県上田市真田町横尾字城 <br>築城年：不明 <br>築城者：横尾采女正 <br>遺構：曲輪、帯曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3454" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331231" width=150/></a></div>`)[0];
-            popup_ed360be60c8e454d83dfff4163087d79.setContent(html_9960d9af7bab43a6ad90aff24e8185f2);
+            var html_74f157c1b1284569b798a78fc736d42a = $(`<div id="html_74f157c1b1284569b798a78fc736d42a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3454" target="_blank">横尾城</a><br> 振り仮名：よこおじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：尾引城、尾引古城、三日月城、城山 <br>住所：長野県上田市真田町横尾字城 <br>築城年：不明 <br>築城者：横尾采女正 <br>遺構：曲輪、帯曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3454" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331231" width=150/></a></div>`)[0];
+            popup_c22ab0732c25474ea6858f375ff2bd45.setContent(html_74f157c1b1284569b798a78fc736d42a);
         
 
-        marker_1012b8c237c049ad8897aa0c6b69ea7b.bindPopup(popup_ed360be60c8e454d83dfff4163087d79)
+        marker_d17a03a028904a358fc86605ba3e1c82.bindPopup(popup_c22ab0732c25474ea6858f375ff2bd45)
         ;
 
         
     
     
-            var marker_b333a5bb04e74ed6bf9ad59384f4d412 = L.marker(
+            var marker_8dbf1bc63a334b0abac48a5ac8466e40 = L.marker(
                 [36.460271, 138.343721],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_4bcf77a38f784438b451be885e8af480 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_6870201c2d5b432994ad5b0db5a1f481 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8dbf1bc63a334b0abac48a5ac8466e40.setIcon(icon_6870201c2d5b432994ad5b0db5a1f481);
+        
+    
+        var popup_9181eae93b2949ac92705849c81ef89e = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_72c29295534c4a5e973a13dd0847fb0d = $(`<div id="html_72c29295534c4a5e973a13dd0847fb0d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3458" target="_blank">松尾古城</a><br> 振り仮名：まつおこじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：松尾城 <br>住所：長野県上田市真田横沢 <br>築城年：不明 <br>築城者：真田氏？ <br>遺構：曲輪、石積、堀切 <br><a href="https://cmeg.jp//w/castles/3458" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330109" width=150/></a></div>`)[0];
-            popup_4bcf77a38f784438b451be885e8af480.setContent(html_72c29295534c4a5e973a13dd0847fb0d);
+            var html_e5349e3fc6d543d6b344ab4325735e21 = $(`<div id="html_e5349e3fc6d543d6b344ab4325735e21" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3458" target="_blank">松尾古城</a><br> 振り仮名：まつおこじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：松尾城 <br>住所：長野県上田市真田横沢 <br>築城年：不明 <br>築城者：真田氏？ <br>遺構：曲輪、石積、堀切 <br><a href="https://cmeg.jp//w/castles/3458" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330109" width=150/></a></div>`)[0];
+            popup_9181eae93b2949ac92705849c81ef89e.setContent(html_e5349e3fc6d543d6b344ab4325735e21);
         
 
-        marker_b333a5bb04e74ed6bf9ad59384f4d412.bindPopup(popup_4bcf77a38f784438b451be885e8af480)
+        marker_8dbf1bc63a334b0abac48a5ac8466e40.bindPopup(popup_9181eae93b2949ac92705849c81ef89e)
         ;
 
         
     
     
-            var marker_044d1f2535de45e3879a1405643fe791 = L.marker(
+            var marker_9b73f536a51d44a896d1a1cbfb26cc3f = L.marker(
                 [36.270238, 138.268542],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_ed6495eb650f4300aac4f414316c4661 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_a8a8bc0fe91f4c4091b690a877a6cdca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9b73f536a51d44a896d1a1cbfb26cc3f.setIcon(icon_a8a8bc0fe91f4c4091b690a877a6cdca);
+        
+    
+        var popup_f17943568d6442bab1caea237fc390c4 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_5c20f22585304076a275613f7a89db19 = $(`<div id="html_5c20f22585304076a275613f7a89db19" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3459" target="_blank">長窪城</a><br> 振り仮名：ながくぼじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：深山城、霞尾城 <br>住所：長野県小県郡長和町古町3747-2 <br>築城年：室町時代中期？ <br>築城者：望月氏？、大井氏？、芦田氏？ <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3459" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/320879" width=150/></a></div>`)[0];
-            popup_ed6495eb650f4300aac4f414316c4661.setContent(html_5c20f22585304076a275613f7a89db19);
+            var html_ba873c81450348ea93088e7542493540 = $(`<div id="html_ba873c81450348ea93088e7542493540" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3459" target="_blank">長窪城</a><br> 振り仮名：ながくぼじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：深山城、霞尾城 <br>住所：長野県小県郡長和町古町3747-2 <br>築城年：室町時代中期？ <br>築城者：望月氏？、大井氏？、芦田氏？ <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3459" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/320879" width=150/></a></div>`)[0];
+            popup_f17943568d6442bab1caea237fc390c4.setContent(html_ba873c81450348ea93088e7542493540);
         
 
-        marker_044d1f2535de45e3879a1405643fe791.bindPopup(popup_ed6495eb650f4300aac4f414316c4661)
+        marker_9b73f536a51d44a896d1a1cbfb26cc3f.bindPopup(popup_f17943568d6442bab1caea237fc390c4)
         ;
 
         
     
     
-            var marker_9deb9d2535494bb2bb8a9baf33eeb841 = L.marker(
+            var marker_5566c6886d2f4895a1cb5f877387c982 = L.marker(
                 [36.828462, 138.460654],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_03abe09eaaf74bbbabf7ed5cd1e45ff7 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_720c47a028cd49dda1f2529a8e8b1308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5566c6886d2f4895a1cb5f877387c982.setIcon(icon_720c47a028cd49dda1f2529a8e8b1308);
+        
+    
+        var popup_04042c2688404f778b27a42d468428af = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_9d52ea660e9e4ec78fb049fa6829a685 = $(`<div id="html_9d52ea660e9e4ec78fb049fa6829a685" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3462" target="_blank">部谷沢城</a><br> 振り仮名：へやざわじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県下高井郡木島平村大字往郷 <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3462" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/258938" width=150/></a></div>`)[0];
-            popup_03abe09eaaf74bbbabf7ed5cd1e45ff7.setContent(html_9d52ea660e9e4ec78fb049fa6829a685);
+            var html_d6d16e9d4c7a4c17890000638e83150c = $(`<div id="html_d6d16e9d4c7a4c17890000638e83150c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3462" target="_blank">部谷沢城</a><br> 振り仮名：へやざわじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県下高井郡木島平村大字往郷 <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3462" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/258938" width=150/></a></div>`)[0];
+            popup_04042c2688404f778b27a42d468428af.setContent(html_d6d16e9d4c7a4c17890000638e83150c);
         
 
-        marker_9deb9d2535494bb2bb8a9baf33eeb841.bindPopup(popup_03abe09eaaf74bbbabf7ed5cd1e45ff7)
+        marker_5566c6886d2f4895a1cb5f877387c982.bindPopup(popup_04042c2688404f778b27a42d468428af)
         ;
 
         
     
     
-            var marker_cc885ffe52c04cf080ed65aff91d95f1 = L.marker(
+            var marker_469fe6cbb19a49698fc282b447e9052d = L.marker(
                 [36.403988, 138.244379],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_16bc468d62f14f6f8ff426bbc00565cb = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_20c54cd890d148fdb55e5960e17129a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_469fe6cbb19a49698fc282b447e9052d.setIcon(icon_20c54cd890d148fdb55e5960e17129a2);
+        
+    
+        var popup_3e37823df9584a0d80de5ac24f7a0532 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_99bad6d73df24575b0f01fbd1057d915 = $(`<div id="html_99bad6d73df24575b0f01fbd1057d915" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3468" target="_blank">上田城</a><br> 振り仮名：うえだじょう <br>旧国名：信濃国 <br>分類・構造：梯郭式平城 <br>別名：尼ヶ淵城、真田城 <br>住所：長野県上田市二の丸 <br>築城年：天正11年（1583） <br>築城者：真田昌幸 <br>遺構：曲輪、櫓、石垣、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3468" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331461" width=150/></a></div>`)[0];
-            popup_16bc468d62f14f6f8ff426bbc00565cb.setContent(html_99bad6d73df24575b0f01fbd1057d915);
+            var html_9a6efd022b874df2abd48aa99e7046b9 = $(`<div id="html_9a6efd022b874df2abd48aa99e7046b9" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3468" target="_blank">上田城</a><br> 振り仮名：うえだじょう <br>旧国名：信濃国 <br>分類・構造：梯郭式平城 <br>別名：尼ヶ淵城、真田城 <br>住所：長野県上田市二の丸 <br>築城年：天正11年（1583） <br>築城者：真田昌幸 <br>遺構：曲輪、櫓、石垣、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3468" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331461" width=150/></a></div>`)[0];
+            popup_3e37823df9584a0d80de5ac24f7a0532.setContent(html_9a6efd022b874df2abd48aa99e7046b9);
         
 
-        marker_cc885ffe52c04cf080ed65aff91d95f1.bindPopup(popup_16bc468d62f14f6f8ff426bbc00565cb)
+        marker_469fe6cbb19a49698fc282b447e9052d.bindPopup(popup_3e37823df9584a0d80de5ac24f7a0532)
         ;
 
         
     
     
-            var marker_0ef8fe7a51b44a59af2a3b87fdc02a4e = L.marker(
+            var marker_12563eb979dc4af88b4cf1cf949da8fb = L.marker(
                 [36.334268, 138.195314],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_1ec1d29691994f7fa58bbfb07b7b84bb = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_bd86d7745eef4117a677da30cfb607fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_12563eb979dc4af88b4cf1cf949da8fb.setIcon(icon_bd86d7745eef4117a677da30cfb607fd);
+        
+    
+        var popup_d0a1748b6b6243b6a5892bf617e6c9e5 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_04521c935ba44a219d067d08d2c0137e = $(`<div id="html_04521c935ba44a219d067d08d2c0137e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3470" target="_blank">塩田城</a><br> 振り仮名：しおだじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：古城 <br>住所：長野県上田市前山309他 <br>築城年：建治3年（1277） <br>築城者：北条義政 <br>遺構：曲輪、石積、横堀（空堀）、虎口 <br><a href="https://cmeg.jp//w/castles/3470" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/305790" width=150/></a></div>`)[0];
-            popup_1ec1d29691994f7fa58bbfb07b7b84bb.setContent(html_04521c935ba44a219d067d08d2c0137e);
+            var html_216ce70889774820a4c099837e294f96 = $(`<div id="html_216ce70889774820a4c099837e294f96" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3470" target="_blank">塩田城</a><br> 振り仮名：しおだじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：古城 <br>住所：長野県上田市前山309他 <br>築城年：建治3年（1277） <br>築城者：北条義政 <br>遺構：曲輪、石積、横堀（空堀）、虎口 <br><a href="https://cmeg.jp//w/castles/3470" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/305790" width=150/></a></div>`)[0];
+            popup_d0a1748b6b6243b6a5892bf617e6c9e5.setContent(html_216ce70889774820a4c099837e294f96);
         
 
-        marker_0ef8fe7a51b44a59af2a3b87fdc02a4e.bindPopup(popup_1ec1d29691994f7fa58bbfb07b7b84bb)
+        marker_12563eb979dc4af88b4cf1cf949da8fb.bindPopup(popup_d0a1748b6b6243b6a5892bf617e6c9e5)
         ;
 
         
     
     
-            var marker_f0914df02170454597357a82b07aad8f = L.marker(
+            var marker_3f8a4acdef374430804514175131e282 = L.marker(
                 [36.424242, 138.291675],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_fedd343330844245a3415c72696e85c4 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_501640417b60488bbff7def5a653eaf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3f8a4acdef374430804514175131e282.setIcon(icon_501640417b60488bbff7def5a653eaf8);
+        
+    
+        var popup_2588559e6d5e41328e7338f8b5701d51 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_856c5e17eb7b43d3970cba1372ba656a = $(`<div id="html_856c5e17eb7b43d3970cba1372ba656a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3471" target="_blank">戸石城</a><br> 振り仮名：といしじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：砥石城、伊勢崎城、（米山城） <br>住所：長野県上田市上田城山2505-ホ他 <br>築城年：不明 <br>築城者：真田氏？ <br>遺構：曲輪、石垣、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3471" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331395" width=150/></a></div>`)[0];
-            popup_fedd343330844245a3415c72696e85c4.setContent(html_856c5e17eb7b43d3970cba1372ba656a);
+            var html_c58a7eac3a52411691b0cf01fff065e2 = $(`<div id="html_c58a7eac3a52411691b0cf01fff065e2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3471" target="_blank">戸石城</a><br> 振り仮名：といしじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：砥石城、伊勢崎城、（米山城） <br>住所：長野県上田市上田城山2505-ホ他 <br>築城年：不明 <br>築城者：真田氏？ <br>遺構：曲輪、石垣、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3471" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331395" width=150/></a></div>`)[0];
+            popup_2588559e6d5e41328e7338f8b5701d51.setContent(html_c58a7eac3a52411691b0cf01fff065e2);
         
 
-        marker_f0914df02170454597357a82b07aad8f.bindPopup(popup_fedd343330844245a3415c72696e85c4)
+        marker_3f8a4acdef374430804514175131e282.bindPopup(popup_2588559e6d5e41328e7338f8b5701d51)
         ;
 
         
     
     
-            var marker_9c878a2a8ce04cb9a77900eab1a225b3 = L.marker(
+            var marker_9bc5f547127c452a9f42dce1e9143475 = L.marker(
                 [36.381163, 138.170696],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_148f3fda3b744720bb532004eb45b9c8 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_d2cb775dfec24f8face8cba3fc410909 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9bc5f547127c452a9f42dce1e9143475.setIcon(icon_d2cb775dfec24f8face8cba3fc410909);
+        
+    
+        var popup_f54da9fd10bb4e5da0354472701cd741 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_21e9b274967f44c9a9413fece7d80e67 = $(`<div id="html_21e9b274967f44c9a9413fece7d80e67" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3472" target="_blank">岡城</a><br> 振り仮名：おかじょう <br>旧国名：信濃国 <br>分類・構造：輪郭式平城 <br>別名：古城、岡村城 <br>住所：長野県上田市岡1386-1 <br>築城年：天文22年（1553） <br>築城者：武田信玄 <br>遺構：曲輪、丸馬出、土塁、三日月堀、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3472" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330296" width=150/></a></div>`)[0];
-            popup_148f3fda3b744720bb532004eb45b9c8.setContent(html_21e9b274967f44c9a9413fece7d80e67);
+            var html_45e839cb99c74dba9d892fcccea1c337 = $(`<div id="html_45e839cb99c74dba9d892fcccea1c337" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3472" target="_blank">岡城</a><br> 振り仮名：おかじょう <br>旧国名：信濃国 <br>分類・構造：輪郭式平城 <br>別名：古城、岡村城 <br>住所：長野県上田市岡1386-1 <br>築城年：天文22年（1553） <br>築城者：武田信玄 <br>遺構：曲輪、丸馬出、土塁、三日月堀、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3472" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330296" width=150/></a></div>`)[0];
+            popup_f54da9fd10bb4e5da0354472701cd741.setContent(html_45e839cb99c74dba9d892fcccea1c337);
         
 
-        marker_9c878a2a8ce04cb9a77900eab1a225b3.bindPopup(popup_148f3fda3b744720bb532004eb45b9c8)
+        marker_9bc5f547127c452a9f42dce1e9143475.bindPopup(popup_f54da9fd10bb4e5da0354472701cd741)
         ;
 
         
     
     
-            var marker_667f7892741d4fdba5b696263840ec61 = L.marker(
+            var marker_df4325e1031140e7a156b9e1b39ad348 = L.marker(
                 [36.364785999999995, 138.007483],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_0945480c8b12429f8582ad52e87c5e53 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_56360994b3d1491a9fa614a258136d65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_df4325e1031140e7a156b9e1b39ad348.setIcon(icon_56360994b3d1491a9fa614a258136d65);
+        
+    
+        var popup_51cb3d20d20846eb97ff2807ddfa2611 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_18ae5b9377f54276b44d1b138f0a7d86 = $(`<div id="html_18ae5b9377f54276b44d1b138f0a7d86" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3480" target="_blank">虚空蔵山城</a><br> 振り仮名：こくぞうさんじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：会田虚空蔵山城、会田城 <br>住所：長野県松本市中川 <br>築城年：不明 <br>築城者：岩下（会田氏）？ <br>遺構：曲輪、石垣、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3480" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325306" width=150/></a></div>`)[0];
-            popup_0945480c8b12429f8582ad52e87c5e53.setContent(html_18ae5b9377f54276b44d1b138f0a7d86);
+            var html_c122adb502ec43829984a84381861777 = $(`<div id="html_c122adb502ec43829984a84381861777" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3480" target="_blank">虚空蔵山城</a><br> 振り仮名：こくぞうさんじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：会田虚空蔵山城、会田城 <br>住所：長野県松本市中川 <br>築城年：不明 <br>築城者：岩下（会田氏）？ <br>遺構：曲輪、石垣、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3480" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/325306" width=150/></a></div>`)[0];
+            popup_51cb3d20d20846eb97ff2807ddfa2611.setContent(html_c122adb502ec43829984a84381861777);
         
 
-        marker_667f7892741d4fdba5b696263840ec61.bindPopup(popup_0945480c8b12429f8582ad52e87c5e53)
+        marker_df4325e1031140e7a156b9e1b39ad348.bindPopup(popup_51cb3d20d20846eb97ff2807ddfa2611)
         ;
 
         
     
     
-            var marker_ebec1127f72c4db99464f08cf33474b3 = L.marker(
+            var marker_282f6f5b9b594b30a0cfedfa39c23a18 = L.marker(
                 [36.327112, 138.41747800000002],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_bc23c1462e2442dba3a1801b53e8f8b9 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_659aefdd8031472da43da03ee157e3eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_282f6f5b9b594b30a0cfedfa39c23a18.setIcon(icon_659aefdd8031472da43da03ee157e3eb);
+        
+    
+        var popup_26c9969b7de74948a0df80307a0347d2 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_11c6d3cfcea7487d8182877ff68805cb = $(`<div id="html_11c6d3cfcea7487d8182877ff68805cb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3481" target="_blank">小諸城</a><br> 振り仮名：こもろじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：酔月城、穴城、白鶴城、鍋蓋城 <br>住所：長野県小諸市丁311（懐古園） <br>築城年：天文23年（1554） <br>築城者：武田信玄 <br>遺構：曲輪、大手門、三之門、天守台、石垣、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3481" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332134" width=150/></a></div>`)[0];
-            popup_bc23c1462e2442dba3a1801b53e8f8b9.setContent(html_11c6d3cfcea7487d8182877ff68805cb);
+            var html_ce4fdeba59e14460852d4dea135188ea = $(`<div id="html_ce4fdeba59e14460852d4dea135188ea" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3481" target="_blank">小諸城</a><br> 振り仮名：こもろじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：酔月城、穴城、白鶴城、鍋蓋城 <br>住所：長野県小諸市丁311（懐古園） <br>築城年：天文23年（1554） <br>築城者：武田信玄 <br>遺構：曲輪、大手門、三之門、天守台、石垣、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3481" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332134" width=150/></a></div>`)[0];
+            popup_26c9969b7de74948a0df80307a0347d2.setContent(html_ce4fdeba59e14460852d4dea135188ea);
         
 
-        marker_ebec1127f72c4db99464f08cf33474b3.bindPopup(popup_bc23c1462e2442dba3a1801b53e8f8b9)
+        marker_282f6f5b9b594b30a0cfedfa39c23a18.bindPopup(popup_26c9969b7de74948a0df80307a0347d2)
         ;
 
         
     
     
-            var marker_10a161cb074f4b6a984db786e80e04ac = L.marker(
+            var marker_b4dec44e9ac645419d36ba83ed7dcf4e = L.marker(
                 [36.303003000000004, 138.473371],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_11807faa8e5c4230a338186f8fdc5b9f = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_bd50d39db2a548d98a3290ebbcc171c5 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_6a9e0c1e08af4fdfaa769bebf7c794ad = $(`<div id="html_6a9e0c1e08af4fdfaa769bebf7c794ad" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3482" target="_blank">御影陣屋</a><br> 振り仮名：みかげじんや <br>旧国名：信濃国 <br>分類・構造：陣屋 <br>別名：－ <br>住所：長野県小諸市御影新田屋敷894 <br>築城年：元禄12年（1699） <br>築城者：徳川幕府 <br>遺構：代官宿舎、移築門 <br><a href="https://cmeg.jp//w/castles/3482" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/261122" width=150/></a></div>`)[0];
-            popup_11807faa8e5c4230a338186f8fdc5b9f.setContent(html_6a9e0c1e08af4fdfaa769bebf7c794ad);
+            var html_fc9ff552f15e4029a0649ab0baad3ca1 = $(`<div id="html_fc9ff552f15e4029a0649ab0baad3ca1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3482" target="_blank">御影陣屋</a><br> 振り仮名：みかげじんや <br>旧国名：信濃国 <br>分類・構造：陣屋 <br>別名：－ <br>住所：長野県小諸市御影新田屋敷894 <br>築城年：元禄12年（1699） <br>築城者：徳川幕府 <br>遺構：代官宿舎、移築門 <br><a href="https://cmeg.jp//w/castles/3482" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/261122" width=150/></a></div>`)[0];
+            popup_bd50d39db2a548d98a3290ebbcc171c5.setContent(html_fc9ff552f15e4029a0649ab0baad3ca1);
         
 
-        marker_10a161cb074f4b6a984db786e80e04ac.bindPopup(popup_11807faa8e5c4230a338186f8fdc5b9f)
+        marker_b4dec44e9ac645419d36ba83ed7dcf4e.bindPopup(popup_bd50d39db2a548d98a3290ebbcc171c5)
         ;
 
         
     
     
-            var marker_ce97dd6cb0594f59a7cfaef372cd0ed1 = L.marker(
+            var marker_a250a39d43ee400b86bba6987e26cc03 = L.marker(
                 [36.479824, 138.136378],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_864405335ee6477aa19624010f317e8e = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_1868210f6f2c43acb3991bdbcdda339b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a250a39d43ee400b86bba6987e26cc03.setIcon(icon_1868210f6f2c43acb3991bdbcdda339b);
+        
+    
+        var popup_fb091080604648b9b440890b99045f8d = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_5dfb2f8dc69f4c26b71086c21928ff40 = $(`<div id="html_5dfb2f8dc69f4c26b71086c21928ff40" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3492" target="_blank">荒砥城</a><br> 振り仮名：あらとじょう <br>旧国名：信濃国 <br>分類・構造：連郭式山城 <br>別名：新砥城、山田城 <br>住所：長野県千曲市上山田3509-1 <br>築城年：室町時代 <br>築城者：山田二郎？ <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3492" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323753" width=150/></a></div>`)[0];
-            popup_864405335ee6477aa19624010f317e8e.setContent(html_5dfb2f8dc69f4c26b71086c21928ff40);
+            var html_6e1434990aaf491e848e2bb9555d3f9b = $(`<div id="html_6e1434990aaf491e848e2bb9555d3f9b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3492" target="_blank">荒砥城</a><br> 振り仮名：あらとじょう <br>旧国名：信濃国 <br>分類・構造：連郭式山城 <br>別名：新砥城、山田城 <br>住所：長野県千曲市上山田3509-1 <br>築城年：室町時代 <br>築城者：山田二郎？ <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3492" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323753" width=150/></a></div>`)[0];
+            popup_fb091080604648b9b440890b99045f8d.setContent(html_6e1434990aaf491e848e2bb9555d3f9b);
         
 
-        marker_ce97dd6cb0594f59a7cfaef372cd0ed1.bindPopup(popup_864405335ee6477aa19624010f317e8e)
+        marker_a250a39d43ee400b86bba6987e26cc03.bindPopup(popup_fb091080604648b9b440890b99045f8d)
         ;
 
         
     
     
-            var marker_1f1e1fa137584ea59ef91ad9b36b2136 = L.marker(
+            var marker_bb1c7f4866f74eb9a25f0af848117b73 = L.marker(
                 [36.532911, 138.130761],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_dc7f5d6384164012b9d1e7af14f1f89b = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_c799933b27664370aab83a3235040e8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bb1c7f4866f74eb9a25f0af848117b73.setIcon(icon_c799933b27664370aab83a3235040e8a);
+        
+    
+        var popup_54ef43a744754f31aa64f7787fc879d8 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_9d37b2e041464336843e8fafb5cecf86 = $(`<div id="html_9d37b2e041464336843e8fafb5cecf86" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3497" target="_blank">屋代城</a><br> 振り仮名：やしろじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：一重山城 <br>住所：長野県千曲市大字屋代334-3他 <br>築城年：永正・天文年間（1504〜1555） <br>築城者：屋代信光 <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3497" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326335" width=150/></a></div>`)[0];
-            popup_dc7f5d6384164012b9d1e7af14f1f89b.setContent(html_9d37b2e041464336843e8fafb5cecf86);
+            var html_83af68d8fc3b4c8785dad9f14bd14dc7 = $(`<div id="html_83af68d8fc3b4c8785dad9f14bd14dc7" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3497" target="_blank">屋代城</a><br> 振り仮名：やしろじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：一重山城 <br>住所：長野県千曲市大字屋代334-3他 <br>築城年：永正・天文年間（1504〜1555） <br>築城者：屋代信光 <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3497" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326335" width=150/></a></div>`)[0];
+            popup_54ef43a744754f31aa64f7787fc879d8.setContent(html_83af68d8fc3b4c8785dad9f14bd14dc7);
         
 
-        marker_1f1e1fa137584ea59ef91ad9b36b2136.bindPopup(popup_dc7f5d6384164012b9d1e7af14f1f89b)
+        marker_bb1c7f4866f74eb9a25f0af848117b73.bindPopup(popup_54ef43a744754f31aa64f7787fc879d8)
         ;
 
         
     
     
-            var marker_64fe07b88b7f451096920e525c256a70 = L.marker(
+            var marker_7af3bd6ec75a494fbd6e6aad652341a6 = L.marker(
                 [36.519114, 138.10196299999998],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_106f46d79b4849f3a006f9cc5fa0ebbd = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_e5b24b90fad348628f557f7d4dc3bb35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7af3bd6ec75a494fbd6e6aad652341a6.setIcon(icon_e5b24b90fad348628f557f7d4dc3bb35);
+        
+    
+        var popup_94153d4d2cf54477b1811662107f968d = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_56bdf5fc98674c8cb763c2f06744c724 = $(`<div id="html_56bdf5fc98674c8cb763c2f06744c724" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3500" target="_blank">松田家館</a><br> 振り仮名：まつだけやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：武水別神社神主松田家館 <br>住所：長野県千曲市千曲市八幡3033他 <br>築城年：16世紀前期 <br>築城者：松田氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3500" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331536" width=150/></a></div>`)[0];
-            popup_106f46d79b4849f3a006f9cc5fa0ebbd.setContent(html_56bdf5fc98674c8cb763c2f06744c724);
+            var html_5d92f61eda7e4751b0b4e9ebd2935024 = $(`<div id="html_5d92f61eda7e4751b0b4e9ebd2935024" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3500" target="_blank">松田家館</a><br> 振り仮名：まつだけやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：武水別神社神主松田家館 <br>住所：長野県千曲市千曲市八幡3033他 <br>築城年：16世紀前期 <br>築城者：松田氏 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3500" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331536" width=150/></a></div>`)[0];
+            popup_94153d4d2cf54477b1811662107f968d.setContent(html_5d92f61eda7e4751b0b4e9ebd2935024);
         
 
-        marker_64fe07b88b7f451096920e525c256a70.bindPopup(popup_106f46d79b4849f3a006f9cc5fa0ebbd)
+        marker_7af3bd6ec75a494fbd6e6aad652341a6.bindPopup(popup_94153d4d2cf54477b1811662107f968d)
         ;
 
         
     
     
-            var marker_c3ebf3c529e44b3f920023a191acc31d = L.marker(
+            var marker_0d346fd422474e5b96f9fb9c6befc80a = L.marker(
                 [36.473894, 138.17311899999999],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_390d6d75a4594f5db26fddd1edb6acac = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_ac0e6039bcb54b7e8c170a596e64bc27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0d346fd422474e5b96f9fb9c6befc80a.setIcon(icon_ac0e6039bcb54b7e8c170a596e64bc27);
+        
+    
+        var popup_f0cb611002ca4a8784c9c1219a2f30c4 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_07070ac7f39448ae80d0232993f598ad = $(`<div id="html_07070ac7f39448ae80d0232993f598ad" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3501" target="_blank">葛尾城</a><br> 振り仮名：かつらおじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：村上氏城館 <br>住所：長野県埴科郡坂城町坂城1148他 <br>築城年：南北朝時代後期 <br>築城者：村上氏 <br>遺構：曲輪、石垣、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3501" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329601" width=150/></a></div>`)[0];
-            popup_390d6d75a4594f5db26fddd1edb6acac.setContent(html_07070ac7f39448ae80d0232993f598ad);
+            var html_e77fdd9bd72a4e5b88580a84b70ec917 = $(`<div id="html_e77fdd9bd72a4e5b88580a84b70ec917" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3501" target="_blank">葛尾城</a><br> 振り仮名：かつらおじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：村上氏城館 <br>住所：長野県埴科郡坂城町坂城1148他 <br>築城年：南北朝時代後期 <br>築城者：村上氏 <br>遺構：曲輪、石垣、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3501" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329601" width=150/></a></div>`)[0];
+            popup_f0cb611002ca4a8784c9c1219a2f30c4.setContent(html_e77fdd9bd72a4e5b88580a84b70ec917);
         
 
-        marker_c3ebf3c529e44b3f920023a191acc31d.bindPopup(popup_390d6d75a4594f5db26fddd1edb6acac)
+        marker_0d346fd422474e5b96f9fb9c6befc80a.bindPopup(popup_f0cb611002ca4a8784c9c1219a2f30c4)
         ;
 
         
     
     
-            var marker_1e57d524096e4f9392e1f270a105e07d = L.marker(
+            var marker_2f2acbcb4f044d7e9b646f4ce3a2029c = L.marker(
                 [36.566146999999994, 138.19563200000002],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_be929f4001794fb9aba15b13c6d3b85d = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_6875c430c9854489a2866c90e688f9aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f2acbcb4f044d7e9b646f4ce3a2029c.setIcon(icon_6875c430c9854489a2866c90e688f9aa);
+        
+    
+        var popup_aec29fefa5e14301ad579571a4085217 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_36b826d6653d4f35a4279f4842bccaae = $(`<div id="html_36b826d6653d4f35a4279f4842bccaae" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3509" target="_blank">松代城</a><br> 振り仮名：まつしろじょう <br>旧国名：信濃国 <br>分類・構造：輪郭式平城 <br>別名：海津城、貝津城 <br>住所：長野県長野市松代町松代44地 <br>築城年：永禄3年（1560） <br>築城者：武田信玄 <br>遺構：曲輪、石垣、土塁、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/3509" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330648" width=150/></a></div>`)[0];
-            popup_be929f4001794fb9aba15b13c6d3b85d.setContent(html_36b826d6653d4f35a4279f4842bccaae);
+            var html_46caaa9fbd9b4dacabf503aa4fd63a7a = $(`<div id="html_46caaa9fbd9b4dacabf503aa4fd63a7a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3509" target="_blank">松代城</a><br> 振り仮名：まつしろじょう <br>旧国名：信濃国 <br>分類・構造：輪郭式平城 <br>別名：海津城、貝津城 <br>住所：長野県長野市松代町松代44地 <br>築城年：永禄3年（1560） <br>築城者：武田信玄 <br>遺構：曲輪、石垣、土塁、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/3509" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330648" width=150/></a></div>`)[0];
+            popup_aec29fefa5e14301ad579571a4085217.setContent(html_46caaa9fbd9b4dacabf503aa4fd63a7a);
         
 
-        marker_1e57d524096e4f9392e1f270a105e07d.bindPopup(popup_be929f4001794fb9aba15b13c6d3b85d)
+        marker_2f2acbcb4f044d7e9b646f4ce3a2029c.bindPopup(popup_aec29fefa5e14301ad579571a4085217)
         ;
 
         
     
     
-            var marker_8cd65a3c0efb49dd987119f31bd9d2e0 = L.marker(
+            var marker_682c2eaff310490c9c1715f249ba5055 = L.marker(
                 [36.690670000000004, 138.063444],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_4ddd864fbbae41418308028df6191a2b = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_2ce15358302b474fb4de549571742973 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_682c2eaff310490c9c1715f249ba5055.setIcon(icon_2ce15358302b474fb4de549571742973);
+        
+    
+        var popup_2da614727f4040059153381531ef6b7e = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_733d6514e7964aa3b3721523dc40e7a5 = $(`<div id="html_733d6514e7964aa3b3721523dc40e7a5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3514" target="_blank">福平城</a><br> 振り仮名：ふくだいらじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：溝口城 <br>住所：長野県長野市戸隠栃原1921 <br>築城年：享禄年間（1528〜1531） <br>築城者：今井兼平？ <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3514" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/177829" width=150/></a></div>`)[0];
-            popup_4ddd864fbbae41418308028df6191a2b.setContent(html_733d6514e7964aa3b3721523dc40e7a5);
+            var html_053271c74ba6469eb6f557acf43c18e9 = $(`<div id="html_053271c74ba6469eb6f557acf43c18e9" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3514" target="_blank">福平城</a><br> 振り仮名：ふくだいらじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：溝口城 <br>住所：長野県長野市戸隠栃原1921 <br>築城年：享禄年間（1528〜1531） <br>築城者：今井兼平？ <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3514" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/177829" width=150/></a></div>`)[0];
+            popup_2da614727f4040059153381531ef6b7e.setContent(html_053271c74ba6469eb6f557acf43c18e9);
         
 
-        marker_8cd65a3c0efb49dd987119f31bd9d2e0.bindPopup(popup_4ddd864fbbae41418308028df6191a2b)
+        marker_682c2eaff310490c9c1715f249ba5055.bindPopup(popup_2da614727f4040059153381531ef6b7e)
         ;
 
         
     
     
-            var marker_94b339335a634429b7ea9614f62be346 = L.marker(
+            var marker_5b4944a38c8c4f30966163908b1e7a9e = L.marker(
                 [36.57294, 138.22308999999998],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_fda751ba01674e9bb91d2660ebc76880 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_baa3aa8b3e8d4cf7af83bef3197bb3ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5b4944a38c8c4f30966163908b1e7a9e.setIcon(icon_baa3aa8b3e8d4cf7af83bef3197bb3ee);
+        
+    
+        var popup_26b3c54771f14fec900594eb9859cfde = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_a7c1cffa09bd44cd858688f369a7a743 = $(`<div id="html_a7c1cffa09bd44cd858688f369a7a743" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3516" target="_blank">尼厳城</a><br> 振り仮名：あまかざりじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：東条（ひがしじょう）城、尼飾城、雨飾城 <br>住所：長野県長野市松代町東条 <br>築城年：不明 <br>築城者：東条氏 <br>遺構：曲輪、腰曲輪、石積、横堀（空堀）、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3516" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326392" width=150/></a></div>`)[0];
-            popup_fda751ba01674e9bb91d2660ebc76880.setContent(html_a7c1cffa09bd44cd858688f369a7a743);
+            var html_d07eb48538444783a21c9dcd571a8d62 = $(`<div id="html_d07eb48538444783a21c9dcd571a8d62" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3516" target="_blank">尼厳城</a><br> 振り仮名：あまかざりじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：東条（ひがしじょう）城、尼飾城、雨飾城 <br>住所：長野県長野市松代町東条 <br>築城年：不明 <br>築城者：東条氏 <br>遺構：曲輪、腰曲輪、石積、横堀（空堀）、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/3516" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/326392" width=150/></a></div>`)[0];
+            popup_26b3c54771f14fec900594eb9859cfde.setContent(html_d07eb48538444783a21c9dcd571a8d62);
         
 
-        marker_94b339335a634429b7ea9614f62be346.bindPopup(popup_fda751ba01674e9bb91d2660ebc76880)
+        marker_5b4944a38c8c4f30966163908b1e7a9e.bindPopup(popup_26b3c54771f14fec900594eb9859cfde)
         ;
 
         
     
     
-            var marker_ea891725981b450398178c3657196ce0 = L.marker(
+            var marker_7973cd6894ee404cbe3ea982a9cf934e = L.marker(
                 [36.574417, 138.146788],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_8aaf3a70d1d14a548dae146beb75def0 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_218b0c46ce7e4f619272bf00e11a7c0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7973cd6894ee404cbe3ea982a9cf934e.setIcon(icon_218b0c46ce7e4f619272bf00e11a7c0c);
+        
+    
+        var popup_074d51156fd94f6d9edc62bf93a206f1 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_55783d4a97d64d159f0d9a4f8a5e3702 = $(`<div id="html_55783d4a97d64d159f0d9a4f8a5e3702" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3520" target="_blank">横田城</a><br> 振り仮名：よこたじょう <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：会の館 <br>住所：長野県長野市篠ノ井会185他 <br>築城年：平安時代後期 <br>築城者：不明 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/3520" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332090" width=150/></a></div>`)[0];
-            popup_8aaf3a70d1d14a548dae146beb75def0.setContent(html_55783d4a97d64d159f0d9a4f8a5e3702);
+            var html_dce852044f554e62afcd5df475c7d929 = $(`<div id="html_dce852044f554e62afcd5df475c7d929" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3520" target="_blank">横田城</a><br> 振り仮名：よこたじょう <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：会の館 <br>住所：長野県長野市篠ノ井会185他 <br>築城年：平安時代後期 <br>築城者：不明 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/3520" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332090" width=150/></a></div>`)[0];
+            popup_074d51156fd94f6d9edc62bf93a206f1.setContent(html_dce852044f554e62afcd5df475c7d929);
         
 
-        marker_ea891725981b450398178c3657196ce0.bindPopup(popup_8aaf3a70d1d14a548dae146beb75def0)
+        marker_7973cd6894ee404cbe3ea982a9cf934e.bindPopup(popup_074d51156fd94f6d9edc62bf93a206f1)
         ;
 
         
     
     
-            var marker_7759754613d6425b8d7a81ce45dd7608 = L.marker(
+            var marker_aee350306d8e46fd9c5bfcd97ca995b8 = L.marker(
                 [36.671105, 138.166542],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_0412271cdd404bd592c3a1cbf4855051 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_2f6a6471260e4c5693c25ef12d7268c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_aee350306d8e46fd9c5bfcd97ca995b8.setIcon(icon_2f6a6471260e4c5693c25ef12d7268c0);
+        
+    
+        var popup_acfcb690250d492089e8eb888d061ab9 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_ced5a282d11249369e7f3e7d32427208 = $(`<div id="html_ced5a282d11249369e7f3e7d32427208" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3522" target="_blank">葛山城</a><br> 振り仮名：かつらやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県長野市鑪葛山244他 <br>築城年：室町時代 <br>築城者：不明 <br>遺構：曲輪、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3522" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323376" width=150/></a></div>`)[0];
-            popup_0412271cdd404bd592c3a1cbf4855051.setContent(html_ced5a282d11249369e7f3e7d32427208);
+            var html_5e9d0abd55464b2ea3ff6829f600b4d4 = $(`<div id="html_5e9d0abd55464b2ea3ff6829f600b4d4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3522" target="_blank">葛山城</a><br> 振り仮名：かつらやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県長野市鑪葛山244他 <br>築城年：室町時代 <br>築城者：不明 <br>遺構：曲輪、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3522" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323376" width=150/></a></div>`)[0];
+            popup_acfcb690250d492089e8eb888d061ab9.setContent(html_5e9d0abd55464b2ea3ff6829f600b4d4);
         
 
-        marker_7759754613d6425b8d7a81ce45dd7608.bindPopup(popup_0412271cdd404bd592c3a1cbf4855051)
+        marker_aee350306d8e46fd9c5bfcd97ca995b8.bindPopup(popup_acfcb690250d492089e8eb888d061ab9)
         ;
 
         
     
     
-            var marker_d2eef40ab17647aba732824c7c55894e = L.marker(
+            var marker_98fab3079b3845e8aa95a4279c6d79bf = L.marker(
                 [36.683351, 138.273629],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_94414a0fa4da4c55a4743b063c439534 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_bcfad06daa334752a63e28124bd2df1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98fab3079b3845e8aa95a4279c6d79bf.setIcon(icon_bcfad06daa334752a63e28124bd2df1d);
+        
+    
+        var popup_69ffb25931f94a578a5427bbc75515bd = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_dfecd416024b4dfe88b9ea794b71f72c = $(`<div id="html_dfecd416024b4dfe88b9ea794b71f72c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3523" target="_blank">長沼城</a><br> 振り仮名：ながぬまじょう <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：－ <br>住所：長野県長野市穂保 <br>築城年：室町時代 <br>築城者：長沼島津氏 <br>遺構：曲輪、横堀跡 <br><a href="https://cmeg.jp//w/castles/3523" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323387" width=150/></a></div>`)[0];
-            popup_94414a0fa4da4c55a4743b063c439534.setContent(html_dfecd416024b4dfe88b9ea794b71f72c);
+            var html_3167fcc18acf4a4e9a9380c51aca4d5b = $(`<div id="html_3167fcc18acf4a4e9a9380c51aca4d5b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3523" target="_blank">長沼城</a><br> 振り仮名：ながぬまじょう <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：－ <br>住所：長野県長野市穂保 <br>築城年：室町時代 <br>築城者：長沼島津氏 <br>遺構：曲輪、横堀跡 <br><a href="https://cmeg.jp//w/castles/3523" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323387" width=150/></a></div>`)[0];
+            popup_69ffb25931f94a578a5427bbc75515bd.setContent(html_3167fcc18acf4a4e9a9380c51aca4d5b);
         
 
-        marker_d2eef40ab17647aba732824c7c55894e.bindPopup(popup_94414a0fa4da4c55a4743b063c439534)
+        marker_98fab3079b3845e8aa95a4279c6d79bf.bindPopup(popup_69ffb25931f94a578a5427bbc75515bd)
         ;
 
         
     
     
-            var marker_86da052cb4f44c1c923983498ac7e620 = L.marker(
+            var marker_1d5d87d9ed064e45a2742f3eca08e0e1 = L.marker(
                 [36.654209, 138.163171],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_f5c54ad4d587468faa94a0c8a3522cb6 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_210fc9c174904fff8e7cbd39dd63729b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1d5d87d9ed064e45a2742f3eca08e0e1.setIcon(icon_210fc9c174904fff8e7cbd39dd63729b);
+        
+    
+        var popup_4d7bf8cbbdc945678beb158b6807d695 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_0327454e35224efba515c8c836b7240c = $(`<div id="html_0327454e35224efba515c8c836b7240c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3526" target="_blank">旭山城</a><br> 振り仮名：あさひやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：朝日山城 <br>住所：長野県長野市平柴 <br>築城年：室町時代 <br>築城者：栗田鶴寿？ <br>遺構：曲輪、腰曲輪、石垣、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3526" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328273" width=150/></a></div>`)[0];
-            popup_f5c54ad4d587468faa94a0c8a3522cb6.setContent(html_0327454e35224efba515c8c836b7240c);
+            var html_cda1f27a9e2d40fe96caf560fc5d0727 = $(`<div id="html_cda1f27a9e2d40fe96caf560fc5d0727" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3526" target="_blank">旭山城</a><br> 振り仮名：あさひやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：朝日山城 <br>住所：長野県長野市平柴 <br>築城年：室町時代 <br>築城者：栗田鶴寿？ <br>遺構：曲輪、腰曲輪、石垣、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3526" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/328273" width=150/></a></div>`)[0];
+            popup_4d7bf8cbbdc945678beb158b6807d695.setContent(html_cda1f27a9e2d40fe96caf560fc5d0727);
         
 
-        marker_86da052cb4f44c1c923983498ac7e620.bindPopup(popup_f5c54ad4d587468faa94a0c8a3522cb6)
+        marker_1d5d87d9ed064e45a2742f3eca08e0e1.bindPopup(popup_4d7bf8cbbdc945678beb158b6807d695)
         ;
 
         
     
     
-            var marker_da5bc49aa916410f94f073ad9646b504 = L.marker(
+            var marker_369078dfb4494068b4556378f909b680 = L.marker(
                 [36.661508000000005, 138.192119],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_ad5404b68a1f41a59b7ad9cfa41aa789 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_60c5ce92b9e34fefbf13f2baa3f8cfd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_369078dfb4494068b4556378f909b680.setIcon(icon_60c5ce92b9e34fefbf13f2baa3f8cfd5);
+        
+    
+        var popup_52415646e07f4327bb759edf5a250ac3 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_ed8ee8dc8b8c468aaa04e82a7adbda10 = $(`<div id="html_ed8ee8dc8b8c468aaa04e82a7adbda10" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3530" target="_blank">横山城</a><br> 振り仮名：よこやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県長野市箱清水1-3 <br>築城年：南北朝時代 <br>築城者：不明 <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3530" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323377" width=150/></a></div>`)[0];
-            popup_ad5404b68a1f41a59b7ad9cfa41aa789.setContent(html_ed8ee8dc8b8c468aaa04e82a7adbda10);
+            var html_5cfc46d6171940479f2904f888120da0 = $(`<div id="html_5cfc46d6171940479f2904f888120da0" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3530" target="_blank">横山城</a><br> 振り仮名：よこやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県長野市箱清水1-3 <br>築城年：南北朝時代 <br>築城者：不明 <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3530" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323377" width=150/></a></div>`)[0];
+            popup_52415646e07f4327bb759edf5a250ac3.setContent(html_5cfc46d6171940479f2904f888120da0);
         
 
-        marker_da5bc49aa916410f94f073ad9646b504.bindPopup(popup_ad5404b68a1f41a59b7ad9cfa41aa789)
+        marker_369078dfb4494068b4556378f909b680.bindPopup(popup_52415646e07f4327bb759edf5a250ac3)
         ;
 
         
     
     
-            var marker_bb1a61ad56cf424fbf884b7132c58067 = L.marker(
+            var marker_5a66495f344c48ba8f8aa13557ff0337 = L.marker(
                 [36.720442, 138.243607],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_4005082ed86f4374bf04ecc41f382533 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_69a61e2d1e174671873e80fbcbe920f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5a66495f344c48ba8f8aa13557ff0337.setIcon(icon_69a61e2d1e174671873e80fbcbe920f9);
+        
+    
+        var popup_843199d882cc49e7993c815e27770187 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_cc44008d50a6494887ba3893b8d94392 = $(`<div id="html_cc44008d50a6494887ba3893b8d94392" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3533" target="_blank">髻山城</a><br> 振り仮名：もとどりやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県長野市若槻西条 <br>築城年：戦国時代 <br>築城者：上杉謙信 <br>遺構：曲輪、石垣、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3533" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330266" width=150/></a></div>`)[0];
-            popup_4005082ed86f4374bf04ecc41f382533.setContent(html_cc44008d50a6494887ba3893b8d94392);
+            var html_7bdc472f333b4e299d513bde9667a776 = $(`<div id="html_7bdc472f333b4e299d513bde9667a776" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3533" target="_blank">髻山城</a><br> 振り仮名：もとどりやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県長野市若槻西条 <br>築城年：戦国時代 <br>築城者：上杉謙信 <br>遺構：曲輪、石垣、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3533" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330266" width=150/></a></div>`)[0];
+            popup_843199d882cc49e7993c815e27770187.setContent(html_7bdc472f333b4e299d513bde9667a776);
         
 
-        marker_bb1a61ad56cf424fbf884b7132c58067.bindPopup(popup_4005082ed86f4374bf04ecc41f382533)
+        marker_5a66495f344c48ba8f8aa13557ff0337.bindPopup(popup_843199d882cc49e7993c815e27770187)
         ;
 
         
     
     
-            var marker_69e4e31dc45340ef95a250743b8a2c32 = L.marker(
+            var marker_16c86e78098448e288d9c79eef357cc4 = L.marker(
                 [36.625215000000004, 138.122856],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_ec862182eda74ec09141b6299c151433 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_65cc3c5421fb4ab0b980b37624e31587 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_16c86e78098448e288d9c79eef357cc4.setIcon(icon_65cc3c5421fb4ab0b980b37624e31587);
+        
+    
+        var popup_335f18ab5a2d4f4089b8d9fa8b224dc7 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_174f3e6a922b4ecf917c3b870216e312 = $(`<div id="html_174f3e6a922b4ecf917c3b870216e312" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3534" target="_blank">吉窪城</a><br> 振り仮名：よしくぼじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：吉窪山城 <br>住所：長野県長野市塩生 <br>築城年：不明 <br>築城者：小田切氏 <br>遺構：曲輪、土塁、横堀（空堀）、石積 <br><a href="https://cmeg.jp//w/castles/3534" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330108" width=150/></a></div>`)[0];
-            popup_ec862182eda74ec09141b6299c151433.setContent(html_174f3e6a922b4ecf917c3b870216e312);
+            var html_852c8eeab13c4d6aaddea7d70de8adad = $(`<div id="html_852c8eeab13c4d6aaddea7d70de8adad" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3534" target="_blank">吉窪城</a><br> 振り仮名：よしくぼじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：吉窪山城 <br>住所：長野県長野市塩生 <br>築城年：不明 <br>築城者：小田切氏 <br>遺構：曲輪、土塁、横堀（空堀）、石積 <br><a href="https://cmeg.jp//w/castles/3534" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330108" width=150/></a></div>`)[0];
+            popup_335f18ab5a2d4f4089b8d9fa8b224dc7.setContent(html_852c8eeab13c4d6aaddea7d70de8adad);
         
 
-        marker_69e4e31dc45340ef95a250743b8a2c32.bindPopup(popup_ec862182eda74ec09141b6299c151433)
+        marker_16c86e78098448e288d9c79eef357cc4.bindPopup(popup_335f18ab5a2d4f4089b8d9fa8b224dc7)
         ;
 
         
     
     
-            var marker_703da370c8284afa8047e56fc69aecfa = L.marker(
+            var marker_42db3494780544878bf4d2445b36474b = L.marker(
                 [36.628006, 138.280869],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_2d0167287c10499fbfd09cd51dc0a807 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_1cc36086e9ec4cbf83a2907975a39e78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_42db3494780544878bf4d2445b36474b.setIcon(icon_1cc36086e9ec4cbf83a2907975a39e78);
+        
+    
+        var popup_163781410d0740fa8891c4349189d970 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_fe521b5594134be18cf7da6a5b3abdc4 = $(`<div id="html_fe521b5594134be18cf7da6a5b3abdc4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3539" target="_blank">井上城</a><br> 振り仮名：いのうえじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：井上氏城、小口山城 <br>住所：長野県須坂市井上御堀2474他 <br>築城年：室町時代 <br>築城者：井上氏 <br>遺構：曲輪、堀切、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3539" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331661" width=150/></a></div>`)[0];
-            popup_2d0167287c10499fbfd09cd51dc0a807.setContent(html_fe521b5594134be18cf7da6a5b3abdc4);
+            var html_7ab17512c17d46de92f9b0e9409ff8f1 = $(`<div id="html_7ab17512c17d46de92f9b0e9409ff8f1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3539" target="_blank">井上城</a><br> 振り仮名：いのうえじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：井上氏城、小口山城 <br>住所：長野県須坂市井上御堀2474他 <br>築城年：室町時代 <br>築城者：井上氏 <br>遺構：曲輪、堀切、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/3539" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331661" width=150/></a></div>`)[0];
+            popup_163781410d0740fa8891c4349189d970.setContent(html_7ab17512c17d46de92f9b0e9409ff8f1);
         
 
-        marker_703da370c8284afa8047e56fc69aecfa.bindPopup(popup_2d0167287c10499fbfd09cd51dc0a807)
+        marker_42db3494780544878bf4d2445b36474b.bindPopup(popup_163781410d0740fa8891c4349189d970)
         ;
 
         
     
     
-            var marker_3c7e2fb1f23a425daf4b74d89abe8d84 = L.marker(
+            var marker_0a524d166dce421cb00ff5054a18becc = L.marker(
                 [36.69807, 138.213085],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_6534402cf0ee4906ae204b39864e0b4d = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_a39c9106b84942ee8304ec9dcdf048af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0a524d166dce421cb00ff5054a18becc.setIcon(icon_a39c9106b84942ee8304ec9dcdf048af);
+        
+    
+        var popup_4a2fd2657f9147e6900236ad85896dae = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_78aa5697b6a14a7b8fbe5dacf14a83c2 = $(`<div id="html_78aa5697b6a14a7b8fbe5dacf14a83c2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3542" target="_blank">若槻山城</a><br> 振り仮名：わかつきやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：若槻城、三登山城 <br>住所：長野県長野市浅川西条、若槻東条他 <br>築城年：鎌倉時代前期 <br>築城者：若槻頼隆 <br>遺構：曲輪、土塁、竪堀 <br><a href="https://cmeg.jp//w/castles/3542" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323381" width=150/></a></div>`)[0];
-            popup_6534402cf0ee4906ae204b39864e0b4d.setContent(html_78aa5697b6a14a7b8fbe5dacf14a83c2);
+            var html_af67901892db453dab5f35ffd717e94e = $(`<div id="html_af67901892db453dab5f35ffd717e94e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3542" target="_blank">若槻山城</a><br> 振り仮名：わかつきやまじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：若槻城、三登山城 <br>住所：長野県長野市浅川西条、若槻東条他 <br>築城年：鎌倉時代前期 <br>築城者：若槻頼隆 <br>遺構：曲輪、土塁、竪堀 <br><a href="https://cmeg.jp//w/castles/3542" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323381" width=150/></a></div>`)[0];
+            popup_4a2fd2657f9147e6900236ad85896dae.setContent(html_af67901892db453dab5f35ffd717e94e);
         
 
-        marker_3c7e2fb1f23a425daf4b74d89abe8d84.bindPopup(popup_6534402cf0ee4906ae204b39864e0b4d)
+        marker_0a524d166dce421cb00ff5054a18becc.bindPopup(popup_4a2fd2657f9147e6900236ad85896dae)
         ;
 
         
     
     
-            var marker_a3cbf90cee324696917770d02cd6918d = L.marker(
+            var marker_594ab5a0d3c5408197d47b394ac722ab = L.marker(
                 [36.744867, 138.376342],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_7b576bb773c7486399fbaeeb35cdf1cd = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_c081ace1e0ae4ed4989a81445a4958f6 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_5e57c9980689420d9288edf500c65ca5 = $(`<div id="html_5e57c9980689420d9288edf500c65ca5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3543" target="_blank">高梨氏城館</a><br> 振り仮名：たかなししじょうかん <br>旧国名：信濃国 <br>分類・構造：城館遺跡群 <br>別名：高梨氏城館［高梨氏館（高梨城、高梨小館、中野小館）・鴨ヶ嶽城］ <br>住所：長野県中野市小舘他（地図は高梨氏館を示す） <br>築城年：室町時代［すべて］ <br>築城者：高梨政盛［すべて］ <br>遺構：曲輪、土塁、横堀（空堀）［すべて］、堀切、石積、土橋［鴨ヶ嶽城］ <br><a href="https://cmeg.jp//w/castles/3543" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323504" width=150/></a></div>`)[0];
-            popup_7b576bb773c7486399fbaeeb35cdf1cd.setContent(html_5e57c9980689420d9288edf500c65ca5);
+            var html_af312f662563473095548bf2ed30012d = $(`<div id="html_af312f662563473095548bf2ed30012d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3543" target="_blank">高梨氏城館</a><br> 振り仮名：たかなししじょうかん <br>旧国名：信濃国 <br>分類・構造：城館遺跡群 <br>別名：高梨氏城館［高梨氏館（高梨城、高梨小館、中野小館）・鴨ヶ嶽城］ <br>住所：長野県中野市小舘他（地図は高梨氏館を示す） <br>築城年：室町時代［すべて］ <br>築城者：高梨政盛［すべて］ <br>遺構：曲輪、土塁、横堀（空堀）［すべて］、堀切、石積、土橋［鴨ヶ嶽城］ <br><a href="https://cmeg.jp//w/castles/3543" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323504" width=150/></a></div>`)[0];
+            popup_c081ace1e0ae4ed4989a81445a4958f6.setContent(html_af312f662563473095548bf2ed30012d);
         
 
-        marker_a3cbf90cee324696917770d02cd6918d.bindPopup(popup_7b576bb773c7486399fbaeeb35cdf1cd)
+        marker_594ab5a0d3c5408197d47b394ac722ab.bindPopup(popup_c081ace1e0ae4ed4989a81445a4958f6)
         ;
 
         
     
     
-            var marker_0d20f045c4ed4a2b8eeaf207081ae6b8 = L.marker(
+            var marker_1b81d5d7537743828c35a0a11c1ea93c = L.marker(
                 [36.666232, 138.347974],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_51afbb84b45c439d9ea20fa67dfdbd77 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_cbd69bdb25c044b4beea61bfb0d4db2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b81d5d7537743828c35a0a11c1ea93c.setIcon(icon_cbd69bdb25c044b4beea61bfb0d4db2b);
+        
+    
+        var popup_32dde7c5308d49a4a0a713406513c996 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_39e400bc0bf94353a8b66a2a5bf826fa = $(`<div id="html_39e400bc0bf94353a8b66a2a5bf826fa" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3546" target="_blank">福島正則館</a><br> 振り仮名：ふくしままさのりやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：福島館、福島正則屋敷 <br>住所：長野県上高井郡高山村高井八幡添195-イ <br>築城年：江戸時代前期 <br>築城者：福島正則 <br>遺構：土塁 <br><a href="https://cmeg.jp//w/castles/3546" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323515" width=150/></a></div>`)[0];
-            popup_51afbb84b45c439d9ea20fa67dfdbd77.setContent(html_39e400bc0bf94353a8b66a2a5bf826fa);
+            var html_f78ad6080c2f41cca4d826a1591efc24 = $(`<div id="html_f78ad6080c2f41cca4d826a1591efc24" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3546" target="_blank">福島正則館</a><br> 振り仮名：ふくしままさのりやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：福島館、福島正則屋敷 <br>住所：長野県上高井郡高山村高井八幡添195-イ <br>築城年：江戸時代前期 <br>築城者：福島正則 <br>遺構：土塁 <br><a href="https://cmeg.jp//w/castles/3546" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323515" width=150/></a></div>`)[0];
+            popup_32dde7c5308d49a4a0a713406513c996.setContent(html_f78ad6080c2f41cca4d826a1591efc24);
         
 
-        marker_0d20f045c4ed4a2b8eeaf207081ae6b8.bindPopup(popup_51afbb84b45c439d9ea20fa67dfdbd77)
+        marker_1b81d5d7537743828c35a0a11c1ea93c.bindPopup(popup_32dde7c5308d49a4a0a713406513c996)
         ;
 
         
     
     
-            var marker_cbbc4576a8a84e2abb838572ca52eebc = L.marker(
+            var marker_862856af732d4c5b9fbe9a1ee613a3e3 = L.marker(
                 [36.594959, 138.221503],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_e6a3ddf052c24e0db5e65446750f2c11 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_3a59a93a843a477e9b953b687bf255bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_862856af732d4c5b9fbe9a1ee613a3e3.setIcon(icon_3a59a93a843a477e9b953b687bf255bf);
+        
+    
+        var popup_be6460c5bf684406b88628387f948085 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_2e3945c6600845f28a4973fbf2745458 = $(`<div id="html_2e3945c6600845f28a4973fbf2745458" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3547" target="_blank">霞城</a><br> 振り仮名：かすみじょう／かじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：大室城 <br>住所：長野県長野市松代町大室 <br>築城年：不明 <br>築城者：大室氏 <br>遺構：曲輪、石積 <br><a href="https://cmeg.jp//w/castles/3547" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332210" width=150/></a></div>`)[0];
-            popup_e6a3ddf052c24e0db5e65446750f2c11.setContent(html_2e3945c6600845f28a4973fbf2745458);
+            var html_72af5143b45f445aa30782b83cb888d8 = $(`<div id="html_72af5143b45f445aa30782b83cb888d8" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3547" target="_blank">霞城</a><br> 振り仮名：かすみじょう／かじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：大室城 <br>住所：長野県長野市松代町大室 <br>築城年：不明 <br>築城者：大室氏 <br>遺構：曲輪、石積 <br><a href="https://cmeg.jp//w/castles/3547" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/332210" width=150/></a></div>`)[0];
+            popup_be6460c5bf684406b88628387f948085.setContent(html_72af5143b45f445aa30782b83cb888d8);
         
 
-        marker_cbbc4576a8a84e2abb838572ca52eebc.bindPopup(popup_e6a3ddf052c24e0db5e65446750f2c11)
+        marker_862856af732d4c5b9fbe9a1ee613a3e3.bindPopup(popup_be6460c5bf684406b88628387f948085)
         ;
 
         
     
     
-            var marker_8d5bdad6992945a5a5073bb51f06b625 = L.marker(
+            var marker_d1dd9464816e41479cd1c23059efb342 = L.marker(
                 [36.561865999999995, 137.99867700000001],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_fe5cdb14df9e4a46b114e9b7963c3039 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_c564cf6858564dadaa6a631c77398dd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d1dd9464816e41479cd1c23059efb342.setIcon(icon_c564cf6858564dadaa6a631c77398dd9);
+        
+    
+        var popup_1fe0e15ee05c419e9fafab4082ef1a24 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_63fbb85d2b9f40409a56e0a817cf0647 = $(`<div id="html_63fbb85d2b9f40409a56e0a817cf0647" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3551" target="_blank">牧之島城</a><br> 振り仮名：まきのしまじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：牧ノ島城、琵琶城、（牧城） <br>住所：長野県長野市信州新町牧之島 <br>築城年：鎌倉時代（牧城） <br>築城者：香坂氏（牧城） <br>遺構：曲輪、土塁、三日月堀 <br><a href="https://cmeg.jp//w/castles/3551" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330293" width=150/></a></div>`)[0];
-            popup_fe5cdb14df9e4a46b114e9b7963c3039.setContent(html_63fbb85d2b9f40409a56e0a817cf0647);
+            var html_a9c34aea0f9a4940b4ecdcd78d8d92c2 = $(`<div id="html_a9c34aea0f9a4940b4ecdcd78d8d92c2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3551" target="_blank">牧之島城</a><br> 振り仮名：まきのしまじょう <br>旧国名：信濃国 <br>分類・構造：平山城 <br>別名：牧ノ島城、琵琶城、（牧城） <br>住所：長野県長野市信州新町牧之島 <br>築城年：鎌倉時代（牧城） <br>築城者：香坂氏（牧城） <br>遺構：曲輪、土塁、三日月堀 <br><a href="https://cmeg.jp//w/castles/3551" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330293" width=150/></a></div>`)[0];
+            popup_1fe0e15ee05c419e9fafab4082ef1a24.setContent(html_a9c34aea0f9a4940b4ecdcd78d8d92c2);
         
 
-        marker_8d5bdad6992945a5a5073bb51f06b625.bindPopup(popup_fe5cdb14df9e4a46b114e9b7963c3039)
+        marker_d1dd9464816e41479cd1c23059efb342.bindPopup(popup_1fe0e15ee05c419e9fafab4082ef1a24)
         ;
 
         
     
     
-            var marker_776085bf83674bdb9d64e2624131583c = L.marker(
+            var marker_e4f14612fff64d8e955152f3f281305a = L.marker(
                 [36.809196, 138.241668],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_2466a494096e4d69a10ae7103c126246 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_99cc68c3ced34e3088e368e50d678368 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e4f14612fff64d8e955152f3f281305a.setIcon(icon_99cc68c3ced34e3088e368e50d678368);
+        
+    
+        var popup_2c0d80a81e7043e594357ee9cd2c8b2c = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_069f85f9c392428397c78ff82c499e69 = $(`<div id="html_069f85f9c392428397c78ff82c499e69" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3559" target="_blank">割ヶ嶽城</a><br> 振り仮名：わりがたけじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：割ヶ岳城、鰐ヶ嶽城 <br>住所：長野県上水内郡信濃町富濃柴津 <br>築城年：室町時代 <br>築城者：不明 <br>遺構：曲輪、土塁、堀切、横堀（空堀）、虎口 <br><a href="https://cmeg.jp//w/castles/3559" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/281120" width=150/></a></div>`)[0];
-            popup_2466a494096e4d69a10ae7103c126246.setContent(html_069f85f9c392428397c78ff82c499e69);
+            var html_618a4de89beb49e0995b6a21a85fd12c = $(`<div id="html_618a4de89beb49e0995b6a21a85fd12c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3559" target="_blank">割ヶ嶽城</a><br> 振り仮名：わりがたけじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：割ヶ岳城、鰐ヶ嶽城 <br>住所：長野県上水内郡信濃町富濃柴津 <br>築城年：室町時代 <br>築城者：不明 <br>遺構：曲輪、土塁、堀切、横堀（空堀）、虎口 <br><a href="https://cmeg.jp//w/castles/3559" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/281120" width=150/></a></div>`)[0];
+            popup_2c0d80a81e7043e594357ee9cd2c8b2c.setContent(html_618a4de89beb49e0995b6a21a85fd12c);
         
 
-        marker_776085bf83674bdb9d64e2624131583c.bindPopup(popup_2466a494096e4d69a10ae7103c126246)
+        marker_e4f14612fff64d8e955152f3f281305a.bindPopup(popup_2c0d80a81e7043e594357ee9cd2c8b2c)
         ;
 
         
     
     
-            var marker_5e6eb775d61c4e1097f1187de8521b6b = L.marker(
+            var marker_553fbc02077042d1b83741155c977219 = L.marker(
                 [36.963901, 138.542292],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_8b302f7b481345218343099bd08933b1 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_ca31add2660b4b188b2c5bd6a4c65424 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_553fbc02077042d1b83741155c977219.setIcon(icon_ca31add2660b4b188b2c5bd6a4c65424);
+        
+    
+        var popup_5f0eb3bfa4d644fcbf87494d6b7225e8 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_8d6f823083704de4aa0e7eb706cd39d2 = $(`<div id="html_8d6f823083704de4aa0e7eb706cd39d2" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3560" target="_blank">仙当城</a><br> 振り仮名：せっとじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県下水内郡栄村堺字仙当 <br>築城年：戦国時代 <br>築城者：市河氏 <br>遺構：曲輪、土塁、横堀（空堀）、堀切、竪堀、土橋 <br><a href="https://cmeg.jp//w/castles/3560" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331135" width=150/></a></div>`)[0];
-            popup_8b302f7b481345218343099bd08933b1.setContent(html_8d6f823083704de4aa0e7eb706cd39d2);
+            var html_5e1317ef409b4e2a8af606b9ef6be31a = $(`<div id="html_5e1317ef409b4e2a8af606b9ef6be31a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3560" target="_blank">仙当城</a><br> 振り仮名：せっとじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県下水内郡栄村堺字仙当 <br>築城年：戦国時代 <br>築城者：市河氏 <br>遺構：曲輪、土塁、横堀（空堀）、堀切、竪堀、土橋 <br><a href="https://cmeg.jp//w/castles/3560" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331135" width=150/></a></div>`)[0];
+            popup_5f0eb3bfa4d644fcbf87494d6b7225e8.setContent(html_5e1317ef409b4e2a8af606b9ef6be31a);
         
 
-        marker_5e6eb775d61c4e1097f1187de8521b6b.bindPopup(popup_8b302f7b481345218343099bd08933b1)
+        marker_553fbc02077042d1b83741155c977219.bindPopup(popup_5f0eb3bfa4d644fcbf87494d6b7225e8)
         ;
 
         
     
     
-            var marker_d615c0d1ef5144f68144c346bf8e6f3b = L.marker(
+            var marker_af5ef5c1c3f94496a4957864a1c01f51 = L.marker(
                 [36.750197, 138.318941],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_98639e6d296f4ed48045fc835a53fa7c = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_4ad7813ddda04fc1a80fce7cb44140e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af5ef5c1c3f94496a4957864a1c01f51.setIcon(icon_4ad7813ddda04fc1a80fce7cb44140e9);
+        
+    
+        var popup_1e21ab39852242d793587b24c648a353 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_18dc94293f3b497fb0bfff2d5e57d9ab = $(`<div id="html_18dc94293f3b497fb0bfff2d5e57d9ab" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3561" target="_blank">内堀館</a><br> 振り仮名：うちぼりやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：－ <br>住所：長野県中野市大字上今井632-1、633-1 <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、土塁、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/3561" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323389" width=150/></a></div>`)[0];
-            popup_98639e6d296f4ed48045fc835a53fa7c.setContent(html_18dc94293f3b497fb0bfff2d5e57d9ab);
+            var html_780dfb2c93554f8b936f8bed54eb7fa0 = $(`<div id="html_780dfb2c93554f8b936f8bed54eb7fa0" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3561" target="_blank">内堀館</a><br> 振り仮名：うちぼりやかた <br>旧国名：信濃国 <br>分類・構造：平城 <br>別名：－ <br>住所：長野県中野市大字上今井632-1、633-1 <br>築城年：不明 <br>築城者：不明 <br>遺構：曲輪、土塁、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/3561" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323389" width=150/></a></div>`)[0];
+            popup_1e21ab39852242d793587b24c648a353.setContent(html_780dfb2c93554f8b936f8bed54eb7fa0);
         
 
-        marker_d615c0d1ef5144f68144c346bf8e6f3b.bindPopup(popup_98639e6d296f4ed48045fc835a53fa7c)
+        marker_af5ef5c1c3f94496a4957864a1c01f51.bindPopup(popup_1e21ab39852242d793587b24c648a353)
         ;
 
         
     
     
-            var marker_1206f24079b3451d81f4153a244793bb = L.marker(
+            var marker_1ca591ea214d417cb80624b959e5c766 = L.marker(
                 [36.744538, 138.372848],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_89e16fa644f1404480698a477a1462d7 = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_461ba7e29a834cbf8f92d97d65803297 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_eb981669050f4d3aa28407bdc68a8531 = $(`<div id="html_eb981669050f4d3aa28407bdc68a8531" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3563" target="_blank">中野陣屋</a><br> 振り仮名：なかのじんや <br>旧国名：信濃国 <br>分類・構造：陣屋 <br>別名：中野県庁 <br>住所：長野県中野市中央2-826他 <br>築城年：元和2年（1616） <br>築城者：徳川幕府 <br>遺構：石垣、井戸 <br><a href="https://cmeg.jp//w/castles/3563" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323502" width=150/></a></div>`)[0];
-            popup_89e16fa644f1404480698a477a1462d7.setContent(html_eb981669050f4d3aa28407bdc68a8531);
+            var html_cb32491f6c7c4621bf09e75b0c272170 = $(`<div id="html_cb32491f6c7c4621bf09e75b0c272170" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3563" target="_blank">中野陣屋</a><br> 振り仮名：なかのじんや <br>旧国名：信濃国 <br>分類・構造：陣屋 <br>別名：中野県庁 <br>住所：長野県中野市中央2-826他 <br>築城年：元和2年（1616） <br>築城者：徳川幕府 <br>遺構：石垣、井戸 <br><a href="https://cmeg.jp//w/castles/3563" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323502" width=150/></a></div>`)[0];
+            popup_461ba7e29a834cbf8f92d97d65803297.setContent(html_cb32491f6c7c4621bf09e75b0c272170);
         
 
-        marker_1206f24079b3451d81f4153a244793bb.bindPopup(popup_89e16fa644f1404480698a477a1462d7)
+        marker_1ca591ea214d417cb80624b959e5c766.bindPopup(popup_461ba7e29a834cbf8f92d97d65803297)
         ;
 
         
     
     
-            var marker_d8df88b79a4c4184a8a3e31cd026ab8b = L.marker(
+            var marker_04e5b4efae664d88b05e33df4f3c9e41 = L.marker(
                 [35.441254, 137.73468799999998],
                 {"parseHtml": true}
-            ).addTo(map_d197b238d9f34314982d5050e9a7c97d);
+            ).addTo(map_a9b35ba1fb824f4da872ee9f107682ec);
         
     
-        var popup_0d352e7f8e904b259baed92998fda0f3 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_a2bd0828ad0648b193bb3b382a320c6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_04e5b4efae664d88b05e33df4f3c9e41.setIcon(icon_a2bd0828ad0648b193bb3b382a320c6f);
+        
+    
+        var popup_5baf47bc31bd4147b3f39d1c04eada04 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_3bc12b74603b481ca6f0b92bbc703ba1 = $(`<div id="html_3bc12b74603b481ca6f0b92bbc703ba1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3577" target="_blank">駒場城</a><br> 振り仮名：こまんばじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県下伊那郡阿智村駒場城山 <br>築城年：応永年間（1394〜1428） <br>築城者：林氏？ <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3577" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317337" width=150/></a></div>`)[0];
-            popup_0d352e7f8e904b259baed92998fda0f3.setContent(html_3bc12b74603b481ca6f0b92bbc703ba1);
+            var html_0dda99524db645ffafdc32655985e51c = $(`<div id="html_0dda99524db645ffafdc32655985e51c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/3577" target="_blank">駒場城</a><br> 振り仮名：こまんばじょう <br>旧国名：信濃国 <br>分類・構造：山城 <br>別名：－ <br>住所：長野県下伊那郡阿智村駒場城山 <br>築城年：応永年間（1394〜1428） <br>築城者：林氏？ <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/3577" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317337" width=150/></a></div>`)[0];
+            popup_5baf47bc31bd4147b3f39d1c04eada04.setContent(html_0dda99524db645ffafdc32655985e51c);
         
 
-        marker_d8df88b79a4c4184a8a3e31cd026ab8b.bindPopup(popup_0d352e7f8e904b259baed92998fda0f3)
+        marker_04e5b4efae664d88b05e33df4f3c9e41.bindPopup(popup_5baf47bc31bd4147b3f39d1c04eada04)
         ;
 
         

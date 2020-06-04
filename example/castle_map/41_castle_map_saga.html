@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a6a84f64847f4829a9ed21db63e0053c {
+                #map_6f7d6ba7085d43d79936bb19b7fcf0a1 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_a6a84f64847f4829a9ed21db63e0053c" ></div>
+            <div class="folium-map" id="map_6f7d6ba7085d43d79936bb19b7fcf0a1" ></div>
         
 </body>
 <script>    
     
-            var map_a6a84f64847f4829a9ed21db63e0053c = L.map(
-                "map_a6a84f64847f4829a9ed21db63e0053c",
+            var map_6f7d6ba7085d43d79936bb19b7fcf0a1 = L.map(
+                "map_6f7d6ba7085d43d79936bb19b7fcf0a1",
                 {
                     center: [33.249367, 130.298822],
                     crs: L.CRS.EPSG3857,
@@ -55,805 +55,1033 @@
 
         
     
-            var tile_layer_72e269229692433682923239e632745c = L.tileLayer(
+            var tile_layer_353d349eeca94f20ac54f1709d4b8fd4 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-            var marker_f94fedd19cb94f07b5b127970afdc3c3 = L.marker(
+            var marker_56fabb4888eb43fea32d1dbea16d33cd = L.marker(
                 [33.214847, 130.178919],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_38e0637ecc8f4a20b3a38b011623b691 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_c59e381b68b343edb8dc51d5949c83ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_56fabb4888eb43fea32d1dbea16d33cd.setIcon(icon_c59e381b68b343edb8dc51d5949c83ea);
+        
+    
+        var popup_1f12c8bde3e94c73833d3369339dfec2 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_1088576e543f45b3974281367852cd9f = $(`<div id="html_1088576e543f45b3974281367852cd9f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9233" target="_blank">佐留志城</a><br> 振り仮名：さるしじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：－ <br>住所：佐賀県杵島郡江北町大字佐留志字三本松 <br>築城年：元亀年間（1570〜1573） <br>築城者：前田家定 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/9233" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/134990" width=150/></a></div>`)[0];
-            popup_38e0637ecc8f4a20b3a38b011623b691.setContent(html_1088576e543f45b3974281367852cd9f);
+            var html_864f4e52e5bb4e2a8cc2eb31aaca4a99 = $(`<div id="html_864f4e52e5bb4e2a8cc2eb31aaca4a99" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9233" target="_blank">佐留志城</a><br> 振り仮名：さるしじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：－ <br>住所：佐賀県杵島郡江北町大字佐留志字三本松 <br>築城年：元亀年間（1570〜1573） <br>築城者：前田家定 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/9233" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/134990" width=150/></a></div>`)[0];
+            popup_1f12c8bde3e94c73833d3369339dfec2.setContent(html_864f4e52e5bb4e2a8cc2eb31aaca4a99);
         
 
-        marker_f94fedd19cb94f07b5b127970afdc3c3.bindPopup(popup_38e0637ecc8f4a20b3a38b011623b691)
+        marker_56fabb4888eb43fea32d1dbea16d33cd.bindPopup(popup_1f12c8bde3e94c73833d3369339dfec2)
         ;
 
         
     
     
-            var marker_c40bf7a327f94c38a21185c2285ea722 = L.marker(
+            var marker_0e736ccd1b0145a2b6983947d81100f0 = L.marker(
                 [33.376335, 130.199581],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_d505e03771af4edb9a310dacff0d5ac8 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_10b8d5978dc24e7c8d4cc5c9823d006f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0e736ccd1b0145a2b6983947d81100f0.setIcon(icon_10b8d5978dc24e7c8d4cc5c9823d006f);
+        
+    
+        var popup_4964dd50153b4bd3877b417953965f1a = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_15728fce14e042b997501f401247b9bb = $(`<div id="html_15728fce14e042b997501f401247b9bb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9234" target="_blank">古湯城</a><br> 振り仮名：ふるゆじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県佐賀市富士町大字古湯字五本松（古湯城山公園） <br>築城年：延元元年〔南朝〕／建武3年〔北朝〕（1336） <br>築城者：原隼人 <br>遺構：曲輪、石垣、物見台、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/9234" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/287984" width=150/></a></div>`)[0];
-            popup_d505e03771af4edb9a310dacff0d5ac8.setContent(html_15728fce14e042b997501f401247b9bb);
+            var html_426c1f3d1e2b4da39d6946c179f6288c = $(`<div id="html_426c1f3d1e2b4da39d6946c179f6288c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9234" target="_blank">古湯城</a><br> 振り仮名：ふるゆじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県佐賀市富士町大字古湯字五本松（古湯城山公園） <br>築城年：延元元年〔南朝〕／建武3年〔北朝〕（1336） <br>築城者：原隼人 <br>遺構：曲輪、石垣、物見台、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/9234" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/287984" width=150/></a></div>`)[0];
+            popup_4964dd50153b4bd3877b417953965f1a.setContent(html_426c1f3d1e2b4da39d6946c179f6288c);
         
 
-        marker_c40bf7a327f94c38a21185c2285ea722.bindPopup(popup_d505e03771af4edb9a310dacff0d5ac8)
+        marker_0e736ccd1b0145a2b6983947d81100f0.bindPopup(popup_4964dd50153b4bd3877b417953965f1a)
         ;
 
         
     
     
-            var marker_78ae1f1a3f0049e09e1e9b0943141213 = L.marker(
+            var marker_9188d5834b22435aafec186c03d540d1 = L.marker(
                 [33.200807, 130.320177],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_b4a71fb08bc34141a56852da6de678ff = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_2d6d0d41035d439793cb78cb7d7e04bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9188d5834b22435aafec186c03d540d1.setIcon(icon_2d6d0d41035d439793cb78cb7d7e04bc);
+        
+    
+        var popup_f2a2bef20bf24e2490401eedcb304ed0 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_a7a5906b85eb4861ad720a84aa48b46b = $(`<div id="html_a7a5906b85eb4861ad720a84aa48b46b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9237" target="_blank">鹿江城</a><br> 振り仮名：かのえじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：鹿ノ江城、鹿江館、鹿ノ江館 <br>住所：佐賀県佐賀市川副町大字鹿江 <br>築城年：不明 <br>築城者：鹿江氏？ <br>遺構：横堀（水堀）、土塁 <br><a href="https://cmeg.jp//w/castles/9237" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/279847" width=150/></a></div>`)[0];
-            popup_b4a71fb08bc34141a56852da6de678ff.setContent(html_a7a5906b85eb4861ad720a84aa48b46b);
+            var html_fa1c9d9357f6498799275e1d5750b595 = $(`<div id="html_fa1c9d9357f6498799275e1d5750b595" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9237" target="_blank">鹿江城</a><br> 振り仮名：かのえじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：鹿ノ江城、鹿江館、鹿ノ江館 <br>住所：佐賀県佐賀市川副町大字鹿江 <br>築城年：不明 <br>築城者：鹿江氏？ <br>遺構：横堀（水堀）、土塁 <br><a href="https://cmeg.jp//w/castles/9237" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/279847" width=150/></a></div>`)[0];
+            popup_f2a2bef20bf24e2490401eedcb304ed0.setContent(html_fa1c9d9357f6498799275e1d5750b595);
         
 
-        marker_78ae1f1a3f0049e09e1e9b0943141213.bindPopup(popup_b4a71fb08bc34141a56852da6de678ff)
+        marker_9188d5834b22435aafec186c03d540d1.bindPopup(popup_f2a2bef20bf24e2490401eedcb304ed0)
         ;
 
         
     
     
-            var marker_49ceb775d2344032b2a600ad5d731c65 = L.marker(
+            var marker_a0aa4df0541c4ac087b8f08f548b0699 = L.marker(
                 [33.245718, 130.302095],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_940a38b06ea7461e9d3ae5d1074924ed = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_d1a65f57561340958c2319785c3afb2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0aa4df0541c4ac087b8f08f548b0699.setIcon(icon_d1a65f57561340958c2319785c3afb2e);
+        
+    
+        var popup_9c67f4eea20d475a9d0a21c9d5df632d = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_96b3d7fa46fc4ba8976d3601182a9df4 = $(`<div id="html_96b3d7fa46fc4ba8976d3601182a9df4" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9239" target="_blank">佐賀城</a><br> 振り仮名：さがじょう <br>旧国名：肥前国 <br>分類・構造：輪郭式＋連郭式平城 <br>別名：佐嘉城、栄城、沈み城、亀甲城、（村中城） <br>住所：佐賀県佐賀市城内2-14 <br>築城年：慶長7年（1602） <br>築城者：鍋島直茂、鍋島勝茂 <br>遺構：曲輪、門、櫓、移築御座の間、石垣、堀 <br><a href="https://cmeg.jp//w/castles/9239" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331404" width=150/></a></div>`)[0];
-            popup_940a38b06ea7461e9d3ae5d1074924ed.setContent(html_96b3d7fa46fc4ba8976d3601182a9df4);
+            var html_e64ea1bf17674fc2a23d28eeafea25b1 = $(`<div id="html_e64ea1bf17674fc2a23d28eeafea25b1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9239" target="_blank">佐賀城</a><br> 振り仮名：さがじょう <br>旧国名：肥前国 <br>分類・構造：輪郭式＋連郭式平城 <br>別名：佐嘉城、栄城、沈み城、亀甲城、（村中城） <br>住所：佐賀県佐賀市城内2-14 <br>築城年：慶長7年（1602） <br>築城者：鍋島直茂、鍋島勝茂 <br>遺構：曲輪、門、櫓、移築御座の間、石垣、堀 <br><a href="https://cmeg.jp//w/castles/9239" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331404" width=150/></a></div>`)[0];
+            popup_9c67f4eea20d475a9d0a21c9d5df632d.setContent(html_e64ea1bf17674fc2a23d28eeafea25b1);
         
 
-        marker_49ceb775d2344032b2a600ad5d731c65.bindPopup(popup_940a38b06ea7461e9d3ae5d1074924ed)
+        marker_a0aa4df0541c4ac087b8f08f548b0699.bindPopup(popup_9c67f4eea20d475a9d0a21c9d5df632d)
         ;
 
         
     
     
-            var marker_ec198fdf9000455c9bfb4cf877b77656 = L.marker(
+            var marker_9ef1ff7bf9424dd88105c5514f1a8a86 = L.marker(
                 [33.282241, 130.295747],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_51722d98f35f4aa39dc733bafdef083e = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_2ec065dba9474a699834ce99500bcee0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9ef1ff7bf9424dd88105c5514f1a8a86.setIcon(icon_2ec065dba9474a699834ce99500bcee0);
+        
+    
+        var popup_b894def28c304697abe9486a1ab30fee = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_0655e5ca0138495c9eb5a0d5c8ab6d5c = $(`<div id="html_0655e5ca0138495c9eb5a0d5c8ab6d5c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9241" target="_blank">高木城</a><br> 振り仮名：たかぎじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：－ <br>住所：佐賀県佐賀市高木瀬東3 <br>築城年：久安年間（1145〜1151） <br>築城者：高木貞永 <br>遺構：横堀跡 <br><a href="https://cmeg.jp//w/castles/9241" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/303804" width=150/></a></div>`)[0];
-            popup_51722d98f35f4aa39dc733bafdef083e.setContent(html_0655e5ca0138495c9eb5a0d5c8ab6d5c);
+            var html_66a9323756fc452786bf3ba429464407 = $(`<div id="html_66a9323756fc452786bf3ba429464407" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9241" target="_blank">高木城</a><br> 振り仮名：たかぎじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：－ <br>住所：佐賀県佐賀市高木瀬東3 <br>築城年：久安年間（1145〜1151） <br>築城者：高木貞永 <br>遺構：横堀跡 <br><a href="https://cmeg.jp//w/castles/9241" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/303804" width=150/></a></div>`)[0];
+            popup_b894def28c304697abe9486a1ab30fee.setContent(html_66a9323756fc452786bf3ba429464407);
         
 
-        marker_ec198fdf9000455c9bfb4cf877b77656.bindPopup(popup_51722d98f35f4aa39dc733bafdef083e)
+        marker_9ef1ff7bf9424dd88105c5514f1a8a86.bindPopup(popup_b894def28c304697abe9486a1ab30fee)
         ;
 
         
     
     
-            var marker_07464df8b7344a1ea8862c767a37d716 = L.marker(
+            var marker_05bb36e4c20646ef8aa9da38e17439c0 = L.marker(
                 [33.245815, 130.35921399999998],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_58161c0bbeb64440ba03c72ca21928b2 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_0581e1ce43b5458e932af080175ac324 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05bb36e4c20646ef8aa9da38e17439c0.setIcon(icon_0581e1ce43b5458e932af080175ac324);
+        
+    
+        var popup_bbd4bc68d50747b29262dcf416ecadca = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_c91ba42f73c640b495e88deff770d73b = $(`<div id="html_c91ba42f73c640b495e88deff770d73b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9242" target="_blank">蓮池城</a><br> 振り仮名：はすいけじょう <br>旧国名：肥前国 <br>分類・構造：平城、（陣屋） <br>別名：小曲城、小田城、蓮池陣屋 <br>住所：佐賀県佐賀市蓮池町大字蓮池（蓮池公園） <br>築城年：応永34年（1429） <br>築城者：小田直光 <br>遺構：横堀（水堀） <br><a href="https://cmeg.jp//w/castles/9242" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/303156" width=150/></a></div>`)[0];
-            popup_58161c0bbeb64440ba03c72ca21928b2.setContent(html_c91ba42f73c640b495e88deff770d73b);
+            var html_a27b850e340842abb4669a0f9fb5d87a = $(`<div id="html_a27b850e340842abb4669a0f9fb5d87a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9242" target="_blank">蓮池城</a><br> 振り仮名：はすいけじょう <br>旧国名：肥前国 <br>分類・構造：平城、（陣屋） <br>別名：小曲城、小田城、蓮池陣屋 <br>住所：佐賀県佐賀市蓮池町大字蓮池（蓮池公園） <br>築城年：応永34年（1429） <br>築城者：小田直光 <br>遺構：横堀（水堀） <br><a href="https://cmeg.jp//w/castles/9242" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/303156" width=150/></a></div>`)[0];
+            popup_bbd4bc68d50747b29262dcf416ecadca.setContent(html_a27b850e340842abb4669a0f9fb5d87a);
         
 
-        marker_07464df8b7344a1ea8862c767a37d716.bindPopup(popup_58161c0bbeb64440ba03c72ca21928b2)
+        marker_05bb36e4c20646ef8aa9da38e17439c0.bindPopup(popup_bbd4bc68d50747b29262dcf416ecadca)
         ;
 
         
     
     
-            var marker_ad8c27efcfb64908a4d59a7403bdfc9c = L.marker(
+            var marker_5ed37c175d6e4841b54db5905ae6d642 = L.marker(
                 [33.333093, 130.334691],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_b315dc11cb394a1a994868a182c7e31c = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_6f0ce655eef74c0c8bb665246e3aa661 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5ed37c175d6e4841b54db5905ae6d642.setIcon(icon_6f0ce655eef74c0c8bb665246e3aa661);
+        
+    
+        var popup_e6c749f2e37e4b1396165b32d8ba5130 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_d52bd8b8103e4826aec45f8cdad70370 = $(`<div id="html_d52bd8b8103e4826aec45f8cdad70370" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9243" target="_blank">帯隈山神籠石</a><br> 振り仮名：おぶくまやまこうごういし <br>旧国名：肥前国 <br>分類・構造：神籠石式山城 <br>別名：帯隈山神護石 <br>住所：佐賀県佐賀市久保泉町大字川久保／神埼市神埼町大字尾崎 <br>築城年：7世紀頃？ <br>築城者：不明 <br>遺構：門跡、水門、列石 <br><a href="https://cmeg.jp//w/castles/9243" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/284293" width=150/></a></div>`)[0];
-            popup_b315dc11cb394a1a994868a182c7e31c.setContent(html_d52bd8b8103e4826aec45f8cdad70370);
+            var html_9af251d0188443e1ab50b95e8c9bba6c = $(`<div id="html_9af251d0188443e1ab50b95e8c9bba6c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9243" target="_blank">帯隈山神籠石</a><br> 振り仮名：おぶくまやまこうごういし <br>旧国名：肥前国 <br>分類・構造：神籠石式山城 <br>別名：帯隈山神護石 <br>住所：佐賀県佐賀市久保泉町大字川久保／神埼市神埼町大字尾崎 <br>築城年：7世紀頃？ <br>築城者：不明 <br>遺構：門跡、水門、列石 <br><a href="https://cmeg.jp//w/castles/9243" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/284293" width=150/></a></div>`)[0];
+            popup_e6c749f2e37e4b1396165b32d8ba5130.setContent(html_9af251d0188443e1ab50b95e8c9bba6c);
         
 
-        marker_ad8c27efcfb64908a4d59a7403bdfc9c.bindPopup(popup_b315dc11cb394a1a994868a182c7e31c)
+        marker_5ed37c175d6e4841b54db5905ae6d642.bindPopup(popup_e6c749f2e37e4b1396165b32d8ba5130)
         ;
 
         
     
     
-            var marker_d7293738b9374358839418ccb061d73e = L.marker(
+            var marker_68047f682f6f4c57acbbf568650c2df0 = L.marker(
                 [33.242682, 130.305252],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_2f134833f9a24c1e993af0e50bd8e483 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_212aa55cccad40ba8154ea36cb0e4855 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_68047f682f6f4c57acbbf568650c2df0.setIcon(icon_212aa55cccad40ba8154ea36cb0e4855);
+        
+    
+        var popup_a1cd4a365a2140f483fd72d1f921f329 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_ea2020fc39d9498a921056bd518db9ea = $(`<div id="html_ea2020fc39d9498a921056bd518db9ea" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9244" target="_blank">水ヶ江城</a><br> 振り仮名：みずがえじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：水ケ江城 <br>住所：佐賀県佐賀市中の館町 <br>築城年：文明年間（1469〜1487） <br>築城者：龍造寺康家 <br>遺構：横堀跡 <br><a href="https://cmeg.jp//w/castles/9244" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329383" width=150/></a></div>`)[0];
-            popup_2f134833f9a24c1e993af0e50bd8e483.setContent(html_ea2020fc39d9498a921056bd518db9ea);
+            var html_1154ede82f704f7da1b9ff7242544b44 = $(`<div id="html_1154ede82f704f7da1b9ff7242544b44" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9244" target="_blank">水ヶ江城</a><br> 振り仮名：みずがえじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：水ケ江城 <br>住所：佐賀県佐賀市中の館町 <br>築城年：文明年間（1469〜1487） <br>築城者：龍造寺康家 <br>遺構：横堀跡 <br><a href="https://cmeg.jp//w/castles/9244" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329383" width=150/></a></div>`)[0];
+            popup_a1cd4a365a2140f483fd72d1f921f329.setContent(html_1154ede82f704f7da1b9ff7242544b44);
         
 
-        marker_d7293738b9374358839418ccb061d73e.bindPopup(popup_2f134833f9a24c1e993af0e50bd8e483)
+        marker_68047f682f6f4c57acbbf568650c2df0.bindPopup(popup_a1cd4a365a2140f483fd72d1f921f329)
         ;
 
         
     
     
-            var marker_162803c7657e40e7972b8069b9265724 = L.marker(
+            var marker_eab035b055fd4585be9fa8e92078f3f7 = L.marker(
                 [33.324633, 130.384982],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_89e5bc958d3246c695bbeba82483bef7 = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_f531939ae7544929b8dba65176d29378 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_6d5ad7ecc6da4ba09628fbfb397ffbba = $(`<div id="html_6d5ad7ecc6da4ba09628fbfb397ffbba" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9250" target="_blank">吉野ヶ里</a><br> 振り仮名：よしのがり <br>旧国名：肥前国 <br>分類・構造：環濠集落 <br>別名：－ <br>住所：佐賀県神埼郡吉野ヶ里町田手（吉野ヶ里歴史公園）／神埼市 <br>築城年：弥生時代後期 <br>築城者：不明 <br>遺構：貯蔵穴、土坑、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9250" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331495" width=150/></a></div>`)[0];
-            popup_89e5bc958d3246c695bbeba82483bef7.setContent(html_6d5ad7ecc6da4ba09628fbfb397ffbba);
+            var html_515765df5d274cc7b84ae9ff94ab078f = $(`<div id="html_515765df5d274cc7b84ae9ff94ab078f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9250" target="_blank">吉野ヶ里</a><br> 振り仮名：よしのがり <br>旧国名：肥前国 <br>分類・構造：環濠集落 <br>別名：－ <br>住所：佐賀県神埼郡吉野ヶ里町田手（吉野ヶ里歴史公園）／神埼市 <br>築城年：弥生時代後期 <br>築城者：不明 <br>遺構：貯蔵穴、土坑、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9250" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331495" width=150/></a></div>`)[0];
+            popup_f531939ae7544929b8dba65176d29378.setContent(html_515765df5d274cc7b84ae9ff94ab078f);
         
 
-        marker_162803c7657e40e7972b8069b9265724.bindPopup(popup_89e5bc958d3246c695bbeba82483bef7)
+        marker_eab035b055fd4585be9fa8e92078f3f7.bindPopup(popup_f531939ae7544929b8dba65176d29378)
         ;
 
         
     
     
-            var marker_4f6b658db95e4b90aee7e05b84bbbe2f = L.marker(
+            var marker_3364c02d2bcc4d65ac181ea5d96431e3 = L.marker(
                 [33.444541, 130.510266],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_1a1f5ebafe664d028609397097c9ac97 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_fcd0c7ec4c9d433c8259ccbf33c6c928 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3364c02d2bcc4d65ac181ea5d96431e3.setIcon(icon_fcd0c7ec4c9d433c8259ccbf33c6c928);
+        
+    
+        var popup_6f2c9f18332a4e6c9f5db8adef93ece7 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_7a98d7b026dd4b42b0b948ed6c8818b0 = $(`<div id="html_7a98d7b026dd4b42b0b948ed6c8818b0" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9253" target="_blank">基肄城</a><br> 振り仮名：きいじょう／きいのき <br>旧国名：肥前国 <br>分類・構造：古代山城 <br>別名：基肆城、記夷城、椽城（きのき）、木山城 <br>住所：佐賀県三養基郡基山町大字小倉／福岡県筑紫野市 <br>築城年：天智天皇4年（665） <br>築城者：天智天皇 <br>遺構：門、水門、建物礎石、石垣、土塁 <br><a href="https://cmeg.jp//w/castles/9253" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329668" width=150/></a></div>`)[0];
-            popup_1a1f5ebafe664d028609397097c9ac97.setContent(html_7a98d7b026dd4b42b0b948ed6c8818b0);
+            var html_a6dd459114b1464cb362580229b65759 = $(`<div id="html_a6dd459114b1464cb362580229b65759" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9253" target="_blank">基肄城</a><br> 振り仮名：きいじょう／きいのき <br>旧国名：肥前国 <br>分類・構造：古代山城 <br>別名：基肆城、記夷城、椽城（きのき）、木山城 <br>住所：佐賀県三養基郡基山町大字小倉／福岡県筑紫野市 <br>築城年：天智天皇4年（665） <br>築城者：天智天皇 <br>遺構：門、水門、建物礎石、石垣、土塁 <br><a href="https://cmeg.jp//w/castles/9253" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329668" width=150/></a></div>`)[0];
+            popup_6f2c9f18332a4e6c9f5db8adef93ece7.setContent(html_a6dd459114b1464cb362580229b65759);
         
 
-        marker_4f6b658db95e4b90aee7e05b84bbbe2f.bindPopup(popup_1a1f5ebafe664d028609397097c9ac97)
+        marker_3364c02d2bcc4d65ac181ea5d96431e3.bindPopup(popup_6f2c9f18332a4e6c9f5db8adef93ece7)
         ;
 
         
     
     
-            var marker_dbe7b4e2190143a188c1288b684e2481 = L.marker(
+            var marker_bbc7a1948065457480dd1e736fff3abf = L.marker(
                 [33.361646, 130.418321],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_4e224d1983504052802f66e3e4ffc818 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_358543995a4b46e7982da8a1d8d494ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bbc7a1948065457480dd1e736fff3abf.setIcon(icon_358543995a4b46e7982da8a1d8d494ea);
+        
+    
+        var popup_94fa048fc90541e198f9be74b0539747 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_742e50f8a24a458a884828a1375d114d = $(`<div id="html_742e50f8a24a458a884828a1375d114d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9257" target="_blank">鎮西山城</a><br> 振り仮名：ちんぜいやまじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：ごまかい城、古城山城 <br>住所：佐賀県三養基郡上峰町大字堤字三本黒木 <br>築城年：平安時代後期？ <br>築城者：源為朝？ <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9257" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/156904" width=150/></a></div>`)[0];
-            popup_4e224d1983504052802f66e3e4ffc818.setContent(html_742e50f8a24a458a884828a1375d114d);
+            var html_a49078cea96c46c389e9551cd28b81b6 = $(`<div id="html_a49078cea96c46c389e9551cd28b81b6" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9257" target="_blank">鎮西山城</a><br> 振り仮名：ちんぜいやまじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：ごまかい城、古城山城 <br>住所：佐賀県三養基郡上峰町大字堤字三本黒木 <br>築城年：平安時代後期？ <br>築城者：源為朝？ <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9257" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/156904" width=150/></a></div>`)[0];
+            popup_94fa048fc90541e198f9be74b0539747.setContent(html_a49078cea96c46c389e9551cd28b81b6);
         
 
-        marker_dbe7b4e2190143a188c1288b684e2481.bindPopup(popup_4e224d1983504052802f66e3e4ffc818)
+        marker_bbc7a1948065457480dd1e736fff3abf.bindPopup(popup_94fa048fc90541e198f9be74b0539747)
         ;
 
         
     
     
-            var marker_035e2b32bdc04a5d992bfba26ba21e9c = L.marker(
+            var marker_43109f4a3bf84539b9a0632c0a87fdb1 = L.marker(
                 [33.347212, 130.423171],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_a7cc928d08b84d7dbe43c4e42ad6b08a = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_941f248c2d484613b77d84dde80e39fb = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_fc2a4200140147a682d84de1f22ab756 = $(`<div id="html_fc2a4200140147a682d84de1f22ab756" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9258" target="_blank">堤土塁</a><br> 振り仮名：つつみどるい <br>旧国名：肥前国 <br>分類・構造：防塁 <br>別名：小水城 <br>住所：佐賀県三養基郡上峰町大字堤字迎原 <br>築城年：7〜8世紀頃？ <br>築城者：不明 <br>遺構：土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9258" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/296823" width=150/></a></div>`)[0];
-            popup_a7cc928d08b84d7dbe43c4e42ad6b08a.setContent(html_fc2a4200140147a682d84de1f22ab756);
+            var html_5a0f70f80ad44b7f8c544b40a4c1c15b = $(`<div id="html_5a0f70f80ad44b7f8c544b40a4c1c15b" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9258" target="_blank">堤土塁</a><br> 振り仮名：つつみどるい <br>旧国名：肥前国 <br>分類・構造：防塁 <br>別名：小水城 <br>住所：佐賀県三養基郡上峰町大字堤字迎原 <br>築城年：7〜8世紀頃？ <br>築城者：不明 <br>遺構：土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9258" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/296823" width=150/></a></div>`)[0];
+            popup_941f248c2d484613b77d84dde80e39fb.setContent(html_5a0f70f80ad44b7f8c544b40a4c1c15b);
         
 
-        marker_035e2b32bdc04a5d992bfba26ba21e9c.bindPopup(popup_a7cc928d08b84d7dbe43c4e42ad6b08a)
+        marker_43109f4a3bf84539b9a0632c0a87fdb1.bindPopup(popup_941f248c2d484613b77d84dde80e39fb)
         ;
 
         
     
     
-            var marker_e2d5fd19b9bf46cc886c79cab8de0a31 = L.marker(
+            var marker_ac099ff782984d4a8c56ac8d1a588f46 = L.marker(
                 [33.365127, 130.487496],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_3ed7c56414d14a6faa57fd5309754dce = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_30da0ddedf72463f8784879cc6719aac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ac099ff782984d4a8c56ac8d1a588f46.setIcon(icon_30da0ddedf72463f8784879cc6719aac);
+        
+    
+        var popup_03c48cce266945cfba955b05573325b5 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_6c322f087a3048b28af2c7cf0d5af6ae = $(`<div id="html_6c322f087a3048b28af2c7cf0d5af6ae" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9259" target="_blank">朝日山城</a><br> 振り仮名：あさひやまじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：旭山城 <br>住所：佐賀県鳥栖市村田町字朝日 <br>築城年：建武元年（1334） <br>築城者：朝日資法 <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/9259" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/321756" width=150/></a></div>`)[0];
-            popup_3ed7c56414d14a6faa57fd5309754dce.setContent(html_6c322f087a3048b28af2c7cf0d5af6ae);
+            var html_e69cac583cad443eaba90a71d5ac8e15 = $(`<div id="html_e69cac583cad443eaba90a71d5ac8e15" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9259" target="_blank">朝日山城</a><br> 振り仮名：あさひやまじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：旭山城 <br>住所：佐賀県鳥栖市村田町字朝日 <br>築城年：建武元年（1334） <br>築城者：朝日資法 <br>遺構：曲輪、土塁、堀切 <br><a href="https://cmeg.jp//w/castles/9259" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/321756" width=150/></a></div>`)[0];
+            popup_03c48cce266945cfba955b05573325b5.setContent(html_e69cac583cad443eaba90a71d5ac8e15);
         
 
-        marker_e2d5fd19b9bf46cc886c79cab8de0a31.bindPopup(popup_3ed7c56414d14a6faa57fd5309754dce)
+        marker_ac099ff782984d4a8c56ac8d1a588f46.bindPopup(popup_03c48cce266945cfba955b05573325b5)
         ;
 
         
     
     
-            var marker_f05055be24bb454e97a0150154b1dd2b = L.marker(
+            var marker_45f580e3b984457e96aaf238b8f45de2 = L.marker(
                 [33.401740999999994, 130.465059],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_c266cf070d7c44129dd37e38e697ae9c = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_761a3b4ede894eb0b9815667fc6738b0 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_4f4a6ec636d248e7bfa8999f886ac5a9 = $(`<div id="html_4f4a6ec636d248e7bfa8999f886ac5a9" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9260" target="_blank">勝尾城筑紫氏城館</a><br> 振り仮名：かつのおじょうちくししじょうかん <br>旧国名：肥前国 <br>分類・構造：城館遺跡群 <br>別名：勝尾城筑紫氏城館［勝尾城・筑紫氏館・葛籠城・高取城・鬼ヶ城・鏡城・若山砦］ <br>住所：佐賀県鳥栖市牛原町他（地図は勝尾城を示す） <br>築城年：応永30年（1423）［勝尾城］、不明［筑紫氏館・葛籠城・高取城・鬼ヶ城・鏡城・若山砦］ <br>築城者：渋川義俊［勝尾城］、不明［筑紫氏館・葛籠城・高取城・鬼ヶ城・鏡城・若山砦］ <br>遺構：曲輪［すべて］、土塁［勝尾城・葛籠城・高取城・鬼ヶ城・鏡城］、石垣［勝尾城・筑紫氏館・葛籠城・鬼ヶ城・若山砦］、横堀（空堀）［勝尾城・葛籠城］、堀切［高取城・鬼ヶ城・鏡城・若山砦］、竪堀［鬼ヶ城・鏡城］ <br><a href="https://cmeg.jp//w/castles/9260" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323681" width=150/></a></div>`)[0];
-            popup_c266cf070d7c44129dd37e38e697ae9c.setContent(html_4f4a6ec636d248e7bfa8999f886ac5a9);
+            var html_63623934ec164cad877b7598fa14fa47 = $(`<div id="html_63623934ec164cad877b7598fa14fa47" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9260" target="_blank">勝尾城筑紫氏城館</a><br> 振り仮名：かつのおじょうちくししじょうかん <br>旧国名：肥前国 <br>分類・構造：城館遺跡群 <br>別名：勝尾城筑紫氏城館［勝尾城・筑紫氏館・葛籠城・高取城・鬼ヶ城・鏡城・若山砦］ <br>住所：佐賀県鳥栖市牛原町他（地図は勝尾城を示す） <br>築城年：応永30年（1423）［勝尾城］、不明［筑紫氏館・葛籠城・高取城・鬼ヶ城・鏡城・若山砦］ <br>築城者：渋川義俊［勝尾城］、不明［筑紫氏館・葛籠城・高取城・鬼ヶ城・鏡城・若山砦］ <br>遺構：曲輪［すべて］、土塁［勝尾城・葛籠城・高取城・鬼ヶ城・鏡城］、石垣［勝尾城・筑紫氏館・葛籠城・鬼ヶ城・若山砦］、横堀（空堀）［勝尾城・葛籠城］、堀切［高取城・鬼ヶ城・鏡城・若山砦］、竪堀［鬼ヶ城・鏡城］ <br><a href="https://cmeg.jp//w/castles/9260" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323681" width=150/></a></div>`)[0];
+            popup_761a3b4ede894eb0b9815667fc6738b0.setContent(html_63623934ec164cad877b7598fa14fa47);
         
 
-        marker_f05055be24bb454e97a0150154b1dd2b.bindPopup(popup_c266cf070d7c44129dd37e38e697ae9c)
+        marker_45f580e3b984457e96aaf238b8f45de2.bindPopup(popup_761a3b4ede894eb0b9815667fc6738b0)
         ;
 
         
     
     
-            var marker_87fe67f41df3489fa8d65a76bf190c4b = L.marker(
+            var marker_7fe6207778a742878adb8dd5ed3b07d1 = L.marker(
                 [33.2938, 130.348903],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_3fe7de89b490429c952be0028650efe6 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_170f92ef4aa540e7b8b87caa892d50b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7fe6207778a742878adb8dd5ed3b07d1.setIcon(icon_170f92ef4aa540e7b8b87caa892d50b7);
+        
+    
+        var popup_5eab410de97c48278acd88eb364704e8 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_278a1c77f1864adb94ad0374a7f1fa4a = $(`<div id="html_278a1c77f1864adb94ad0374a7f1fa4a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9263" target="_blank">姉川城</a><br> 振り仮名：あねかわじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：－ <br>住所：佐賀県神埼市神埼町大字姉川字二本杉 <br>築城年：正平15年〔南朝〕／延文5年〔北朝〕（1360） <br>築城者：菊池武安 <br>遺構：曲輪、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/9263" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330462" width=150/></a></div>`)[0];
-            popup_3fe7de89b490429c952be0028650efe6.setContent(html_278a1c77f1864adb94ad0374a7f1fa4a);
+            var html_f5b132b996fa41548f8a2643d21fb55a = $(`<div id="html_f5b132b996fa41548f8a2643d21fb55a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9263" target="_blank">姉川城</a><br> 振り仮名：あねかわじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：－ <br>住所：佐賀県神埼市神埼町大字姉川字二本杉 <br>築城年：正平15年〔南朝〕／延文5年〔北朝〕（1360） <br>築城者：菊池武安 <br>遺構：曲輪、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/9263" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330462" width=150/></a></div>`)[0];
+            popup_5eab410de97c48278acd88eb364704e8.setContent(html_f5b132b996fa41548f8a2643d21fb55a);
         
 
-        marker_87fe67f41df3489fa8d65a76bf190c4b.bindPopup(popup_3fe7de89b490429c952be0028650efe6)
+        marker_7fe6207778a742878adb8dd5ed3b07d1.bindPopup(popup_5eab410de97c48278acd88eb364704e8)
         ;
 
         
     
     
-            var marker_037beed2dd0d4e2bb647f0bd1107b28d = L.marker(
+            var marker_5110ead7bcb742d190f9dfb23361b0f6 = L.marker(
                 [33.344395, 130.353538],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_31646c1a7a2e4fdaa1145aca3c101c1a = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_bb50dacd3fe34bff9acd0abb2201c85c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5110ead7bcb742d190f9dfb23361b0f6.setIcon(icon_bb50dacd3fe34bff9acd0abb2201c85c);
+        
+    
+        var popup_b769f032fb564412bcdc76aedc37005f = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_8c518372300046eb9d81561fa798b244 = $(`<div id="html_8c518372300046eb9d81561fa798b244" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9264" target="_blank">勢福寺城</a><br> 振り仮名：せいふくじじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：成福寺城、清福寺城 <br>住所：佐賀県神埼市神埼町大字城原字土器山 <br>築城年：正平8年〔南朝〕／文和2年〔北朝〕（1353） <br>築城者：一色直氏 <br>遺構：土塁、堀 <br><a href="https://cmeg.jp//w/castles/9264" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/314826" width=150/></a></div>`)[0];
-            popup_31646c1a7a2e4fdaa1145aca3c101c1a.setContent(html_8c518372300046eb9d81561fa798b244);
+            var html_7495984afee84f60bfbeab2f5ab3ef9c = $(`<div id="html_7495984afee84f60bfbeab2f5ab3ef9c" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9264" target="_blank">勢福寺城</a><br> 振り仮名：せいふくじじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：成福寺城、清福寺城 <br>住所：佐賀県神埼市神埼町大字城原字土器山 <br>築城年：正平8年〔南朝〕／文和2年〔北朝〕（1353） <br>築城者：一色直氏 <br>遺構：土塁、堀 <br><a href="https://cmeg.jp//w/castles/9264" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/314826" width=150/></a></div>`)[0];
+            popup_b769f032fb564412bcdc76aedc37005f.setContent(html_7495984afee84f60bfbeab2f5ab3ef9c);
         
 
-        marker_037beed2dd0d4e2bb647f0bd1107b28d.bindPopup(popup_31646c1a7a2e4fdaa1145aca3c101c1a)
+        marker_5110ead7bcb742d190f9dfb23361b0f6.bindPopup(popup_b769f032fb564412bcdc76aedc37005f)
         ;
 
         
     
     
-            var marker_4ac7d4f900054152a8ea93db48ffe865 = L.marker(
+            var marker_a0db15410d0045468923b63cb726c122 = L.marker(
                 [33.462593, 130.285422],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_e77372c548c341178af34d12048411c4 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_3268d8a62fed433fa63c1ee615cd4448 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a0db15410d0045468923b63cb726c122.setIcon(icon_3268d8a62fed433fa63c1ee615cd4448);
+        
+    
+        var popup_02d210e06a6b41babd61c688651891c3 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_7f094202c33c4c5d859ce03be6d74538 = $(`<div id="html_7f094202c33c4c5d859ce03be6d74538" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9267" target="_blank">三瀬城</a><br> 振り仮名：みつせじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県佐賀市三瀬村大字三瀬字宿 <br>築城年：文永元年（1264） <br>築城者：大江氏 <br>遺構：曲輪、石垣、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/9267" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317751" width=150/></a></div>`)[0];
-            popup_e77372c548c341178af34d12048411c4.setContent(html_7f094202c33c4c5d859ce03be6d74538);
+            var html_7fe8c6335fbe4a31b28f39bcd1e26767 = $(`<div id="html_7fe8c6335fbe4a31b28f39bcd1e26767" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9267" target="_blank">三瀬城</a><br> 振り仮名：みつせじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県佐賀市三瀬村大字三瀬字宿 <br>築城年：文永元年（1264） <br>築城者：大江氏 <br>遺構：曲輪、石垣、土塁、堀切、竪堀 <br><a href="https://cmeg.jp//w/castles/9267" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317751" width=150/></a></div>`)[0];
+            popup_02d210e06a6b41babd61c688651891c3.setContent(html_7fe8c6335fbe4a31b28f39bcd1e26767);
         
 
-        marker_4ac7d4f900054152a8ea93db48ffe865.bindPopup(popup_e77372c548c341178af34d12048411c4)
+        marker_a0db15410d0045468923b63cb726c122.bindPopup(popup_02d210e06a6b41babd61c688651891c3)
         ;
 
         
     
     
-            var marker_e097996fa7bf4677bdcf28aaaf27fa10 = L.marker(
+            var marker_75460671f1ad42bf9ae7feff15ae0319 = L.marker(
                 [33.27256, 130.36973600000002],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_dc6fb838cddb45ac99d859dfd8e11267 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_0f842a57561940399251c44d5defa7e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75460671f1ad42bf9ae7feff15ae0319.setIcon(icon_0f842a57561940399251c44d5defa7e1);
+        
+    
+        var popup_824232bdc3834792ae3bfb4cad1578bf = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_369bac2b146144f2b5dbb9c8836aa40f = $(`<div id="html_369bac2b146144f2b5dbb9c8836aa40f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9269" target="_blank">直鳥城</a><br> 振り仮名：なおとりじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：－ <br>住所：佐賀県神埼市千代田町大字直鳥字三本松 <br>築城年：永正年間（1504〜1521） <br>築城者：犬塚家久 <br>遺構：曲輪、堀 <br><a href="https://cmeg.jp//w/castles/9269" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/310242" width=150/></a></div>`)[0];
-            popup_dc6fb838cddb45ac99d859dfd8e11267.setContent(html_369bac2b146144f2b5dbb9c8836aa40f);
+            var html_48dea05377794b6aaab52190077951e6 = $(`<div id="html_48dea05377794b6aaab52190077951e6" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9269" target="_blank">直鳥城</a><br> 振り仮名：なおとりじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：－ <br>住所：佐賀県神埼市千代田町大字直鳥字三本松 <br>築城年：永正年間（1504〜1521） <br>築城者：犬塚家久 <br>遺構：曲輪、堀 <br><a href="https://cmeg.jp//w/castles/9269" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/310242" width=150/></a></div>`)[0];
+            popup_824232bdc3834792ae3bfb4cad1578bf.setContent(html_48dea05377794b6aaab52190077951e6);
         
 
-        marker_e097996fa7bf4677bdcf28aaaf27fa10.bindPopup(popup_dc6fb838cddb45ac99d859dfd8e11267)
+        marker_75460671f1ad42bf9ae7feff15ae0319.bindPopup(popup_824232bdc3834792ae3bfb4cad1578bf)
         ;
 
         
     
     
-            var marker_7873754d8fe14195a25c2e0fd2576d72 = L.marker(
+            var marker_e9dd99f6079b482e9d11764fe8bdacd9 = L.marker(
                 [33.290478, 130.196503],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_37eebb3bb499476b9eb844d261bb5dc0 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_091078159ee74d308d95bd0ba8781bcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9dd99f6079b482e9d11764fe8bdacd9.setIcon(icon_091078159ee74d308d95bd0ba8781bcf);
+        
+    
+        var popup_767143ac95b5443dbdb3a92b73bcd3a5 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_7f1eb15fbc9a4a2abe5e28e0f21d21f5 = $(`<div id="html_7f1eb15fbc9a4a2abe5e28e0f21d21f5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9270" target="_blank">小城城</a><br> 振り仮名：おぎじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：桜岡城、（小城陣屋、小城藩邸） <br>住所：佐賀県小城市小城町字西小路他 <br>築城年：元和3年（1617） <br>築城者：鍋島元茂 <br>遺構：堀跡、石橋 <br><a href="https://cmeg.jp//w/castles/9270" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329382" width=150/></a></div>`)[0];
-            popup_37eebb3bb499476b9eb844d261bb5dc0.setContent(html_7f1eb15fbc9a4a2abe5e28e0f21d21f5);
+            var html_de702232748641dfb28562219e7d5dc9 = $(`<div id="html_de702232748641dfb28562219e7d5dc9" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9270" target="_blank">小城城</a><br> 振り仮名：おぎじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：桜岡城、（小城陣屋、小城藩邸） <br>住所：佐賀県小城市小城町字西小路他 <br>築城年：元和3年（1617） <br>築城者：鍋島元茂 <br>遺構：堀跡、石橋 <br><a href="https://cmeg.jp//w/castles/9270" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329382" width=150/></a></div>`)[0];
+            popup_767143ac95b5443dbdb3a92b73bcd3a5.setContent(html_de702232748641dfb28562219e7d5dc9);
         
 
-        marker_7873754d8fe14195a25c2e0fd2576d72.bindPopup(popup_37eebb3bb499476b9eb844d261bb5dc0)
+        marker_e9dd99f6079b482e9d11764fe8bdacd9.bindPopup(popup_767143ac95b5443dbdb3a92b73bcd3a5)
         ;
 
         
     
     
-            var marker_e7e8efdf7b444604b0debdd68072d17b = L.marker(
+            var marker_77967b55d8a64016955c5cd028d65f6d = L.marker(
                 [33.303764, 130.209168],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_2a281cff052041ddb456a2eb4ee8ec2e = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_037300e0d55d43118f827c09d7efe1c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_77967b55d8a64016955c5cd028d65f6d.setIcon(icon_037300e0d55d43118f827c09d7efe1c0);
+        
+    
+        var popup_b9d14f2f1e9d45639074135134e5f46d = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_360148f10f1a426a867e513249651172 = $(`<div id="html_360148f10f1a426a867e513249651172" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9271" target="_blank">千葉城</a><br> 振り仮名：ちばじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：東千葉城、祇園城、牛頭城、牛頸城、小城城 <br>住所：佐賀県小城市小城町松尾860-2 <br>築城年：文安2年（1445） <br>築城者：千葉胤鎮 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9271" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/280057" width=150/></a></div>`)[0];
-            popup_2a281cff052041ddb456a2eb4ee8ec2e.setContent(html_360148f10f1a426a867e513249651172);
+            var html_7aaa3eab922541a98c87b6c452305a6e = $(`<div id="html_7aaa3eab922541a98c87b6c452305a6e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9271" target="_blank">千葉城</a><br> 振り仮名：ちばじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：東千葉城、祇園城、牛頭城、牛頸城、小城城 <br>住所：佐賀県小城市小城町松尾860-2 <br>築城年：文安2年（1445） <br>築城者：千葉胤鎮 <br>遺構：曲輪、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9271" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/280057" width=150/></a></div>`)[0];
+            popup_b9d14f2f1e9d45639074135134e5f46d.setContent(html_7aaa3eab922541a98c87b6c452305a6e);
         
 
-        marker_e7e8efdf7b444604b0debdd68072d17b.bindPopup(popup_2a281cff052041ddb456a2eb4ee8ec2e)
+        marker_77967b55d8a64016955c5cd028d65f6d.bindPopup(popup_b9d14f2f1e9d45639074135134e5f46d)
         ;
 
         
     
     
-            var marker_e2ceb59cb0274bb5a570ebdb8d6b2628 = L.marker(
+            var marker_cb8ee3d61fb74355879e5d4cdfb0a94a = L.marker(
                 [33.23872, 130.214274],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_55b8363b5b6849c2964c0f70922cd290 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_8a95206095cf4cccb006b6a7236fe0ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb8ee3d61fb74355879e5d4cdfb0a94a.setIcon(icon_8a95206095cf4cccb006b6a7236fe0ce);
+        
+    
+        var popup_451e9e545f1348c3962dd33b403efbc1 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_750b40104b1e42fa8ed71c2b7214431e = $(`<div id="html_750b40104b1e42fa8ed71c2b7214431e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9274" target="_blank">陣の森城</a><br> 振り仮名：じんのもりじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：小路（こうじ）館、芦刈城、徳島館、徳島城 <br>住所：佐賀県小城市芦刈町芦溝230（地図は説明板の場所を示す） <br>築城年：鎌倉時代以前 <br>築城者：徳島氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/9274" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/297516" width=150/></a></div>`)[0];
-            popup_55b8363b5b6849c2964c0f70922cd290.setContent(html_750b40104b1e42fa8ed71c2b7214431e);
+            var html_ac0b361a7af542b5b364e8265927df79 = $(`<div id="html_ac0b361a7af542b5b364e8265927df79" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9274" target="_blank">陣の森城</a><br> 振り仮名：じんのもりじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：小路（こうじ）館、芦刈城、徳島館、徳島城 <br>住所：佐賀県小城市芦刈町芦溝230（地図は説明板の場所を示す） <br>築城年：鎌倉時代以前 <br>築城者：徳島氏 <br>遺構：消滅 <br><a href="https://cmeg.jp//w/castles/9274" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/297516" width=150/></a></div>`)[0];
+            popup_451e9e545f1348c3962dd33b403efbc1.setContent(html_ac0b361a7af542b5b364e8265927df79);
         
 
-        marker_e2ceb59cb0274bb5a570ebdb8d6b2628.bindPopup(popup_55b8363b5b6849c2964c0f70922cd290)
+        marker_cb8ee3d61fb74355879e5d4cdfb0a94a.bindPopup(popup_451e9e545f1348c3962dd33b403efbc1)
         ;
 
         
     
     
-            var marker_d29e83b2bf49400d89a97fe926a323c0 = L.marker(
+            var marker_8a4be78bd6ae437f9516e2d932e40379 = L.marker(
                 [33.207066, 130.33971599999998],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_604989218ce34ab9b3c5a026d763de3f = L.popup({"maxWidth": 150, "minWidth": 150});
+        var popup_6e186a09ab8f452ca12b0cdabcecfa4e = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_380c8fed6bb04ef888db03c5418b251e = $(`<div id="html_380c8fed6bb04ef888db03c5418b251e" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9276" target="_blank">三重津海軍所</a><br> 振り仮名：みえつかいぐんしょ <br>旧国名：肥前国 <br>分類・構造：海軍所 <br>別名：御船手稽古所、佐賀藩海軍所 <br>住所：佐賀県佐賀市川副町大字早津江字元海軍所 <br>築城年：安政5年（1858） <br>築城者：佐賀藩 <br>遺構：発掘調査［ドライドック］ <br><a href="https://cmeg.jp//w/castles/9276" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/303301" width=150/></a></div>`)[0];
-            popup_604989218ce34ab9b3c5a026d763de3f.setContent(html_380c8fed6bb04ef888db03c5418b251e);
+            var html_f1f761c3b9c746889c0d4496b18509de = $(`<div id="html_f1f761c3b9c746889c0d4496b18509de" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9276" target="_blank">三重津海軍所</a><br> 振り仮名：みえつかいぐんしょ <br>旧国名：肥前国 <br>分類・構造：海軍所 <br>別名：御船手稽古所、佐賀藩海軍所 <br>住所：佐賀県佐賀市川副町大字早津江字元海軍所 <br>築城年：安政5年（1858） <br>築城者：佐賀藩 <br>遺構：発掘調査［ドライドック］ <br><a href="https://cmeg.jp//w/castles/9276" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/303301" width=150/></a></div>`)[0];
+            popup_6e186a09ab8f452ca12b0cdabcecfa4e.setContent(html_f1f761c3b9c746889c0d4496b18509de);
         
 
-        marker_d29e83b2bf49400d89a97fe926a323c0.bindPopup(popup_604989218ce34ab9b3c5a026d763de3f)
+        marker_8a4be78bd6ae437f9516e2d932e40379.bindPopup(popup_6e186a09ab8f452ca12b0cdabcecfa4e)
         ;
 
         
     
     
-            var marker_7a079a87feed4dccba370e3b36aaa67c = L.marker(
+            var marker_97283b06e408449891c51b06166a8533 = L.marker(
                 [33.252969, 130.093105],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_e995858dc16d4d2391ad9d06561a14e2 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_28902b48e34845b2a9a9e931dc71d76f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_97283b06e408449891c51b06166a8533.setIcon(icon_28902b48e34845b2a9a9e931dc71d76f);
+        
+    
+        var popup_bf27c278a8d84dfbb25ecbbea6804bda = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_1228e7c6c6ed439da68bb5b2e1a5fdeb = $(`<div id="html_1228e7c6c6ed439da68bb5b2e1a5fdeb" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9277" target="_blank">梶峰城</a><br> 振り仮名：かじみねじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：多久城 <br>住所：佐賀県多久市多久町2001 <br>築城年：建久4年（1193）頃 <br>築城者：多久宗直 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/9277" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/315724" width=150/></a></div>`)[0];
-            popup_e995858dc16d4d2391ad9d06561a14e2.setContent(html_1228e7c6c6ed439da68bb5b2e1a5fdeb);
+            var html_b61b5b894ed04b23b322d9e0ba7eeead = $(`<div id="html_b61b5b894ed04b23b322d9e0ba7eeead" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9277" target="_blank">梶峰城</a><br> 振り仮名：かじみねじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：多久城 <br>住所：佐賀県多久市多久町2001 <br>築城年：建久4年（1193）頃 <br>築城者：多久宗直 <br>遺構：曲輪、土塁 <br><a href="https://cmeg.jp//w/castles/9277" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/315724" width=150/></a></div>`)[0];
+            popup_bf27c278a8d84dfbb25ecbbea6804bda.setContent(html_b61b5b894ed04b23b322d9e0ba7eeead);
         
 
-        marker_7a079a87feed4dccba370e3b36aaa67c.bindPopup(popup_e995858dc16d4d2391ad9d06561a14e2)
+        marker_97283b06e408449891c51b06166a8533.bindPopup(popup_bf27c278a8d84dfbb25ecbbea6804bda)
         ;
 
         
     
     
-            var marker_2e3017fb69c84e66aabd283c98f6d318 = L.marker(
+            var marker_bf1d7eeb6b74469e9f5d0f2927700e2c = L.marker(
                 [33.179981, 130.104056],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_b6eb2e48fada494782275bb03a63c4f6 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_de117e4fc3d24006b148ea1badc7007c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bf1d7eeb6b74469e9f5d0f2927700e2c.setIcon(icon_de117e4fc3d24006b148ea1badc7007c);
+        
+    
+        var popup_b7d2d0b68a384c10b6da3bd8d1c1669f = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_4d7063a8ab12412392155811e4b5c470 = $(`<div id="html_4d7063a8ab12412392155811e4b5c470" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9278" target="_blank">須古城</a><br> 振り仮名：すこじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：高城、隆城 <br>住所：佐賀県杵島郡白石町大字堤字堤 <br>築城年：天文年間（1532〜1555） <br>築城者：平井氏 <br>遺構：曲輪、石垣、横堀跡 <br><a href="https://cmeg.jp//w/castles/9278" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/312153" width=150/></a></div>`)[0];
-            popup_b6eb2e48fada494782275bb03a63c4f6.setContent(html_4d7063a8ab12412392155811e4b5c470);
+            var html_2dca3cd2aa5649eaa89fe07b08cfc792 = $(`<div id="html_2dca3cd2aa5649eaa89fe07b08cfc792" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9278" target="_blank">須古城</a><br> 振り仮名：すこじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：高城、隆城 <br>住所：佐賀県杵島郡白石町大字堤字堤 <br>築城年：天文年間（1532〜1555） <br>築城者：平井氏 <br>遺構：曲輪、石垣、横堀跡 <br><a href="https://cmeg.jp//w/castles/9278" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/312153" width=150/></a></div>`)[0];
+            popup_b7d2d0b68a384c10b6da3bd8d1c1669f.setContent(html_2dca3cd2aa5649eaa89fe07b08cfc792);
         
 
-        marker_2e3017fb69c84e66aabd283c98f6d318.bindPopup(popup_b6eb2e48fada494782275bb03a63c4f6)
+        marker_bf1d7eeb6b74469e9f5d0f2927700e2c.bindPopup(popup_b7d2d0b68a384c10b6da3bd8d1c1669f)
         ;
 
         
     
     
-            var marker_fc096e5770c743aead15db1d23cbe14f = L.marker(
+            var marker_1d55c86dffdc48178aa34422d8976172 = L.marker(
                 [33.20879, 129.91831499999998],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_83d14fde4ab94c608f71f1ed895df450 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_f0863b5fb8f245338c43f1832b4177d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1d55c86dffdc48178aa34422d8976172.setIcon(icon_f0863b5fb8f245338c43f1832b4177d4);
+        
+    
+        var popup_6b383f217dc94a148e95e6063d0e3fc6 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_9bf0eb337a274373b844af4417915f46 = $(`<div id="html_9bf0eb337a274373b844af4417915f46" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9282" target="_blank">住吉城</a><br> 振り仮名：すみよしじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：黒髪城 <br>住所：佐賀県武雄市山内町大字宮野字住吉 <br>築城年：戦国時代 <br>築城者：後藤氏 <br>遺構：曲輪、帯曲輪、腰曲輪、石垣、土塁、横堀（空堀）、虎口、枡形井戸 <br><a href="https://cmeg.jp//w/castles/9282" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/313283" width=150/></a></div>`)[0];
-            popup_83d14fde4ab94c608f71f1ed895df450.setContent(html_9bf0eb337a274373b844af4417915f46);
+            var html_346e3b1bf8ac417d9e9b67f534084fd1 = $(`<div id="html_346e3b1bf8ac417d9e9b67f534084fd1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9282" target="_blank">住吉城</a><br> 振り仮名：すみよしじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：黒髪城 <br>住所：佐賀県武雄市山内町大字宮野字住吉 <br>築城年：戦国時代 <br>築城者：後藤氏 <br>遺構：曲輪、帯曲輪、腰曲輪、石垣、土塁、横堀（空堀）、虎口、枡形井戸 <br><a href="https://cmeg.jp//w/castles/9282" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/313283" width=150/></a></div>`)[0];
+            popup_6b383f217dc94a148e95e6063d0e3fc6.setContent(html_346e3b1bf8ac417d9e9b67f534084fd1);
         
 
-        marker_fc096e5770c743aead15db1d23cbe14f.bindPopup(popup_83d14fde4ab94c608f71f1ed895df450)
+        marker_1d55c86dffdc48178aa34422d8976172.bindPopup(popup_6b383f217dc94a148e95e6063d0e3fc6)
         ;
 
         
     
     
-            var marker_b02a3f9d4c1145a885d034113819061a = L.marker(
+            var marker_6e6b791865f54bc18136f789cefa0a5b = L.marker(
                 [33.453542999999996, 129.97820900000002],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_bab9df20336a4f789f11ff84f5918aed = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_1e3abb791c334d27a09c6cce2f5f5f7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6e6b791865f54bc18136f789cefa0a5b.setIcon(icon_1e3abb791c334d27a09c6cce2f5f5f7f);
+        
+    
+        var popup_9c73827638d846d8b97816ae494e477d = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_3038926a95ca425ba11de3d55977fa26 = $(`<div id="html_3038926a95ca425ba11de3d55977fa26" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9283" target="_blank">唐津城</a><br> 振り仮名：からつじょう <br>旧国名：肥前国 <br>分類・構造：連郭式平山城 <br>別名：舞鶴城 <br>住所：佐賀県唐津市東城内8-1 <br>築城年：慶長7年（1602） <br>築城者：寺沢広高 <br>遺構：曲輪、石垣、横堀 <br><a href="https://cmeg.jp//w/castles/9283" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330518" width=150/></a></div>`)[0];
-            popup_bab9df20336a4f789f11ff84f5918aed.setContent(html_3038926a95ca425ba11de3d55977fa26);
+            var html_eb901ab4d9cf4e9082f9a1f731f4b6f9 = $(`<div id="html_eb901ab4d9cf4e9082f9a1f731f4b6f9" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9283" target="_blank">唐津城</a><br> 振り仮名：からつじょう <br>旧国名：肥前国 <br>分類・構造：連郭式平山城 <br>別名：舞鶴城 <br>住所：佐賀県唐津市東城内8-1 <br>築城年：慶長7年（1602） <br>築城者：寺沢広高 <br>遺構：曲輪、石垣、横堀 <br><a href="https://cmeg.jp//w/castles/9283" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330518" width=150/></a></div>`)[0];
+            popup_9c73827638d846d8b97816ae494e477d.setContent(html_eb901ab4d9cf4e9082f9a1f731f4b6f9);
         
 
-        marker_b02a3f9d4c1145a885d034113819061a.bindPopup(popup_bab9df20336a4f789f11ff84f5918aed)
+        marker_6e6b791865f54bc18136f789cefa0a5b.bindPopup(popup_9c73827638d846d8b97816ae494e477d)
         ;
 
         
     
     
-            var marker_6ffd7346651140c196f128c23ef01456 = L.marker(
+            var marker_1b27b00d561d43ac8006270df8b1109b = L.marker(
                 [33.387944, 129.97871999999998],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_6b07203e34754a4584a47e00948b1b5b = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_9a929932630744839d1d174c6ec93ea2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1b27b00d561d43ac8006270df8b1109b.setIcon(icon_9a929932630744839d1d174c6ec93ea2);
+        
+    
+        var popup_c74659d538654197886d5bbb79925c67 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_531c3d0da9f74f86ae95686772d85273 = $(`<div id="html_531c3d0da9f74f86ae95686772d85273" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9284" target="_blank">青山城</a><br> 振り仮名：あおやまじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県唐津市山本字天ヶ谷他 <br>築城年：戦国時代後期 <br>築城者：青山采女正 <br>遺構：曲輪、石垣 <br><a href="https://cmeg.jp//w/castles/9284" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/269523" width=150/></a></div>`)[0];
-            popup_6b07203e34754a4584a47e00948b1b5b.setContent(html_531c3d0da9f74f86ae95686772d85273);
+            var html_6a662701fce54a8c9113a557b3d040a8 = $(`<div id="html_6a662701fce54a8c9113a557b3d040a8" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9284" target="_blank">青山城</a><br> 振り仮名：あおやまじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県唐津市山本字天ヶ谷他 <br>築城年：戦国時代後期 <br>築城者：青山采女正 <br>遺構：曲輪、石垣 <br><a href="https://cmeg.jp//w/castles/9284" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/269523" width=150/></a></div>`)[0];
+            popup_c74659d538654197886d5bbb79925c67.setContent(html_6a662701fce54a8c9113a557b3d040a8);
         
 
-        marker_6ffd7346651140c196f128c23ef01456.bindPopup(popup_6b07203e34754a4584a47e00948b1b5b)
+        marker_1b27b00d561d43ac8006270df8b1109b.bindPopup(popup_c74659d538654197886d5bbb79925c67)
         ;
 
         
     
     
-            var marker_6d4b3b628cb542839564bf93cd78d80c = L.marker(
+            var marker_6edf0fb7cc6a4a58ba75e43c14a3f372 = L.marker(
                 [33.530939000000004, 129.868869],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_6e0b52f52bd64cc6a1e348126c38b3a3 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_f93bec4f7c9a4747823eee8340b7f1b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6edf0fb7cc6a4a58ba75e43c14a3f372.setIcon(icon_f93bec4f7c9a4747823eee8340b7f1b1);
+        
+    
+        var popup_0609c7b39abe4a108fdb78ac37b2ec49 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_7f452b7b490442f6a213c6795135ec30 = $(`<div id="html_7f452b7b490442f6a213c6795135ec30" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9287" target="_blank">名護屋城</a><br> 振り仮名：なごやじょう <br>旧国名：肥前国 <br>分類・構造：梯郭式平山城 <br>別名：名護屋御旅館 <br>住所：佐賀県唐津市鎮西町名護屋3673 <br>築城年：天正19年（1591） <br>築城者：豊臣秀吉 <br>遺構：曲輪、石垣、横堀（空堀）、井戸跡 <br><a href="https://cmeg.jp//w/castles/9287" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331177" width=150/></a></div>`)[0];
-            popup_6e0b52f52bd64cc6a1e348126c38b3a3.setContent(html_7f452b7b490442f6a213c6795135ec30);
+            var html_af3e0535664a45aa995c6a5557e8f571 = $(`<div id="html_af3e0535664a45aa995c6a5557e8f571" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9287" target="_blank">名護屋城</a><br> 振り仮名：なごやじょう <br>旧国名：肥前国 <br>分類・構造：梯郭式平山城 <br>別名：名護屋御旅館 <br>住所：佐賀県唐津市鎮西町名護屋3673 <br>築城年：天正19年（1591） <br>築城者：豊臣秀吉 <br>遺構：曲輪、石垣、横堀（空堀）、井戸跡 <br><a href="https://cmeg.jp//w/castles/9287" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/331177" width=150/></a></div>`)[0];
+            popup_0609c7b39abe4a108fdb78ac37b2ec49.setContent(html_af3e0535664a45aa995c6a5557e8f571);
         
 
-        marker_6d4b3b628cb542839564bf93cd78d80c.bindPopup(popup_6e0b52f52bd64cc6a1e348126c38b3a3)
+        marker_6edf0fb7cc6a4a58ba75e43c14a3f372.bindPopup(popup_0609c7b39abe4a108fdb78ac37b2ec49)
         ;
 
         
     
     
-            var marker_0eb8f5285f0b484daebf990e850c2608 = L.marker(
+            var marker_449f6aedbacd4731ab9614bcd34de21f = L.marker(
                 [33.456484, 130.06353000000001],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_b8a09f77361844daacd5653b52eddd1f = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_a7df1b8b10ad4466a309a37cebb76424 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_449f6aedbacd4731ab9614bcd34de21f.setIcon(icon_a7df1b8b10ad4466a309a37cebb76424);
+        
+    
+        var popup_8a65bccec2f04cb78bb5d5f686dff62b = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_3ac260354ce74f1db352b2a5ee1ff8b6 = $(`<div id="html_3ac260354ce74f1db352b2a5ee1ff8b6" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9302" target="_blank">鬼ヶ城</a><br> 振り仮名：おにがじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：鬼ケ城 <br>住所：佐賀県唐津市浜玉町岡口字城平他 <br>築城年：文治2年（1186） <br>築城者：草野氏 <br>遺構：曲輪、石垣 <br><a href="https://cmeg.jp//w/castles/9302" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323983" width=150/></a></div>`)[0];
-            popup_b8a09f77361844daacd5653b52eddd1f.setContent(html_3ac260354ce74f1db352b2a5ee1ff8b6);
+            var html_c4b3f31163474f978ecfbe29633f0779 = $(`<div id="html_c4b3f31163474f978ecfbe29633f0779" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9302" target="_blank">鬼ヶ城</a><br> 振り仮名：おにがじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：鬼ケ城 <br>住所：佐賀県唐津市浜玉町岡口字城平他 <br>築城年：文治2年（1186） <br>築城者：草野氏 <br>遺構：曲輪、石垣 <br><a href="https://cmeg.jp//w/castles/9302" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323983" width=150/></a></div>`)[0];
+            popup_8a65bccec2f04cb78bb5d5f686dff62b.setContent(html_c4b3f31163474f978ecfbe29633f0779);
         
 
-        marker_0eb8f5285f0b484daebf990e850c2608.bindPopup(popup_b8a09f77361844daacd5653b52eddd1f)
+        marker_449f6aedbacd4731ab9614bcd34de21f.bindPopup(popup_8a65bccec2f04cb78bb5d5f686dff62b)
         ;
 
         
     
     
-            var marker_c7d1cd21f7d54ec5ae7ff4d7e1c25518 = L.marker(
+            var marker_6f968924828b40a4be91354fbd91a60d = L.marker(
                 [33.311632, 130.043485],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_89dbc94cac3e4f1fbab3ae6b0793758c = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_88492e0297024a01b767f19010254c0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6f968924828b40a4be91354fbd91a60d.setIcon(icon_88492e0297024a01b767f19010254c0c);
+        
+    
+        var popup_3fff2acdea9744e3be403ecc455d5a1d = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_f4cba8e1395e4908b988344994567e08 = $(`<div id="html_f4cba8e1395e4908b988344994567e08" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9303" target="_blank">獅子ヶ城</a><br> 振り仮名：ししがじょう <br>旧国名：肥前国 <br>分類・構造：連郭式山城 <br>別名：獅子ケ城、獅子城、猪ヶ城、鹿家城 <br>住所：佐賀県唐津市厳木町岩屋字犬の谷他 <br>築城年：治承年間（1177〜1181） <br>築城者：源披 <br>遺構：曲輪、石垣、竪堀、堀切 <br><a href="https://cmeg.jp//w/castles/9303" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330016" width=150/></a></div>`)[0];
-            popup_89dbc94cac3e4f1fbab3ae6b0793758c.setContent(html_f4cba8e1395e4908b988344994567e08);
+            var html_7d5a92dc964f4b33a74813d1881e8706 = $(`<div id="html_7d5a92dc964f4b33a74813d1881e8706" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9303" target="_blank">獅子ヶ城</a><br> 振り仮名：ししがじょう <br>旧国名：肥前国 <br>分類・構造：連郭式山城 <br>別名：獅子ケ城、獅子城、猪ヶ城、鹿家城 <br>住所：佐賀県唐津市厳木町岩屋字犬の谷他 <br>築城年：治承年間（1177〜1181） <br>築城者：源披 <br>遺構：曲輪、石垣、竪堀、堀切 <br><a href="https://cmeg.jp//w/castles/9303" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330016" width=150/></a></div>`)[0];
+            popup_3fff2acdea9744e3be403ecc455d5a1d.setContent(html_7d5a92dc964f4b33a74813d1881e8706);
         
 
-        marker_c7d1cd21f7d54ec5ae7ff4d7e1c25518.bindPopup(popup_89dbc94cac3e4f1fbab3ae6b0793758c)
+        marker_6f968924828b40a4be91354fbd91a60d.bindPopup(popup_3fff2acdea9744e3be403ecc455d5a1d)
         ;
 
         
     
     
-            var marker_5e45c39a08a44bc3b4c194d3d61ffb16 = L.marker(
+            var marker_0f4868b5e48048978f8c8cdb8c6ed256 = L.marker(
                 [33.356671999999996, 129.97843999999998],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_a60a3458ba1043d5b9c4449fb74ffa83 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_530fd16713924b4ca6d227c4f231bc6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0f4868b5e48048978f8c8cdb8c6ed256.setIcon(icon_530fd16713924b4ca6d227c4f231bc6d);
+        
+    
+        var popup_f3219b37030548e996def4c5760dbadb = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_286536f16e90466bb8753a447aca32e1 = $(`<div id="html_286536f16e90466bb8753a447aca32e1" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9304" target="_blank">岸岳城</a><br> 振り仮名：きしだけじょう <br>旧国名：肥前国 <br>分類・構造：連郭式山城 <br>別名：貴志岳城、鬼子岳城、岸獄城、鬼子城、吉志峯城 <br>住所：佐賀県唐津市相知町牟田部他 <br>築城年：平安時代後期 <br>築城者：源持 <br>遺構：曲輪、石垣、堀切、井戸、竪堀 <br><a href="https://cmeg.jp//w/castles/9304" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330463" width=150/></a></div>`)[0];
-            popup_a60a3458ba1043d5b9c4449fb74ffa83.setContent(html_286536f16e90466bb8753a447aca32e1);
+            var html_bfa0cd3369e94bd6af3a81221affa55f = $(`<div id="html_bfa0cd3369e94bd6af3a81221affa55f" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9304" target="_blank">岸岳城</a><br> 振り仮名：きしだけじょう <br>旧国名：肥前国 <br>分類・構造：連郭式山城 <br>別名：貴志岳城、鬼子岳城、岸獄城、鬼子城、吉志峯城 <br>住所：佐賀県唐津市相知町牟田部他 <br>築城年：平安時代後期 <br>築城者：源持 <br>遺構：曲輪、石垣、堀切、井戸、竪堀 <br><a href="https://cmeg.jp//w/castles/9304" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/330463" width=150/></a></div>`)[0];
+            popup_f3219b37030548e996def4c5760dbadb.setContent(html_bfa0cd3369e94bd6af3a81221affa55f);
         
 
-        marker_5e45c39a08a44bc3b4c194d3d61ffb16.bindPopup(popup_a60a3458ba1043d5b9c4449fb74ffa83)
+        marker_0f4868b5e48048978f8c8cdb8c6ed256.bindPopup(popup_f3219b37030548e996def4c5760dbadb)
         ;
 
         
     
     
-            var marker_b54d46f424064cb4b80af5f746e2a5cf = L.marker(
+            var marker_a4a63e3700854d509df3773b496411f1 = L.marker(
                 [33.277468, 129.879184],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_bef838f39b5242ac876442d2b6aaadc4 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_80224755884c41649696c4354f50263b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a4a63e3700854d509df3773b496411f1.setIcon(icon_80224755884c41649696c4354f50263b);
+        
+    
+        var popup_a391670d502d43e9a66afa7cf00cd5b8 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_2963b227bf074d1aafb16fe3dde6b240 = $(`<div id="html_2963b227bf074d1aafb16fe3dde6b240" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9306" target="_blank">伊万里城</a><br> 振り仮名：いまりじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：鶴亀城、浜城 <br>住所：佐賀県伊万里市松島町（伊万里城山公園） <br>築城年：建保6年（1218） <br>築城者：峯上（みねのぼる） <br>遺構：曲輪 <br><a href="https://cmeg.jp//w/castles/9306" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/269333" width=150/></a></div>`)[0];
-            popup_bef838f39b5242ac876442d2b6aaadc4.setContent(html_2963b227bf074d1aafb16fe3dde6b240);
+            var html_dbe87c858bee46d6aedb5412f69570f5 = $(`<div id="html_dbe87c858bee46d6aedb5412f69570f5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9306" target="_blank">伊万里城</a><br> 振り仮名：いまりじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：鶴亀城、浜城 <br>住所：佐賀県伊万里市松島町（伊万里城山公園） <br>築城年：建保6年（1218） <br>築城者：峯上（みねのぼる） <br>遺構：曲輪 <br><a href="https://cmeg.jp//w/castles/9306" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/269333" width=150/></a></div>`)[0];
+            popup_a391670d502d43e9a66afa7cf00cd5b8.setContent(html_dbe87c858bee46d6aedb5412f69570f5);
         
 
-        marker_b54d46f424064cb4b80af5f746e2a5cf.bindPopup(popup_bef838f39b5242ac876442d2b6aaadc4)
+        marker_a4a63e3700854d509df3773b496411f1.bindPopup(popup_a391670d502d43e9a66afa7cf00cd5b8)
         ;
 
         
     
     
-            var marker_9235d8bbec894215a897e18979d5afa9 = L.marker(
+            var marker_373e919425c44292a284927dab68b0bd = L.marker(
                 [33.309831, 129.965005],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_de788ef487bb43f2b144c8aaefea05c9 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_88230a2f2a6e4359b61b9c123858b008 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_373e919425c44292a284927dab68b0bd.setIcon(icon_88230a2f2a6e4359b61b9c123858b008);
+        
+    
+        var popup_bcc637bf561c4298a5f3cbb010c20019 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_d42bc1238d3a481baf183c5a5ed9e9c3 = $(`<div id="html_d42bc1238d3a481baf183c5a5ed9e9c3" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9310" target="_blank">日在城</a><br> 振り仮名：ひありじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県伊万里市大川町大字川西字古城 <br>築城年：久寿年間（1154〜1156） <br>築城者：大河野遊 <br>遺構：曲輪、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9310" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/134680" width=150/></a></div>`)[0];
-            popup_de788ef487bb43f2b144c8aaefea05c9.setContent(html_d42bc1238d3a481baf183c5a5ed9e9c3);
+            var html_15713f6c3086464e9520132c407efa07 = $(`<div id="html_15713f6c3086464e9520132c407efa07" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9310" target="_blank">日在城</a><br> 振り仮名：ひありじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県伊万里市大川町大字川西字古城 <br>築城年：久寿年間（1154〜1156） <br>築城者：大河野遊 <br>遺構：曲輪、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9310" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/134680" width=150/></a></div>`)[0];
+            popup_bcc637bf561c4298a5f3cbb010c20019.setContent(html_15713f6c3086464e9520132c407efa07);
         
 
-        marker_9235d8bbec894215a897e18979d5afa9.bindPopup(popup_de788ef487bb43f2b144c8aaefea05c9)
+        marker_373e919425c44292a284927dab68b0bd.bindPopup(popup_bcc637bf561c4298a5f3cbb010c20019)
         ;
 
         
     
     
-            var marker_3507d421d8314426a8752bdf51351642 = L.marker(
+            var marker_9592d8ad6fc64094a3ce999d58105d79 = L.marker(
                 [33.188860999999996, 130.01705800000002],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_ed3704745a094a7fb1e8de7dfbc49430 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_249171293dc6474db3cc235f7dae383b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9592d8ad6fc64094a3ce999d58105d79.setIcon(icon_249171293dc6474db3cc235f7dae383b);
+        
+    
+        var popup_f33af158f5cd4fceba96879b041066a6 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_ab96970c1edb453392167ccb741e9cd0 = $(`<div id="html_ab96970c1edb453392167ccb741e9cd0" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9312" target="_blank">塚崎城</a><br> 振り仮名：つかさきじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：武雄城、塚崎御船山城、後藤山城 <br>住所：佐賀県武雄市武雄町大字武雄字小路 <br>築城年：元永年間（1180〜1120） <br>築城者：後藤資茂 <br>遺構：曲輪、石垣 <br><a href="https://cmeg.jp//w/castles/9312" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329381" width=150/></a></div>`)[0];
-            popup_ed3704745a094a7fb1e8de7dfbc49430.setContent(html_ab96970c1edb453392167ccb741e9cd0);
+            var html_213a5be0ccf44256af5523b9a151f921 = $(`<div id="html_213a5be0ccf44256af5523b9a151f921" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9312" target="_blank">塚崎城</a><br> 振り仮名：つかさきじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：武雄城、塚崎御船山城、後藤山城 <br>住所：佐賀県武雄市武雄町大字武雄字小路 <br>築城年：元永年間（1180〜1120） <br>築城者：後藤資茂 <br>遺構：曲輪、石垣 <br><a href="https://cmeg.jp//w/castles/9312" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/329381" width=150/></a></div>`)[0];
+            popup_f33af158f5cd4fceba96879b041066a6.setContent(html_213a5be0ccf44256af5523b9a151f921);
         
 
-        marker_3507d421d8314426a8752bdf51351642.bindPopup(popup_ed3704745a094a7fb1e8de7dfbc49430)
+        marker_9592d8ad6fc64094a3ce999d58105d79.bindPopup(popup_f33af158f5cd4fceba96879b041066a6)
         ;
 
         
     
     
-            var marker_cb6a8492054444c1a88d1bebfed51992 = L.marker(
+            var marker_39ffd1f1bac54ef08f65b135f68f4cad = L.marker(
                 [33.178221, 130.056442],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_96ee24cb8d244c1087cb76df7df62f29 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_4c52b437dfc54763a1b7c7c38f5b513b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_39ffd1f1bac54ef08f65b135f68f4cad.setIcon(icon_4c52b437dfc54763a1b7c7c38f5b513b);
+        
+    
+        var popup_c827c31154ab4402ab7283139c648da3 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_85c65e74655f4450bc32f86f87290d59 = $(`<div id="html_85c65e74655f4450bc32f86f87290d59" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9314" target="_blank">おつぼ山神籠石</a><br> 振り仮名：おつぼやまこうごいし <br>旧国名：肥前国 <br>分類・構造：神籠石式山城 <br>別名：－ <br>住所：佐賀県武雄市橘町大字大日8241 <br>築城年：7世紀頃？ <br>築城者：不明 <br>遺構：門跡、水門、列石 <br><a href="https://cmeg.jp//w/castles/9314" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/303101" width=150/></a></div>`)[0];
-            popup_96ee24cb8d244c1087cb76df7df62f29.setContent(html_85c65e74655f4450bc32f86f87290d59);
+            var html_ab05af3ec2004addb0d6e1e71f8e6daf = $(`<div id="html_ab05af3ec2004addb0d6e1e71f8e6daf" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9314" target="_blank">おつぼ山神籠石</a><br> 振り仮名：おつぼやまこうごいし <br>旧国名：肥前国 <br>分類・構造：神籠石式山城 <br>別名：－ <br>住所：佐賀県武雄市橘町大字大日8241 <br>築城年：7世紀頃？ <br>築城者：不明 <br>遺構：門跡、水門、列石 <br><a href="https://cmeg.jp//w/castles/9314" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/303101" width=150/></a></div>`)[0];
+            popup_c827c31154ab4402ab7283139c648da3.setContent(html_ab05af3ec2004addb0d6e1e71f8e6daf);
         
 
-        marker_cb6a8492054444c1a88d1bebfed51992.bindPopup(popup_96ee24cb8d244c1087cb76df7df62f29)
+        marker_39ffd1f1bac54ef08f65b135f68f4cad.bindPopup(popup_c827c31154ab4402ab7283139c648da3)
         ;
 
         
     
     
-            var marker_8631acdebf094580b9903fee530bc8d2 = L.marker(
+            var marker_404b1932986646deb16cbe321a26d178 = L.marker(
                 [33.172759, 130.043982],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_f798c7b1b9a0430c9f874fe8912af927 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_b0d9d144d27d42b48b6e9ff37a355cd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_404b1932986646deb16cbe321a26d178.setIcon(icon_b0d9d144d27d42b48b6e9ff37a355cd1);
+        
+    
+        var popup_29165e987e9645fb9803fa4d30dcab74 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_1e1a28ed8b85470aa6f466c8ac85b8f6 = $(`<div id="html_1e1a28ed8b85470aa6f466c8ac85b8f6" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9315" target="_blank">潮見城</a><br> 振り仮名：しおみじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県武雄市武雄町大字永島字潮見 <br>築城年：嘉禎3年（1237） <br>築城者：橘公業 <br>遺構：曲輪、石積、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9315" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/311084" width=150/></a></div>`)[0];
-            popup_f798c7b1b9a0430c9f874fe8912af927.setContent(html_1e1a28ed8b85470aa6f466c8ac85b8f6);
+            var html_8b42ebb1608540bfaec2104f44e9d153 = $(`<div id="html_8b42ebb1608540bfaec2104f44e9d153" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9315" target="_blank">潮見城</a><br> 振り仮名：しおみじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：－ <br>住所：佐賀県武雄市武雄町大字永島字潮見 <br>築城年：嘉禎3年（1237） <br>築城者：橘公業 <br>遺構：曲輪、石積、土塁、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9315" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/311084" width=150/></a></div>`)[0];
+            popup_29165e987e9645fb9803fa4d30dcab74.setContent(html_8b42ebb1608540bfaec2104f44e9d153);
         
 
-        marker_8631acdebf094580b9903fee530bc8d2.bindPopup(popup_f798c7b1b9a0430c9f874fe8912af927)
+        marker_404b1932986646deb16cbe321a26d178.bindPopup(popup_29165e987e9645fb9803fa4d30dcab74)
         ;
 
         
     
     
-            var marker_d46a65e8e9944e89905596353bfb1328 = L.marker(
+            var marker_57a3b4d22d64401d96e8744fea2f96c1 = L.marker(
                 [33.226040999999995, 129.85076],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_6df05f423a544458afd5df5b17a713d5 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_2535e3c7788844b99301e41e851fc9cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_57a3b4d22d64401d96e8744fea2f96c1.setIcon(icon_2535e3c7788844b99301e41e851fc9cd);
+        
+    
+        var popup_2b94d642d47a4afb977a8b4d54ebb3f0 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_66bec3c09e66421bbf81ac8360beb2bf = $(`<div id="html_66bec3c09e66421bbf81ac8360beb2bf" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9317" target="_blank">唐船城</a><br> 振り仮名：とうせんじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：－ <br>住所：佐賀県西松浦郡有田町山谷牧 <br>築城年：建保6年（1218）？ <br>築城者：有田（松浦）栄 <br>遺構：曲輪、石垣、横堀（空堀）、狼煙台跡 <br><a href="https://cmeg.jp//w/castles/9317" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317143" width=150/></a></div>`)[0];
-            popup_6df05f423a544458afd5df5b17a713d5.setContent(html_66bec3c09e66421bbf81ac8360beb2bf);
+            var html_e0773c3e82e34e189e92640c5a1fdbf9 = $(`<div id="html_e0773c3e82e34e189e92640c5a1fdbf9" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9317" target="_blank">唐船城</a><br> 振り仮名：とうせんじょう <br>旧国名：肥前国 <br>分類・構造：平山城 <br>別名：－ <br>住所：佐賀県西松浦郡有田町山谷牧 <br>築城年：建保6年（1218）？ <br>築城者：有田（松浦）栄 <br>遺構：曲輪、石垣、横堀（空堀）、狼煙台跡 <br><a href="https://cmeg.jp//w/castles/9317" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/317143" width=150/></a></div>`)[0];
+            popup_2b94d642d47a4afb977a8b4d54ebb3f0.setContent(html_e0773c3e82e34e189e92640c5a1fdbf9);
         
 
-        marker_d46a65e8e9944e89905596353bfb1328.bindPopup(popup_6df05f423a544458afd5df5b17a713d5)
+        marker_57a3b4d22d64401d96e8744fea2f96c1.bindPopup(popup_2b94d642d47a4afb977a8b4d54ebb3f0)
         ;
 
         
     
     
-            var marker_c6eff7ceea6c437092a0820b157e4c77 = L.marker(
+            var marker_9199cce29ca6477db2c7935678fc7afd = L.marker(
                 [32.955683, 130.222852],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_48b5332452f24f7aa99ac42894d74dc4 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_b94f3c094a954cd39dfa0074241da676 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_9199cce29ca6477db2c7935678fc7afd.setIcon(icon_b94f3c094a954cd39dfa0074241da676);
+        
+    
+        var popup_b60018f3e8e7458c9d51b540b7f040ee = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_096dd5f43bbe4ea5ac3aec54d25063ad = $(`<div id="html_096dd5f43bbe4ea5ac3aec54d25063ad" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9318" target="_blank">竹崎城</a><br> 振り仮名：たけざきじょう <br>旧国名：肥前国 <br>分類・構造：丘城 <br>別名：－ <br>住所：佐賀県藤津郡太良町大字大浦字城内 <br>築城年：南北朝時代 <br>築城者：有馬隆泰 <br>遺構：曲輪、石垣、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9318" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323478" width=150/></a></div>`)[0];
-            popup_48b5332452f24f7aa99ac42894d74dc4.setContent(html_096dd5f43bbe4ea5ac3aec54d25063ad);
+            var html_273daaa667d3428d82593f9440b5aec5 = $(`<div id="html_273daaa667d3428d82593f9440b5aec5" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9318" target="_blank">竹崎城</a><br> 振り仮名：たけざきじょう <br>旧国名：肥前国 <br>分類・構造：丘城 <br>別名：－ <br>住所：佐賀県藤津郡太良町大字大浦字城内 <br>築城年：南北朝時代 <br>築城者：有馬隆泰 <br>遺構：曲輪、石垣、横堀（空堀） <br><a href="https://cmeg.jp//w/castles/9318" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/323478" width=150/></a></div>`)[0];
+            popup_b60018f3e8e7458c9d51b540b7f040ee.setContent(html_273daaa667d3428d82593f9440b5aec5);
         
 
-        marker_c6eff7ceea6c437092a0820b157e4c77.bindPopup(popup_48b5332452f24f7aa99ac42894d74dc4)
+        marker_9199cce29ca6477db2c7935678fc7afd.bindPopup(popup_b60018f3e8e7458c9d51b540b7f040ee)
         ;
 
         
     
     
-            var marker_03944607f42e40bf97f65912055fb85a = L.marker(
+            var marker_d4513364f0ff4d2d845fa2f21b62eeca = L.marker(
                 [33.096721, 129.97876399999998],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_6ac8243617d8461587db613311571e4d = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_23f0e95c653945559223b1fe8cef1460 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d4513364f0ff4d2d845fa2f21b62eeca.setIcon(icon_23f0e95c653945559223b1fe8cef1460);
+        
+    
+        var popup_a0c1a5cc0e784646a953edbb9ce49201 = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_44dc1a9cce50440a9c831314139bbfff = $(`<div id="html_44dc1a9cce50440a9c831314139bbfff" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9324" target="_blank">湯野田城</a><br> 振り仮名：ゆのたじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：嬉野城 <br>住所：佐賀県嬉野市嬉野町大字下宿屯城丙2524 <br>築城年：天文2年（1533） <br>築城者：嬉野（宇礼志野）通久 <br>遺構：石垣 <br><a href="https://cmeg.jp//w/castles/9324" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/134969" width=150/></a></div>`)[0];
-            popup_6ac8243617d8461587db613311571e4d.setContent(html_44dc1a9cce50440a9c831314139bbfff);
+            var html_63f6209df036473bae21c8e587781f1a = $(`<div id="html_63f6209df036473bae21c8e587781f1a" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9324" target="_blank">湯野田城</a><br> 振り仮名：ゆのたじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：嬉野城 <br>住所：佐賀県嬉野市嬉野町大字下宿屯城丙2524 <br>築城年：天文2年（1533） <br>築城者：嬉野（宇礼志野）通久 <br>遺構：石垣 <br><a href="https://cmeg.jp//w/castles/9324" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/134969" width=150/></a></div>`)[0];
+            popup_a0c1a5cc0e784646a953edbb9ce49201.setContent(html_63f6209df036473bae21c8e587781f1a);
         
 
-        marker_03944607f42e40bf97f65912055fb85a.bindPopup(popup_6ac8243617d8461587db613311571e4d)
+        marker_d4513364f0ff4d2d845fa2f21b62eeca.bindPopup(popup_a0c1a5cc0e784646a953edbb9ce49201)
         ;
 
         
     
     
-            var marker_e477109eea8948af87b0d9976e03f4a4 = L.marker(
+            var marker_f8d481e1b85947acbe0ff620b70fad01 = L.marker(
                 [33.103441, 130.092279],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_65027edf397f47e2abe868143b9f2523 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_21837343aa0e4c7fa9506504afbf81dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8d481e1b85947acbe0ff620b70fad01.setIcon(icon_21837343aa0e4c7fa9506504afbf81dd);
+        
+    
+        var popup_71b514126aaa496bad8cd185037c1ffb = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_67b1ab7d871e440f914d5e8840a3df89 = $(`<div id="html_67b1ab7d871e440f914d5e8840a3df89" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9325" target="_blank">鹿島城</a><br> 振り仮名：かしまじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：鹿島新城、鹿島館、鹿島陣屋、鹿州城、高津原屋敷、高津原館、水避御殿 <br>住所：佐賀県鹿島市高津原字城内（鹿島高校） <br>築城年：文化4年（1807） <br>築城者：鍋島直彜（なおのち） <br>遺構：曲輪、門、櫓、石垣、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/9325" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/263265" width=150/></a></div>`)[0];
-            popup_65027edf397f47e2abe868143b9f2523.setContent(html_67b1ab7d871e440f914d5e8840a3df89);
+            var html_1532740ca9334bb09056ccad73344fe0 = $(`<div id="html_1532740ca9334bb09056ccad73344fe0" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9325" target="_blank">鹿島城</a><br> 振り仮名：かしまじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：鹿島新城、鹿島館、鹿島陣屋、鹿州城、高津原屋敷、高津原館、水避御殿 <br>住所：佐賀県鹿島市高津原字城内（鹿島高校） <br>築城年：文化4年（1807） <br>築城者：鍋島直彜（なおのち） <br>遺構：曲輪、門、櫓、石垣、横堀（水堀） <br><a href="https://cmeg.jp//w/castles/9325" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/263265" width=150/></a></div>`)[0];
+            popup_71b514126aaa496bad8cd185037c1ffb.setContent(html_1532740ca9334bb09056ccad73344fe0);
         
 
-        marker_e477109eea8948af87b0d9976e03f4a4.bindPopup(popup_65027edf397f47e2abe868143b9f2523)
+        marker_f8d481e1b85947acbe0ff620b70fad01.bindPopup(popup_71b514126aaa496bad8cd185037c1ffb)
         ;
 
         
     
     
-            var marker_2a5c91713a2b481ebf7db7d0068794fe = L.marker(
+            var marker_d8ab9a26eeed434689b79c7beabaee23 = L.marker(
                 [33.090807, 130.075466],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_0b25ef5b0eb14b0583dd4f385e09a0e2 = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_77a637142f954628a669e118a0919ea4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d8ab9a26eeed434689b79c7beabaee23.setIcon(icon_77a637142f954628a669e118a0919ea4);
+        
+    
+        var popup_1bac5e6634d54b27b988473214ba12ba = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_b7c9558d3cc14cda9b1ebd3524fae254 = $(`<div id="html_b7c9558d3cc14cda9b1ebd3524fae254" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9326" target="_blank">蟻尾城</a><br> 振り仮名：ありおじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：有尾城、在尾城、蟻尾山城 <br>住所：佐賀県鹿島市大字三河内字蟻尾他 <br>築城年：文正元年（1466） <br>築城者：大村家徳 <br>遺構：曲輪、石垣、土塁、横堀（空堀）、竪堀 <br><a href="https://cmeg.jp//w/castles/9326" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/310527" width=150/></a></div>`)[0];
-            popup_0b25ef5b0eb14b0583dd4f385e09a0e2.setContent(html_b7c9558d3cc14cda9b1ebd3524fae254);
+            var html_b8ff59aa39194c0581d2afb1d1d805d0 = $(`<div id="html_b8ff59aa39194c0581d2afb1d1d805d0" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9326" target="_blank">蟻尾城</a><br> 振り仮名：ありおじょう <br>旧国名：肥前国 <br>分類・構造：山城 <br>別名：有尾城、在尾城、蟻尾山城 <br>住所：佐賀県鹿島市大字三河内字蟻尾他 <br>築城年：文正元年（1466） <br>築城者：大村家徳 <br>遺構：曲輪、石垣、土塁、横堀（空堀）、竪堀 <br><a href="https://cmeg.jp//w/castles/9326" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/310527" width=150/></a></div>`)[0];
+            popup_1bac5e6634d54b27b988473214ba12ba.setContent(html_b8ff59aa39194c0581d2afb1d1d805d0);
         
 
-        marker_2a5c91713a2b481ebf7db7d0068794fe.bindPopup(popup_0b25ef5b0eb14b0583dd4f385e09a0e2)
+        marker_d8ab9a26eeed434689b79c7beabaee23.bindPopup(popup_1bac5e6634d54b27b988473214ba12ba)
         ;
 
         
     
     
-            var marker_b0e86bcfb0be4d1ca4b00b04712b7e17 = L.marker(
+            var marker_08ccddb5aa9b4456865c282e7015fd8c = L.marker(
                 [33.119815, 130.102365],
                 {"parseHtml": true}
-            ).addTo(map_a6a84f64847f4829a9ed21db63e0053c);
+            ).addTo(map_6f7d6ba7085d43d79936bb19b7fcf0a1);
         
     
-        var popup_1014e3e4a39b4cc5a0e5295b009f7fce = L.popup({"maxWidth": 150, "minWidth": 150});
+            var icon_b1737b7b06724843948c0e44b735dcda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_08ccddb5aa9b4456865c282e7015fd8c.setIcon(icon_b1737b7b06724843948c0e44b735dcda);
+        
+    
+        var popup_efb259af31d94fbf9c9e9fb59d5609dc = L.popup({"maxWidth": 150, "minWidth": 150});
 
         
-            var html_cec7abf98a9444c1bffe638847109b36 = $(`<div id="html_cec7abf98a9444c1bffe638847109b36" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9328" target="_blank">常広城</a><br> 振り仮名：つねひろじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：恒広城、常弘城、鹿島古城 <br>住所：佐賀県鹿島市大字常広字古城（北鹿島小学校） <br>築城年：中世 <br>築城者：不明 <br>遺構：横堀跡 <br><a href="https://cmeg.jp//w/castles/9328" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/134867" width=150/></a></div>`)[0];
-            popup_1014e3e4a39b4cc5a0e5295b009f7fce.setContent(html_cec7abf98a9444c1bffe638847109b36);
+            var html_26e147b7a89f4fbca2160a7743bfee8d = $(`<div id="html_26e147b7a89f4fbca2160a7743bfee8d" style="width: 100.0%; height: 100.0%;">城名：<a href="https://cmeg.jp//w/castles/9328" target="_blank">常広城</a><br> 振り仮名：つねひろじょう <br>旧国名：肥前国 <br>分類・構造：平城 <br>別名：恒広城、常弘城、鹿島古城 <br>住所：佐賀県鹿島市大字常広字古城（北鹿島小学校） <br>築城年：中世 <br>築城者：不明 <br>遺構：横堀跡 <br><a href="https://cmeg.jp//w/castles/9328" target="_blank"><img src="https://img.cmeg.jp/crop320x320-w320/http://cmeg.jp/ci/134867" width=150/></a></div>`)[0];
+            popup_efb259af31d94fbf9c9e9fb59d5609dc.setContent(html_26e147b7a89f4fbca2160a7743bfee8d);
         
 
-        marker_b0e86bcfb0be4d1ca4b00b04712b7e17.bindPopup(popup_1014e3e4a39b4cc5a0e5295b009f7fce)
+        marker_08ccddb5aa9b4456865c282e7015fd8c.bindPopup(popup_efb259af31d94fbf9c9e9fb59d5609dc)
         ;
 
         
